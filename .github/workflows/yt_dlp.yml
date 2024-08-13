@@ -1,0 +1,175 @@
+name: yt-dlp
+
+on:
+  schedule:
+    - cron: '0 */3 * * *' # Configuré pour actualiser automatiquement toutes les 3 heures.
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+
+    - name: Install yt-dlp
+    # yt-dlp est un logiciel open source de téléchargement de vidéos pour les sites de partage en ligne.
+    # il fonctionne également pour Dalymotion, FranceTV, Arte Replay, Twitch et bien d'autres services.
+    # https://github.com/yt-dlp/yt-dlp/wiki/Installation
+      run: |
+        sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+        sudo chmod a+rx /usr/local/bin/yt-dlp
+
+# Dailymotion
+    - name: RTL2
+      run: |
+        touch ./rtl2.m3u8
+        sudo cat >./rtl2.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.dailymotion.com/video/x2tzzpj)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+        EOL
+
+    - name: Top Santé
+      run: |
+        touch ./topsante.m3u8
+        sudo cat >./topsante.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.dailymotion.com/video/x89yjnn)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+        EOL
+        
+    - name: Lemedia
+      run: |
+        touch ./lemedia.m3u8
+        sudo cat >./lemedia.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.dailymotion.com/video/x8dtuir)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+        EOL
+
+    - name: Africanews fr
+      run: |
+        touch ./africanews.m3u8
+        sudo cat >./africanews.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.dailymotion.com/video/x6i37o5)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+        EOL
+      
+    - name: Cnews
+      run: |
+        touch ./cnews.m3u8
+        sudo cat >./cnews.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.dailymotion.com/video/x3b68jn)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+         EOL
+        
+    - name: Euronews fr
+      run: |
+        touch ./euronews.m3u8
+        sudo cat >./euronews.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.dailymotion.com/video/x2j4lj9)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+        EOL
+        
+    - name: Public Sénat
+      run: |
+        touch ./publicsenat.m3u8
+        sudo cat >./publicsenat.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.dailymotion.com/video/xkxbzc)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+        EOL
+        
+    - name: France info
+      run: |
+        touch ./frinfo.m3u8
+        sudo cat >./frinfo.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.dailymotion.com/video/x4rdeu6)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+        EOL
+        
+    - name: C8
+      run: |
+        touch ./c8.m3u8
+        sudo cat >./c8.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.dailymotion.com/video/x5gv5rr)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+        EOL
+        
+    - name: Canal 100% LCP Assemblée nationale
+      run: |
+        touch ./lcpcanal100.m3u8
+        sudo cat >./lcpcanal100.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.dailymotion.com/video/xgepjr)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+        EOL
+        
+    - name: B SMART
+      run: |
+        touch ./bsmart.m3u8
+        sudo cat >./bsmart.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.dailymotion.com/video/x7tn4fp)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+        EOL
+        
+    - name: M Le Média
+      run: |
+        touch ./mlemedia.m3u8
+        sudo cat >./mlemedia.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.dailymotion.com/video/x8j47xa)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+        EOL
+
+
+
+
+    - name: git add
+      run: |
+        git add -A
+        ls -la
+
+    - name: commit & push
+      run: |
+        git commit -m "Les liens sont mis à jour"
+        git push

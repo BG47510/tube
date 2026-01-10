@@ -117,14 +117,14 @@ jobs:
         https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
         EOL
         
-    - name: C8
+    - name: Lequipe
       run: |
         touch ./c8.m3u8
         sudo cat >./c8.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.dailymotion.com/video/x5gv5rr)
+        $(yt-dlp --print urls https://www.dailymotion.com/video/x2lefik)
         https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
         EOL
         

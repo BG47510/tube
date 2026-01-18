@@ -124,7 +124,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.dailymotion.com/video/x69gjb)
+        $(yt-dlp --print urls https://hdfauth.ftven.fr/esi/TA?url=https://simulcast-p.ftven.fr/simulcast/France_2/hls_fr2/index.m3u8)
         https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
         EOL
     # x69gjb    

@@ -1,21 +1,519 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="miEPG v3.6" generator-info-url="https://github.com/davidmuma/miEPG">
-  <channel id="FR - France 4">
-    <display-name>FR - France 4 SD</display-name>
-    <display-name>FR - France 4 HD</display-name>
-    <display-name>FR - France 4 4K</display-name>
-    <display-name>FR - France 4 Full HD</display-name>
-    <display-name>FR - France 4 UHD</display-name>
-    <icon src="https://iptv-epg.org/logos/France/France4.fr.png" />
+  <channel id="">
+    <display-name> SD</display-name>
+    <display-name> HD</display-name>
+    <display-name> 4K</display-name>
+    <display-name> Full HD</display-name>
+    <display-name> UHD</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1401.png" />
   </channel>
-  <channel id="FR - France 2">
-    <display-name>FR - France 2 SD</display-name>
-    <display-name>FR - France 2 HD</display-name>
-    <display-name>FR - France 2 4K</display-name>
-    <display-name>FR - France 2 Full HD</display-name>
-    <display-name>FR - France 2 UHD</display-name>
-    <icon src="https://iptv-epg.org/logos/France/France2.fr.png" />
+  <channel id="RAI Sport 227">
+    <display-name>RAI Sport 227 SD</display-name>
+    <display-name>RAI Sport 227 HD</display-name>
+    <display-name>RAI Sport 227 4K</display-name>
+    <display-name>RAI Sport 227 Full HD</display-name>
+    <display-name>RAI Sport 227 UHD</display-name>
+    <icon src="https://guidatv.sky.it/logo/807raisport_Light_Fit.png?tr=n-logo_80" />
   </channel>
+  <channel id="RTS 2">
+    <display-name>RTS 2 SD</display-name>
+    <display-name>RTS 2 HD</display-name>
+    <display-name>RTS 2 4K</display-name>
+    <display-name>RTS 2 Full HD</display-name>
+    <display-name>RTS 2 UHD</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-183.png" />
+  </channel>
+  <programme start="20260124050000 +0000" stop="20260124060000 +0000" channel="RAI Sport 227">
+    <title lang="it">Snowboard - Stag. 2025 - Laax: Halfpipe</title>
+    <desc lang="it">St2025 Laax: Halfpipe - Coppa del Mondo - Laax: Halfpipe.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124060000 +0000" stop="20260124063000 +0000" channel="RAI Sport 227">
+    <title lang="it">Tg Sport</title>
+    <desc lang="it">TG Sport Giorno.</desc>
+    <category lang="it">Informazione</category>
+    <category lang="it">Notiziario</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124063000 +0000" stop="20260124073000 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci di Fondo - Stag. 2025 - Goms: Sprint a Squadre</title>
+    <desc lang="it">St2025 Goms: Sprint a Squadre - Coppa del Mondo - Goms: Sprint a Squadre.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124073000 +0000" stop="20260124085500 +0000" channel="RAI Sport 227">
+    <title lang="it">Freestyle - Stag. 2025 - Veysonnaz: Skicross - Gara 1</title>
+    <desc lang="it">St2025 Veysonnaz: Skicross - Gara 1 - Coppa del Mondo - Veysonnaz: Skicross - Gara 1.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124085500 +0000" stop="20260124101000 +0000" channel="RAI Sport 227">
+    <title lang="it">Snowboard 2025</title>
+    <desc lang="it">St2025 Simonhohe: Slalom Gigante Parallelo a Squadre - Coppa del Mondo - Simonhohe: Slalom Gigante Parallelo a Squadre.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124101000 +0000" stop="20260124114000 +0000" channel="RAI Sport 227">
+    <title lang="it">Europei maschili di Pallanuoto - Stag. 2026 - Semifinale: Italia - Serbia</title>
+    <desc lang="it">St2026 Semifinale: Italia - Serbia - Il Settebello di Sandro Campagna e' chiamato ad un'impresa ardua, battere i padroni di casa della Serbia per accedere in finale.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124114000 +0000" stop="20260124120000 +0000" channel="RAI Sport 227">
+    <title lang="it">Memory - Rai Sport</title>
+    <desc lang="it">Intrattenimento.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124120000 +0000" stop="20260124121500 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci Alpino: Coppa del Mondo maschile 2025</title>
+    <desc lang="it">St2025 Kitzbuhel: Discesa - Coppa del Mondo maschile - Kitzbuhel: Discesa.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124121500 +0000" stop="20260124134000 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci Alpino: Coppa del Mondo femminile 2025</title>
+    <desc lang="it">St2025 Splinderuv Mlyn: Gigante (2a manche) - Seconda manche del gigante di Splinderuv Mlyn. Scendono in ordine inverso le prime migliori trenta sciatrici della prima manche.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124134000 +0000" stop="20260124141500 +0000" channel="RAI Sport 227">
+    <title lang="it">Freestyle 2025</title>
+    <desc lang="it">St2025 Veysonnaz: Skicross - Gara 2 - Coppa del Mondo - Veysonnaz: Skicross - Gara 2.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124141500 +0000" stop="20260124142000 +0000" channel="RAI Sport 227">
+    <title lang="it">Stag. 2026 - Gli imperdibili</title>
+    <desc lang="it">Backstage, anteprime, eventi e curiosita' dentro lo schermo. E' il programma che offre informazione e approfondimento sulla programmazione dei canali che compongono il bouquet Rai.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124142000 +0000" stop="20260124165500 +0000" channel="RAI Sport 227">
+    <title lang="it">Pallavolo: Serie A Femminile 2025</title>
+    <desc lang="it">St2025 Semifinale: Conegliano - Novara - Alla Inalpi Arena di Torino si inaugura la Final Four di Coppa Italia Serie A1 con la prima semifinale tra Conegliano e Novara.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124165500 +0000" stop="20260124195000 +0000" channel="RAI Sport 227">
+    <title lang="it">Pallavolo: Serie A Femminile 2025</title>
+    <desc lang="it">St2025 Semifinale: Scandicci - Chieri - Seconda semifinale di Coppa Italia. Scandicci e Chieri si giocano l'accesso alla finale in una partita dall'esito assolutamente non scontato.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124195000 +0000" stop="20260124223000 +0000" channel="RAI Sport 227">
+    <title lang="it">Pallavolo: Serie A Maschile 2025</title>
+    <desc lang="it">St2025 18a giornata: Modena - Piacenza - La giornata numero 18 della regualar season della SuperLega si apre con il derby emiliano tra Modena e Piacenza.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124223000 +0000" stop="20260124230000 +0000" channel="RAI Sport 227">
+    <title lang="it">Stag. 2026 - Memory - Rai Sport</title>
+    <desc lang="it">Memory: Stefania Belmondo.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124230000 +0000" stop="20260124233000 +0000" channel="RAI Sport 227">
+    <title lang="it">Serie B 2025</title>
+    <desc lang="it">La Serie B al 90 - Il racconto della giornata di Serie B, immagini, collegamenti dai campi, commenti in studio e gli episodi arbitrali alla moviola.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260124233000 +0000" stop="20260125012500 +0000" channel="RAI Sport 227">
+    <title lang="it">Calcio a 5</title>
+    <desc lang="it">Calcio a 5. Qualificazione Europei 2026: Play Off Italia-Kazakistan.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125012500 +0000" stop="20260125024000 +0000" channel="RAI Sport 227">
+    <title lang="it">Snowboard</title>
+    <desc lang="it">Snowboard. Coppa del Mondo Secret Garden: Big Air.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125024000 +0000" stop="20260125050000 +0000" channel="RAI Sport 227">
+    <title lang="it">Pallavolo: Serie A Femminile</title>
+    <desc lang="it">Pallavolo. Serie A1 Tigota': Busto Arsizio-Conegliano -1a g.ta.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125050000 +0000" stop="20260125060000 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci di Fondo</title>
+    <desc lang="it">Sci di Fondo. Coppa del Mondo Ruka: 10 km maschile - t. Classica.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125060000 +0000" stop="20260125063000 +0000" channel="RAI Sport 227">
+    <title lang="it">Tg Sport</title>
+    <desc lang="it">TG Sport Giorno.</desc>
+    <category lang="it">Informazione</category>
+    <category lang="it">Notiziario</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125063000 +0000" stop="20260125080000 +0000" channel="RAI Sport 227">
+    <title lang="it">Europei maschili di Pallanuoto</title>
+    <desc lang="it">Pallanuoto. Europei maschili Belgrado: Turchia-Italia (1a fase).</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125080000 +0000" stop="20260125081000 +0000" channel="RAI Sport 227">
+    <title lang="it">Memory - Rai Sport</title>
+    <desc lang="it">Intrattenimento.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125081000 +0000" stop="20260125091000 +0000" channel="RAI Sport 227">
+    <title lang="it">Ciclocross</title>
+    <desc lang="it">Intrattenimento.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125091000 +0000" stop="20260125101000 +0000" channel="RAI Sport 227">
+    <title lang="it">Ciclocross</title>
+    <desc lang="it">Intrattenimento.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125101000 +0000" stop="20260125120000 +0000" channel="RAI Sport 227">
+    <title lang="it">Atletica</title>
+    <desc lang="it">Atletica. C.ti Italiani Societa' Finali A Oro - 1a giornata.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125120000 +0000" stop="20260125122000 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci Alpino: Coppa del Mondo femminile</title>
+    <desc lang="it">Sci Alpino. Coppa del Mondo Soelden: Slalom Gigante femminile - 1a manche.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125122000 +0000" stop="20260125135000 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci Alpino: Coppa del Mondo maschile</title>
+    <desc lang="it">Sci Alpino. Coppa del Mondo Soelden: Slalom Gigante maschile - 2a manche.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125135000 +0000" stop="20260125155500 +0000" channel="RAI Sport 227">
+    <title lang="it">Serie A Women Athora</title>
+    <desc lang="it">Calcio. Serie A Women Athora: Lazio-Juventus - 3a g.ta.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125155500 +0000" stop="20260125172000 +0000" channel="RAI Sport 227">
+    <title lang="it">Europei maschili di Pallanuoto</title>
+    <desc lang="it">Pallanuoto. Europei maschili Belgrado: Turchia-Italia (1a fase).</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125172000 +0000" stop="20260125192000 +0000" channel="RAI Sport 227">
+    <title lang="it">Pallavolo: Serie A Maschile</title>
+    <desc lang="it">Pallavolo. Super Lega Credem Banca: Cisterna-Trentino - 1a g.ta.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125192000 +0000" stop="20260125210000 +0000" channel="RAI Sport 227">
+    <title lang="it">Europei maschili di Pallanuoto</title>
+    <desc lang="it">Pallanuoto. Europei maschili Belgrado: Turchia-Italia (1a fase).</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125210000 +0000" stop="20260125213000 +0000" channel="RAI Sport 227">
+    <title lang="it">Sognando Milano Cortina 2026. Sulle spalle dei giganti</title>
+    <desc lang="it">Sara Conti e Niccolo' Macii, Giuseppe Romele, Martina Valcepina, Martina Vozza, Nicolaj Memola sono gli Ambassador Allianz che ci portano dentro un'esperienza eccezionale, che parte da un racconto...</desc>
+    <category lang="it">Mondo e Tendenze</category>
+    <category lang="it">Documentario</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125213000 +0000" stop="20260125234500 +0000" channel="RAI Sport 227">
+    <title lang="it">Rugby: Serie A Elite maschile</title>
+    <desc lang="it">Rugby. Serie A Elite maschile: Viadana-Mogliano Veneto - 1a g.ta.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260125234500 +0000" stop="20260126014500 +0000" channel="RAI Sport 227">
+    <title lang="it">Ciclocross</title>
+    <desc lang="it">Intrattenimento.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126014500 +0000" stop="20260126034500 +0000" channel="RAI Sport 227">
+    <title lang="it">Serie A Women Athora</title>
+    <desc lang="it">Calcio. Serie A Women Athora: Lazio-Juventus - 3a g.ta.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126034500 +0000" stop="20260126050000 +0000" channel="RAI Sport 227">
+    <title lang="it">Europei maschili di Pallanuoto</title>
+    <desc lang="it">Pallanuoto. Europei maschili Belgrado: Turchia-Italia (1a fase).</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126050000 +0000" stop="20260126060000 +0000" channel="RAI Sport 227">
+    <title lang="it">Ciclocross</title>
+    <desc lang="it">Intrattenimento.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126060000 +0000" stop="20260126063000 +0000" channel="RAI Sport 227">
+    <title lang="it">Tg Sport</title>
+    <desc lang="it">TG Sport Giorno.</desc>
+    <category lang="it">Informazione</category>
+    <category lang="it">Notiziario</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126063000 +0000" stop="20260126083500 +0000" channel="RAI Sport 227">
+    <title lang="it">Rugby: Serie A Elite maschile</title>
+    <desc lang="it">Rugby. Serie A Elite maschile: Viadana-Mogliano Veneto - 1a g.ta.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126083500 +0000" stop="20260126102500 +0000" channel="RAI Sport 227">
+    <title lang="it">Atletica</title>
+    <desc lang="it">Atletica. C.ti Italiani Societa' Finali A Oro - 1a giornata.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126102500 +0000" stop="20260126113500 +0000" channel="RAI Sport 227">
+    <title lang="it">Europei maschili di Pallanuoto</title>
+    <desc lang="it">Pallanuoto. Europei maschili Belgrado: Turchia-Italia (1a fase).</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126113500 +0000" stop="20260126120500 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci di Fondo</title>
+    <desc lang="it">Sci di Fondo. Coppa del Mondo Ruka: 10 km maschile - t. Classica.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126120500 +0000" stop="20260126123500 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci di Fondo</title>
+    <desc lang="it">Sci di Fondo. Coppa del Mondo Ruka: 10 km maschile - t. Classica.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126123500 +0000" stop="20260126130500 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci di Fondo</title>
+    <desc lang="it">Sci di Fondo. Coppa del Mondo Ruka: 10 km maschile - t. Classica.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126130500 +0000" stop="20260126133500 +0000" channel="RAI Sport 227">
+    <title lang="it">Atletica</title>
+    <desc lang="it">Atletica. C.ti Italiani Societa' Finali A Oro - 1a giornata.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126133500 +0000" stop="20260126150000 +0000" channel="RAI Sport 227">
+    <title lang="it">Europei femminili di Pallanuoto</title>
+    <desc lang="it">Pallanuoto. Europei femminili Funchal: Italia-Serbia.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126150000 +0000" stop="20260126160000 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci di Fondo</title>
+    <desc lang="it">Sci di Fondo. Coppa del Mondo Ruka: 10 km maschile - t. Classica.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126160000 +0000" stop="20260126170000 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci di Fondo</title>
+    <desc lang="it">Sci di Fondo. Coppa del Mondo Ruka: 10 km maschile - t. Classica.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126170000 +0000" stop="20260126180000 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci di Fondo</title>
+    <desc lang="it">Sci di Fondo. Coppa del Mondo Ruka: 10 km maschile - t. Classica.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126180000 +0000" stop="20260126190000 +0000" channel="RAI Sport 227">
+    <title lang="it">Ciclocross</title>
+    <desc lang="it">Intrattenimento.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126190000 +0000" stop="20260126192500 +0000" channel="RAI Sport 227">
+    <title lang="it">C siamo</title>
+    <desc lang="it">Storica trasmissione di Rai Sport dedicata alla Lega Pro, che offre un approfondimento su partite, squadre e protagonisti del campionato di calcio di terza serie italiana.</desc>
+    <category lang="it">Sport</category>
+    <category lang="it">Calcio</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126192500 +0000" stop="20260126213000 +0000" channel="RAI Sport 227">
+    <title lang="it">Serie C</title>
+    <desc lang="it">Calcio. Serie C Sky Wifi: Novara-Inter U23 - 1a g.ta.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260126213000 +0000" stop="20260127003000 +0000" channel="RAI Sport 227">
+    <title lang="it">Tg Sport</title>
+    <desc lang="it">TG Sport Giorno.</desc>
+    <category lang="it">Informazione</category>
+    <category lang="it">Notiziario</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127003000 +0000" stop="20260127010000 +0000" channel="RAI Sport 227">
+    <title lang="it">Sognando Milano Cortina 2026. Sulle spalle dei giganti</title>
+    <desc lang="it">Sara Conti e Niccolo' Macii, Giuseppe Romele, Martina Valcepina, Martina Vozza, Nicolaj Memola sono gli Ambassador Allianz che ci portano dentro un'esperienza eccezionale, che parte da un racconto...</desc>
+    <category lang="it">Mondo e Tendenze</category>
+    <category lang="it">Documentario</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127010000 +0000" stop="20260127011500 +0000" channel="RAI Sport 227">
+    <title lang="it">Memory - Rai Sport</title>
+    <desc lang="it">Intrattenimento.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127011500 +0000" stop="20260127014500 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci di Fondo</title>
+    <desc lang="it">Sci di Fondo. Coppa del Mondo Ruka: 10 km maschile - t. Classica.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127014500 +0000" stop="20260127034500 +0000" channel="RAI Sport 227">
+    <title lang="it">Serie C</title>
+    <desc lang="it">Calcio. Serie C Sky Wifi: Novara-Inter U23 - 1a g.ta.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127034500 +0000" stop="20260127050000 +0000" channel="RAI Sport 227">
+    <title lang="it">Europei femminili di Pallanuoto</title>
+    <desc lang="it">Pallanuoto. Europei femminili Funchal: Italia-Serbia.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127050000 +0000" stop="20260127060000 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci di Fondo</title>
+    <desc lang="it">Sci di Fondo. Coppa del Mondo Ruka: 10 km maschile - t. Classica.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127060000 +0000" stop="20260127063000 +0000" channel="RAI Sport 227">
+    <title lang="it">Tg Sport</title>
+    <desc lang="it">TG Sport Giorno.</desc>
+    <category lang="it">Informazione</category>
+    <category lang="it">Notiziario</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127063000 +0000" stop="20260127083500 +0000" channel="RAI Sport 227">
+    <title lang="it">Serie A Women Athora</title>
+    <desc lang="it">Calcio. Serie A Women Athora: Lazio-Juventus - 3a g.ta.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127083500 +0000" stop="20260127103500 +0000" channel="RAI Sport 227">
+    <title lang="it">Ciclocross</title>
+    <desc lang="it">Intrattenimento.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127103500 +0000" stop="20260127110500 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci di Fondo</title>
+    <desc lang="it">Sci di Fondo. Coppa del Mondo Ruka: 10 km maschile - t. Classica.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127110500 +0000" stop="20260127113500 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci di Fondo</title>
+    <desc lang="it">Sci di Fondo. Coppa del Mondo Ruka: 10 km maschile - t. Classica.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127113500 +0000" stop="20260127120500 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci di Fondo</title>
+    <desc lang="it">Sci di Fondo. Coppa del Mondo Ruka: 10 km maschile - t. Classica.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127120500 +0000" stop="20260127133500 +0000" channel="RAI Sport 227">
+    <title lang="it">Europei femminili di Pallanuoto</title>
+    <desc lang="it">Pallanuoto. Europei femminili Funchal: Italia-Serbia.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127133500 +0000" stop="20260127142000 +0000" channel="RAI Sport 227">
+    <title lang="it">Memory - Rai Sport</title>
+    <desc lang="it">Intrattenimento.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127142000 +0000" stop="20260127163000 +0000" channel="RAI Sport 227">
+    <title lang="it">Pattinaggio di Figura</title>
+    <desc lang="it">Intrattenimento.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127163000 +0000" stop="20260127175500 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci Alpino: Coppa del Mondo maschile</title>
+    <desc lang="it">Sci Alpino. Coppa del Mondo Soelden: Slalom Gigante maschile - 2a manche.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127175500 +0000" stop="20260127182500 +0000" channel="RAI Sport 227">
+    <title lang="it">Salto con gli Sci</title>
+    <desc lang="it">Salto con gli sci. Coppa del Mondo Lillehammer - gara 3.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127182500 +0000" stop="20260127185500 +0000" channel="RAI Sport 227">
+    <title lang="it">Salto con gli Sci</title>
+    <desc lang="it">Salto con gli sci. Coppa del Mondo Lillehammer - gara 3.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127185500 +0000" stop="20260127193000 +0000" channel="RAI Sport 227">
+    <title lang="it">Memory - Rai Sport</title>
+    <desc lang="it">Intrattenimento.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127193000 +0000" stop="20260127205500 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci Alpino: Coppa del Mondo maschile</title>
+    <desc lang="it">Sci Alpino. Coppa del Mondo Soelden: Slalom Gigante maschile - 2a manche.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127205500 +0000" stop="20260127221500 +0000" channel="RAI Sport 227">
+    <title lang="it">Europei maschili di Pallanuoto</title>
+    <desc lang="it">Pallanuoto. Europei maschili Belgrado: Turchia-Italia (1a fase).</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127221500 +0000" stop="20260127224500 +0000" channel="RAI Sport 227">
+    <title lang="it">Sognando Milano Cortina 2026. Sulle spalle dei giganti</title>
+    <desc lang="it">Sara Conti e Niccolo' Macii, Giuseppe Romele, Martina Valcepina, Martina Vozza, Nicolaj Memola sono gli Ambassador Allianz che ci portano dentro un'esperienza eccezionale, che parte da un racconto...</desc>
+    <category lang="it">Mondo e Tendenze</category>
+    <category lang="it">Documentario</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127224500 +0000" stop="20260127230000 +0000" channel="RAI Sport 227">
+    <title lang="it">Tg Sport</title>
+    <desc lang="it">TG Sport Giorno.</desc>
+    <category lang="it">Informazione</category>
+    <category lang="it">Notiziario</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260127230000 +0000" stop="20260128005500 +0000" channel="RAI Sport 227">
+    <title lang="it">Calcio a 5</title>
+    <desc lang="it">Calcio a 5. Qualificazione Europei 2026: Play Off Italia-Kazakistan.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260128005500 +0000" stop="20260128025500 +0000" channel="RAI Sport 227">
+    <title lang="it">Serie C</title>
+    <desc lang="it">Calcio. Serie C Sky Wifi: Novara-Inter U23 - 1a g.ta.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
+  <programme start="20260128025500 +0000" stop="20260128040000 +0000" channel="RAI Sport 227">
+    <title lang="it">Sci Alpino: Coppa del Mondo maschile</title>
+    <desc lang="it">Sci Alpino. Coppa del Mondo Soelden: Slalom Gigante maschile - 2a manche.</desc>
+    <category lang="it">Intrattenimento</category>
+    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
+  </programme>
   <programme start="20260124004000 +0100" stop="20260124032000 +0100" channel="FR - France 4">
     <title lang="fr">Carmen aux Chorégies d'Orange</title>
     <desc lang="fr">A Séville, vers 1820. Devant la manufacture de tabac dont la cloche vient de sonner, les soldats de la garde montante se sont postés pour voir sortir les cigarières et surtout l'une d'entre elles, Carmen, une bohémienne, que la foule laisse passer en s'écartant. Hautaine et passionnée, elle se moque des hommes qui se pressent autour d'elle, leur chantant que "l'amour est un oiseau rebelle". Cependant, Carmen tente d'attirer l'attention de don José, le seul qui ne semble pas s'intéresser à elle...</desc>

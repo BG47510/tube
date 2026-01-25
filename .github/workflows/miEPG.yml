@@ -1,0 +1,39 @@
+name: EPG Zern
+
+on:
+  schedule:
+    - cron: '30 12 * * * ' # Courir à 00h30 (noter l'heure d'été/d'hiver)
+  workflow_dispatch:
+permissions:
+   contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Récupération du référentiel
+      uses: actions/checkout@v2
+
+    - name: Vérifier et installer xmllint
+      run: |
+        sudo apt-get update && sudo apt-get install -y libxml2-utils
+
+    - name: Donner des autorisations d'exécution au script
+      run: |
+        chmod +x .github/workflows/EPG_script.sh
+
+    - name: Exécuter le script
+      run: .github/workflows/EPG_script.sh
+
+    - name: Configurer l'identité Git
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        
+    - name: Télécharger des fichiers
+      run: |
+        git add .
+        git commit -m "Nouveau miEPG.xml"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

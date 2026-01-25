@@ -1,5 +1,2515 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="miEPG v3.6" generator-info-url="https://github.com/davidmuma/miEPG">
+  <channel id="FR - France 4">
+    <display-name>FR - France 4 SD</display-name>
+    <display-name>FR - France 4 HD</display-name>
+    <display-name>FR - France 4 4K</display-name>
+    <display-name>FR - France 4 Full HD</display-name>
+    <display-name>FR - France 4 UHD</display-name>
+    <icon src="https://iptv-epg.org/logos/France/France4.fr.png" />
+  </channel>
+  <channel id="FR - France 2">
+    <display-name>FR - France 2 SD</display-name>
+    <display-name>FR - France 2 HD</display-name>
+    <display-name>FR - France 2 4K</display-name>
+    <display-name>FR - France 2 Full HD</display-name>
+    <display-name>FR - France 2 UHD</display-name>
+    <icon src="https://iptv-epg.org/logos/France/France2.fr.png" />
+  </channel>
+  <programme start="20260124022000 +0000" stop="20260124034000 +0000" channel="FR - France 4">
+    <title lang="fr">Car/Men</title>
+    <desc lang="fr">La compagnie Les Chicos Mambo s'empare du chef-d'oeuvre de Georges Bizet : Carmen, opéra le plus joué au monde. La troupe emmenée par Philippe Lafeuille se joue avec fantaisie du masculin et du féminin, dans un manifeste à la liberté - de genre, mais aussi artistique. Sur scène, huit danseurs et un chanteur, habillés en tenues militaires, tutus et autres costumes extravagants, tournent en dérision l'icône de la féminité absolue que représente Carmen.</desc>
+  </programme>
+  <programme start="20260124034000 +0000" stop="20260124035500 +0000" channel="FR - France 4">
+    <title lang="fr">Moonwalk</title>
+    <desc lang="fr">S1 E2 Coeur de pirate
+Oumar a rencontré Coeur de Pirate : enfance, succès, engagements, musique, la chanteuse québécoise revient sur son parcours dans "Moonwalk".</desc>
+  </programme>
+  <programme start="20260124035500 +0000" stop="20260124040500 +0000" channel="FR - France 4">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Les matinales.</desc>
+  </programme>
+  <programme start="20260124040500 +0000" stop="20260124041800 +0000" channel="FR - France 4">
+    <title lang="fr">Foot 2 rue</title>
+    <desc lang="fr">S4 E1 Dans la cour des grands
+Petit Dragon propose à Jérémy de former une équipe pour les sélections au prochain mondial de foot de rue. Mais il s'avère que Jérémy a déjà une équipe.</desc>
+  </programme>
+  <programme start="20260124041800 +0000" stop="20260124042500 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E66 La guerre des moutons
+Grizzy a adopté un bébé mouton. Les lemmings veulent jouer à saute-mouton avec lui, ce qui fâche Grizzy. Il les enferme dans une salle désaffectée de la tour.</desc>
+  </programme>
+  <programme start="20260124042500 +0000" stop="20260124044100 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E67 Laine plus ultra
+Les lemmings jouent à rebondir sur le pelage de moutons. Le jeu vire au drame quand l'arrière-train de Grizzy est rasé par accident à cause des lemmings.</desc>
+  </programme>
+  <programme start="20260124044100 +0000" stop="20260124044300 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E68 Lemmings des bois
+Refusant de partager sa caisse de jelly, Grizzy jette les lemmings aux oubliettes où ceux-ci découvrent un livre sur Robin des Bois dont ils s'inspirent pour se libérer.</desc>
+  </programme>
+  <programme start="20260124044300 +0000" stop="20260124045400 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E69 Bonne fée, mauvaise fée
+Les lemmings ont organisé un spectacle de magie dans le salon de la cabane. Voulant s'y installer pour regarder la télé, Grizzy se débarrasse des lemmings.</desc>
+  </programme>
+  <programme start="20260124045400 +0000" stop="20260124045600 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E70 Drôle de rebondissement
+Grizzy ne sait plus comment stopper le nouveau jeu de balles des lemmings. Ceux-ci s'amusent à esquiver des sphères de pierres magiques qui virevoltent dans la cabane.</desc>
+  </programme>
+  <programme start="20260124045600 +0000" stop="20260124050700 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E71 La bataille de la couronne sacrée
+Grizzy et les lemmings ont un nouveau jeu : ils s'affrontent pour gagner une couronne qu'ils doivent mettre sur la tête d'une petite peluche à leur image.</desc>
+  </programme>
+  <programme start="20260124050700 +0000" stop="20260124050900 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E72 Lemming garou
+Pour pouvoir faire la sieste, Grizzy fait déguerpir les lemmings, mais l'un d'entre eux se retrouve projeté à l'écart des autres dans une étrange crypte.</desc>
+  </programme>
+  <programme start="20260124050900 +0000" stop="20260124052000 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E73 Braquage, poules et Yummy
+Grizzy découvre une gigantesque caisse de Yummy au bord de la route. Il tente de l'entreposer discrètement dans la cabane sans attirer l'attention des lemmings.</desc>
+  </programme>
+  <programme start="20260124052000 +0000" stop="20260124052200 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E74 Toujours plus haut
+Grizzy et les Lemmings se disputent pour un pot de jelly qui leur échappe. Ils se lancent dans la construction d'une tour pour l'attraper en premier.</desc>
+  </programme>
+  <programme start="20260124052200 +0000" stop="20260124053300 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E75 Sorcellerie du jeu
+En recherchant un paquet de jelly instantané dans le garage, Grizzy tombe sur une boite de figurines. Parmi elles se trouve un ours qui lui ressemble.</desc>
+  </programme>
+  <programme start="20260124053300 +0000" stop="20260124053500 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E76 Monstrueux déguisements
+Les lemmings célèbrent Halloween en se déguisant et en décorant la cabane, mais Grizzy, désirant reprendre le contrôle des lieux, parvient à les faire partir.</desc>
+  </programme>
+  <programme start="20260124053500 +0000" stop="20260124054600 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E77 Le crime était presque Yummy
+Les Lemmings jouent à un jeu de meurtres et mystères où un détective doit mener une enquête pour résoudre un faux meurtre qui a été commis.</desc>
+  </programme>
+  <programme start="20260124054600 +0000" stop="20260124055300 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E78 Cabane, mon amour
+Les Lemmings trouvent un talisman qui fait prendre vie à des objets inanimés. La cabane, désormais "vivante", rêve de retourner au Canada sans Grizzy et les Lemmings.</desc>
+  </programme>
+  <programme start="20260124055300 +0000" stop="20260124055500 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E53 Muraille disco
+Grizzy est jaloux du nouveau jeu des lemmings : un tapis de danse connecté à la télé, sur lequel il faut sauter pour réaliser des enchainements de danse.</desc>
+  </programme>
+  <programme start="20260124055500 +0000" stop="20260124060300 +0000" channel="FR - France 4">
+    <title lang="fr">Un jour, une question</title>
+    <desc lang="fr">S10 A quoi ça sert de lire ?
+Un jour, une question.</desc>
+  </programme>
+  <programme start="20260124060300 +0000" stop="20260124060400 +0000" channel="FR - France 4">
+    <title lang="fr">Oscar &amp; Malika, toujours en retard</title>
+    <desc lang="fr">S3 E41 Le dermyosotis
+Oscar et Malika découvrent qu'une énorme fleur pompe toute l'eau du parc. Il apparaît que l'ex-trafiquant Maxime Dermy s'est reconverti dans le jardinage.</desc>
+  </programme>
+  <programme start="20260124060400 +0000" stop="20260124062400 +0000" channel="FR - France 4">
+    <title lang="fr">Oscar &amp; Malika, toujours en retard</title>
+    <desc lang="fr">S3 L'école des vampires
+Oscar et Malika rejoignent Winfred à l'école des vampires. Leur ami n'est pas comme d'habitude : il doit suivre un stage pour ne plus ressentir d'émotions.</desc>
+  </programme>
+  <programme start="20260124062400 +0000" stop="20260124063500 +0000" channel="FR - France 4">
+    <title lang="fr">Oscar &amp; Malika, toujours en retard</title>
+    <desc lang="fr">S3 E46 L'élection
+Oscar et Malika tentent de trouver un foyer à Snort et Drool, des anciens Esprits Frappeurs qui veulent, eux aussi, devenir des Esprits du Foyer.</desc>
+  </programme>
+  <programme start="20260124063500 +0000" stop="20260124063600 +0000" channel="FR - France 4">
+    <title lang="fr">Oscar &amp; Malika, toujours en retard</title>
+    <desc lang="fr">S3 E42 La ville fleurie
+Oscar et Malika découvrent que Violette, la jardinière, est si happée par la concours de la Ville fleurie qu'elle transforme quiconque se met en travers de sa route en plante.</desc>
+  </programme>
+  <programme start="20260124063600 +0000" stop="20260124065600 +0000" channel="FR - France 4">
+    <title lang="fr">Oscar &amp; Malika, toujours en retard</title>
+    <desc lang="fr">S3 E47 Les Nommos
+Sur le chemin de l'école, les enfants font une pause au musée pour échapper à la chaleur et découvrent une exposition sur les Nommos, des génies de l'eau.</desc>
+  </programme>
+  <programme start="20260124065600 +0000" stop="20260124070700 +0000" channel="FR - France 4">
+    <title lang="fr">Oscar &amp; Malika, toujours en retard</title>
+    <desc lang="fr">S3 E48 L'épreuve du demi-nymphe
+Zeus a organisé une fête dans le parc, et tous attendent avec impatience la prestation chantée de Chloros, le demi-nymphe, mais ce dernier est en panique totale.</desc>
+  </programme>
+  <programme start="20260124070700 +0000" stop="20260124071900 +0000" channel="FR - France 4">
+    <title lang="fr">Oscar &amp; Malika, toujours en retard</title>
+    <desc lang="fr">S3 E49 Le sceptre des géants
+Oscar a oublié son carnet de correspondance sur la table en partant à l'école, et sa mère Alice y découvre tous les mots de retard accumulés.</desc>
+  </programme>
+  <programme start="20260124071900 +0000" stop="20260124074100 +0000" channel="FR - France 4">
+    <title lang="fr">Mystery Lane</title>
+    <desc lang="fr">S1 E7 Le piège de la pieuvre
+Une caniche qui participe continuellement à des concours de beauté canine est attaquée la nuit dans sa demeure par une créature tentaculaire.</desc>
+  </programme>
+  <programme start="20260124074100 +0000" stop="20260124075400 +0000" channel="FR - France 4">
+    <title lang="fr">Mystery Lane</title>
+    <desc lang="fr">S1 E8 Le serval de la Tamise
+Un félin à très longues griffes, au pelage tacheté, portant un masque sculpté, fait irruption dans la chambre de la Reine en pleine nuit et disparaît avec elle.</desc>
+  </programme>
+  <programme start="20260124075400 +0000" stop="20260124081100 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S1 E54 Formation minute
+Un distributeur automatique délivre des oeufs surprises contre une pièce de monnaie. Un des lots fait rêver les lemmings. Mais Grizzy convoite autre chose.</desc>
+  </programme>
+  <programme start="20260124081100 +0000" stop="20260124081300 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S1 E55 De mémoire d'ours
+Une vieille boite en métal retrouvée par hasard dans un recoin de la falaise, fait resurgir des souvenirs de jeunesse chez Grizzy et les lemmings. Avec nostalgie, ils se souviennent de leur première rencontre, alors qu'ils n'étaient que des enfants...</desc>
+  </programme>
+  <programme start="20260124081300 +0000" stop="20260124082400 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S1 E56 Lemmings chimiques
+Grizzy regarde un documentaire sur les saumons, bien installé dans le canapé. Les lemmings jouent les apprentis chimistes avec une boite d'expériences.</desc>
+  </programme>
+  <programme start="20260124082400 +0000" stop="20260124082600 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S1 E57 Pilotage à distance
+Grizzy se fait voler la télécommande de la TV par une perdrix qui collectionne les objets techno dans son nid très haut perché. Il n'a pas d'autre choix que de réquisitionner le jeu de propulsion des lemmings pour récupérer son bien...</desc>
+  </programme>
+  <programme start="20260124082600 +0000" stop="20260124083700 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S1 E58 L'ours et le papillon
+Grizzy s'est mis en tête d'offrir un papillon à l'ourse dont il est amoureux. Mais les lemmings lui disputent les rares spécimen qu'il repère pour jouer à l'hélicoptère. La chasse aux papillons est ouverte...</desc>
+  </programme>
+  <programme start="20260124083700 +0000" stop="20260124084400 +0000" channel="FR - France 4">
+    <title lang="fr">La famille Weasy</title>
+    <desc lang="fr">S1 E25 Mission bulles
+Les filles jouent aux bulles. Elles ont décidé de fabriquer une bulle géante en agrégeant plusieurs petites bulles ensemble, pour pouvoir faire un ballet aérien.</desc>
+  </programme>
+  <programme start="20260124084400 +0000" stop="20260124085100 +0000" channel="FR - France 4">
+    <title lang="fr">La famille Weasy</title>
+    <desc lang="fr">S1 E26 Mission sculpture sur paille
+Weasy est jaloux de la dernière création des canettes, des sculptures sur paille à leur effigie, qui font l'admiration de la famille aigle.</desc>
+  </programme>
+  <programme start="20260124085100 +0000" stop="20260124085400 +0000" channel="FR - France 4">
+    <title lang="fr">La famille Weasy</title>
+    <desc lang="fr">S1 E27 Mission Cadeau
+Weasy a oublié l'anniversaire des canettes et se dépêche de fabriquer un cadeau pour que les filles ne s'en rendent pas compte. Mais elles comprennent la manoeuvre.</desc>
+  </programme>
+  <programme start="20260124085400 +0000" stop="20260124090500 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E39 Les exercices
+Bingo fait semblant d'être la nouvelle employée de Bluey pendant que Papa fait des exercices dans le jardin. Lorsque Bluey fait visiter les bureaux à Bingo, Papa fait l'exercice le plus difficile de sa vie !</desc>
+  </programme>
+  <programme start="20260124090500 +0000" stop="20260124091100 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E40 Détends-toi
+Arrivées en vacances, Bluey et Bingo préfèrent jouer à des jeux et explorer leur chambre d'hôtel plutôt que se détendre à la plage avec Maman.</desc>
+  </programme>
+  <programme start="20260124091100 +0000" stop="20260124091300 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E41 Le bâton oiseau
+Lors d'une sortie à la plage, Maman apprend à Bluey comment lancer un bâton, tandis que Bingo et Papa sont inspirés par la découverte d'un bâton en forme de tête d'oiseau.</desc>
+  </programme>
+  <programme start="20260124091300 +0000" stop="20260124092400 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E42 Démonstration
+Lorsque papa demande à Bluey de terminer son petit déjeuner, celle-ci veut savoir pourquoi il lui donne toujours des ordres.</desc>
+  </programme>
+  <programme start="20260124092400 +0000" stop="20260124093000 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E44 Les filles sauvages
+A l'école, Coco veut jouer aux Filles de la Forêt avec Indy mais Chloe veut qu'elle joue avec à autre chose.</desc>
+  </programme>
+  <programme start="20260124093000 +0000" stop="20260124093200 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E47 Le cricket
+Pendant un match de cricket entre voisins, aucun des papas n'arrive à battre Rusty qui a passé de longues heures à perfectionner sa technique.</desc>
+  </programme>
+  <programme start="20260124093200 +0000" stop="20260124094300 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E45 Les écrans du magasin
+A la pharmacie, Bluey, Bingo et leurs amis s'amusent avec les écrans de surveillance.</desc>
+  </programme>
+  <programme start="20260124094300 +0000" stop="20260124095100 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E43 Le dragon
+Bluey, chiot vif et créatif, transforme chaque jour en une aventure pour sa famille, grâce à son imagination fertile et son énergie sans fin.</desc>
+  </programme>
+  <programme start="20260124095100 +0000" stop="20260124100200 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E11 Le cri qui foudroie
+Des hyènes attirent les As dans une fausse aventure afin de se débarraser d'eux. Les As sont pris au piège dans une cage qui surplombe un îlot entouré de crocodiles.</desc>
+  </programme>
+  <programme start="20260124100200 +0000" stop="20260124100300 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E12 Show bouillant
+Fred se fait embarquer au Roc des Lynx, chez des femelles lynx qu'il a recrutées comme chanteuses mais qui souhaitent l'écarter de la scène musicale de la Jungle...</desc>
+  </programme>
+  <programme start="20260124100300 +0000" stop="20260124102300 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E13 Chute libre
+Edward, un jeune renard volant, vient trouver les As pour leur demander de l'aide. Tous ses amis se moquent en effet de sa peur du vide...</desc>
+  </programme>
+  <programme start="20260124102300 +0000" stop="20260124102400 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E49 La fête des lucioles
+Les Mirabelles débaquent chez les As. Elles sont les copines d'enfance de Batricia et il y a dix ans, elle ont promis de se retrouver pour la fête des lucioles...</desc>
+  </programme>
+  <programme start="20260124102400 +0000" stop="20260124104400 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E50 Y'a comme un hic
+Une gerbille vient demander de l'aide aux As car depuis plusieurs semaines elle a un hoquet monstrueux. Pas de problème, Maurice et les siens vont juste devoir lui faire peur.</desc>
+  </programme>
+  <programme start="20260124104400 +0000" stop="20260124105500 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E51 La pierre des étoiles
+Roger, un koala à moustache, vient chercher les As, car cinq créatures ont envahi son potager. Dhoom et sa bande observent une grande pierre dressée plantée dans le sol.</desc>
+  </programme>
+  <programme start="20260124105500 +0000" stop="20260124105800 +0000" channel="FR - France 4">
+    <title lang="fr">Les Jeux de La Fontaine</title>
+    <desc lang="fr">S2 E1 La patience à l'épreuve
+Lors des Jeux olympiques d'hiver animaliers, l'impatience menace les athlètes. Renard, trop pressé de gagner, fait un faux départ et se retrouve disqualifié.</desc>
+  </programme>
+  <programme start="20260124105800 +0000" stop="20260124110000 +0000" channel="FR - France 4">
+    <title lang="fr">Les 3 Mousquetaires</title>
+    <desc lang="fr">S1 E8 Henni soit qui mal y pense
+Gaston de Rustignac veut enlever le Roi pour prendre sa place. Il vole les chevaux des Trois Mousquetaires, mais d'Artagnan et Planchet lui barrent le chemin.</desc>
+  </programme>
+  <programme start="20260124110000 +0000" stop="20260124112100 +0000" channel="FR - France 4">
+    <title lang="fr">Les 3 Mousquetaires</title>
+    <desc lang="fr">S1 E9 Libérez Alex
+Alex se retrouve au cachot parce qu'il a ri d'une caricature de Rochefort que d'Artagnan lui a collée dans le dos. D'Artagnan va tenter de le sortir de ce mauvais pas.</desc>
+  </programme>
+  <programme start="20260124112100 +0000" stop="20260124112400 +0000" channel="FR - France 4">
+    <title lang="fr">Les 3 Mousquetaires</title>
+    <desc lang="fr">S1 E11 Hauteclaire
+L'alchimiste de la cour, Samuel de Plaindert, remarque "Hauteclaire", la singulière épée de Porthos. Selon lui, sa lame permet de changer le métal en or.</desc>
+  </programme>
+  <programme start="20260124112400 +0000" stop="20260124113500 +0000" channel="FR - France 4">
+    <title lang="fr">Potobot</title>
+    <desc lang="fr">S1 E44 Besoin de rien
+Leur maison envahie par les termites, la famille de Chloé s'installe dans le jardin pour "vivre de manière plus simple". Chloé et sa mère veulent se prouver qu'elles n'ont pas besoin de technologie pour être heureuses... Qui craquera la première ?</desc>
+  </programme>
+  <programme start="20260124113500 +0000" stop="20260124115500 +0000" channel="FR - France 4">
+    <title lang="fr">Potobot</title>
+    <desc lang="fr">S1 E45 Tout doit disparaître
+Potobot et Marion se sont lancés dans un challenge de tri. Chloé décide de tenter l'expérience, mais se séparer d'objets s'avère plus difficile que prévu.</desc>
+  </programme>
+  <programme start="20260124115500 +0000" stop="20260124122000 +0000" channel="FR - France 4">
+    <title lang="fr">Potobot</title>
+    <desc lang="fr">S1 E46 Toutou en folie
+Chloé convainc Potobot d'héberger un chien égaré le temps que son propriétaire le réclame. Mais si la jeune fille parait très emballée par l'arrivée du chien, l'intérêt n'est pas réciproque..</desc>
+  </programme>
+  <programme start="20260124122000 +0000" stop="20260124122100 +0000" channel="FR - France 4">
+    <title lang="fr">Un jour, une question</title>
+    <desc lang="fr">S10 A quoi ça sert de lire ?
+Un jour, une question.</desc>
+  </programme>
+  <programme start="20260124122100 +0000" stop="20260124122200 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E43 Lemmings illuminés
+Grizzy a trop joué à la console. Après des heures et des heures, ses yeux sont tellement fatigués qu'il ne supporte plus le moindre rai de lumière.</desc>
+  </programme>
+  <programme start="20260124122200 +0000" stop="20260124123000 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E44 Cache-cache lemmings
+Grizzy observe les Lemmings jouer à cache-cache. Il sabote leur jeu en révélant leurs cachettes. Les Lemmings le mettent au défi de jouer contre eux.</desc>
+  </programme>
+  <programme start="20260124123000 +0000" stop="20260124123100 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E17 Coupe givrée
+Les Lemmings s'amusent à faire la course dans la pente glacée contre l'ours-ranger en peluche et s'arrangent pour gagner à chaque fois.</desc>
+  </programme>
+  <programme start="20260124123100 +0000" stop="20260124123200 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E45 Tapage de nocturnes
+Les lemmings ont organisé une méga fête dans la maison, ce n'est évidemment pas au goût de Grizzy qui les expulse instantanément.</desc>
+  </programme>
+  <programme start="20260124123200 +0000" stop="20260124124200 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E46 Un amour de frigo
+Grizzy a besoin du frigo pour garder ses poissons au frais, mais les lemmings s'en servent pour faire le froid nécessaire à leur mini-patinoire.</desc>
+  </programme>
+  <programme start="20260124124200 +0000" stop="20260124124400 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E47 Famille d'ours
+Grizzy trouve un ours blanc tombé d'un camion frigorifique de zoo. En consultant l'encyclopédie, il réalise que lui et cet ours sont des frères de la même espèce.</desc>
+  </programme>
+  <programme start="20260124124400 +0000" stop="20260124125500 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E48 Les dix plaies de Grizzy
+Le concert de hard rock des Lemmings met Grizzy dans tous ses états. Après s'être débarrassé d'eux, il réquisitionne leur ghettoblaster.</desc>
+  </programme>
+  <programme start="20260124125500 +0000" stop="20260124130200 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E49 Jeux de bac à sable
+Inspiré par un magazine, Grizzy décide de refaire la décoration intérieure du chalet. Pour que tout soit parfait, il se débarrasse des Lemmings.</desc>
+  </programme>
+  <programme start="20260124130200 +0000" stop="20260124130900 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E50 Gisement chocolaté
+Les Lemmings trouvent un bâton magique qui leur permet de sourcer du Yummy. Grizzy leur vole le bâton et fait la découverte d'un gisement de Yummy.</desc>
+  </programme>
+  <programme start="20260124130900 +0000" stop="20260124131700 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E51 Luciole party
+Grizzy enrage de ne pas pouvoir regarder la télé à cause d'une éclipse qui empêche les panneaux solaires d'alimenter la cabane en électricité.</desc>
+  </programme>
+  <programme start="20260124131700 +0000" stop="20260124133900 +0000" channel="FR - France 4">
+    <title lang="fr">Mystery Lane</title>
+    <desc lang="fr">S1 E19 L'insaisissable Robin des animaux
+Mystery Lane.</desc>
+  </programme>
+  <programme start="20260124133900 +0000" stop="20260124135500 +0000" channel="FR - France 4">
+    <title lang="fr">Mystery Lane</title>
+    <desc lang="fr">S1 E20 Le faiseur d'énigmes
+Mystery Lane.</desc>
+  </programme>
+  <programme start="20260124135500 +0000" stop="20260124142000 +0000" channel="FR - France 4">
+    <title lang="fr">Mystery Lane</title>
+    <desc lang="fr">S1 E21 Le ronge-muraille
+Mystery Lane.</desc>
+  </programme>
+  <programme start="20260124142000 +0000" stop="20260124160500 +0000" channel="FR - France 4">
+    <title lang="fr">Handball : Euro masculin  ᴺᵉʷ</title>
+    <desc lang="fr">France v Portugal
+Après le Danemark, les Bleus de Guillaume Gille se mesurent au Portugal : les handballeurs portugais montent en puissance et cela peut être un match-piège pour les Français.</desc>
+    <new />
+  </programme>
+  <programme start="20260124160500 +0000" stop="20260124160600 +0000" channel="FR - France 4">
+    <title lang="fr">Jingle sports</title>
+    <desc lang="fr">Jingle sports.</desc>
+  </programme>
+  <programme start="20260124160600 +0000" stop="20260124160700 +0000" channel="FR - France 4">
+    <title lang="fr">Un jour, une question</title>
+    <desc lang="fr">S10 C'est quoi les bienfaits du sport ?
+Un jour, une question.</desc>
+  </programme>
+  <programme start="20260124160700 +0000" stop="20260124160800 +0000" channel="FR - France 4">
+    <title lang="fr">Les Jeux de La Fontaine</title>
+    <desc lang="fr">S2 E5 Mystère et boule de neige
+Lors de l'épreuve de ski de bosses, Grenouille retrouve ses skis brisés. Une enquête est aussitôt ouverte pour déterminer s'il s'agit d'un accident ou d'un sabotage.</desc>
+  </programme>
+  <programme start="20260124160800 +0000" stop="20260124161400 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E9 Et je coupe le son
+Sam et Mo s'énervent : en temps normal la pénible Angèle, qui est aussi leur voisine, les réveille tous les matins en chantant sa salutation au soleil.</desc>
+  </programme>
+  <programme start="20260124161400 +0000" stop="20260124162500 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E10 Filtre beau gosse
+Pour plaire à Stella, Mo utilise un pouvoir qui donne un filtre smartphone dans la vraie vie. Mais à moitié, ce n'est pas le bon filtre. Mo est désemparé.</desc>
+  </programme>
+  <programme start="20260124162500 +0000" stop="20260124163500 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E29 Les rois de la cantine
+M. Brick a cuisiné les "bon petits plats d'antan" de sa mère aux élèves. Sam et Mo demandent au Sceptre le pouvoir de faire apparaître toute la nourriture qu'ils veulent.</desc>
+  </programme>
+  <programme start="20260124163500 +0000" stop="20260124165500 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E11 Rodolf man
+Rodolf est triste de ne pas être un super-héros. Mo crée des illusions pour lui faire croire qu'il a des pouvoirs. Le subterfuge fonctionne un peu trop bien.</desc>
+  </programme>
+  <programme start="20260124165500 +0000" stop="20260124165600 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E12 Clones à tout faire
+Héros à moitié.</desc>
+  </programme>
+  <programme start="20260124165600 +0000" stop="20260124171600 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E13 Samomorphose
+Mo et Sam partagent les pouvoirs hérités de leur arrière-arrière-arrière-grand-mère, mais ils sont affaiblis. Leur vie quotidienne est un défi à relever.</desc>
+  </programme>
+  <programme start="20260124171600 +0000" stop="20260124171700 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E14 On s'entend trop penser
+Lorsque Sam s'aperçoit qu'elle n'a plus de cadeau à offrir à Wanda pour l'anniversaire surprise de ses 70 ans, elle panique et veut absolument lui trouver le présent idéal.</desc>
+  </programme>
+  <programme start="20260124171700 +0000" stop="20260124173700 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E15 A sa place
+Héros à moitié.</desc>
+  </programme>
+  <programme start="20260124173700 +0000" stop="20260124174800 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E16 Brick 3000
+M. Brick est très stressé : il doit faire une démonstration d'une technologie de pointe alors qu'il est complètement dépassé. Mo et Sam vont devoir s'en occuper.</desc>
+  </programme>
+  <programme start="20260124174800 +0000" stop="20260124180000 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E17 La suite après la pub
+Mo pense devenir une star car monsieur Brick l'a choisi pour être le représentant de l'école pour sa toute nouvelle campagne de pub. Il va avoir une grande surprise !</desc>
+  </programme>
+  <programme start="20260124180000 +0000" stop="20260124191500 +0000" channel="FR - France 4">
+    <title lang="fr">Lego DC Comics Super Heroes : The Flash</title>
+    <desc lang="fr">Le Joker a décidé de s'en prendre au journal local, le Daily Planet. La ligue des justiciers intervient aussitôt pour tenter de faire échouer ses plans...</desc>
+  </programme>
+  <programme start="20260124191500 +0000" stop="20260124193500 +0000" channel="FR - France 4">
+    <title lang="fr">LEGO Marvel Super Heroes: Avengers Reassembled!</title>
+    <desc lang="fr">Ultron parvient à s'emparer de l'armure d'Iron Man : les Avengers se mobilisent pour sauver le monde de cette nouvelle menace.</desc>
+  </programme>
+  <programme start="20260124193500 +0000" stop="20260124195500 +0000" channel="FR - France 4">
+    <title lang="fr">Marvel Spider-Man contre Venom</title>
+    <desc lang="fr">Man: Vexed by Venom
+Spider-Man doit empêcher le Bouffon Vert et Venom de voler des clés destinées à détruire la ville de New York. La mission de Spidey lui permet de découvrir de nouveaux gadgets.</desc>
+  </programme>
+  <programme start="20260124195500 +0000" stop="20260124200000 +0000" channel="FR - France 4">
+    <title lang="fr">Consomag</title>
+    <desc lang="fr">Comment bien choisir son professionnel en cas de dépannage d'urgence ?
+Consomag.</desc>
+  </programme>
+  <programme start="20260124200000 +0000" stop="20260124221000 +0000" channel="FR - France 4">
+    <title lang="fr">Un amour impossible</title>
+    <desc lang="fr">Dans les années 50, une employée de bureau veut que son amant, un fils de bourgeois, reconnaisse l'enfant qu'ils ont eu lors de leur romance passionnelle.</desc>
+  </programme>
+  <programme start="20260124221000 +0000" stop="20260124230500 +0000" channel="FR - France 4">
+    <title lang="fr">Frida Kahlo</title>
+    <desc lang="fr">S1 E1 Les racines mexicaines
+Cette première partie raconte le Mexique de Frida, sa jeunesse, ses influences, l'amour pour Diego et leur fascination respective, leur départ aux Etats-Unis.</desc>
+  </programme>
+  <programme start="20260124230500 +0000" stop="20260124235500 +0000" channel="FR - France 4">
+    <title lang="fr">Frida Kahlo</title>
+    <desc lang="fr">S1 E2 Tout pour Diego
+La deuxième partie du documentaire explore l'arrivée aux Etats-Unis de Frida Kahlo, sa créativité artistique mais aussi son anxiété personnelle.</desc>
+  </programme>
+  <programme start="20260124235500 +0000" stop="20260125005000 +0000" channel="FR - France 4">
+    <title lang="fr">Frida Kahlo</title>
+    <desc lang="fr">S1 E3 Une icône est née
+Frida arrive à Paris et est immédiatement reconnue par la communauté artistique. Elle fréquente Trotski et s'efforce finalement d'être indépendante.</desc>
+  </programme>
+  <programme start="20260125005000 +0000" stop="20260125005500 +0000" channel="FR - France 4">
+    <title lang="fr">Le pitch cinéma</title>
+    <desc lang="fr">Le pitch cinéma.</desc>
+  </programme>
+  <programme start="20260125005500 +0000" stop="20260125021500 +0000" channel="FR - France 4">
+    <title lang="fr">-M- et Thibault Cauvin - L'heure miroir</title>
+    <desc lang="fr">-M- et Thibault Cauvin - L'heure miroir.</desc>
+  </programme>
+  <programme start="20260125021500 +0000" stop="20260125033500 +0000" channel="FR - France 4">
+    <title lang="fr">Les estivales de Culturebox</title>
+    <desc lang="fr">Sidiki Diabaté
+Les estivales de Culturebox.</desc>
+  </programme>
+  <programme start="20260125033500 +0000" stop="20260125040500 +0000" channel="FR - France 4">
+    <title lang="fr">Moonwalk</title>
+    <desc lang="fr">S3 E30 Rencontre avec Tayc
+Tayc raconte son incroyable histoire à Oumar : l'internat, chanter en cachette à Marseille, 3919, Monsieur Nov, le succès, être problématique, faire une chanson d'amour. Il offre une version acoustique de "Comme toi".</desc>
+  </programme>
+  <programme start="20260125040500 +0000" stop="20260125041800 +0000" channel="FR - France 4">
+    <title lang="fr">Foot 2 rue</title>
+    <desc lang="fr">S4 E2 Le premier match
+Pour leur premier match, les Bleus affrontent l'équipe favorite du tournoi : le FC Golmetti, au sein de laquelle joue Jérémy. Petit Dragon va tout faire pour gagner.</desc>
+  </programme>
+  <programme start="20260125041800 +0000" stop="20260125042500 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E54 Choco-nouilles
+Grizzy et les lemmings ont faim. Leur lutte pour un pot de yummy mène à sa destruction. Mais Grizzy va découvrir une manière ingénieuse de le récupérer.</desc>
+  </programme>
+  <programme start="20260125042500 +0000" stop="20260125044100 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E55 Durs à cuire
+Grizzy et les Lemmings, affamés, découvrent un temple dédié à une recette ancestrale de brioche. Il faut réunir trois ingrédients en or et les déposer sur l'autel.</desc>
+  </programme>
+  <programme start="20260125044100 +0000" stop="20260125044300 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E56 Intelligence artificielle, bêtise naturelle
+Un circuit intégré contenant une intelligence artificielle se connecte sur l'ourson en peluche de Grizzy qui prend vie tel un Pinocchio des temps modernes.</desc>
+  </programme>
+  <programme start="20260125044300 +0000" stop="20260125045400 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E57 Chacun pour soi
+Grizzy et les Lemmings se disputent un gros ver à soie qui permet de générer un fil élastique, incassable et très très doux, à l'infini.</desc>
+  </programme>
+  <programme start="20260125045400 +0000" stop="20260125045600 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E58 Allo Grizzy ? Ici lemmings !
+Les Lemmings trouvent une caisse de téléphones mobiles. Mais avant d'en profiter, il faut recharger les batteries. L'opération pompe le courant de la cabane.</desc>
+  </programme>
+  <programme start="20260125045600 +0000" stop="20260125050700 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E59 Criquet d'abondance
+Les Lemmings attrapent un criquet qui réalise les voeux. Pour cela, il suffit de le mettre sur sa tête en pensant très fort à ce qu'on souhaite.</desc>
+  </programme>
+  <programme start="20260125050700 +0000" stop="20260125050900 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E60 Bruit et lumière
+Les lemmings se sont découvert une nouvelle passion : les lanternes magiques chinoises dont ils se servent pour des spectacles de bruit et lumière.</desc>
+  </programme>
+  <programme start="20260125050900 +0000" stop="20260125052000 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E61 Héros malgré lui
+Les Lemmings mettent la main sur une console de jeu ancestrale qui permet de jouer en grandeur nature dans le monde réel. Des flux magiques sortent de la console.</desc>
+  </programme>
+  <programme start="20260125052000 +0000" stop="20260125052700 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E62 Haut les masques !
+Les Lemmings fouillent un triporteur abandonné rempli d'objets insolites lorsqu'ils font la découverte d'un trésor : des brioches chinoises fourrées aux Yummy.</desc>
+  </programme>
+  <programme start="20260125052700 +0000" stop="20260125052900 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E63 Problème à tiroirs
+Grizzy et les Lemmings se disputent un pot de Yummy qui se fait aspirer magiquement à l'intérieur d'une étrange stèle surmontée d'un casse-tête.</desc>
+  </programme>
+  <programme start="20260125052900 +0000" stop="20260125054000 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E64 Doubles ennuis
+Grizzy s'est procuré un super écran géant home cinéma qui transforme son documentaire préféré en une expérience son et lumières incroyable.</desc>
+  </programme>
+  <programme start="20260125054000 +0000" stop="20260125054200 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E65 Happy Birthday Grizzy !
+Grizzy a tout prévu pour son anniversaire, il compte le passer bien tranquille. Mais les Lemmings ont d'autres plans en tête pour célébrer l'événement.</desc>
+  </programme>
+  <programme start="20260125054200 +0000" stop="20260125055300 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S1 E1 Ours polaire
+Ecrasé par une chaleur étouffante, Grizzy cherche en vain un peu de fraicheur. Il s'installe dans le frigo pour retrouver une température supportable.</desc>
+  </programme>
+  <programme start="20260125055300 +0000" stop="20260125055500 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S1 E2 Ours à tartiner
+Ecrasé par une chaleur étouffante, Grizzy cherche en vain un peu de fraicheur. Il s'installe dans le frigo pour retrouver une température supportable.</desc>
+  </programme>
+  <programme start="20260125055500 +0000" stop="20260125060300 +0000" channel="FR - France 4">
+    <title lang="fr">Un jour, une question</title>
+    <desc lang="fr">S11 A quoi ça sert d'écrire ?
+Un jour, une question.</desc>
+  </programme>
+  <programme start="20260125060300 +0000" stop="20260125060400 +0000" channel="FR - France 4">
+    <title lang="fr">Oscar &amp; Malika, toujours en retard</title>
+    <desc lang="fr">S3 E43 La garde-tempête
+Face à la menace d'une violente tempête causée par le Nébuleux de Casper, Oscar et Malika partent en mission aérienne après l'alerte de Joséphine.</desc>
+  </programme>
+  <programme start="20260125060400 +0000" stop="20260125062400 +0000" channel="FR - France 4">
+    <title lang="fr">Oscar &amp; Malika, toujours en retard</title>
+    <desc lang="fr">S3 E1 La rose bleue
+Fahim, l'ancien génie de la lampe, est désespéré. Il veut offrir à sa bien aimée Mme Raifort une rose bleue, comme dans le conte des Mille et Une Nuit qu'elle préfère ! Sur une idée d'Oscar, le génie entraîne nos héros directement dans l'univers fantastique du conte. Ensemble, ils vont devoir réussir plusieurs épreuve pour trouver la rose bleue... A moins que ces épreuves aient un autre but.</desc>
+  </programme>
+  <programme start="20260125062400 +0000" stop="20260125062500 +0000" channel="FR - France 4">
+    <title lang="fr">Oscar &amp; Malika, toujours en retard</title>
+    <desc lang="fr">S3 E2 La télé réalité
+Oscar et Malika ont été kidnappés par des extra-terrestres fascinés par leurs aventures matinales. Tellement fascinés que Quotax, le.</desc>
+  </programme>
+  <programme start="20260125062500 +0000" stop="20260125064500 +0000" channel="FR - France 4">
+    <title lang="fr">Oscar &amp; Malika, toujours en retard</title>
+    <desc lang="fr">S3 E3 La Tresse de l'amitié
+Malika a confectionné une tresse de l'amitié pour Oscar ! Ils nouent la tresse et font un voeu qui se réalisera lorsque le bracelet se cassera.</desc>
+  </programme>
+  <programme start="20260125064500 +0000" stop="20260125064600 +0000" channel="FR - France 4">
+    <title lang="fr">Oscar &amp; Malika, toujours en retard</title>
+    <desc lang="fr">S3 E4 Les livres
+Oscar &amp; Malika, toujours en retard.</desc>
+  </programme>
+  <programme start="20260125064600 +0000" stop="20260125070600 +0000" channel="FR - France 4">
+    <title lang="fr">Oscar &amp; Malika, toujours en retard</title>
+    <desc lang="fr">S3 E5 La petite géante
+Emilie, une camarade de classe d'Oscar et Malika, est très complexée par sa grande taille. Oscar et Malika, même s'ils ne voient pas le problème, décident d'aider leur amie. Ils utilisent un rayon rétrecisseur du professeur Toybos... mais rien ne se passe comme prévu et Emilie se met à grandir jusqu'à devenir géante !</desc>
+  </programme>
+  <programme start="20260125070600 +0000" stop="20260125071900 +0000" channel="FR - France 4">
+    <title lang="fr">Oscar &amp; Malika, toujours en retard</title>
+    <desc lang="fr">S3 E6 La Valkyrie
+Deux Valkyries emmènent de force Suzie à Asgard afin qu'elle y accomplisse sa destinée : être une Valkyries, comme son ancêtre avant elle ! Oscar et Malika la suivent pour l'aider à faire un choix : suivre le destin que les dieux lui imposent ou trouver sa propre voie ?</desc>
+  </programme>
+  <programme start="20260125071900 +0000" stop="20260125074100 +0000" channel="FR - France 4">
+    <title lang="fr">Mystery Lane</title>
+    <desc lang="fr">S1 E9 L'adversaire invincible
+Quand l'inspecteur McFlare rencontre son agent, le Pigeon Paxton, qui est sur le point de lui révéler une information importante, ils sont tous deux attaqués.</desc>
+  </programme>
+  <programme start="20260125074100 +0000" stop="20260125075500 +0000" channel="FR - France 4">
+    <title lang="fr">Mystery Lane</title>
+    <desc lang="fr">S1 E10 Le gnome aux diamants
+Mystery Lane.</desc>
+  </programme>
+  <programme start="20260125075500 +0000" stop="20260125081100 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S1 E59 Lâche-moi les baskets
+Les lemmings ont découvert un nouveau jeu addictif basé sur les propriétés rebondissantes étonnantes des nouvelles chaussures de running du ranger. Grizzy, qui cherche à se détendre, confisque les chaussures et réalise bientôt qu'elle sont bien plus confortable à porter que ses tongues...</desc>
+  </programme>
+  <programme start="20260125081100 +0000" stop="20260125081300 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S1 E60 Baby-sitting
+Grizzy fait du baby-sitting pour l'ourse dont il est amoureux, qui lui a confié la garde de sa jeune oursonne. Pas question de faire un faux pas pour Grizzy qui ne veut prendre aucun risque. C'est sans compter les lemmings qui, subjugués par le rototo du bébé à la fin de son repas, rêvent de le gaver de soda pour lui faire faire le Big One, le rototo ultime...</desc>
+  </programme>
+  <programme start="20260125081300 +0000" stop="20260125082400 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S1 E61 Ours à double tour
+Pour ne pas avoir à partager, Grizzy enferme toute la nourriture, dont il raffole autant que les lemmings, dans le coffre fort flambant neuf et apparemment inviolable du ranger. Il s'amuse des vaines tentatives des lemmings pour ouvrir le coffre-fort, jusqu'à ce qu'il réalise que le cordon qui retient la clé autour de son cou est loin d'être indestructible...</desc>
+  </programme>
+  <programme start="20260125082400 +0000" stop="20260125083100 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S1 E62 Lemming blues
+Grizzy est impressionné par le show TV d'un magicien qui transforme une perdrix en bouquet de fleurs. Pour se débarrasser une bonne fois pour toutes des lemmings qui l'exaspèrent avec leurs jeux incessants, Grizzy tente le tour de magie sur eux...</desc>
+  </programme>
+  <programme start="20260125083100 +0000" stop="20260125083800 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S1 E63 Lemmings des neiges
+Grizzy et les lemmings.</desc>
+  </programme>
+  <programme start="20260125083800 +0000" stop="20260125084000 +0000" channel="FR - France 4">
+    <title lang="fr">La famille Weasy</title>
+    <desc lang="fr">S1 E28 Mission voleur
+Les canettes reprochent à Weasy d'avoir mangé toute la réserve de popcorns. Weasy dément : ce n'est pas lui ! Les filles ramènent de la ferme un nouveau paquet.</desc>
+  </programme>
+  <programme start="20260125084000 +0000" stop="20260125085100 +0000" channel="FR - France 4">
+    <title lang="fr">La famille Weasy</title>
+    <desc lang="fr">S1 E29 Mission protection
+Les filles font du rallye dans la jeep radiocommandée. Weasy, qui craint que ses affaires soient abimées par le véhicule, trace des zones interdites à la circulation.</desc>
+  </programme>
+  <programme start="20260125085100 +0000" stop="20260125085400 +0000" channel="FR - France 4">
+    <title lang="fr">La famille Weasy</title>
+    <desc lang="fr">S1 E30 Mission pirates
+Les filles ont assemblé des objets du grenier pour construire un impressionnant bateau à voile sur lequel elles jouent aux pirates. Weasy s'incruste dans leur jeu.</desc>
+  </programme>
+  <programme start="20260125085400 +0000" stop="20260125090600 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E46 Le toboggan
+Bingo et Lila sont impatientes de jouer sur leur nouveau toboggan à eau, mais elles doivent d'abord s'assurer de n'écraser aucun insecte.</desc>
+  </programme>
+  <programme start="20260125090600 +0000" stop="20260125090800 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S1 E1 Le xylophone magique
+Bluey et Bingo se querellent pour savoir qui utilisera le xylophone magique jusqu'à ce que Papa en prenne le contrôle et fige Bluey.</desc>
+  </programme>
+  <programme start="20260125090800 +0000" stop="20260125091900 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S1 E2 L'hôpital
+Bluey.</desc>
+  </programme>
+  <programme start="20260125091900 +0000" stop="20260125092000 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S1 E3 Reste en l'air
+Bluey.</desc>
+  </programme>
+  <programme start="20260125092000 +0000" stop="20260125093200 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S1 E45 Le jeu des enfants
+Bluey.</desc>
+  </programme>
+  <programme start="20260125093200 +0000" stop="20260125093400 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S1 E4 Papa Robot
+"Bob Bilby". C'est au tour de Bingo de s'occuper de Bob Bilby, l'animal de compagnie de Kindy. - "Le jeu d'espion". Bingo décide d'arrêter de jouer à un jeu et cela sème la zizanie. - "La livraison". Quand on doit patienter, cinq minutes peuvent paraître une éternité...</desc>
+  </programme>
+  <programme start="20260125093400 +0000" stop="20260125094500 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S1 E5 La terre à l'ombre
+Dans le parc, Bluey et ses amis jouent à "rester à l'ombre". Mais Coco ne cesse de tricher. Bluey doit lui montrer que le jeu est plus amusant si on respecte les règles.</desc>
+  </programme>
+  <programme start="20260125094500 +0000" stop="20260125095200 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S1 E6 Le week-end
+La visite de Honey chez le docteur Bingo est sans arrêt interrompue. Maman et papa créent leur propre machine à griffe magique et Bluey emmène avec elle l'argent que la petite souris lui a donné...</desc>
+  </programme>
+  <programme start="20260125095200 +0000" stop="20260125100000 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S1 E7 Le barbecue
+Bluey.</desc>
+  </programme>
+  <programme start="20260125100000 +0000" stop="20260125101000 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E52 Les As au volant
+Les Mandrills embêtent les Koalas et les empêchent de vivre tranquillement : le groupe qui gagnera la course de bolides restera. Mais les Mandrills vont tricher.</desc>
+  </programme>
+  <programme start="20260125101000 +0000" stop="20260125102100 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E18 La petite bouture des horreurs
+Marla une botaniste un peu dingue n'arrive pas à contrôler la plante carnivore qu'elle a créée et qui ne cesse de grandir. Les As de la Jungle vont devoir s'en débarrasser...</desc>
+  </programme>
+  <programme start="20260125102100 +0000" stop="20260125103200 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E19 Le fléau
+Des termites ont envahi la jungle. Elles détruisent les arbres, ce qui provoque des réactions en chaîne. Les animaux vont se plaindre auprès des As...</desc>
+  </programme>
+  <programme start="20260125103200 +0000" stop="20260125104000 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E20 Les aventuriers du groove perdu
+L'attitude de Tom a fini par agacer le duc. Pour le remettre dans le droit chemin il est envoyé faire un stage d'une semaine auprès de la garde royale. Entre temps c'est Boswell un chien de garde qui est chargé de surveiller la cuisine. Mais il s'allie avec les souris pour manger tout ce qu'il trouve. Heureusement Tom revient gonflé à bloc pour tout remettre en ordre !</desc>
+  </programme>
+  <programme start="20260125104000 +0000" stop="20260125105500 +0000" channel="FR - France 4">
+    <title lang="fr">Mission info</title>
+    <desc lang="fr">Mission info.</desc>
+  </programme>
+  <programme start="20260125105500 +0000" stop="20260125110500 +0000" channel="FR - France 4">
+    <title lang="fr">T'es au top</title>
+    <desc lang="fr">S1 E27 Bélinda : Je suis triste car mon papa est mort
+Malgré sa maturité, il arrive à Belinda d'être triste, surtout depuis que son papa est décédé. Mais elle n'aime pas en parler et évite le sujet avec sa maman.</desc>
+  </programme>
+  <programme start="20260125110500 +0000" stop="20260125111200 +0000" channel="FR - France 4">
+    <title lang="fr">Les Jeux de La Fontaine</title>
+    <desc lang="fr">S2 E2 Ovini, vidi, vici
+Un an après une terrible chute, Mouton affronte son traumatisme à l'épreuve de luge. Déterminé, il surmonte sa peur et s'élance pour remporter la victoire.</desc>
+  </programme>
+  <programme start="20260125111200 +0000" stop="20260125112300 +0000" channel="FR - France 4">
+    <title lang="fr">Les 3 Mousquetaires</title>
+    <desc lang="fr">S1 E12 Floridor
+Monsieur de Tréville vole des documents confidentiels dans le bureau de Richelieu devant plusieurs témoins. Arrêté et jeté au cachot, il crie son innocence.</desc>
+  </programme>
+  <programme start="20260125112300 +0000" stop="20260125113400 +0000" channel="FR - France 4">
+    <title lang="fr">Les 3 Mousquetaires</title>
+    <desc lang="fr">S1 E13 Les fantômes du Louvre
+Des bruits effrayants retentissent la nuit au Louvre. Charlotte et Louis XIII explorent alors les couloirs et tombent sur ce qui semble être un spectre en armure.</desc>
+  </programme>
+  <programme start="20260125113400 +0000" stop="20260125113700 +0000" channel="FR - France 4">
+    <title lang="fr">Les 3 Mousquetaires</title>
+    <desc lang="fr">S1 E14 La rançon
+Richelieu se fait enlever par un inconnu qui exige une somme exorbitante en échange de sa libération. La rançon doit être remise par le Roi en personne.</desc>
+  </programme>
+  <programme start="20260125113700 +0000" stop="20260125115000 +0000" channel="FR - France 4">
+    <title lang="fr">Potobot</title>
+    <desc lang="fr">S1 E47 L'enfant terrible
+Potobot veut devenir ami avec Lancelot, un affreux enfant gâté pour l'empêcher de devenir un gros pollueur. C'est le pire cauchemar de Chloé qui le déteste ! Mais quand ils se retrouvent perdus en forêt, ils doivent travailler ensemble pour survivre.</desc>
+  </programme>
+  <programme start="20260125115000 +0000" stop="20260125115900 +0000" channel="FR - France 4">
+    <title lang="fr">Potobot</title>
+    <desc lang="fr">S1 E28 L'oiseau rare
+Chloé et Potobot s'adjoignent l'aide de Matéo pour une collecte de don ! Le charisme du jeune skateur fait des miracles mais, loin de son milieu naturel, Matéo dépérit… Il va falloir choisir : sauver les perruches, ou sauver Matéo ?</desc>
+  </programme>
+  <programme start="20260125115900 +0000" stop="20260125121000 +0000" channel="FR - France 4">
+    <title lang="fr">Potobot</title>
+    <desc lang="fr">S1 E48 Promis ?
+Le monde de Potobot s'effondre lorsqu'il découvre que la plupart des gens mentent quand ça les arrange... C'est à dire souvent ! Mais Chloé lui apprend qu'un peu de mensonge peut parfois s'avérer très utile….</desc>
+  </programme>
+  <programme start="20260125121000 +0000" stop="20260125122000 +0000" channel="FR - France 4">
+    <title lang="fr">Potobot</title>
+    <desc lang="fr">S1 E1 Futur conjugué
+Chloé reçoit la visite de Potobot, un petit robot venu du futur qui lui demande son aide pour sauver le monde du réchauffement climatique. Ça ne va pas être de la tarte, mais Potobot en est certain : à eux deux, ils peuvent soulever des montagnes !</desc>
+  </programme>
+  <programme start="20260125122000 +0000" stop="20260125122400 +0000" channel="FR - France 4">
+    <title lang="fr">Un jour, une question</title>
+    <desc lang="fr">S11 A quoi ça sert d'écrire ?
+Un jour, une question.</desc>
+  </programme>
+  <programme start="20260125122400 +0000" stop="20260125123100 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E52 Cabane porte-clés
+Les Lemmings récupèrent un pot de Yummy dans un distributeur automatique mais ils n'ont pas le temps d'en profiter car Grizzy leur confisque.</desc>
+  </programme>
+  <programme start="20260125123100 +0000" stop="20260125124700 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E53 Muraille disco
+Grizzy est jaloux du nouveau jeu des lemmings : un tapis de danse connecté à la télé, sur lequel il faut sauter pour réaliser des enchainements de danse.</desc>
+  </programme>
+  <programme start="20260125124700 +0000" stop="20260125124900 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E54 Choco-nouilles
+Grizzy et les lemmings ont faim. Leur lutte pour un pot de yummy mène à sa destruction. Mais Grizzy va découvrir une manière ingénieuse de le récupérer.</desc>
+  </programme>
+  <programme start="20260125124900 +0000" stop="20260125130000 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E55 Durs à cuire
+Grizzy et les Lemmings, affamés, découvrent un temple dédié à une recette ancestrale de brioche. Il faut réunir trois ingrédients en or et les déposer sur l'autel.</desc>
+  </programme>
+  <programme start="20260125130000 +0000" stop="20260125130200 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E56 Intelligence artificielle, bêtise naturelle
+Un circuit intégré contenant une intelligence artificielle se connecte sur l'ourson en peluche de Grizzy qui prend vie tel un Pinocchio des temps modernes.</desc>
+  </programme>
+  <programme start="20260125130200 +0000" stop="20260125131300 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E57 Chacun pour soi
+Grizzy et les Lemmings se disputent un gros ver à soie qui permet de générer un fil élastique, incassable et très très doux, à l'infini.</desc>
+  </programme>
+  <programme start="20260125131300 +0000" stop="20260125131500 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E58 Allo Grizzy ? Ici lemmings !
+Les Lemmings trouvent une caisse de téléphones mobiles. Mais avant d'en profiter, il faut recharger les batteries. L'opération pompe le courant de la cabane.</desc>
+  </programme>
+  <programme start="20260125131500 +0000" stop="20260125132600 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E59 Criquet d'abondance
+Les Lemmings attrapent un criquet qui réalise les voeux. Pour cela, il suffit de le mettre sur sa tête en pensant très fort à ce qu'on souhaite.</desc>
+  </programme>
+  <programme start="20260125132600 +0000" stop="20260125133400 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S4 E60 Bruit et lumière
+Les lemmings se sont découvert une nouvelle passion : les lanternes magiques chinoises dont ils se servent pour des spectacles de bruit et lumière.</desc>
+  </programme>
+  <programme start="20260125133400 +0000" stop="20260125135600 +0000" channel="FR - France 4">
+    <title lang="fr">Mystery Lane</title>
+    <desc lang="fr">S1 E22 Le maître de la foudre
+Mystery Lane.</desc>
+  </programme>
+  <programme start="20260125135600 +0000" stop="20260125141800 +0000" channel="FR - France 4">
+    <title lang="fr">Mystery Lane</title>
+    <desc lang="fr">S1 E23 La gorgone de Regent's Park
+Mystery Lane.</desc>
+  </programme>
+  <programme start="20260125141800 +0000" stop="20260125143100 +0000" channel="FR - France 4">
+    <title lang="fr">Mystery Lane</title>
+    <desc lang="fr">S1 E24 Le spectre de Linford Street
+Mystery Lane.</desc>
+  </programme>
+  <programme start="20260125143100 +0000" stop="20260125144800 +0000" channel="FR - France 4">
+    <title lang="fr">La famille Weasy</title>
+    <desc lang="fr">S1 E36 Mission danse
+Weasy et les filles s'affrontent sur une borne d'arcade d'un jeu vidéo de danse. Le Tamia met un terme à leur rivalité en faisant le meilleur score au jeu.</desc>
+  </programme>
+  <programme start="20260125144800 +0000" stop="20260125145500 +0000" channel="FR - France 4">
+    <title lang="fr">La famille Weasy</title>
+    <desc lang="fr">S1 E37 Mission basketball
+Lors d'un match de basket-ball, Weasy perd contre les filles. Il décide de recruter le Tamia dans son équipe pour gagner son prochain match.</desc>
+  </programme>
+  <programme start="20260125145500 +0000" stop="20260125150000 +0000" channel="FR - France 4">
+    <title lang="fr">La famille Weasy</title>
+    <desc lang="fr">S1 E35 Mission pop-corn
+Weasy a pris l'habitude de grignoter des popcorns machinalement tout en regardant une vidéo. Il ne se rend pas compte qu'il prive ainsi les filles de leur petit déjeuner.</desc>
+  </programme>
+  <programme start="20260125150000 +0000" stop="20260125170200 +0000" channel="FR - France 4">
+    <title lang="fr">Fort Boyard</title>
+    <desc lang="fr">E8 Equipe Les Bonnes Fées
+Fort Boyard.</desc>
+  </programme>
+  <programme start="20260125170200 +0000" stop="20260125173700 +0000" channel="FR - France 4">
+    <title lang="fr">Gangnam project, l'aventure K-pop</title>
+    <desc lang="fr">S1 E1 Bienvenue à OME
+Lorsque Hannah débarque en Corée, elle ne s'attend pas à devenir la tutrice de l'une des "trainees" les plus talentueuses d'OME, Chan-Mi.</desc>
+  </programme>
+  <programme start="20260125173700 +0000" stop="20260125180000 +0000" channel="FR - France 4">
+    <title lang="fr">Gangnam project, l'aventure K-pop</title>
+    <desc lang="fr">S1 E2 K-flop
+Quand Ken incite Hannah à passer une journée dans la peau d'une stagiaire, elle a beaucoup de mal à garder l'équilibre.</desc>
+  </programme>
+  <programme start="20260125180000 +0000" stop="20260125182000 +0000" channel="FR - France 4">
+    <title lang="fr">Okoo-koo</title>
+    <desc lang="fr">Okoo-koo.</desc>
+  </programme>
+  <programme start="20260125182000 +0000" stop="20260125195500 +0000" channel="FR - France 4">
+    <title lang="fr">Imagine Dragons au château de Chambord</title>
+    <desc lang="fr">Imagine Dragons au château de Chambord.</desc>
+  </programme>
+  <programme start="20260125195500 +0000" stop="20260125200000 +0000" channel="FR - France 4">
+    <title lang="fr">Consomag</title>
+    <desc lang="fr">Comment éviter une intoxication au monoxyde de carbone ?
+Consomag.</desc>
+  </programme>
+  <programme start="20260125200000 +0000" stop="20260125213500 +0000" channel="FR - France 4">
+    <title lang="fr">Ma version de l'histoire</title>
+    <desc lang="fr">Valentine et Sam font une thérapie de couple. Sam n'a pas du tout envie d'être là. Valentine pense au contraire que c'est essentiel. Elle commence à raconter leur vie. Mais soudain, Sam s'insurge : ça ne s'est pas du tout passé comme ça ! Et il se met à raconter sa propre version des événements. C'est ainsi qu'ils se rendent compte qu'ils ont vécu 20 ans ensemble sans vivre la même histoire.</desc>
+  </programme>
+  <programme start="20260125213500 +0000" stop="20260125232000 +0000" channel="FR - France 4">
+    <title lang="fr">L'amour chez les autres</title>
+    <desc lang="fr">Fiona Foster et Bob Phillips entretiennent une liaison. La veille, ils sont rentrés dans leurs foyers respectifs trop tardivement et trop éméchés pour ne pas éveiller les soupçons de leurs conjoints. Pour se couvrir, ils décident de mentir en prétendant chacun avoir passé la soirée avec les Chestnut. Ignorant qu'ils servent d'alibi, les Chestnut sont invités à dîner chez les Foster et les Phillips.</desc>
+  </programme>
+  <programme start="20260125232000 +0000" stop="20260126004000 +0000" channel="FR - France 4">
+    <title lang="fr">Le manteau de Janis</title>
+    <desc lang="fr">A la suite d'un accident, Joseph se retrouve en fauteuil roulant. Par petite annonce, il recrute Mila, une jeune femme singulière et impertinente à qui il confie une mission mystérieuse et délicate. Au fil de la pièce, se révèlent les secrets qui relient ce duo improbable, que tout semble en apparence opposer.</desc>
+  </programme>
+  <programme start="20260126004000 +0000" stop="20260126005000 +0000" channel="FR - France 4">
+    <title lang="fr">L'essentiel de Basique</title>
+    <desc lang="fr">L'essentiel de Basique.</desc>
+  </programme>
+  <programme start="20260126005000 +0000" stop="20260126021500 +0000" channel="FR - France 4">
+    <title lang="fr">Hollywood Gala</title>
+    <desc lang="fr">Hollywood Gala.</desc>
+  </programme>
+  <programme start="20260126021500 +0000" stop="20260126034500 +0000" channel="FR - France 4">
+    <title lang="fr">Xmas Vybe</title>
+    <desc lang="fr">Xmas Vybe.</desc>
+  </programme>
+  <programme start="20260126034500 +0000" stop="20260126040500 +0000" channel="FR - France 4">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Gérard Cause : Bach suites doc.29
+Les matinales.</desc>
+  </programme>
+  <programme start="20260126040500 +0000" stop="20260126042600 +0000" channel="FR - France 4">
+    <title lang="fr">Foot 2 rue</title>
+    <desc lang="fr">S4 E3 Un coup dans le dos
+Les Bleus doivent affronter les "Spectres du Vieux Manoir". Depuis leur défaite face au FC Golmetti, l'ambiance au sein de l'équipe est électrique.</desc>
+  </programme>
+  <programme start="20260126042600 +0000" stop="20260126044800 +0000" channel="FR - France 4">
+    <title lang="fr">Foot 2 rue</title>
+    <desc lang="fr">S4 E4 Visite surprise
+Les Bleus doivent gagner leur prochain match contre les As de Coeur pour espérer rester dans la course à la victoire. Les parents de Kani viennent voir le match.</desc>
+  </programme>
+  <programme start="20260126044800 +0000" stop="20260126051000 +0000" channel="FR - France 4">
+    <title lang="fr">Foot 2 rue</title>
+    <desc lang="fr">S4 E5 Le grand saut
+Les Bleus affrontent les Torpilleurs sur un terrain quasiment posé sur la mer, mais Assâad a peur de l'eau, ce qui pose un problème de taille.</desc>
+  </programme>
+  <programme start="20260126051000 +0000" stop="20260126052300 +0000" channel="FR - France 4">
+    <title lang="fr">Foot 2 rue</title>
+    <desc lang="fr">S4 E6 L'abandon
+Les Bleus s'entraînent sur un sol glissant en vue de leur match à la patinoire contre les Pirates du Port. Bianca n'est pas du tout à l'aise.</desc>
+  </programme>
+  <programme start="20260126052300 +0000" stop="20260126054000 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S1 E3 Ours cellulaire
+La sieste de Grizzy est interrompue par une vibration agaçante. Il découvre sur le canapé le téléphone du garde-forestier, avec ses différentes fonctions, dont un jeu auquel il devient immédiatement accro...</desc>
+  </programme>
+  <programme start="20260126054000 +0000" stop="20260126054700 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S1 E4 Jurassic ours
+Un oeuf géant est découvert. Médusés, les lemmings assistent à l'éclosion d'un bébé dinosaure qui les considère immédiatement comme ses "mamans".</desc>
+  </programme>
+  <programme start="20260126054700 +0000" stop="20260126055400 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S2 E3 Ours embarqué
+Les Lemmings utilisent leur nouveau drone pour tenter de voler le goûter de Grizzy, et entraînent celui-ci dans une course folle en pleine nature.</desc>
+  </programme>
+  <programme start="20260126055400 +0000" stop="20260126060000 +0000" channel="FR - France 4">
+    <title lang="fr">Végétosaures</title>
+    <desc lang="fr">S1 E8 Attention, digestion !
+Gourmande, Ginger est amatrice de baies, mais elle doit faire attention à les manger bien mûres sinon elle risque d'avoir mal au ventre.</desc>
+  </programme>
+  <programme start="20260126060000 +0000" stop="20260126060300 +0000" channel="FR - France 4">
+    <title lang="fr">Un jour, une question</title>
+    <desc lang="fr">S12 E741 C'est où le Groenland ?
+1 jour 1 question est un programme d'actualité produit par des journalistes jeunesse qui répond aux questions d'enfants. Illustré par des dessins de presse, il traite avec humour de questions d'actu comme la guerre, le climat, la santé...</desc>
+  </programme>
+  <programme start="20260126060300 +0000" stop="20260126060400 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S3 E13 Le jour de l'indépendance de Mélina
+Comme chaque année, le jour de l'anniversaire de sa rencontre avec Gilbert, Mélina est de retour avec un plan machiavélique pour régner sur la jungle.</desc>
+  </programme>
+  <programme start="20260126060400 +0000" stop="20260126062400 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S3 E14 La dernière grotte sur la gauche
+Junior s'éloigne et retrouve son amie Lola, qui a aussi fui les disputes des adultes. En jouant, ils tombent sur un trio de taupes voleuses de fruits.</desc>
+  </programme>
+  <programme start="20260126062400 +0000" stop="20260126062500 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S3 E15 Il était une fois dans la Jungle
+Les as de la jungle à la rescousse.</desc>
+  </programme>
+  <programme start="20260126062500 +0000" stop="20260126064500 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S3 E16 On a dit pas les mamans
+Les as de la jungle à la rescousse.</desc>
+  </programme>
+  <programme start="20260126064500 +0000" stop="20260126064700 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S3 E17 Irrésistible
+Les as de la jungle à la rescousse.</desc>
+  </programme>
+  <programme start="20260126064700 +0000" stop="20260126070800 +0000" channel="FR - France 4">
+    <title lang="fr">Angelo la débrouille</title>
+    <desc lang="fr">S3 E19 Le chouchou du prof
+Angelo la débrouille.</desc>
+  </programme>
+  <programme start="20260126070800 +0000" stop="20260126071900 +0000" channel="FR - France 4">
+    <title lang="fr">Angelo la débrouille</title>
+    <desc lang="fr">S3 E20 Répétition secrète
+Angelo la débrouille.</desc>
+  </programme>
+  <programme start="20260126071900 +0000" stop="20260126073000 +0000" channel="FR - France 4">
+    <title lang="fr">Angelo la débrouille</title>
+    <desc lang="fr">S3 E21 Un cadeau de trop
+Angelo la débrouille.</desc>
+  </programme>
+  <programme start="20260126073000 +0000" stop="20260126074100 +0000" channel="FR - France 4">
+    <title lang="fr">Angelo la débrouille</title>
+    <desc lang="fr">S3 E22 Du rock à l'école !
+Angelo la débrouille.</desc>
+  </programme>
+  <programme start="20260126074100 +0000" stop="20260126074200 +0000" channel="FR - France 4">
+    <title lang="fr">Angelo la débrouille</title>
+    <desc lang="fr">S3 E23 Angelo magicien
+Angelo la débrouille.</desc>
+  </programme>
+  <programme start="20260126074200 +0000" stop="20260126075500 +0000" channel="FR - France 4">
+    <title lang="fr">Angelo la débrouille</title>
+    <desc lang="fr">S3 E24 Que la farce soit avec toi
+Angelo la débrouille.</desc>
+  </programme>
+  <programme start="20260126075500 +0000" stop="20260126080000 +0000" channel="FR - France 4">
+    <title lang="fr">Les métiers</title>
+    <desc lang="fr">S1 E16 Architecte
+Entre plans, travaux et inaugurations de bâtiments, Bernard part à la découverte du métier d'architecte, une profession technique et créative.</desc>
+  </programme>
+  <programme start="20260126080000 +0000" stop="20260126081000 +0000" channel="FR - France 4">
+    <title lang="fr">Les expériences scientifiques de CTPS</title>
+    <desc lang="fr">Crée des courants marins !
+Eline et Cécile t'apprennent à créer des courants marins à la maison ! L'occasion de découvrir le Gulf Stream ou encore la notion de densité...</desc>
+  </programme>
+  <programme start="20260126081000 +0000" stop="20260126081700 +0000" channel="FR - France 4">
+    <title lang="fr">Les Dalton</title>
+    <desc lang="fr">S4 E3 Les Dalton se ballonnent
+Les Dalton.</desc>
+  </programme>
+  <programme start="20260126081700 +0000" stop="20260126081900 +0000" channel="FR - France 4">
+    <title lang="fr">Les Dalton</title>
+    <desc lang="fr">S4 E1 Au frais les Dalton !
+Les Dalton.</desc>
+  </programme>
+  <programme start="20260126081900 +0000" stop="20260126083000 +0000" channel="FR - France 4">
+    <title lang="fr">Les Dalton</title>
+    <desc lang="fr">S4 E4 Le justicier masqué
+Les Dalton.</desc>
+  </programme>
+  <programme start="20260126083000 +0000" stop="20260126083600 +0000" channel="FR - France 4">
+    <title lang="fr">Les Dalton</title>
+    <desc lang="fr">S4 E5 Averell qui valait super cher
+Les Dalton.</desc>
+  </programme>
+  <programme start="20260126083600 +0000" stop="20260126084300 +0000" channel="FR - France 4">
+    <title lang="fr">Les Dalton</title>
+    <desc lang="fr">S4 E6 Au vol
+Les Dalton.</desc>
+  </programme>
+  <programme start="20260126084300 +0000" stop="20260126085000 +0000" channel="FR - France 4">
+    <title lang="fr">Les Dalton</title>
+    <desc lang="fr">S4 E7 Un paradis d'enfer
+Les Dalton.</desc>
+  </programme>
+  <programme start="20260126085000 +0000" stop="20260126090000 +0000" channel="FR - France 4">
+    <title lang="fr">Les Dalton</title>
+    <desc lang="fr">S4 E8 Les Dalton rient à pleines dents
+Les Dalton.</desc>
+  </programme>
+  <programme start="20260126090000 +0000" stop="20260126090400 +0000" channel="FR - France 4">
+    <title lang="fr">Un jour, une question</title>
+    <desc lang="fr">S12 E741 C'est où le Groenland ?
+1 jour 1 question est un programme d'actualité produit par des journalistes jeunesse qui répond aux questions d'enfants. Illustré par des dessins de presse, il traite avec humour de questions d'actu comme la guerre, le climat, la santé...</desc>
+  </programme>
+  <programme start="20260126090400 +0000" stop="20260126092400 +0000" channel="FR - France 4">
+    <title lang="fr">Il était une fois... la vie</title>
+    <desc lang="fr">S1 E7 Le coeur
+Le coeur, qui pèse en moyenne trois cents grammes, débite cinq litres de sang à la minute et près de deux cent millions durant une vie d'homme.</desc>
+  </programme>
+  <programme start="20260126092400 +0000" stop="20260126094500 +0000" channel="FR - France 4">
+    <title lang="fr">Il était une fois... la vie</title>
+    <desc lang="fr">S1 E8 La respiration
+Lors d'un effort physique comme une course à pied, le sang échange le gaz carbonique rejeté par les cellules contre l'oxygène, le carburant.</desc>
+  </programme>
+  <programme start="20260126094500 +0000" stop="20260126095100 +0000" channel="FR - France 4">
+    <title lang="fr">Manger, bouger, dormir</title>
+    <desc lang="fr">E4 Manger, bouger, dormir.</desc>
+  </programme>
+  <programme start="20260126095100 +0000" stop="20260126095300 +0000" channel="FR - France 4">
+    <title lang="fr">Shaun le mouton</title>
+    <desc lang="fr">S7 E6 Abeilles rebelles
+Lorsque le fermier retire sa combinaison d'apiculteur, les abeilles interviennent et, sous forme humaine, voient la vie sous un tout nouveau jour.</desc>
+  </programme>
+  <programme start="20260126095300 +0000" stop="20260126100400 +0000" channel="FR - France 4">
+    <title lang="fr">Shaun le mouton</title>
+    <desc lang="fr">S7 E7 Sabots à la mode
+Shaun devient par hasard créateur de tendances, mais ne tarde pas à réaliser que l'univers de la mode change vite. Il doit se donner beaucoup de mal pour rester dans le vent.</desc>
+  </programme>
+  <programme start="20260126100400 +0000" stop="20260126101100 +0000" channel="FR - France 4">
+    <title lang="fr">Shaun le mouton</title>
+    <desc lang="fr">S2 E13 Le nouveau chapeau de Bitzer
+Le fermier offre à Bitzer un nouveau chapeau particulièrement laid. Le chien est déprimé : il adorait son vieux couvre-chef...</desc>
+  </programme>
+  <programme start="20260126101100 +0000" stop="20260126101200 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E21 Les marais
+L'oeuf des toucans est tombé au fond de l'eau, dans un marais, et il faut le récupérer avant qu'il n'éclose...</desc>
+  </programme>
+  <programme start="20260126101200 +0000" stop="20260126103200 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E22 Les 5 Taos du tonnerre
+Hector l'échidné vieux maître de Kung Fu à la fois aveugle et sourd, vient demander de l'aide aux As : les mandrills tentent de voler les cinq taos du tonnerre.</desc>
+  </programme>
+  <programme start="20260126103200 +0000" stop="20260126103300 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E23 Vol au-dessus d'un nid de salades
+Depuis plusieurs semaines des salades disparaissent à la maison de retraite des tortues. Le vieux Karapas, qui perd la mémoire, vient demander de l'aide aux As.</desc>
+  </programme>
+  <programme start="20260126103300 +0000" stop="20260126104000 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle : en direct</title>
+    <desc lang="fr">S1 E17 Le spectacle de magie
+Al et Bob s'élèvent contre la pêche aux insectes industrielle que mènent les araignées avec leurs grandes toiles...</desc>
+  </programme>
+  <programme start="20260126104000 +0000" stop="20260126104800 +0000" channel="FR - France 4">
+    <title lang="fr">Les Jeux de La Fontaine</title>
+    <desc lang="fr">S2 E3 Un problème de transmission sur la piste
+Lors d'une épreuve de patinage artistique, Lapine tente le quadruple axel. Soutenue par Louve, ancienne championne venue lui transmettre son secret, elle réussit la figure.</desc>
+  </programme>
+  <programme start="20260126104800 +0000" stop="20260126105900 +0000" channel="FR - France 4">
+    <title lang="fr">Les 3 Mousquetaires</title>
+    <desc lang="fr">S1 E15 L'art de la fugue
+Après s'être évadé de prison, Grippe-Tout veut mettre la main sur un objet qui appartient au roi. Sous les traits de D'Artagnan, Charlotte se lance à sa poursuite.</desc>
+  </programme>
+  <programme start="20260126105900 +0000" stop="20260126111000 +0000" channel="FR - France 4">
+    <title lang="fr">Les 3 Mousquetaires</title>
+    <desc lang="fr">S1 E16 Rien que pour vos oeufs
+Le Roi organise un concours du meilleur chocolatier de Paris. L'unique candidat - Gaston de Ganache - intrigue d'Artagnan et les trois Mousquetaires.</desc>
+  </programme>
+  <programme start="20260126111000 +0000" stop="20260126112100 +0000" channel="FR - France 4">
+    <title lang="fr">Les 3 Mousquetaires</title>
+    <desc lang="fr">S1 E17 La chasse au canard
+Louis XIII veut publier un poème en l'honneur des souverains d'Europe. Mais Adémar de l'Adandur charge Milady d'échanger le texte avec un pamphlet qui ridiculise rois et reines.</desc>
+  </programme>
+  <programme start="20260126112100 +0000" stop="20260126112400 +0000" channel="FR - France 4">
+    <title lang="fr">Les 3 Mousquetaires</title>
+    <desc lang="fr">S1 E18 Tout ce qui brille n'est pas de l'or
+Pour améliorer son tempo au combat, d'Artagnan assiste à un concert de luth donné par Lady Lala. Mais la diva semble très intéressée par Samuel de Plaindert.</desc>
+  </programme>
+  <programme start="20260126112400 +0000" stop="20260126114500 +0000" channel="FR - France 4">
+    <title lang="fr">Potobot</title>
+    <desc lang="fr">S1 E49 Off
+Rassemblant son courage, Potobot enregistre un message vidéo pour Chloé afin de lui avouer un secret qui lui pèse depuis longtemps….</desc>
+  </programme>
+  <programme start="20260126114500 +0000" stop="20260126122000 +0000" channel="FR - France 4">
+    <title lang="fr">Potobot</title>
+    <desc lang="fr">S1 E52 Futur imparfait
+Chloé, une préado de 12 ans un peu désenchantée, voit débarquer dans sa vie Potobot, un improbable robot venu du futur ! Il a une grande mission pour elle : changer le monde - une bonne action à la fois - pour que l'avenir devienne un monde meilleur ! Ça va pas être de la tarte, mais Potobot en est certain : à eux deux, ils peuvent soulever des montagnes ! ... Ou au moins planter quelques arbres !</desc>
+  </programme>
+  <programme start="20260126122000 +0000" stop="20260126122500 +0000" channel="FR - France 4">
+    <title lang="fr">Okoo-koo</title>
+    <desc lang="fr">Okoo-koo.</desc>
+  </programme>
+  <programme start="20260126122500 +0000" stop="20260126125500 +0000" channel="FR - France 4">
+    <title lang="fr">C'est toujours pas sorcier</title>
+    <desc lang="fr">S1 E8 Homo sapiens, le dernier survivant
+Cécile, Mathieu et Max découvrent des ossements dans une boîte et tentent d'en découvir l'origine. Mathieu fait analyser le crâne au musée de l'Homme de Paris ou il apprend que plusieurs espèces d'humains ont vécu sur Terre. Pendant ce temps, Cécile se rend en Dordogne pour vivre à la façon des hommes de Cro-Magnon.</desc>
+  </programme>
+  <programme start="20260126125500 +0000" stop="20260126125800 +0000" channel="FR - France 4">
+    <title lang="fr">Un jour, une question</title>
+    <desc lang="fr">S12 E741 C'est où le Groenland ?
+1 jour 1 question est un programme d'actualité produit par des journalistes jeunesse qui répond aux questions d'enfants. Illustré par des dessins de presse, il traite avec humour de questions d'actu comme la guerre, le climat, la santé...</desc>
+  </programme>
+  <programme start="20260126125800 +0000" stop="20260126130700 +0000" channel="FR - France 4">
+    <title lang="fr">ASKIP</title>
+    <desc lang="fr">S3 E1 Le jour des nouveaux
+ASKIP.</desc>
+  </programme>
+  <programme start="20260126130700 +0000" stop="20260126132500 +0000" channel="FR - France 4">
+    <title lang="fr">ASKIP</title>
+    <desc lang="fr">S3 E2 Le jour de la disparition des notes
+ASKIP.</desc>
+  </programme>
+  <programme start="20260126132500 +0000" stop="20260126134500 +0000" channel="FR - France 4">
+    <title lang="fr">Presque populaires</title>
+    <desc lang="fr">S1 E13 Mission Bat Mitzvah
+La Bat Mitzvah de Lydia approche, ce qui signifie qu'elle a l'occasion d'organiser une fête grandiose.</desc>
+  </programme>
+  <programme start="20260126134500 +0000" stop="20260126140700 +0000" channel="FR - France 4">
+    <title lang="fr">Scooby-Doo, Mystères Associés</title>
+    <desc lang="fr">S1 E25 La créature de l'ombre
+Les archives de l'université de Darrow sont hantées. L'équipe de Mystères et associés vont devoir combattre Monsieur "E" pour mettre à jour la vérité.</desc>
+  </programme>
+  <programme start="20260126140700 +0000" stop="20260126141900 +0000" channel="FR - France 4">
+    <title lang="fr">Scooby-Doo, Mystères Associés</title>
+    <desc lang="fr">S1 E26 Le vrai visage du monstre
+Alors que tout le monde court après le disque planisphérique, les membres de Mystères Associés se font prendre en train de fouiller le bureau du Maire Jones.</desc>
+  </programme>
+  <programme start="20260126141900 +0000" stop="20260126144000 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E40 Qui a volé la tapette à mouche ?
+Sam a été sélectionnée pour la finale d'un grand quiz de culture générale. Mais alors qu'elle révise à la médiathèque, quelqu'un dérobe la tapette à mouche de JC.</desc>
+  </programme>
+  <programme start="20260126144000 +0000" stop="20260126145100 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E41 Mon ami Internet
+M. Brick décide de remettre au goût du jour une vieille tradition de l'école : la quête de la Chaussette d'Or. Il s'agit d'une chasse au trésor dans la forêt.</desc>
+  </programme>
+  <programme start="20260126145100 +0000" stop="20260126150200 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E42 Goold old Mo
+Mo et Rodolf sont trop jeunes pour voir le film qu'ils attendent depuis longtemps. Pour y remédier, Mo fait appel au pouvoir de vieillir, mais l'inverse se produit.</desc>
+  </programme>
+  <programme start="20260126150200 +0000" stop="20260126151300 +0000" channel="FR - France 4">
+    <title lang="fr">Molusco</title>
+    <desc lang="fr">S1 E24 Huîtrellose
+Molusco.</desc>
+  </programme>
+  <programme start="20260126151300 +0000" stop="20260126151400 +0000" channel="FR - France 4">
+    <title lang="fr">Molusco</title>
+    <desc lang="fr">S1 E25 L'amour donne des ailes
+Molusco.</desc>
+  </programme>
+  <programme start="20260126151400 +0000" stop="20260126153400 +0000" channel="FR - France 4">
+    <title lang="fr">Molusco</title>
+    <desc lang="fr">S1 E26 Le déménagement
+Molusco.</desc>
+  </programme>
+  <programme start="20260126153400 +0000" stop="20260126154600 +0000" channel="FR - France 4">
+    <title lang="fr">Molusco</title>
+    <desc lang="fr">S1 E27 Molusca
+Molusco.</desc>
+  </programme>
+  <programme start="20260126154600 +0000" stop="20260126160800 +0000" channel="FR - France 4">
+    <title lang="fr">Mystery Lane</title>
+    <desc lang="fr">S1 E14 La menace oubliée
+Mystery Lane.</desc>
+  </programme>
+  <programme start="20260126160800 +0000" stop="20260126162500 +0000" channel="FR - France 4">
+    <title lang="fr">Mystery Lane</title>
+    <desc lang="fr">S1 E15 La horde secrète
+Mystery Lane.</desc>
+  </programme>
+  <programme start="20260126162500 +0000" stop="20260126165000 +0000" channel="FR - France 4">
+    <title lang="fr">Okoo-koo</title>
+    <desc lang="fr">Emission du 26 janvier 2026
+Okoo-koo est l'émission d'accueil et de divertissement avec une pointe de pédagogie, portée par une bande de jeunes animateurs : Manon, Julia, Karim et Jason.</desc>
+  </programme>
+  <programme start="20260126165000 +0000" stop="20260126183300 +0000" channel="FR - France 4">
+    <title lang="fr">Handball : Euro masculin  ᴺᵉʷ</title>
+    <desc lang="fr">Espagne v France
+Dans ce groupe 1 du Tour principal qui s'annonce assez relevé sur le papier, les Bleus se mesurent maintenant aux Espagnols qui avancent dans le tournoi avec beaucoup d'ambitions.</desc>
+    <new />
+  </programme>
+  <programme start="20260126183300 +0000" stop="20260126191800 +0000" channel="FR - France 4">
+    <title lang="fr">Les maternelles XXL</title>
+    <desc lang="fr">Les maternelles XXL.</desc>
+  </programme>
+  <programme start="20260126191800 +0000" stop="20260126195000 +0000" channel="FR - France 4">
+    <title lang="fr">Les maternelles XXL</title>
+    <desc lang="fr">Les maternelles XXL.</desc>
+  </programme>
+  <programme start="20260126195000 +0000" stop="20260126195500 +0000" channel="FR - France 4">
+    <title lang="fr">Consomag</title>
+    <desc lang="fr">Peut-on faire confiance aux publicités sur les compléments alimentaires ?
+Consomag.</desc>
+  </programme>
+  <programme start="20260126195500 +0000" stop="20260126200000 +0000" channel="FR - France 4">
+    <title lang="fr">Planète Rap la quotidienne</title>
+    <desc lang="fr">R2
+Animation : Fred Musa Production : Prod et Cie Planète Rap La Quotidienne débarque sur france.tv ! France Télévisions poursuit son engagement pour les cultures urbaines en proposant des formats courts quotidiens incarnés par Fred Musa. Interviews d'artistes, décryptage, portraits, Planète Rap La Quotidienne, c'est l'émission de toutes les cultures urbaines à la fois feel good, ludique et dynamique.</desc>
+  </programme>
+  <programme start="20260126200000 +0000" stop="20260126213000 +0000" channel="FR - France 4">
+    <title lang="fr">Les trésors du Paris de la Belle Epoque</title>
+    <desc lang="fr">De 1880 à 1914, une génération d'artistes arrive du monde entier à Paris pour exprimer sa créativité. Le Paris de cette époque façonne l'image de la Parisienne.</desc>
+  </programme>
+  <programme start="20260126213000 +0000" stop="20260126222500 +0000" channel="FR - France 4">
+    <title lang="fr">Les métamorphoses du Grand Palais</title>
+    <desc lang="fr">Alors que le Grand Palais, célèbre monument parisien, connaît la plus importante rénovation de son histoire, gros plan sur ce chantier et sur ceux du passé.</desc>
+  </programme>
+  <programme start="20260126222500 +0000" stop="20260127002000 +0000" channel="FR - France 4">
+    <title lang="fr">Une journée avec Balavoine</title>
+    <desc lang="fr">Une journée avec Balavoine.</desc>
+  </programme>
+  <programme start="20260127002000 +0000" stop="20260127002500 +0000" channel="FR - France 4">
+    <title lang="fr">Oh ! Biz'Art</title>
+    <desc lang="fr">Le jaune
+Oh ! Biz'Art.</desc>
+  </programme>
+  <programme start="20260127002500 +0000" stop="20260127021000 +0000" channel="FR - France 4">
+    <title lang="fr">Casse-Noisette</title>
+    <desc lang="fr">Un soir de Noël, la jeune Clara se voit offrir un pantin inanimé, un casse-noisette. Alors qu'elle le tient dans ses bras, elle s'endort et rêve d'un univers fantasque où les jouets et les peurs prennent vie. Guidée par le pantin de bois devenu prince charmant, Clara affronte ses désirs et ses angoisses au fil d'un récit initiatique. Au milieu de soldats de plomb, de rats et de poupées à la taille démesurée, le monde de l'enfance devient ballet.</desc>
+  </programme>
+  <programme start="20260127021000 +0000" stop="20260127034000 +0000" channel="FR - France 4">
+    <title lang="fr">Les Folies Gruss, 50 ans à Paris</title>
+    <desc lang="fr">Les Folies Gruss, 50 ans à Paris.</desc>
+  </programme>
+  <programme start="20260127034000 +0000" stop="20260127040000 +0000" channel="FR - France 4">
+    <title lang="fr">Moonwalk</title>
+    <desc lang="fr">S1 E2 Coeur de pirate
+Oumar a rencontré Coeur de Pirate : enfance, succès, engagements, musique, la chanteuse québécoise revient sur son parcours dans "Moonwalk".</desc>
+  </programme>
+  <programme start="20260127040000 +0000" stop="20260127045500 +0000" channel="FR - France 4">
+    <title lang="fr">Sam le pompier : alerte extraterrestre !</title>
+    <desc lang="fr">Quand des OVNIs sont aperçus dans le ciel de Pontypandy et provoquent la panique des habitants, Sam et ses amis décident de résoudre ce mystère.</desc>
+  </programme>
+  <programme start="20260127045500 +0000" stop="20260127052500 +0000" channel="FR - France 4">
+    <title lang="fr">C'est toujours pas sorcier</title>
+    <desc lang="fr">S1 E10 Manger, digérer : l'aventure intérieure
+Max, Mathieu et Cécile se sentent mal après avoir fini leur repas. Cela les pousse à s'interroger sur l'influence des aliments sur l'humeur et la santé.</desc>
+  </programme>
+  <programme start="20260127052500 +0000" stop="20260127055500 +0000" channel="FR - France 4">
+    <title lang="fr">L'armure de Jade</title>
+    <desc lang="fr">S2 E14 La nouvelle Jade
+Alors que toutes les Jades du passé sont appréciées pour leurs qualités, Jade 8 est qualifiée de "Spéciale" par Malik Melki. Vexée, elle cherche à redorer son image.</desc>
+  </programme>
+  <programme start="20260127055500 +0000" stop="20260127055900 +0000" channel="FR - France 4">
+    <title lang="fr">Un jour, une question</title>
+    <desc lang="fr">C'est qui Squeezie ?
+Un jour, une question.</desc>
+  </programme>
+  <programme start="20260127055900 +0000" stop="20260127060000 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S3 E18 Le cinquième aimant
+Les as de la jungle à la rescousse.</desc>
+  </programme>
+  <programme start="20260127060000 +0000" stop="20260127062000 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S3 E19 Le choc des tisanes
+Les as de la jungle à la rescousse.</desc>
+  </programme>
+  <programme start="20260127062000 +0000" stop="20260127062100 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S3 E20 Princesse monochromée
+Les as de la jungle à la rescousse.</desc>
+  </programme>
+  <programme start="20260127062100 +0000" stop="20260127064100 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S3 E21 Le surfer d'argan
+Les as de la jungle à la rescousse.</desc>
+  </programme>
+  <programme start="20260127064100 +0000" stop="20260127064300 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S3 E22 Orange organique
+Les as de la jungle à la rescousse.</desc>
+  </programme>
+  <programme start="20260127064300 +0000" stop="20260127070400 +0000" channel="FR - France 4">
+    <title lang="fr">Angelo la débrouille</title>
+    <desc lang="fr">S3 E25 Plus de colocataire !
+Angelo la débrouille.</desc>
+  </programme>
+  <programme start="20260127070400 +0000" stop="20260127071500 +0000" channel="FR - France 4">
+    <title lang="fr">Angelo la débrouille</title>
+    <desc lang="fr">S3 E26 Maman fait du yoga
+Angelo la débrouille.</desc>
+  </programme>
+  <programme start="20260127071500 +0000" stop="20260127071600 +0000" channel="FR - France 4">
+    <title lang="fr">Angelo la débrouille</title>
+    <desc lang="fr">S3 E27 La révélation de Bertrand-François
+Angelo la débrouille.</desc>
+  </programme>
+  <programme start="20260127071600 +0000" stop="20260127073600 +0000" channel="FR - France 4">
+    <title lang="fr">Angelo la débrouille</title>
+    <desc lang="fr">S3 E28 Vive l'indépendance !
+Angelo la débrouille.</desc>
+  </programme>
+  <programme start="20260127073600 +0000" stop="20260127074700 +0000" channel="FR - France 4">
+    <title lang="fr">Angelo la débrouille</title>
+    <desc lang="fr">S3 E29 Le coup de bol
+Angelo la débrouille.</desc>
+  </programme>
+  <programme start="20260127074700 +0000" stop="20260127075500 +0000" channel="FR - France 4">
+    <title lang="fr">Angelo la débrouille</title>
+    <desc lang="fr">S3 E30 Parents mode d'emploi
+Angelo la débrouille.</desc>
+  </programme>
+  <programme start="20260127075500 +0000" stop="20260127080000 +0000" channel="FR - France 4">
+    <title lang="fr">Les métiers</title>
+    <desc lang="fr">S1 E29 Artiste peintre
+Artiste peintre : c'est quoi en fait ? Bernard fait la connaissance de ce papa qui a fait de son talent et de sa passion un métier formidable.</desc>
+  </programme>
+  <programme start="20260127080000 +0000" stop="20260127080500 +0000" channel="FR - France 4">
+    <title lang="fr">Les expériences scientifiques de CTPS</title>
+    <desc lang="fr">Fais entrer un œuf... dans une bouteille !
+Roman et Kimi font rentrer un œuf dans une bouteille ! Fais cette expérience chez toi pour comprendre le phénomène de pression.</desc>
+  </programme>
+  <programme start="20260127080500 +0000" stop="20260127080700 +0000" channel="FR - France 4">
+    <title lang="fr">Les Dalton</title>
+    <desc lang="fr">S4 E9 La fée Dalton
+Les Dalton.</desc>
+  </programme>
+  <programme start="20260127080700 +0000" stop="20260127081800 +0000" channel="FR - France 4">
+    <title lang="fr">Les Dalton</title>
+    <desc lang="fr">S4 E10 Pénitencier Palace Hôtel
+Les Dalton.</desc>
+  </programme>
+  <programme start="20260127081800 +0000" stop="20260127082000 +0000" channel="FR - France 4">
+    <title lang="fr">Les Dalton</title>
+    <desc lang="fr">S4 E11 Les Dalton déménagent
+Les Dalton.</desc>
+  </programme>
+  <programme start="20260127082000 +0000" stop="20260127083100 +0000" channel="FR - France 4">
+    <title lang="fr">Les Dalton</title>
+    <desc lang="fr">S4 E12 Traitement de choc
+Les Dalton.</desc>
+  </programme>
+  <programme start="20260127083100 +0000" stop="20260127083300 +0000" channel="FR - France 4">
+    <title lang="fr">Les Dalton</title>
+    <desc lang="fr">S4 E13 Ce bon vieux Joe
+Les Dalton.</desc>
+  </programme>
+  <programme start="20260127083300 +0000" stop="20260127084400 +0000" channel="FR - France 4">
+    <title lang="fr">Les Dalton</title>
+    <desc lang="fr">S4 E15 Mauvaises graines
+Les Dalton.</desc>
+  </programme>
+  <programme start="20260127084400 +0000" stop="20260127085000 +0000" channel="FR - France 4">
+    <title lang="fr">Les Dalton</title>
+    <desc lang="fr">S4 E14 Un grain de sable pour les Dalton
+Les Dalton.</desc>
+  </programme>
+  <programme start="20260127085000 +0000" stop="20260127085400 +0000" channel="FR - France 4">
+    <title lang="fr">Un jour, une question</title>
+    <desc lang="fr">C'est qui Squeezie ?
+Un jour, une question.</desc>
+  </programme>
+  <programme start="20260127085400 +0000" stop="20260127091900 +0000" channel="FR - France 4">
+    <title lang="fr">Il était une fois... la vie</title>
+    <desc lang="fr">S1 E9 Le cerveau
+Maestro initie Hémo et Globine au plus mystérieux des organes du corps humain : le cerveau. Il leur montre sa structure extrêmement complexe.</desc>
+  </programme>
+  <programme start="20260127091900 +0000" stop="20260127094500 +0000" channel="FR - France 4">
+    <title lang="fr">Il était une fois... la vie</title>
+    <desc lang="fr">S1 E10 Les neurones
+Découverte des neurones qui constituent l'unité fonctionnelle du système nerveux.</desc>
+  </programme>
+  <programme start="20260127094500 +0000" stop="20260127094700 +0000" channel="FR - France 4">
+    <title lang="fr">Manger, bouger, dormir</title>
+    <desc lang="fr">E5 Manger, bouger, dormir.</desc>
+  </programme>
+  <programme start="20260127094700 +0000" stop="20260127094900 +0000" channel="FR - France 4">
+    <title lang="fr">Shaun le mouton</title>
+    <desc lang="fr">S7 E8 Balle folle
+Le fermier charge Bitzer de mettre en balles une nouvelle meule de foin, mais les moutons affamés se sont cachés à l'intérieur et sont transformés en balles mobiles.</desc>
+  </programme>
+  <programme start="20260127094900 +0000" stop="20260127100000 +0000" channel="FR - France 4">
+    <title lang="fr">Shaun le mouton</title>
+    <desc lang="fr">S7 E9 Coup de sifflet
+Réalisant que Bitzer possède une série de sifflets qui peuvent contrôler les mouvements du troupeau, Shaun les vole et fait bientôt danser le troupeau sur son air.</desc>
+  </programme>
+  <programme start="20260127100000 +0000" stop="20260127100700 +0000" channel="FR - France 4">
+    <title lang="fr">Shaun le mouton</title>
+    <desc lang="fr">S2 E14 La petite souris
+Une adorable petite souris se promène dans la ferme. Elle terrorise involontairement le fermier, qui lance alors Pidsley à ses trousses...</desc>
+  </programme>
+  <programme start="20260127100700 +0000" stop="20260127101800 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E24 Papa Miguel
+L'oeuf d'un colibri éclot devant la grotte des As. Le petit Colibri pense que Miguel est son papa, et celui-ci développe un instinct paternel très fort pour le colibri.</desc>
+  </programme>
+  <programme start="20260127101800 +0000" stop="20260127101900 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E21 Sept minutes chrono
+Ernest le kiwi voulait juste se faire chauffer de l'eau pour sa tisane, dans le volcan des As...</desc>
+  </programme>
+  <programme start="20260127101900 +0000" stop="20260127102900 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle à la rescousse</title>
+    <desc lang="fr">S1 E26 Mission pas possible
+Les As ont été intoxiqués par une recette d'Al et Bob, sauf Al et Bob. Le signal se déclenche, Al et Bob acceptent d'aider Ferdinant le suricate.</desc>
+  </programme>
+  <programme start="20260127102900 +0000" stop="20260127104000 +0000" channel="FR - France 4">
+    <title lang="fr">Les as de la jungle : en direct</title>
+    <desc lang="fr">S1 E18 La peur du noir
+Batricia est une chauve-souris un peu spéciale. En effet, elle a peur du noir...</desc>
+  </programme>
+  <programme start="20260127104000 +0000" stop="20260127104400 +0000" channel="FR - France 4">
+    <title lang="fr">Les Jeux de La Fontaine</title>
+    <desc lang="fr">S2 E4 Finalement c'est hockey
+Charlotte est passionnée de para-hockey sur luge. Léo accepte de s'initier à son sport favori. Préoccupé par les collisions, il finit par découvrir un jeu intense.</desc>
+  </programme>
+  <programme start="20260127104400 +0000" stop="20260127105500 +0000" channel="FR - France 4">
+    <title lang="fr">Les 3 Mousquetaires</title>
+    <desc lang="fr">S1 E19 Duel de danse
+Richelieu énumère au Roi les menuets qui rythmeront le prochain bal. Le Roi décide d'organiser un duel de danse pour décider quelle danse y sera à l'honneur.</desc>
+  </programme>
+  <programme start="20260127105500 +0000" stop="20260127110600 +0000" channel="FR - France 4">
+    <title lang="fr">Les 3 Mousquetaires</title>
+    <desc lang="fr">S1 E20 Les bottes secrètes
+D'Artagnan et les Mousquetaires vont se voir offrir le manuel d'un maître d'armes légendaire, mais il est volé par Milady qui souhaite l'échanger contre un titre de noblesse.</desc>
+  </programme>
+  <programme start="20260127110600 +0000" stop="20260127111800 +0000" channel="FR - France 4">
+    <title lang="fr">Les 3 Mousquetaires</title>
+    <desc lang="fr">S1 E21 La fusée du roi
+Le Roi demande à Samuel de Plaindert d'organiser un feu d'artifice. Rustignac décide de se déguiser et de prendre la place de l'alchimiste au Louvre.</desc>
+  </programme>
+  <programme start="20260127111800 +0000" stop="20260127112000 +0000" channel="FR - France 4">
+    <title lang="fr">Les 3 Mousquetaires</title>
+    <desc lang="fr">S1 E22 Le retour de Milady
+Prête à découvrir l'identité des Trois Mousquetaires, Milady prépare une fausse attaque. Sauvée par Athos et d'Artagnan, elle se dit en danger.</desc>
+  </programme>
+  <programme start="20260127112000 +0000" stop="20260127114100 +0000" channel="FR - France 4">
+    <title lang="fr">Potobot</title>
+    <desc lang="fr">S1 E2 Nos drôles d'invitées
+Les deux amis doivent recueillir des chenilles repoussantes pour les protéger des gelées tardives. Chloé manifeste son dégoût pour les chenilles.</desc>
+  </programme>
+  <programme start="20260127114100 +0000" stop="20260127114200 +0000" channel="FR - France 4">
+    <title lang="fr">Potobot</title>
+    <desc lang="fr">S1 E3 Tomates et prises de choux
+Chloé et Potobot font un tutoriel vidéo de jardinage pour débutants. A force de vouloir tout contrôler, Chloé trouve qu'il commence à lui courir sur le haricot.</desc>
+  </programme>
+  <programme start="20260127114200 +0000" stop="20260127120200 +0000" channel="FR - France 4">
+    <title lang="fr">Potobot</title>
+    <desc lang="fr">S1 E4 Mission pas super facile
+Chloé rêve de plus d'adrénaline. Lorsque Potobot et elle détectent des activités suspicieuses provenant de l'usine voisine, elle le convainc d'enquêter.</desc>
+  </programme>
+  <programme start="20260127120200 +0000" stop="20260127122000 +0000" channel="FR - France 4">
+    <title lang="fr">Potobot</title>
+    <desc lang="fr">S1 E5 Skateur bot
+Chloé doit gagner un concours de skateboard pour empêcher un futur désastre climatique. N'ayant pas le niveau, Potobot devient son coach de skate.</desc>
+  </programme>
+  <programme start="20260127122000 +0000" stop="20260127122500 +0000" channel="FR - France 4">
+    <title lang="fr">Okoo-koo</title>
+    <desc lang="fr">Okoo-koo.</desc>
+  </programme>
+  <programme start="20260127122500 +0000" stop="20260127125000 +0000" channel="FR - France 4">
+    <title lang="fr">C'est toujours pas sorcier</title>
+    <desc lang="fr">S2 E2 Mesurer le temps
+C'est toujours pas sorcier 10/01 : Mesurer le temps (prog) Max, Cécile et Mathieu explorent des thèmes inédits qui intriguent petits et grands depuis la cabane qui leur sert d'atelier. Apprendre en s'amusant n 'a jamais été aussi simple !</desc>
+  </programme>
+  <programme start="20260127125000 +0000" stop="20260127125100 +0000" channel="FR - France 4">
+    <title lang="fr">Un jour, une question</title>
+    <desc lang="fr">C'est qui Squeezie ?
+Un jour, une question.</desc>
+  </programme>
+  <programme start="20260127125100 +0000" stop="20260127130400 +0000" channel="FR - France 4">
+    <title lang="fr">ASKIP</title>
+    <desc lang="fr">S3 E3 Le jour de la cantine bio
+ASKIP.</desc>
+  </programme>
+  <programme start="20260127130400 +0000" stop="20260127132500 +0000" channel="FR - France 4">
+    <title lang="fr">ASKIP</title>
+    <desc lang="fr">S3 E4 Le jour de la canicule
+ASKIP.</desc>
+  </programme>
+  <programme start="20260127132500 +0000" stop="20260127134300 +0000" channel="FR - France 4">
+    <title lang="fr">Presque populaires</title>
+    <desc lang="fr">S1 E14 Elections présidentielles
+Il est temps pour Mapleview d'élire le président des élèves !</desc>
+  </programme>
+  <programme start="20260127134300 +0000" stop="20260127140400 +0000" channel="FR - France 4">
+    <title lang="fr">Scooby-Doo, Mystères Associés</title>
+    <desc lang="fr">S2 E1 La nuit du clown triste
+Alors que Fred essaie de reconquérir le coeur de Daphné, un clown pleureur se livre à de mystérieux enlèvements et Monsieur E menace toujours la ville.</desc>
+  </programme>
+  <programme start="20260127140400 +0000" stop="20260127141800 +0000" channel="FR - France 4">
+    <title lang="fr">Scooby-Doo, Mystères Associés</title>
+    <desc lang="fr">S2 E3 La nuit du clown triste 2 : les larmes de la nuit
+Fred, Daphne Blake, Vera Dinkley, Norville "Sammy" Rogers et Scooby-Doo forment un groupe d'adolescents qui résolvent des énigmes liées à des phénomènes paranormaux. Ils vivent dans la petite ville de Crystal Cove, l'endroit le plus hanté sur Terre...</desc>
+  </programme>
+  <programme start="20260127141800 +0000" stop="20260127142900 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E43 Un jour de colle
+Pour intégrer le Robot Club, Mo doit résoudre un casse-tête. Il fait appel au pouvoir de la colle, mais il marche trop bien, au point de faire coller à lui tout ce qu'il touche.</desc>
+  </programme>
+  <programme start="20260127142900 +0000" stop="20260127144900 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E44 Mo Tout-Puissant
+Pour réduire son nombre d'heures de colle, Mo doit faire un grand nombre de bonnes actions. Pour aller plus vite, il demande au Sceptre le pouvoir d'avoir tous les pouvoirs.</desc>
+  </programme>
+  <programme start="20260127144900 +0000" stop="20260127145100 +0000" channel="FR - France 4">
+    <title lang="fr">Héros à moitié</title>
+    <desc lang="fr">S1 E45 Coup de mou
+Sam est persuadée que sa maman serait très déçue de ne pas participer au Familimbo avec elle. Mais autant l'une que l'autre sont raides comme des enclumes.</desc>
+  </programme>
+  <programme start="20260127145100 +0000" stop="20260127151200 +0000" channel="FR - France 4">
+    <title lang="fr">Molusco</title>
+    <desc lang="fr">S1 E28 Démasqué
+Molusco.</desc>
+  </programme>
+  <programme start="20260127151200 +0000" stop="20260127151300 +0000" channel="FR - France 4">
+    <title lang="fr">Molusco</title>
+    <desc lang="fr">S1 E29 Dans ta farce
+Molusco.</desc>
+  </programme>
+  <programme start="20260127151300 +0000" stop="20260127153300 +0000" channel="FR - France 4">
+    <title lang="fr">Molusco</title>
+    <desc lang="fr">S1 E30 L'invasion des crustacés
+Molusco.</desc>
+  </programme>
+  <programme start="20260127153300 +0000" stop="20260127154600 +0000" channel="FR - France 4">
+    <title lang="fr">Molusco</title>
+    <desc lang="fr">S1 E32 Un nez d'artiste
+Molusco.</desc>
+  </programme>
+  <programme start="20260127154600 +0000" stop="20260127160800 +0000" channel="FR - France 4">
+    <title lang="fr">Mystery Lane</title>
+    <desc lang="fr">S1 E16 Le vampire de Lexington
+Mystery Lane.</desc>
+  </programme>
+  <programme start="20260127160800 +0000" stop="20260127162100 +0000" channel="FR - France 4">
+    <title lang="fr">Mystery Lane</title>
+    <desc lang="fr">S1 E17 La volière hantée
+Mystery Lane.</desc>
+  </programme>
+  <programme start="20260127162100 +0000" stop="20260127163900 +0000" channel="FR - France 4">
+    <title lang="fr">Okoo-koo</title>
+    <desc lang="fr">Emission du 27 janvier 2026
+Okoo-koo est l'émission d'accueil et de divertissement avec une pointe de pédagogie, portée par une bande de jeunes animateurs : Manon, Julia, Karim et Jason.</desc>
+  </programme>
+  <programme start="20260127163900 +0000" stop="20260127165200 +0000" channel="FR - France 4">
+    <title lang="fr">Les aventures de Pil</title>
+    <desc lang="fr">S1 E8 Un cadeau explosif
+Roc-en-Brume accueille la reine de Brexitony. Isabeau met en place un plan diabolique pour prendre le trône.</desc>
+  </programme>
+  <programme start="20260127165200 +0000" stop="20260127165500 +0000" channel="FR - France 4">
+    <title lang="fr">Les aventures de Pil</title>
+    <desc lang="fr">S1 E9 La mamie géante
+Quand Gisèle mange un plat de haricots magiques et qu'elle devient géante, Rigolin comprend qu'elle est la seule capable de défendre Roc-en-Brume contre le terrible Drac.</desc>
+  </programme>
+  <programme start="20260127165500 +0000" stop="20260127171100 +0000" channel="FR - France 4">
+    <title lang="fr">Okoo-koo</title>
+    <desc lang="fr">Emission du 27 janvier 2026
+Okoo-koo est l'émission d'accueil et de divertissement avec une pointe de pédagogie, portée par une bande de jeunes animateurs : Manon, Julia, Karim et Jason.</desc>
+  </programme>
+  <programme start="20260127171100 +0000" stop="20260127172400 +0000" channel="FR - France 4">
+    <title lang="fr">Les aventures de Pil</title>
+    <desc lang="fr">S1 E10 Pil au trésor
+Crobar et Rigolin organisent une chasse au trésor surprise pour Pil. Mais un quiproquo envoie cette dernière sur la piste d'un vrai trésor, caché dans un volcan truffé de pièges.</desc>
+  </programme>
+  <programme start="20260127172400 +0000" stop="20260127172700 +0000" channel="FR - France 4">
+    <title lang="fr">Les aventures de Pil</title>
+    <desc lang="fr">S1 E11 Le vilain Babau
+Pil et ses amis s'aventurent dans une vieille mine abandonnée où est censé vivre un terrible dragon. Mais le monstre s'avère être un inoffensif bébé à peine sorti de l'oeuf.</desc>
+  </programme>
+  <programme start="20260127172700 +0000" stop="20260127173500 +0000" channel="FR - France 4">
+    <title lang="fr">Okoo-koo</title>
+    <desc lang="fr">Emission du 27 janvier 2026
+Okoo-koo est l'émission d'accueil et de divertissement avec une pointe de pédagogie, portée par une bande de jeunes animateurs : Manon, Julia, Karim et Jason.</desc>
+  </programme>
+  <programme start="20260127173500 +0000" stop="20260127175100 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E19 Les livreuses de pizzas
+Bluey et Bingo fabriquent des pizzas et les livrent aux adultes, mais la roue de leur voiture à pédales n'arrête pas de tomber.</desc>
+  </programme>
+  <programme start="20260127175100 +0000" stop="20260127175300 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E20 En voiture
+N'ayant que cinq minutes pour jouer à "En voiture", Bluey et Maman entament une course contre la montre pour aller acheter le lait exigé par une invitée grincheuse et tentent d'échapper à un commerçant en colère.</desc>
+  </programme>
+  <programme start="20260127175300 +0000" stop="20260127180400 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E21 Tina
+Bingo et Bluey en ont assez qu'on leur donne des ordres. Elles font donc appel à la géante Tina, leur amie invisible, pour montrer à leurs parents qui commande. Elles peuvent désormais faire ce qu'elles veulent, jusqu'au moment où Maman et Papa se rebellent.</desc>
+  </programme>
+  <programme start="20260127180400 +0000" stop="20260127181000 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E22 L'observation des baleines
+Bluey promet à sa cliente Bingo "la meilleure visite de tous les temps" en jouant à l'observation des baleines, mais il faut que Papa et Maman participent.</desc>
+  </programme>
+  <programme start="20260127181000 +0000" stop="20260127181200 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E23 L'appel vidéo
+Bluey et Bingo adorent chatter par vidéo avec Muffin et Socks afin de toutes dessiner ensemble. Lorsque Muffin ne veut pas laisser son tour à Socks, les enfants découvrent ce qui se passe quand on ne veut pas partager.</desc>
+  </programme>
+  <programme start="20260127181200 +0000" stop="20260127182300 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E24 La poupée de chiffon
+Papa accepte d'emmener Bluey et Bingo manger une glace si elles arrivent à le faire entrer dans la voiture. Le problème, c'est qu'il s'est transformé en "poupée de chiffon".</desc>
+  </programme>
+  <programme start="20260127182300 +0000" stop="20260127182900 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E25 Le conte de fée
+Papa raconte un véritable conte de fée à Bluey et Bingo. Ce conte, qui se passe à une époque étrange appelée les années 80, parle d'un garçon qui a été maudit.</desc>
+  </programme>
+  <programme start="20260127182900 +0000" stop="20260127183800 +0000" channel="FR - France 4">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">S3 E26 Bisou tout doux
+Bluey et Bingo veulent que papa leur soit totalement disponible, jusqu'à ce qu'ils découvrent qu'il a des habitudes dégoûtantes.</desc>
+  </programme>
+  <programme start="20260127183800 +0000" stop="20260127191900 +0000" channel="FR - France 4">
+    <title lang="fr">Les maternelles XXL</title>
+    <desc lang="fr">Les maternelles XXL.</desc>
+  </programme>
+  <programme start="20260127191900 +0000" stop="20260127195000 +0000" channel="FR - France 4">
+    <title lang="fr">Les maternelles XXL</title>
+    <desc lang="fr">Les maternelles XXL.</desc>
+  </programme>
+  <programme start="20260127195000 +0000" stop="20260127195500 +0000" channel="FR - France 4">
+    <title lang="fr">Consomag</title>
+    <desc lang="fr">Les assurances voyage ou annulation sont-elles des options utiles à prendre ?
+Consomag.</desc>
+  </programme>
+  <programme start="20260127195500 +0000" stop="20260127200000 +0000" channel="FR - France 4">
+    <title lang="fr">Planète Rap la quotidienne</title>
+    <desc lang="fr">Gaba
+Animation : Fred Musa Production : Prod et Cie Planète Rap La Quotidienne débarque sur france.tv ! France Télévisions poursuit son engagement pour les cultures urbaines en proposant des formats courts quotidiens incarnés par Fred Musa. Interviews d'artistes, décryptage, portraits, Planète Rap La Quotidienne, c'est l'émission de toutes les cultures urbaines à la fois feel good, ludique et dynamique.</desc>
+  </programme>
+  <programme start="20260127200000 +0000" stop="20260127213000 +0000" channel="FR - France 4">
+    <title lang="fr">Le prix du succès</title>
+    <desc lang="fr">Un comédien de stand-up, promis à un brillant avenir, subit la pression de son grand frère, son manager instable et furieux d'être mis sur la touche.</desc>
+  </programme>
+  <programme start="20260127213000 +0000" stop="20260127230000 +0000" channel="FR - France 4">
+    <title lang="fr">Stand up et down</title>
+    <desc lang="fr">Les comedy-clubs fleurissent à Paris, et les nouveaux talents comiques éclosent en continu, à tel point que la ville est devenue la capitale européenne du stand-up.</desc>
+  </programme>
+  <programme start="20260127230000 +0000" stop="20260128000000 +0000" channel="FR - France 4">
+    <title lang="fr">Hakim Jemili : Super</title>
+    <desc lang="fr">Hakim Jemili : Super.</desc>
+  </programme>
+  <programme start="20260128000000 +0000" stop="20260128010500 +0000" channel="FR - France 4">
+    <title lang="fr">Manu Chao et Radio Bemba Sound System</title>
+    <desc lang="fr">Manu Chao et Radio Bemba Sound System.</desc>
+  </programme>
+  <programme start="20260128010500 +0000" stop="20260128022500 +0000" channel="FR - France 4">
+    <title lang="fr">Youssou N'Dour et le Super Etoile de Dakar au Rio Loco</title>
+    <desc lang="fr">Youssou N'Dour et le Super Etoile de Dakar au Rio Loco.</desc>
+  </programme>
+  <programme start="20260128022500 +0000" stop="20260128023000 +0000" channel="FR - France 4">
+    <title lang="fr">Modules culture prime</title>
+    <desc lang="fr">Qui est Josepha, le modèle noir du Palais de la Porte-Dorée ?
+Modules culture prime.</desc>
+  </programme>
+  <programme start="20260128023000 +0000" stop="20260128035000 +0000" channel="FR - France 4">
+    <title lang="fr">Kintsugi par la compagnie Machine de Cirque</title>
+    <desc lang="fr">Kintsugi par la compagnie Machine de Cirque.</desc>
+  </programme>
+  <programme start="20260128035000 +0000" stop="20260128040000 +0000" channel="FR - France 4">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Les matinales.</desc>
+  </programme>
+  <programme start="20260128040000 +0000" stop="20260128041000 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S2 E4 Ours de jouvence
+Les Lemmings trouvent une mare de jouvence. Ils pulvérisent son eau sur Grizzy qui devient un ourson inoffensif, mais l'effet est temporaire.</desc>
+  </programme>
+  <programme start="20260128041000 +0000" stop="20260128042000 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S2 E5 Lemmings à bloc
+Grizzy cadenasse le placard à nourriture, mais les Lemmings trouvent des mini blocs de construction pour fabriquer un marteau et d'autres objets.</desc>
+  </programme>
+  <programme start="20260128042000 +0000" stop="20260128042500 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S2 E6 Ours intemporel
+Une amulette magique projette Grizzy et les Lemmings dans une ère préhistorique, où des dinosaures affamés et de drôles de créatures les attendent.</desc>
+  </programme>
+  <programme start="20260128042500 +0000" stop="20260128043500 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S2 E7 Ours irrésistible
+Grizzy veut utiliser un philtre d'amour pour trouver une compagne. Mais un caribou en boit une gorgée et jette son dévolu sur lui, entre autres.</desc>
+  </programme>
+  <programme start="20260128043500 +0000" stop="20260128044000 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S2 E8 Mouche à Yummy
+Les Lemmings remarquent que Grizzy s'éloigne du pot de chocolat lorsqu'il chasse une mouche; mais les Lemmings n'arrivent jamais à atteindre le pot.</desc>
+  </programme>
+  <programme start="20260128044000 +0000" stop="20260128045000 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S2 E9 Appel d'ours
+Grizzy découvre la collection d'appels d'oiseaux du ranger; après avoir soufflé un des sifflets, il attire un groupe de perdrix qui suit tous ses ordres.</desc>
+  </programme>
+  <programme start="20260128045000 +0000" stop="20260128050000 +0000" channel="FR - France 4">
+    <title lang="fr">Grizzy et les lemmings</title>
+    <desc lang="fr">S2 E10 Ours sans gravité
+Grizzy et les Lemmings font une bêtise avec de la pâte à tartiner qui va endommager une station spatiale, mais ils parviennent à annuler la gravité.</desc>
+  </programme>
+  <programme start="20260124001500 +0000" stop="20260124015000 +0000" channel="FR - France 2">
+    <title lang="fr">César Wagner</title>
+    <desc lang="fr">S1 E10 Les raisins de la Koehler
+Alors qu'une grande foire aux vins, se déroule dans un haut jardin du château du Haut-Koenigsbourg, près de Sélestat, un célèbre oenologue est retrouvé mort.</desc>
+  </programme>
+  <programme start="20260124015000 +0000" stop="20260124024500 +0000" channel="FR - France 2">
+    <title lang="fr">Ça commence aujourd'hui</title>
+    <desc lang="fr">S9 E73 Infirmière, médecin, sage-femme : ils se sont retrouvés à la place de leurs patients
+Tous les jours, Faustine BOLLAERT accueille sur le plateau de \" Ca commence aujourd'hui \" des hommes et des femmes qui viennent témoigner sur une période de leur vie, un drame, une épreuve, un cap à passer ou un changement, et qui font souvent écho à de grands sujets de société. Entourée d'experts : psychologues, psychiatres, avocats, gynécologue, Faustine aide les témoins et les téléspectateurs à mieux comprendre ce qu'ils ont vécu.</desc>
+  </programme>
+  <programme start="20260124024500 +0000" stop="20260124032800 +0000" channel="FR - France 2">
+    <title lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</title>
+    <desc lang="fr">Affaire conclue, tout le monde a quelque chose à vendre.</desc>
+  </programme>
+  <programme start="20260124032800 +0000" stop="20260124033000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo climat outre-mer</title>
+    <desc lang="fr">Journal Météo climat outre-mer.</desc>
+  </programme>
+  <programme start="20260124033000 +0000" stop="20260124035500 +0000" channel="FR - France 2">
+    <title lang="fr">Courant d'art</title>
+    <desc lang="fr">Polynésie : art et divinités
+Une découverte d'objets d'art polynésiens évoquant différentes divinités et croyances locales : des oeuvres très différentes des styles occidentaux.</desc>
+  </programme>
+  <programme start="20260124035500 +0000" stop="20260124040500 +0000" channel="FR - France 2">
+    <title lang="fr">La civilisation des arbres</title>
+    <desc lang="fr">Le vrai visage des trognes
+Les trognes ou arbres têtards sont les noms qui qualifient les arbres dont la tête a été coupé dans leur jeune âge.</desc>
+  </programme>
+  <programme start="20260124040500 +0000" stop="20260124050000 +0000" channel="FR - France 2">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Quiz de culture générale au cours duquel 6 candidats vont tenter chaque jour de déloger le champion en titre (qui accumule les gains d'émission en émission) et de prendre sa place. C'est le champion en titre qui choisit le thème des questions en finale.</desc>
+  </programme>
+  <programme start="20260124050000 +0000" stop="20260124053000 +0000" channel="FR - France 2">
+    <title lang="fr">Le 6h info  ᴺᵉʷ</title>
+    <desc lang="fr">Le 6h info.</desc>
+    <new />
+  </programme>
+  <programme start="20260124053000 +0000" stop="20260124070000 +0000" channel="FR - France 2">
+    <title lang="fr">Télématin  ᴺᵉʷ</title>
+    <desc lang="fr">Télématin.</desc>
+    <new />
+  </programme>
+  <programme start="20260124070000 +0000" stop="20260124073000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal 08h00  ᴺᵉʷ</title>
+    <desc lang="fr">Journal 08h00.</desc>
+    <new />
+  </programme>
+  <programme start="20260124073000 +0000" stop="20260124083100 +0000" channel="FR - France 2">
+    <title lang="fr">Télématin  ᴺᵉʷ</title>
+    <desc lang="fr">Télématin.</desc>
+    <new />
+  </programme>
+  <programme start="20260124083100 +0000" stop="20260124094000 +0000" channel="FR - France 2">
+    <title lang="fr">Bel et bien</title>
+    <desc lang="fr">S6 Les femmes les grandes oubliées de la médecine
+Emission de bien-être dédiée à l'amélioration de la vie quotidienne, de la santé, de la psychologie et du développement personnel. Conseils et informations pour mieux vivre et prendre soin aussi bien de soi que des autres.</desc>
+  </programme>
+  <programme start="20260124094000 +0000" stop="20260124095000 +0000" channel="FR - France 2">
+    <title lang="fr">Consomag</title>
+    <desc lang="fr">Peut-on s'unir pour agir en justice quand on est plusieurs à subir le même dommage ?
+Consomag.</desc>
+  </programme>
+  <programme start="20260124095000 +0000" stop="20260124103000 +0000" channel="FR - France 2">
+    <title lang="fr">Chacun son tour</title>
+    <desc lang="fr">Chacun son tour.</desc>
+  </programme>
+  <programme start="20260124103000 +0000" stop="20260124110000 +0000" channel="FR - France 2">
+    <title lang="fr">Chacun son tour</title>
+    <desc lang="fr">Chacun son tour.</desc>
+  </programme>
+  <programme start="20260124110000 +0000" stop="20260124115500 +0000" channel="FR - France 2">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Quiz de culture générale au cours duquel 6 candidats vont tenter chaque jour de déloger le champion en titre (qui accumule les gains d'émission en émission) et de prendre sa place. C'est le champion en titre qui choisit le thème des questions en finale.</desc>
+  </programme>
+  <programme start="20260124115500 +0000" stop="20260124120000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260124120000 +0000" stop="20260124122000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal 13h00  ᴺᵉʷ</title>
+    <desc lang="fr">Journal 13h00.</desc>
+    <new />
+  </programme>
+  <programme start="20260124122000 +0000" stop="20260124125500 +0000" channel="FR - France 2">
+    <title lang="fr">13h15, le samedi...</title>
+    <desc lang="fr">13H15 LE SAMEDI 2026.</desc>
+  </programme>
+  <programme start="20260124125500 +0000" stop="20260124130000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260124130000 +0000" stop="20260124130500 +0000" channel="FR - France 2">
+    <title lang="fr">C'est bon à savoir</title>
+    <desc lang="fr">L'agroécologie, comment ça marche ?
+C'est bon à savoir.</desc>
+  </programme>
+  <programme start="20260124130500 +0000" stop="20260124140000 +0000" channel="FR - France 2">
+    <title lang="fr">Au bout de l'enquête, la fin du crime parfait ?</title>
+    <desc lang="fr">S6 Affaire Jean-Jacques Lepage
+Le 24 juillet 2009, les pompiers interviennent sur l'incendie d'une villa à Plougonvelin, dans le Finistère. Ils découvrent le corps de Jean-Jacques Le Page, un retraité de 67 ans. Les premières expertises révèlent que l'homme a été assassiné à coups de couteau. Les enquêteurs auront fort à faire pour démasquer l'auteur de ce crime.</desc>
+  </programme>
+  <programme start="20260124140000 +0000" stop="20260124150000 +0000" channel="FR - France 2">
+    <title lang="fr">Au bout de l'enquête, la fin du crime parfait ?</title>
+    <desc lang="fr">S6 Affaire Antoine Cionini
+Le 13 février 1996, à Marseille, Anne-Marie Allaix a été tuée de plusieurs balles dans la tête par son époux Antoine Cionini, chauffeur de taxi en demande de divorce.</desc>
+  </programme>
+  <programme start="20260124150000 +0000" stop="20260124155800 +0000" channel="FR - France 2">
+    <title lang="fr">Au bout de l'enquête, la fin du crime parfait ?</title>
+    <desc lang="fr">S5 E14 Affaire Bruno Joushomme : La place du mort
+28 février 1985, sur une petite route de la forêt de Meudon près de Paris, une 2CV est en feu. A l'intérieur, Evelyne, 61 ans, ne survivra pas à l'incendie. Son mari Bruno s'en sort indemne et c'est vers lui que va se diriger l'enquête. Bruno Joushomme sera finalement condamné à la prison à perpétuité pour l'assassinat de sa femme. Aujourd'hui libre, il clame toujours son innocence, et témoigne pour la première fois à la télévision.</desc>
+  </programme>
+  <programme start="20260124155800 +0000" stop="20260124165500 +0000" channel="FR - France 2">
+    <title lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</title>
+    <desc lang="fr">Affaire conclue, tout le monde a quelque chose à vendre.</desc>
+  </programme>
+  <programme start="20260124165500 +0000" stop="20260124170000 +0000" channel="FR - France 2">
+    <title lang="fr">Affaire conclue : la vie des objets</title>
+    <desc lang="fr">Affaire conclue : la vie des objets.</desc>
+  </programme>
+  <programme start="20260124170000 +0000" stop="20260124173500 +0000" channel="FR - France 2">
+    <title lang="fr">Tout le monde a son mot à dire</title>
+    <desc lang="fr">Émission quotidienne pour jouer avec la langue française et enrichir sa culture générale. Autour de Sidonie Bonnec et Bruno Guillon, 2 équipes jouent en répondant à des questions. Chacune est constituée d'un candidat, épaulé par 2 personnalités : humoristes, comédiens, journalistes...</desc>
+  </programme>
+  <programme start="20260124173500 +0000" stop="20260124181000 +0000" channel="FR - France 2">
+    <title lang="fr">N'oubliez pas les paroles</title>
+    <desc lang="fr">Les candidats chantent en karaoké accompagnés par un orchestre. Quand les mots s'effacent, seuls gagnent ceux qui se souviennent de toutes les paroles.</desc>
+  </programme>
+  <programme start="20260124181000 +0000" stop="20260124185000 +0000" channel="FR - France 2">
+    <title lang="fr">N'oubliez pas les paroles</title>
+    <desc lang="fr">Les candidats chantent en karaoké accompagnés par un orchestre. Quand les mots s'effacent, seuls gagnent ceux qui se souviennent de toutes les paroles.</desc>
+  </programme>
+  <programme start="20260124185000 +0000" stop="20260124190000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260124190000 +0000" stop="20260124193000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal 20h00  ᴺᵉʷ</title>
+    <desc lang="fr">Journal 20h00.</desc>
+    <new />
+  </programme>
+  <programme start="20260124193000 +0000" stop="20260124195500 +0000" channel="FR - France 2">
+    <title lang="fr">20h30 le samedi</title>
+    <desc lang="fr">20H30 LE SAMEDI 2026.</desc>
+  </programme>
+  <programme start="20260124195500 +0000" stop="20260124195600 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260124195600 +0000" stop="20260124200000 +0000" channel="FR - France 2">
+    <title lang="fr">A la loupe</title>
+    <desc lang="fr">France - Angleterre 2004
+A la loupe.</desc>
+  </programme>
+  <programme start="20260124200000 +0000" stop="20260124200500 +0000" channel="FR - France 2">
+    <title lang="fr">Darooma</title>
+    <desc lang="fr">Liane Foly
+Identification par le biais d'une célébrité qui expose son cas personnel de façon toujours positive ; on n'est pas seuls ; le PC propose des solutions qui peuvent aider les autres.</desc>
+  </programme>
+  <programme start="20260124200500 +0000" stop="20260124201000 +0000" channel="FR - France 2">
+    <title lang="fr">Immeuble partagé</title>
+    <desc lang="fr">S1 Les bons conseils
+Samuel dort chez William et Charlotte. Celle-ci tombe à cause du sac de Samuel qui traîne. Il lui donne des conseils pour rencontrer quelqu'un, mais elle n'en a pas besoin.</desc>
+  </programme>
+  <programme start="20260124201000 +0000" stop="20260124222500 +0000" channel="FR - France 2">
+    <title lang="fr">100 % logique : la réponse est sous vos yeux</title>
+    <desc lang="fr">100 % logique : la réponse est sous vos yeux.</desc>
+  </programme>
+  <programme start="20260124222500 +0000" stop="20260125004500 +0000" channel="FR - France 2">
+    <title lang="fr">Quelle époque !  ᴺᵉʷ</title>
+    <desc lang="fr">Quelle époque !</desc>
+    <new />
+  </programme>
+  <programme start="20260125004500 +0000" stop="20260125005000 +0000" channel="FR - France 2">
+    <title lang="fr">Théo le taxi</title>
+    <desc lang="fr">K. Maro
+Dans le cadre intime et mobile de son taxi, Théo Curin reçoit des personnalités issues de tous horizons (culture, sport, cinéma, musique, médias, etc.) qui, le temps d'une course, se confient à lui en toute liberté ! Une interview sincère et décalée, riche en émotions, et ponctuée de surprises, afin de découvrir un invité comme jamais on ne l'avait vu.</desc>
+  </programme>
+  <programme start="20260125005000 +0000" stop="20260125005500 +0000" channel="FR - France 2">
+    <title lang="fr">Théo le taxi</title>
+    <desc lang="fr">Aïssa Maïga
+Dans le cadre intime et mobile de son taxi, Théo Curin reçoit des personnalités issues de tous horizons (culture, sport, cinéma, musique, médias, etc.) qui, le temps d'une course, se confient à lui en toute liberté ! Une interview sincère et décalée, riche en émotions, et ponctuée de surprises, afin de découvrir un invité comme jamais on ne l'avait vu.</desc>
+  </programme>
+  <programme start="20260125005500 +0000" stop="20260125010000 +0000" channel="FR - France 2">
+    <title lang="fr">Théo le taxi</title>
+    <desc lang="fr">Caudio Capéo
+Dans le cadre intime et mobile de son taxi, Théo Curin reçoit des personnalités issues de tous horizons (culture, sport, cinéma, musique, médias, etc.) qui, le temps d'une course, se confient à lui en toute liberté ! Une interview sincère et décalée, riche en émotions, et ponctuée de surprises, afin de découvrir un invité comme jamais on ne l'avait vu.</desc>
+  </programme>
+  <programme start="20260125010000 +0000" stop="20260125010500 +0000" channel="FR - France 2">
+    <title lang="fr">Théo le taxi</title>
+    <desc lang="fr">Lola Dubini
+Dans le cadre intime et mobile de son taxi, Théo Curin reçoit des personnalités issues de tous horizons (culture, sport, cinéma, musique, médias, etc.) qui, le temps d'une course, se confient à lui en toute liberté ! Une interview sincère et décalée, riche en émotions, et ponctuée de surprises, afin de découvrir un invité comme jamais on ne l'avait vu.</desc>
+  </programme>
+  <programme start="20260125010500 +0000" stop="20260125011000 +0000" channel="FR - France 2">
+    <title lang="fr">Théo le taxi</title>
+    <desc lang="fr">Chef Zem
+Dans le cadre intime et mobile de son taxi, Théo Curin reçoit des personnalités issues de tous horizons (culture, sport, cinéma, musique, médias, etc.) qui, le temps d'une course, se confient à lui en toute liberté ! Une interview sincère et décalée, riche en émotions, et ponctuée de surprises, afin de découvrir un invité comme jamais on ne l'avait vu.</desc>
+  </programme>
+  <programme start="20260125011000 +0000" stop="20260125011500 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260125011500 +0000" stop="20260125032500 +0000" channel="FR - France 2">
+    <title lang="fr">The Floor - A la conquête du sol</title>
+    <desc lang="fr">S3 E4 The Floor - A la conquête du sol.</desc>
+  </programme>
+  <programme start="20260125032500 +0000" stop="20260125035500 +0000" channel="FR - France 2">
+    <title lang="fr">Séville la mauresque</title>
+    <desc lang="fr">Une exploration de la ville de Séville, dans le sud de l'Espagne, riche d'un patrimoine architectural exceptionnel et d'une histoire passionnante.</desc>
+  </programme>
+  <programme start="20260125035500 +0000" stop="20260125040500 +0000" channel="FR - France 2">
+    <title lang="fr">Pays et marchés du monde</title>
+    <desc lang="fr">S4 Tunisie : Douz
+Pays et marchés du monde.</desc>
+  </programme>
+  <programme start="20260125040500 +0000" stop="20260125050000 +0000" channel="FR - France 2">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Quiz de culture générale au cours duquel 6 candidats vont tenter chaque jour de déloger le champion en titre (qui accumule les gains d'émission en émission) et de prendre sa place. C'est le champion en titre qui choisit le thème des questions en finale.</desc>
+  </programme>
+  <programme start="20260125050000 +0000" stop="20260125054500 +0000" channel="FR - France 2">
+    <title lang="fr">Le 6h info  ᴺᵉʷ</title>
+    <desc lang="fr">Le 6h info.</desc>
+    <new />
+  </programme>
+  <programme start="20260125054500 +0000" stop="20260125070500 +0000" channel="FR - France 2">
+    <title lang="fr">Télématin  ᴺᵉʷ</title>
+    <desc lang="fr">Télématin.</desc>
+    <new />
+  </programme>
+  <programme start="20260125070500 +0000" stop="20260125071500 +0000" channel="FR - France 2">
+    <title lang="fr">Journal 08h00  ᴺᵉʷ</title>
+    <desc lang="fr">Journal 08h00.</desc>
+    <new />
+  </programme>
+  <programme start="20260125071500 +0000" stop="20260125073000 +0000" channel="FR - France 2">
+    <title lang="fr">Télématin  ᴺᵉʷ</title>
+    <desc lang="fr">Télématin.</desc>
+    <new />
+  </programme>
+  <programme start="20260125073000 +0000" stop="20260125074500 +0000" channel="FR - France 2">
+    <title lang="fr">Sagesses bouddhistes</title>
+    <desc lang="fr">Comment mieux vivre la sagesse au quotidien ?
+Sagesses bouddhistes.</desc>
+  </programme>
+  <programme start="20260125074500 +0000" stop="20260125081500 +0000" channel="FR - France 2">
+    <title lang="fr">Islam</title>
+    <desc lang="fr">Le Coran dans la pratique
+Islam.</desc>
+  </programme>
+  <programme start="20260125081500 +0000" stop="20260125090000 +0000" channel="FR - France 2">
+    <title lang="fr">A l'origine</title>
+    <desc lang="fr">Histoires : Salomon Milgrom
+A l'origine.</desc>
+  </programme>
+  <programme start="20260125090000 +0000" stop="20260125093000 +0000" channel="FR - France 2">
+    <title lang="fr">Présence protestante</title>
+    <desc lang="fr">Jean Calvin, prophète malgré lui
+Présence protestante.</desc>
+  </programme>
+  <programme start="20260125093000 +0000" stop="20260125100000 +0000" channel="FR - France 2">
+    <title lang="fr">Le jour du Seigneur</title>
+    <desc lang="fr">Festival Hellfest, au-delà des idées recues
+Le jour du Seigneur.</desc>
+  </programme>
+  <programme start="20260125100000 +0000" stop="20260125105500 +0000" channel="FR - France 2">
+    <title lang="fr">Messe  ᴺᵉʷ</title>
+    <desc lang="fr">E44 Célébrée en la collégiale Notre-Dame à Clisson (44). Prédicateur : le père Edouard Roblot, prêtre du diocèse de Nantes. Président : le père Nicolas Harel, curé de la paroisse Sainte-Marie du Val-de-Sèvre.</desc>
+    <new />
+  </programme>
+  <programme start="20260125105500 +0000" stop="20260125110000 +0000" channel="FR - France 2">
+    <title lang="fr">Parole inattendue</title>
+    <desc lang="fr">Parole inattendue.</desc>
+  </programme>
+  <programme start="20260125110000 +0000" stop="20260125115500 +0000" channel="FR - France 2">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Quiz de culture générale au cours duquel 6 candidats vont tenter chaque jour de déloger le champion en titre (qui accumule les gains d'émission en émission) et de prendre sa place. C'est le champion en titre qui choisit le thème des questions en finale.</desc>
+  </programme>
+  <programme start="20260125115500 +0000" stop="20260125115800 +0000" channel="FR - France 2">
+    <title lang="fr">Darooma</title>
+    <desc lang="fr">Amir
+Identification par le biais d'une célébrité qui expose son cas personnel de façon toujours positive ; on n'est pas seuls ; le PC propose des solutions qui peuvent aider les autres.</desc>
+  </programme>
+  <programme start="20260125115800 +0000" stop="20260125120000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260125120000 +0000" stop="20260125122000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal 13h00  ᴺᵉʷ</title>
+    <desc lang="fr">Journal 13h00.</desc>
+    <new />
+  </programme>
+  <programme start="20260125122000 +0000" stop="20260125131500 +0000" channel="FR - France 2">
+    <title lang="fr">13h15, le dimanche...</title>
+    <desc lang="fr">Le Télégramme (Episodes 1 et 2v4)
+Eduard Schulte était l'un des plus gros industriels du IIIe Reich, proche des milieux politiques, sûr de son pouvoir et de la puissance de l'Allemagne. Difficile d'imaginer que, dans l'intimité, il haïssait Hitler et les nazis. Quand, en juillet 1942, il apprend que le plan de la Solution finale a été arrêté, il décide d'alerter Londres et Washington. Pour transmettre son message, il a dû prendre tous les risques. Son télégramme devait à tout prix traverser l'Atlantique.</desc>
+  </programme>
+  <programme start="20260125131500 +0000" stop="20260125132000 +0000" channel="FR - France 2">
+    <title lang="fr">C'est bon à savoir</title>
+    <desc lang="fr">L'alimentation a des effets sur notre cerveau. comment ?
+C'est bon à savoir.</desc>
+  </programme>
+  <programme start="20260125132000 +0000" stop="20260125141000 +0000" channel="FR - France 2">
+    <title lang="fr">13h15, le dimanche...</title>
+    <desc lang="fr">Le Télégramme (Episodes 3 et 4v4)
+Eduard Schulte s'est montré prêt à tout perdre pour faire passer aux Alliés son message alertant sur la Solution finale, persuadé qu'un bout de papier pourrait sauver des vies.</desc>
+  </programme>
+  <programme start="20260125141000 +0000" stop="20260125150500 +0000" channel="FR - France 2">
+    <title lang="fr">Affaires sensibles</title>
+    <desc lang="fr">Affaires sensibles.</desc>
+  </programme>
+  <programme start="20260125150500 +0000" stop="20260125170500 +0000" channel="FR - France 2">
+    <title lang="fr">Un dimanche à la campagne</title>
+    <desc lang="fr">S3 Un moment hors du temps pour se rencontrer et pour parler d¿amour, d¿amitié, de la vie autour d¿artistes et de Frédéric Lopez.</desc>
+  </programme>
+  <programme start="20260125170500 +0000" stop="20260125181000 +0000" channel="FR - France 2">
+    <title lang="fr">Les enfants de la télé</title>
+    <desc lang="fr">Les enfants de la télé.</desc>
+  </programme>
+  <programme start="20260125181000 +0000" stop="20260125185500 +0000" channel="FR - France 2">
+    <title lang="fr">Les Enfants de la télé, la suite</title>
+    <desc lang="fr">Les Enfants de la télé, la suite.</desc>
+  </programme>
+  <programme start="20260125185500 +0000" stop="20260125185600 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260125185600 +0000" stop="20260125193000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal 20h00  ᴺᵉʷ</title>
+    <desc lang="fr">Journal 20h00.</desc>
+    <new />
+  </programme>
+  <programme start="20260125193000 +0000" stop="20260125200000 +0000" channel="FR - France 2">
+    <title lang="fr">20h30, le dimanche</title>
+    <desc lang="fr">Story les Souchon
+20h30, le dimanche.</desc>
+  </programme>
+  <programme start="20260125200000 +0000" stop="20260125201000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260125201000 +0000" stop="20260125221000 +0000" channel="FR - France 2">
+    <title lang="fr">La syndicaliste</title>
+    <desc lang="fr">Une déléguée syndicale découvre des informations secrètes au sujet de son entreprise et choisit de se battre pour que la vérité éclate au grand jour.</desc>
+  </programme>
+  <programme start="20260125221000 +0000" stop="20260125230000 +0000" channel="FR - France 2">
+    <title lang="fr">Beau geste</title>
+    <desc lang="fr">S4 Beau geste.</desc>
+  </programme>
+  <programme start="20260125230000 +0000" stop="20260125230500 +0000" channel="FR - France 2">
+    <title lang="fr">Le pitch cinéma</title>
+    <desc lang="fr">Le pitch cinéma.</desc>
+  </programme>
+  <programme start="20260125230500 +0000" stop="20260126000500 +0000" channel="FR - France 2">
+    <title lang="fr">Histoires courtes</title>
+    <desc lang="fr">Sur la route des festivals : Angers Premiers Plans
+Histoires courtes.</desc>
+  </programme>
+  <programme start="20260126000500 +0000" stop="20260126005000 +0000" channel="FR - France 2">
+    <title lang="fr">Il était deux fois</title>
+    <desc lang="fr">S1 E1 En 2013, une capitaine enquête sur la disparition de sa fille de 17 ans. Elle s'endort dans une chambre d'hôtel et se réveille en 2025, amnésique.</desc>
+  </programme>
+  <programme start="20260126005000 +0000" stop="20260126014000 +0000" channel="FR - France 2">
+    <title lang="fr">Il était deux fois</title>
+    <desc lang="fr">S1 E2 Suspectée de meurtre, Gabrielle est arrêtée par Paul, son ancien coéquipier. Cela ne décourage pas Gabrielle qui découvre un tableau représentant Julie, peint avec son propre sang.</desc>
+  </programme>
+  <programme start="20260126014000 +0000" stop="20260126023000 +0000" channel="FR - France 2">
+    <title lang="fr">Il était deux fois</title>
+    <desc lang="fr">S1 E3 Alors que Paul s'apprête à faire une révélation à Gabrielle, celle-ci découvre atterrée que le box où elle conservait les éléments de son enquête a été incendié.</desc>
+  </programme>
+  <programme start="20260126023000 +0000" stop="20260126023500 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260126023500 +0000" stop="20260126033000 +0000" channel="FR - France 2">
+    <title lang="fr">Les enfants de la télé</title>
+    <desc lang="fr">Les enfants de la télé.</desc>
+  </programme>
+  <programme start="20260126033000 +0000" stop="20260126035000 +0000" channel="FR - France 2">
+    <title lang="fr">Le regard du singe</title>
+    <desc lang="fr">A la découverte des conditions de vie, parfois singulières, de certains primates.</desc>
+  </programme>
+  <programme start="20260126035000 +0000" stop="20260126040000 +0000" channel="FR - France 2">
+    <title lang="fr">Pays et marchés du monde</title>
+    <desc lang="fr">S4 Sénégal : Mpal
+Pays et marchés du monde.</desc>
+  </programme>
+  <programme start="20260126040000 +0000" stop="20260126045000 +0000" channel="FR - France 2">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Quiz de culture générale au cours duquel 6 candidats vont tenter chaque jour de déloger le champion en titre (qui accumule les gains d'émission en émission) et de prendre sa place. C'est le champion en titre qui choisit le thème des questions en finale.</desc>
+  </programme>
+  <programme start="20260126045000 +0000" stop="20260126050000 +0000" channel="FR - France 2">
+    <title lang="fr">Mot de passe : le duel</title>
+    <desc lang="fr">E135 Mot de passe - Le Duel est un jeu qui consiste à faire deviner des mots à un partenaire de jeu en donnant des mots indices. Il se joue avec deux candidats face à deux célébrités. Du lundi au jeudi, ce sont les Duels et la Finale se joue en fin de semaine, le vendredi, avec le meilleur des 2 candidats et les deux célébrités.</desc>
+  </programme>
+  <programme start="20260126050000 +0000" stop="20260126053000 +0000" channel="FR - France 2">
+    <title lang="fr">Le 6h info  ᴺᵉʷ</title>
+    <desc lang="fr">Le 6h info.</desc>
+    <new />
+  </programme>
+  <programme start="20260126053000 +0000" stop="20260126070000 +0000" channel="FR - France 2">
+    <title lang="fr">Télématin  ᴺᵉʷ</title>
+    <desc lang="fr">Télématin.</desc>
+    <new />
+  </programme>
+  <programme start="20260126070000 +0000" stop="20260126073000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal 08h00  ᴺᵉʷ</title>
+    <desc lang="fr">Journal 08h00.</desc>
+    <new />
+  </programme>
+  <programme start="20260126073000 +0000" stop="20260126085500 +0000" channel="FR - France 2">
+    <title lang="fr">Télématin  ᴺᵉʷ</title>
+    <desc lang="fr">Télématin.</desc>
+    <new />
+  </programme>
+  <programme start="20260126085500 +0000" stop="20260126094000 +0000" channel="FR - France 2">
+    <title lang="fr">Bel &amp; Bien ensemble</title>
+    <desc lang="fr">Bel &amp; Bien ensemble.</desc>
+  </programme>
+  <programme start="20260126094000 +0000" stop="20260126094500 +0000" channel="FR - France 2">
+    <title lang="fr">Consomag</title>
+    <desc lang="fr">Au supermarché, comment reconnaître les aliments ultratransformés ?
+Consomag.</desc>
+  </programme>
+  <programme start="20260126094500 +0000" stop="20260126095000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo climat outre-mer</title>
+    <desc lang="fr">Journal Météo climat outre-mer.</desc>
+  </programme>
+  <programme start="20260126095000 +0000" stop="20260126102500 +0000" channel="FR - France 2">
+    <title lang="fr">Chacun son tour</title>
+    <desc lang="fr">Emission du samedi 24 janvier 2026
+Chacun son tour.</desc>
+  </programme>
+  <programme start="20260126102500 +0000" stop="20260126105500 +0000" channel="FR - France 2">
+    <title lang="fr">Chacun son tour</title>
+    <desc lang="fr">Chacun son tour.</desc>
+  </programme>
+  <programme start="20260126105500 +0000" stop="20260126115500 +0000" channel="FR - France 2">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Quiz de culture générale au cours duquel 6 candidats vont tenter chaque jour de déloger le champion en titre (qui accumule les gains d'émission en émission) et de prendre sa place. C'est le champion en titre qui choisit le thème des questions en finale.</desc>
+  </programme>
+  <programme start="20260126115500 +0000" stop="20260126120000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260126120000 +0000" stop="20260126124000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal 13h00  ᴺᵉʷ</title>
+    <desc lang="fr">Journal 13h00.</desc>
+    <new />
+  </programme>
+  <programme start="20260126124000 +0000" stop="20260126124500 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260126124500 +0000" stop="20260126125500 +0000" channel="FR - France 2">
+    <title lang="fr">La p'tite librairie</title>
+    <desc lang="fr">Poésies documentaires, de Pierre Mac Orlan
+La p'tite librairie.</desc>
+  </programme>
+  <programme start="20260126125500 +0000" stop="20260126140500 +0000" channel="FR - France 2">
+    <title lang="fr">Ça commence aujourd'hui</title>
+    <desc lang="fr">Ce voisin si inquiétant
+Tous les jours, Faustine BOLLAERT accueille sur le plateau de \" Ca commence aujourd'hui \" des hommes et des femmes qui viennent témoigner sur une période de leur vie, un drame, une épreuve, un cap à passer ou un changement, et qui font souvent écho à de grands sujets de société. Entourée d'experts : psychologues, psychiatres, avocats, gynécologue, Faustine aide les témoins et les téléspectateurs à mieux comprendre ce qu'ils ont vécu.</desc>
+  </programme>
+  <programme start="20260126140500 +0000" stop="20260126151000 +0000" channel="FR - France 2">
+    <title lang="fr">Ça commence aujourd'hui</title>
+    <desc lang="fr">S8 E144 Cold Cases : elles n'ont jamais cessé de chercher la vérité
+Faustine Bollaert reçoit deux témoignages forts concernant des "cold cases", des affaires judiciaires non élucidées.</desc>
+  </programme>
+  <programme start="20260126151000 +0000" stop="20260126152500 +0000" channel="FR - France 2">
+    <title lang="fr">Affaire conclue : la vie des objets</title>
+    <desc lang="fr">Affaire conclue : la vie des objets.</desc>
+  </programme>
+  <programme start="20260126152500 +0000" stop="20260126162000 +0000" channel="FR - France 2">
+    <title lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</title>
+    <desc lang="fr">Affaire conclue, tout le monde a quelque chose à vendre.</desc>
+  </programme>
+  <programme start="20260126162000 +0000" stop="20260126170100 +0000" channel="FR - France 2">
+    <title lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</title>
+    <desc lang="fr">Affaire conclue, tout le monde a quelque chose à vendre.</desc>
+  </programme>
+  <programme start="20260126170100 +0000" stop="20260126174000 +0000" channel="FR - France 2">
+    <title lang="fr">Tout le monde a son mot à dire</title>
+    <desc lang="fr">Émission quotidienne pour jouer avec la langue française et enrichir sa culture générale. Autour de Sidonie Bonnec et Bruno Guillon, 2 équipes jouent en répondant à des questions. Chacune est constituée d'un candidat, épaulé par 2 personnalités : humoristes, comédiens, journalistes...</desc>
+  </programme>
+  <programme start="20260126174000 +0000" stop="20260126181000 +0000" channel="FR - France 2">
+    <title lang="fr">N'oubliez pas les paroles</title>
+    <desc lang="fr">Les candidats chantent en karaoké accompagnés par un orchestre. Quand les mots s'effacent, seuls gagnent ceux qui se souviennent de toutes les paroles.</desc>
+  </programme>
+  <programme start="20260126181000 +0000" stop="20260126185500 +0000" channel="FR - France 2">
+    <title lang="fr">N'oubliez pas les paroles</title>
+    <desc lang="fr">Les candidats chantent en karaoké accompagnés par un orchestre. Quand les mots s'effacent, seuls gagnent ceux qui se souviennent de toutes les paroles.</desc>
+  </programme>
+  <programme start="20260126185500 +0000" stop="20260126190000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260126190000 +0000" stop="20260126195000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal 20h00  ᴺᵉʷ</title>
+    <desc lang="fr">Journal 20h00.</desc>
+    <new />
+  </programme>
+  <programme start="20260126195000 +0000" stop="20260126195200 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260126195200 +0000" stop="20260126195500 +0000" channel="FR - France 2">
+    <title lang="fr">A la loupe</title>
+    <desc lang="fr">Angleterre - Ecosse 2019
+A la loupe.</desc>
+  </programme>
+  <programme start="20260126195500 +0000" stop="20260126200400 +0000" channel="FR - France 2">
+    <title lang="fr">Basique, l'essentiel de la musique</title>
+    <desc lang="fr">Lilly Wood and the Prick
+Basique, l'essentiel de la musique.</desc>
+  </programme>
+  <programme start="20260126200400 +0000" stop="20260126201000 +0000" channel="FR - France 2">
+    <title lang="fr">Mot de passe : le duel</title>
+    <desc lang="fr">E136 Mot de passe - Le Duel est un jeu qui consiste à faire deviner des mots à un partenaire de jeu en donnant des mots indices. Il se joue avec deux candidats face à deux célébrités. Du lundi au jeudi, ce sont les Duels et la Finale se joue en fin de semaine, le vendredi, avec le meilleur des 2 candidats et les deux célébrités.</desc>
+  </programme>
+  <programme start="20260126201000 +0000" stop="20260126210000 +0000" channel="FR - France 2">
+    <title lang="fr">Coeurs Noirs</title>
+    <desc lang="fr">S2 E3 Zaïd disparait des radars alors que Moktar devient de plus en plus méfiant. Les 45 contournent la DGSE et recrutent Soraya, infirmière à Mossoul.</desc>
+  </programme>
+  <programme start="20260126210000 +0000" stop="20260126220000 +0000" channel="FR - France 2">
+    <title lang="fr">Coeurs Noirs</title>
+    <desc lang="fr">S2 E4 Sab tente de s'enfuir de la maison de Zaïd quand Moktar et ses hommes viennent l'arrêter. Zaïd est capturé, torturé, puis manipulé par Moktar.</desc>
+  </programme>
+  <programme start="20260126220000 +0000" stop="20260126224000 +0000" channel="FR - France 2">
+    <title lang="fr">ConcordIA</title>
+    <desc lang="fr">S1 E3 The Faceless
+Suite au piratage, Concordia doit à tout prix identifier et corriger la faille de sécurité de son système tout en démasquant qui en est à l'origine.</desc>
+  </programme>
+  <programme start="20260126224000 +0000" stop="20260126233000 +0000" channel="FR - France 2">
+    <title lang="fr">ConcordIA</title>
+    <desc lang="fr">S1 E4 Secrets
+Peter Blom, qui venait de quitter le conseil d'administration, est retrouvé mort. Tout semble indiquer qu'il s'agit d'un suicide. Isabelle en doute.</desc>
+  </programme>
+  <programme start="20260126233000 +0000" stop="20260126233500 +0000" channel="FR - France 2">
+    <title lang="fr">Expression directe</title>
+    <desc lang="fr">MEDEF 1
+Expression directe.</desc>
+  </programme>
+  <programme start="20260126233500 +0000" stop="20260127002500 +0000" channel="FR - France 2">
+    <title lang="fr">Il était deux fois</title>
+    <desc lang="fr">S1 E4 Gabrielle retrouve une forte somme d'argent appartenant à sa fille. Louise, la meilleure amie de Julie, finit par avouer comment une adolescente a pu gagner autant.</desc>
+  </programme>
+  <programme start="20260127002500 +0000" stop="20260127011500 +0000" channel="FR - France 2">
+    <title lang="fr">Il était deux fois</title>
+    <desc lang="fr">S1 E5 La piste des hommes mariés que Julie et son amie Louise faisaient chanter est une impasse, mais un nouveau tableau similaire à celui de Julie est retrouvé.</desc>
+  </programme>
+  <programme start="20260127011500 +0000" stop="20260127021000 +0000" channel="FR - France 2">
+    <title lang="fr">Il était deux fois</title>
+    <desc lang="fr">S1 E6 Gabrielle découvre que son enquête passée l'avait amenée à suspecter Caleb Traskman. De nouveaux éléments amènent Paul et Gabrielle sur une piste.</desc>
+  </programme>
+  <programme start="20260127021000 +0000" stop="20260127021500 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo climat outre-mer</title>
+    <desc lang="fr">Journal Météo climat outre-mer.</desc>
+  </programme>
+  <programme start="20260127021500 +0000" stop="20260127031000 +0000" channel="FR - France 2">
+    <title lang="fr">Ça commence aujourd'hui</title>
+    <desc lang="fr">Ce voisin si inquiétant
+Tous les jours, Faustine BOLLAERT accueille sur le plateau de \" Ca commence aujourd'hui \" des hommes et des femmes qui viennent témoigner sur une période de leur vie, un drame, une épreuve, un cap à passer ou un changement, et qui font souvent écho à de grands sujets de société. Entourée d'experts : psychologues, psychiatres, avocats, gynécologue, Faustine aide les témoins et les téléspectateurs à mieux comprendre ce qu'ils ont vécu.</desc>
+  </programme>
+  <programme start="20260127031000 +0000" stop="20260127035000 +0000" channel="FR - France 2">
+    <title lang="fr">La France romaine : la Narbonnaise</title>
+    <desc lang="fr">Découverte de la Gaule narbonnaise, une province romaine créée au IIe siècle av. J.-C après la fondation de la colonie de Narbonne, dans le sud de la France.</desc>
+  </programme>
+  <programme start="20260127035000 +0000" stop="20260127040000 +0000" channel="FR - France 2">
+    <title lang="fr">La civilisation des arbres</title>
+    <desc lang="fr">La cuisine de Laurie
+Laurie Gilles, cuisinière exploratrice, propose une nouvelle cuisine, fraîche et originale, composée de plantes sauvages, de fleurs et de graines de son jardin.</desc>
+  </programme>
+  <programme start="20260127040000 +0000" stop="20260127045000 +0000" channel="FR - France 2">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Quiz de culture générale au cours duquel 6 candidats vont tenter chaque jour de déloger le champion en titre (qui accumule les gains d'émission en émission) et de prendre sa place. C'est le champion en titre qui choisit le thème des questions en finale.</desc>
+  </programme>
+  <programme start="20260127045000 +0000" stop="20260127050000 +0000" channel="FR - France 2">
+    <title lang="fr">Mot de passe : le duel</title>
+    <desc lang="fr">E136 Mot de passe - Le Duel est un jeu qui consiste à faire deviner des mots à un partenaire de jeu en donnant des mots indices. Il se joue avec deux candidats face à deux célébrités. Du lundi au jeudi, ce sont les Duels et la Finale se joue en fin de semaine, le vendredi, avec le meilleur des 2 candidats et les deux célébrités.</desc>
+  </programme>
+  <programme start="20260127050000 +0000" stop="20260127053000 +0000" channel="FR - France 2">
+    <title lang="fr">Le 6h info  ᴺᵉʷ</title>
+    <desc lang="fr">Le 6h info.</desc>
+    <new />
+  </programme>
+  <programme start="20260127053000 +0000" stop="20260127070000 +0000" channel="FR - France 2">
+    <title lang="fr">Télématin  ᴺᵉʷ</title>
+    <desc lang="fr">Télématin.</desc>
+    <new />
+  </programme>
+  <programme start="20260127070000 +0000" stop="20260127073000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal 08h00  ᴺᵉʷ</title>
+    <desc lang="fr">Journal 08h00.</desc>
+    <new />
+  </programme>
+  <programme start="20260127073000 +0000" stop="20260127085500 +0000" channel="FR - France 2">
+    <title lang="fr">Télématin  ᴺᵉʷ</title>
+    <desc lang="fr">Télématin.</desc>
+    <new />
+  </programme>
+  <programme start="20260127085500 +0000" stop="20260127094000 +0000" channel="FR - France 2">
+    <title lang="fr">Bel &amp; Bien ensemble</title>
+    <desc lang="fr">Bel &amp; Bien ensemble.</desc>
+  </programme>
+  <programme start="20260127094000 +0000" stop="20260127094500 +0000" channel="FR - France 2">
+    <title lang="fr">Consomag</title>
+    <desc lang="fr">Si une livraison est en retard, puis-je annuler ma commande ?
+Consomag.</desc>
+  </programme>
+  <programme start="20260127094500 +0000" stop="20260127095000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo climat outre-mer</title>
+    <desc lang="fr">Journal Météo climat outre-mer.</desc>
+  </programme>
+  <programme start="20260127095000 +0000" stop="20260127102500 +0000" channel="FR - France 2">
+    <title lang="fr">Chacun son tour</title>
+    <desc lang="fr">Chacun son tour.</desc>
+  </programme>
+  <programme start="20260127102500 +0000" stop="20260127105500 +0000" channel="FR - France 2">
+    <title lang="fr">Chacun son tour</title>
+    <desc lang="fr">Chacun son tour.</desc>
+  </programme>
+  <programme start="20260127105500 +0000" stop="20260127115500 +0000" channel="FR - France 2">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Quiz de culture générale au cours duquel 6 candidats vont tenter chaque jour de déloger le champion en titre (qui accumule les gains d'émission en émission) et de prendre sa place. C'est le champion en titre qui choisit le thème des questions en finale.</desc>
+  </programme>
+  <programme start="20260127115500 +0000" stop="20260127120000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260127120000 +0000" stop="20260127124000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal 13h00  ᴺᵉʷ</title>
+    <desc lang="fr">Journal 13h00.</desc>
+    <new />
+  </programme>
+  <programme start="20260127124000 +0000" stop="20260127124500 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260127124500 +0000" stop="20260127125000 +0000" channel="FR - France 2">
+    <title lang="fr">La p'tite librairie</title>
+    <desc lang="fr">Récits d'Odessa, d'Isaac Babel
+La p'tite librairie.</desc>
+  </programme>
+  <programme start="20260127125000 +0000" stop="20260127125500 +0000" channel="FR - France 2">
+    <title lang="fr">Expression directe</title>
+    <desc lang="fr">FA-FP
+Expression directe.</desc>
+  </programme>
+  <programme start="20260127125500 +0000" stop="20260127140500 +0000" channel="FR - France 2">
+    <title lang="fr">Ça commence aujourd'hui</title>
+    <desc lang="fr">Particularité physique : comment réussir à s'aimer ?
+Tous les jours, Faustine BOLLAERT accueille sur le plateau de \" Ca commence aujourd'hui \" des hommes et des femmes qui viennent témoigner sur une période de leur vie, un drame, une épreuve, un cap à passer ou un changement, et qui font souvent écho à de grands sujets de société. Entourée d'experts : psychologues, psychiatres, avocats, gynécologue, Faustine aide les témoins et les téléspectateurs à mieux comprendre ce qu'ils ont vécu.</desc>
+  </programme>
+  <programme start="20260127140500 +0000" stop="20260127151000 +0000" channel="FR - France 2">
+    <title lang="fr">Ça commence aujourd'hui</title>
+    <desc lang="fr">S8 E82 Dépression : elles combattent un mal-être familial
+Pour cette semaine axée autour de la santé mentale, "Ça commence aujourd'hui" consacre cet épisode au sujet de la dépression. On estime que 20% de la population française souffrira de cette maladie au moins une fois au cours de leur vie.</desc>
+  </programme>
+  <programme start="20260127151000 +0000" stop="20260127153000 +0000" channel="FR - France 2">
+    <title lang="fr">Affaire conclue : la vie des objets</title>
+    <desc lang="fr">Affaire conclue : la vie des objets.</desc>
+  </programme>
+  <programme start="20260127153000 +0000" stop="20260127162500 +0000" channel="FR - France 2">
+    <title lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</title>
+    <desc lang="fr">Affaire conclue, tout le monde a quelque chose à vendre.</desc>
+  </programme>
+  <programme start="20260127162500 +0000" stop="20260127170600 +0000" channel="FR - France 2">
+    <title lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</title>
+    <desc lang="fr">Affaire conclue, tout le monde a quelque chose à vendre.</desc>
+  </programme>
+  <programme start="20260127170600 +0000" stop="20260127174000 +0000" channel="FR - France 2">
+    <title lang="fr">Tout le monde a son mot à dire</title>
+    <desc lang="fr">Émission quotidienne pour jouer avec la langue française et enrichir sa culture générale. Autour de Sidonie Bonnec et Bruno Guillon, 2 équipes jouent en répondant à des questions. Chacune est constituée d'un candidat, épaulé par 2 personnalités : humoristes, comédiens, journalistes...</desc>
+  </programme>
+  <programme start="20260127174000 +0000" stop="20260127181000 +0000" channel="FR - France 2">
+    <title lang="fr">N'oubliez pas les paroles</title>
+    <desc lang="fr">Les candidats chantent en karaoké accompagnés par un orchestre. Quand les mots s'effacent, seuls gagnent ceux qui se souviennent de toutes les paroles.</desc>
+  </programme>
+  <programme start="20260127181000 +0000" stop="20260127185500 +0000" channel="FR - France 2">
+    <title lang="fr">N'oubliez pas les paroles</title>
+    <desc lang="fr">Les candidats chantent en karaoké accompagnés par un orchestre. Quand les mots s'effacent, seuls gagnent ceux qui se souviennent de toutes les paroles.</desc>
+  </programme>
+  <programme start="20260127185500 +0000" stop="20260127190000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260127190000 +0000" stop="20260127195000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal 20h00  ᴺᵉʷ</title>
+    <desc lang="fr">Journal 20h00.</desc>
+    <new />
+  </programme>
+  <programme start="20260127195000 +0000" stop="20260127195200 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Journal Météo Climat.</desc>
+  </programme>
+  <programme start="20260127195200 +0000" stop="20260127195500 +0000" channel="FR - France 2">
+    <title lang="fr">A la loupe</title>
+    <desc lang="fr">Angleterre - France 2023
+A la loupe.</desc>
+  </programme>
+  <programme start="20260127195500 +0000" stop="20260127200500 +0000" channel="FR - France 2">
+    <title lang="fr">Basique, l'essentiel de la musique</title>
+    <desc lang="fr">Stephan Eicher
+Basique, l'essentiel de la musique.</desc>
+  </programme>
+  <programme start="20260127200500 +0000" stop="20260127201000 +0000" channel="FR - France 2">
+    <title lang="fr">Mot de passe : le duel</title>
+    <desc lang="fr">E137 Mot de passe - Le Duel est un jeu qui consiste à faire deviner des mots à un partenaire de jeu en donnant des mots indices. Il se joue avec deux candidats face à deux célébrités. Du lundi au jeudi, ce sont les Duels et la Finale se joue en fin de semaine, le vendredi, avec le meilleur des 2 candidats et les deux célébrités.</desc>
+  </programme>
+  <programme start="20260127201000 +0000" stop="20260127213500 +0000" channel="FR - France 2">
+    <title lang="fr">France, il était une fois demain</title>
+    <desc lang="fr">La France affronte le réchauffement climatique, la montée des eaux et un épuisement des ressources naturelles. Ce voyage imaginaire mais documenté imagine la France de 2100.</desc>
+  </programme>
+  <programme start="20260127213500 +0000" stop="20260127223000 +0000" channel="FR - France 2">
+    <title lang="fr">France 2100, le pourquoi du comment</title>
+    <desc lang="fr">Michaël Pitiot, réalisateur du documentaire "France, il était une fois demain", retrace la genèse de son film et embarque les téléspectateurs dans un voyage intime et engagé.</desc>
+  </programme>
+  <programme start="20260127223000 +0000" stop="20260128000000 +0000" channel="FR - France 2">
+    <title lang="fr">France, le fabuleux voyage</title>
+    <desc lang="fr">On apprend l'histoire de France à travers celle des hommes. Mais pour la connaître vraiment, il faut remonter bien avant, pour découvrir son héritage géologique.</desc>
+  </programme>
+  <programme start="20260128000000 +0000" stop="20260128014500 +0000" channel="FR - France 2">
+    <title lang="fr">Un dimanche à la campagne</title>
+    <desc lang="fr">S3 Un moment hors du temps pour se rencontrer et pour parler d'amour, d'amitié, de la vie autour d'artistes et de Frédéric Lopez.</desc>
+  </programme>
+  <programme start="20260128014500 +0000" stop="20260128015000 +0000" channel="FR - France 2">
+    <title lang="fr">Journal Météo climat outre-mer</title>
+    <desc lang="fr">Journal Météo climat outre-mer.</desc>
+  </programme>
+  <programme start="20260128015000 +0000" stop="20260128024500 +0000" channel="FR - France 2">
+    <title lang="fr">Ça commence aujourd'hui</title>
+    <desc lang="fr">Particularité physique : comment réussir à s'aimer ?
+Tous les jours, Faustine BOLLAERT accueille sur le plateau de \" Ca commence aujourd'hui \" des hommes et des femmes qui viennent témoigner sur une période de leur vie, un drame, une épreuve, un cap à passer ou un changement, et qui font souvent écho à de grands sujets de société. Entourée d'experts : psychologues, psychiatres, avocats, gynécologue, Faustine aide les témoins et les téléspectateurs à mieux comprendre ce qu'ils ont vécu.</desc>
+  </programme>
+  <programme start="20260128024500 +0000" stop="20260128033000 +0000" channel="FR - France 2">
+    <title lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</title>
+    <desc lang="fr">Affaire conclue, tout le monde a quelque chose à vendre.</desc>
+  </programme>
+  <programme start="20260128033000 +0000" stop="20260128034500 +0000" channel="FR - France 2">
+    <title lang="fr">Courant d'art</title>
+    <desc lang="fr">Hugues Reip
+A la découverte de l'oeuvre de l'artiste polyvalent, graphiste, vidéaste, photographe et sculpteur Hugues Reip.</desc>
+  </programme>
+  <programme start="20260128034500 +0000" stop="20260128035000 +0000" channel="FR - France 2">
+    <title lang="fr">Pays et marchés du monde</title>
+    <desc lang="fr">S4 Emirats arabes unis : Dubaï
+Pays et marchés du monde.</desc>
+  </programme>
+  <programme start="20260128035000 +0000" stop="20260128040000 +0000" channel="FR - France 2">
+    <title lang="fr">Pays et marchés du monde</title>
+    <desc lang="fr">S4 E36 Cambodge
+Pays et marchés du monde.</desc>
+  </programme>
+  <programme start="20260128040000 +0000" stop="20260128045000 +0000" channel="FR - France 2">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Quiz de culture générale au cours duquel 6 candidats vont tenter chaque jour de déloger le champion en titre (qui accumule les gains d'émission en émission) et de prendre sa place. C'est le champion en titre qui choisit le thème des questions en finale.</desc>
+  </programme>
+  <programme start="20260128045000 +0000" stop="20260128050000 +0000" channel="FR - France 2">
+    <title lang="fr">Mot de passe : le duel</title>
+    <desc lang="fr">E137 Mot de passe - Le Duel est un jeu qui consiste à faire deviner des mots à un partenaire de jeu en donnant des mots indices. Il se joue avec deux candidats face à deux célébrités. Du lundi au jeudi, ce sont les Duels et la Finale se joue en fin de semaine, le vendredi, avec le meilleur des 2 candidats et les deux célébrités.</desc>
+  </programme>
 	<programme start="20260125070000 +0100" stop="20260125100000 +0100" channel="La 1">
     <title>Noticias 24H</title>
     <desc>Información,Informativo | 2021 | *6.2/10

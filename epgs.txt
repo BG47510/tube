@@ -2,5 +2,6 @@ https://xmltvfr.fr/xmltv/xmltv.xml.gz
 https://iptv-epg.org/files/epg-fr.xml.gz
 https://github.com/Catch-up-TV-and-More/xmltv/raw/master/tv_guide_fr.xml
 https://epghub.xyz/epg/EPG-FR.xml.gz
-https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz
 https://epg.pw/xmltv/epg_FR.xml.gz
+https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz

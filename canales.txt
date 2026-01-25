@@ -1,3 +1,3 @@
-L'Equipe.fr,FR - L'Equipe,https://iptv-epg.org/logos/France/L%27Equipe.fr.png
-France4.fr,FR - France 4,https://iptv-epg.org/logos/France/France4.fr.png
+C1401.api.telerama.fr,L'Equipe,https://focus.telerama.fr/500x500/0000/00/01/clear-1401.png
+C183.api.telerama.fr,RTS 2,https://focus.telerama.fr/500x500/0000/00/01/clear-183.png
 France2.fr,FR - France 2,https://iptv-epg.org/logos/France/France2.fr.png

@@ -1,495 +1,749 @@
-# Source: https://iptv-epg.org/files/epg-fr.xml.gz
-TMC+1.fr,FR - TMC + 1,https://iptv-epg.org/logos/France/TMC%2B1.fr.png
-RTRPlaneta.fr,FR - RTR Planeta,https://iptv-epg.org/logos/France/RTRPlaneta.fr.png
-TIJI.fr,FR - TIJI,https://iptv-epg.org/logos/France/TIJI.fr.png
-BFMBusiness.fr,FR - BFM Business,https://iptv-epg.org/logos/France/BFMBusiness.fr.png
-Euronews.fr,FR - Euronews,https://iptv-epg.org/logos/France/Euronews.fr.png
-RecordNews.fr,FR - Record News,https://iptv-epg.org/logos/France/RecordNews.fr.png
-IDF1.fr,FR - IDF1,https://iptv-epg.org/logos/France/IDF1.fr.png
-ZHEJIANGSTARTV.fr,FR - ZHEJIANG STAR TV,https://iptv-epg.org/logos/France/ZHEJIANGSTARTV.fr.png
-Africa24.fr,FR - Africa 24,https://iptv-epg.org/logos/France/Africa24.fr.png
-TREK.fr,FR - TREK,https://iptv-epg.org/logos/France/TREK.fr.png
-VIAVosges.fr,FR - VIA Vosges,https://iptv-epg.org/logos/France/VIAVosges.fr.png
-M6.fr,FR - M6,https://iptv-epg.org/logos/France/M6.fr.png
-via31.fr,FR - vià31,
-RMCSportLive8.fr,FR - RMC Sport Live 8,https://iptv-epg.org/logos/France/RMCSportLive8.fr.png
-Canal21.fr,FR - Canal 21,https://iptv-epg.org/logos/France/Canal21.fr.png
-MaritimaTV.fr,FR - Maritima TV,https://iptv-epg.org/logos/France/MaritimaTV.fr.png
-DiscoveryScience.fr,FR - Discovery Science,https://iptv-epg.org/logos/France/DiscoveryScience.fr.png
-TVVendee.fr,FR - TV Vendée,https://iptv-epg.org/logos/France/TVVendee.fr.png
-ComedyCentral.fr,FR - Comedy Central,https://iptv-epg.org/logos/France/ComedyCentral.fr.png
-Gulli.fr,FR - Gulli,https://iptv-epg.org/logos/France/Gulli.fr.png
-BeurFMTV.fr,FR - Beur FM TV,https://iptv-epg.org/logos/France/BeurFMTV.fr.png
-France3-Alpes.fr,FR - France 3 - Alpes,https://iptv-epg.org/logos/France/France3-Alpes.fr.png
-EchoroukNews.fr,FR - Echorouk News,https://iptv-epg.org/logos/France/EchoroukNews.fr.png
-EnnaharTV.fr,FR - Ennahar TV,https://iptv-epg.org/logos/France/EnnaharTV.fr.png
-TFM.fr,FR - TFM,https://iptv-epg.org/logos/France/TFM.fr.png
-TVGEUROPA.fr,FR - TVG EUROPA,https://iptv-epg.org/logos/France/TVGEUROPA.fr.png
-SHOWMAX.fr,FR - SHOW MAX,https://iptv-epg.org/logos/France/SHOWMAX.fr.png
-13emerue.fr,FR - 13ème rue,https://iptv-epg.org/logos/France/13emerue.fr.png
-IqraaTV.fr,FR - Iqraa TV,https://iptv-epg.org/logos/France/IqraaTV.fr.png
-Cine+Frisson.fr,FR - Ciné+ Frisson,https://iptv-epg.org/logos/France/Cine%2BFrisson.fr.png
-Tunisia1.fr,FR - Tunisia 1,https://iptv-epg.org/logos/France/Tunisia1.fr.png
-DiscoveryInvestigation.fr,FR - Discovery Investigation,https://iptv-epg.org/logos/France/DiscoveryInvestigation.fr.png
-7ALIMOGES.fr,FR - 7 A LIMOGES,https://iptv-epg.org/logos/France/7ALIMOGES.fr.png
-France3-Rhone-Alpes.fr,FR - France 3 - Rhône-Alpes,https://iptv-epg.org/logos/France/France3-Rhone-Alpes.fr.png
-TVEI.fr,FR - TVEI,https://iptv-epg.org/logos/France/TVEI.fr.png
-RaiUno.fr,FR - Rai Uno,https://iptv-epg.org/logos/France/RaiUno.fr.png
-TVIficcao.fr,FR - TVI ficcao,https://iptv-epg.org/logos/France/TVIficcao.fr.png
-Cine+Emotion.fr,FR - Ciné+ Emotion,https://iptv-epg.org/logos/France/Cine%2BEmotion.fr.png
-MBC.fr,FR - MBC,https://iptv-epg.org/logos/France/MBC.fr.png
-TV8Moselle-Est.fr,FR - TV8 Moselle-Est,https://iptv-epg.org/logos/France/TV8Moselle-Est.fr.png
-DiscoveryChannel.fr,FR - Discovery Channel,https://iptv-epg.org/logos/France/DiscoveryChannel.fr.png
-ALARABIYA.fr,FR - AL ARABIYA,https://iptv-epg.org/logos/France/ALARABIYA.fr.png
-SERIECLUB.fr,FR - SERIE CLUB,https://iptv-epg.org/logos/France/SERIECLUB.fr.png
-TVPPolonia.fr,FR - TVP Polonia,https://iptv-epg.org/logos/France/TVPPolonia.fr.png
-France3-Auvergne.fr,FR - France 3 - Auvergne,https://iptv-epg.org/logos/France/France3-Auvergne.fr.png
-Armenia1.fr,FR - Armenia 1,https://iptv-epg.org/logos/France/Armenia1.fr.png
-France24Arabic.fr,FR - France 24 Arabic,https://iptv-epg.org/logos/France/France24Arabic.fr.png
-NRJ12.fr,FR - NRJ12,https://iptv-epg.org/logos/France/NRJ12.fr.png
-RMCSportLive7.fr,FR - RMC Sport Live 7,https://iptv-epg.org/logos/France/RMCSportLive7.fr.png
-I24NEWSENGLISH.fr,FR - I24 NEWS ENGLISH,https://iptv-epg.org/logos/France/I24NEWSENGLISH.fr.png
-France3-Centre.fr,FR - France 3 - Centre,https://iptv-epg.org/logos/France/France3-Centre.fr.png
-BFMParis.fr,FR - BFM Paris,https://iptv-epg.org/logos/France/BFMParis.fr.png
-RTL9.fr,FR - RTL9,https://iptv-epg.org/logos/France/RTL9.fr.png
-TF1Series-Films.fr,FR - TF1 Séries-Films,https://iptv-epg.org/logos/France/TF1Series-Films.fr.png
-AlticeStudio.fr,FR - Altice Studio,https://iptv-epg.org/logos/France/AlticeStudio.fr.png
-MTV.fr,FR - MTV,https://iptv-epg.org/logos/France/MTV.fr.png
-8MontBlanc.fr,FR - 8 Mont Blanc,https://iptv-epg.org/logos/France/8MontBlanc.fr.png
-2MMaroc.fr,FR - 2M Maroc,https://iptv-epg.org/logos/France/2MMaroc.fr.png
-AntenneA.fr,FR - Antenne A,https://iptv-epg.org/logos/France/AntenneA.fr.png
-TRACECARIBBEAN.fr,FR - TRACE CARIBBEAN,https://iptv-epg.org/logos/France/TRACECARIBBEAN.fr.png
-STV2.fr,FR - STV2,https://iptv-epg.org/logos/France/STV2.fr.png
-6ter.fr,FR - 6ter,https://iptv-epg.org/logos/France/6ter.fr.png
-PublicSenat.fr,FR - Public Sénat,https://iptv-epg.org/logos/France/PublicSenat.fr.png
-ORTB.fr,FR - ORTB,https://iptv-epg.org/logos/France/ORTB.fr.png
-ArteAllemand.fr,FR - Arte Allemand,https://iptv-epg.org/logos/France/ArteAllemand.fr.png
-MCM.fr,FR - MCM,https://iptv-epg.org/logos/France/MCM.fr.png
-France3-Basse-Normandie.fr,FR - France 3 - Basse-Normandie,https://iptv-epg.org/logos/France/France3-Basse-Normandie.fr.png
-TVPI.fr,FR - TVPI,https://iptv-epg.org/logos/France/TVPI.fr.png
-RTLNITROTV.fr,FR - RTL NITRO TV,https://iptv-epg.org/logos/France/RTLNITROTV.fr.png
-CNews.fr,FR - CNews,https://iptv-epg.org/logos/France/CNews.fr.png
-MurrTV.fr,FR - Murr TV,https://iptv-epg.org/logos/France/MurrTV.fr.png
-L'Equipe.fr,FR - L'Equipe,https://iptv-epg.org/logos/France/L%27Equipe.fr.png
-SuperRTL.fr,FR - Super RTL,https://iptv-epg.org/logos/France/SuperRTL.fr.png
-Action.fr,FR - Action,https://iptv-epg.org/logos/France/Action.fr.png
-OCSMax.fr,FR - OCS Max,https://iptv-epg.org/logos/France/OCSMax.fr.png
-France3-Champagne-Ardenne.fr,FR - France 3 - Champagne-Ardenne,https://iptv-epg.org/logos/France/France3-Champagne-Ardenne.fr.png
-France3-ProvenceAlpes.fr,FR - France 3 - Provence Alpes,https://iptv-epg.org/logos/France/France3-ProvenceAlpes.fr.png
-OCSGeants.fr,FR - OCS Géants,https://iptv-epg.org/logos/France/OCSGeants.fr.png
-Africable.fr,FR - Africâble,https://iptv-epg.org/logos/France/Africable.fr.png
-France4.fr,FR - France 4,https://iptv-epg.org/logos/France/France4.fr.png
-CGTN-Documentary.fr,FR - CGTN-Documentary,https://iptv-epg.org/logos/France/CGTN-Documentary.fr.png
-TraceGospel.fr,FR - Trace Gospel,https://iptv-epg.org/logos/France/TraceGospel.fr.png
-ProSieben.fr,FR - ProSieben,https://iptv-epg.org/logos/France/ProSieben.fr.png
-NickelodeonTeen.fr,FR - Nickelodeon Teen,https://iptv-epg.org/logos/France/NickelodeonTeen.fr.png
-AstrocenterTV.fr,FR - Astrocenter TV,https://iptv-epg.org/logos/France/AstrocenterTV.fr.png
-France2.fr,FR - France 2,https://iptv-epg.org/logos/France/France2.fr.png
-ORTC.fr,FR - ORTC,https://iptv-epg.org/logos/France/ORTC.fr.png
-Canal2.fr,FR - Canal2,https://iptv-epg.org/logos/France/Canal2.fr.png
-Cine+Classic.fr,FR - Ciné+ Classic,https://iptv-epg.org/logos/France/Cine%2BClassic.fr.png
-TVTours.fr,FR - TV Tours,https://iptv-epg.org/logos/France/TVTours.fr.png
-RMCSportLive5.fr,FR - RMC Sport Live 5,https://iptv-epg.org/logos/France/RMCSportLive5.fr.png
-CanalCocina.fr,FR - Canal Cocina,https://iptv-epg.org/logos/France/CanalCocina.fr.png
-JordanSatelliteChannel.fr,FR - Jordan Satellite Channel,https://iptv-epg.org/logos/France/JordanSatelliteChannel.fr.png
-OLTV.fr,FR - OL TV,https://iptv-epg.org/logos/France/OLTV.fr.png
-ParamountChannel.fr,FR - Paramount Channel,https://iptv-epg.org/logos/France/ParamountChannel.fr.png
-RFMTV.fr,FR - RFM TV,https://iptv-epg.org/logos/France/RFMTV.fr.png
-AlMasriya.fr,FR - Al Masriya,https://iptv-epg.org/logos/France/AlMasriya.fr.png
-LCP-AN24.fr,FR - LCP-AN 24/24,https://iptv-epg.org/logos/France/LCP-AN24.fr.png
-France3-Poitou-Charentes.fr,FR - France 3 - Poitou-Charentes,https://iptv-epg.org/logos/France/France3-Poitou-Charentes.fr.png
-ParamountChannelDecale.fr,FR - Paramount Channel Décalé,https://iptv-epg.org/logos/France/ParamountChannelDecale.fr.png
-TELEGOHELLE.fr,FR - TELEGOHELLE,https://iptv-epg.org/logos/France/TELEGOHELLE.fr.png
-RTNC.fr,FR - RTNC,https://iptv-epg.org/logos/France/RTNC.fr.png
-Boomerang.fr,FR - Boomerang,https://iptv-epg.org/logos/France/Boomerang.fr.png
-TVBreizh.fr,FR - TV Breizh,https://iptv-epg.org/logos/France/TVBreizh.fr.png
-France3-Haute-Normandie.fr,FR - France 3 - Haute-Normandie,https://iptv-epg.org/logos/France/France3-Haute-Normandie.fr.png
-BerbereTV.fr,FR - Berbère TV,https://iptv-epg.org/logos/France/BerbereTV.fr.png
-MGGTV.fr,FR - MGGTV,https://iptv-epg.org/logos/France/MGGTV.fr.png
-CMC.fr,FR - CMC,https://iptv-epg.org/logos/France/CMC.fr.png
-TFX.fr,FR - TFX,https://iptv-epg.org/logos/France/TFX.fr.png
-J-One.fr,FR - J-One,https://iptv-epg.org/logos/France/J-One.fr.png
-BBLACKCLASSIK.fr,FR - BBLACK CLASSIK,https://iptv-epg.org/logos/France/BBLACKCLASSIK.fr.png
-DICITVALPES.fr,FR - DICI TV ALPES,https://iptv-epg.org/logos/France/DICITVALPES.fr.png
-Animaux.fr,FR - Animaux,https://iptv-epg.org/logos/France/Animaux.fr.png
-Nessma.fr,FR - Nessma,https://iptv-epg.org/logos/France/Nessma.fr.png
-RMCDecouverte.fr,FR - RMC Découverte,https://iptv-epg.org/logos/France/RMCDecouverte.fr.png
-CanalQ.fr,FR - Canal Q,https://iptv-epg.org/logos/France/CanalQ.fr.png
-N-TV.fr,FR - N-TV,https://iptv-epg.org/logos/France/N-TV.fr.png
-France3-Bourgogne.fr,FR - France 3 - Bourgogne,https://iptv-epg.org/logos/France/France3-Bourgogne.fr.png
-TOONAMI.fr,FR - TOONAMI,https://iptv-epg.org/logos/France/TOONAMI.fr.png
-RTI1.fr,FR - RTI 1,https://iptv-epg.org/logos/France/RTI1.fr.png
-CanalAlgerie.fr,FR - Canal Algérie,https://iptv-epg.org/logos/France/CanalAlgerie.fr.png
-RTL2.fr,FR - RTL2,https://iptv-epg.org/logos/France/RTL2.fr.png
-Equidia.fr,FR - Equidia,https://iptv-epg.org/logos/France/Equidia.fr.png
-2STV.fr,FR - 2STV,https://iptv-epg.org/logos/France/2STV.fr.png
-Cartoonito.fr,FR - Cartoonito,https://iptv-epg.org/logos/France/Cartoonito.fr.png
-BET.fr,FR - BET,https://iptv-epg.org/logos/France/BET.fr.png
-NollywoodTV.fr,FR - Nollywood TV,https://iptv-epg.org/logos/France/NollywoodTV.fr.png
-01TV.fr,FR - 01TV,https://iptv-epg.org/logos/France/01TV.fr.png
-Medi1TV.fr,FR - Medi1TV,https://iptv-epg.org/logos/France/Medi1TV.fr.png
-WELT.fr,FR - WELT,https://iptv-epg.org/logos/France/WELT.fr.png
-CNNInternational.fr,FR - CNN International,https://iptv-epg.org/logos/France/CNNInternational.fr.png
-CANALJ.fr,FR - CANAL J,https://iptv-epg.org/logos/France/CANALJ.fr.png
-MyCuisine.fr,FR - My Cuisine,https://iptv-epg.org/logos/France/MyCuisine.fr.png
-BBLACKAFRICA.fr,FR - BBLACK AFRICA,https://iptv-epg.org/logos/France/BBLACKAFRICA.fr.png
-CCTVYuLe.fr,FR - CCTV YuLe,https://iptv-epg.org/logos/France/CCTVYuLe.fr.png
-BenficaTV.fr,FR - Benfica TV,https://iptv-epg.org/logos/France/BenficaTV.fr.png
-Assadissa.fr,FR - Assadissa,https://iptv-epg.org/logos/France/Assadissa.fr.png
-Canal32.fr,FR - Canal 32,https://iptv-epg.org/logos/France/Canal32.fr.png
-TCMcinema.fr,FR - TCM cinéma,https://iptv-epg.org/logos/France/TCMcinema.fr.png
-France3-Aquitaine.fr,FR - France 3 - Aquitaine,https://iptv-epg.org/logos/France/France3-Aquitaine.fr.png
-Boomerang+1.fr,FR - Boomerang +1,https://iptv-epg.org/logos/France/Boomerang%2B1.fr.png
-Vox.fr,FR - Vox,https://iptv-epg.org/logos/France/Vox.fr.png
-France3-Languedoc.fr,FR - France 3 - Languedoc,https://iptv-epg.org/logos/France/France3-Languedoc.fr.png
-RMCSport2.fr,FR - RMC Sport 2,https://iptv-epg.org/logos/France/RMCSport2.fr.png
-RAISTORIA.fr,FR - RAI STORIA,https://iptv-epg.org/logos/France/RAISTORIA.fr.png
-M6Music.fr,FR - M6 Music,https://iptv-epg.org/logos/France/M6Music.fr.png
-France24English.fr,FR - France 24 English,https://iptv-epg.org/logos/France/France24English.fr.png
-TraceToca.fr,FR - Trace Toca,https://iptv-epg.org/logos/France/TraceToca.fr.png
-France3-Coted'Azur.fr,FR - France 3 - Côte d'Azur,https://iptv-epg.org/logos/France/France3-Coted%27Azur.fr.png
-Angerstele.fr,FR - Angers télé,https://iptv-epg.org/logos/France/Angerstele.fr.png
-FashionTV.fr,FR - Fashion TV,https://iptv-epg.org/logos/France/FashionTV.fr.png
-ChasseetPeche.fr,FR - Chasse et Pêche,https://iptv-epg.org/logos/France/ChasseetPeche.fr.png
-ETBSat.fr,FR - ETB Sat,https://iptv-epg.org/logos/France/ETBSat.fr.png
-DiscoveryFamily.fr,FR - Discovery Family,https://iptv-epg.org/logos/France/DiscoveryFamily.fr.png
-AlMajdHolyQuran.fr,FR - Al Majd Holy Quran,https://iptv-epg.org/logos/France/AlMajdHolyQuran.fr.png
-ScienceetVieTV.fr,FR - Science et Vie TV,https://iptv-epg.org/logos/France/ScienceetVieTV.fr.png
-OCSChoc.fr,FR - OCS Choc,https://iptv-epg.org/logos/France/OCSChoc.fr.png
-BBCWorldNews.fr,FR - BBC World News,https://iptv-epg.org/logos/France/BBCWorldNews.fr.png
-BFMLyon.fr,FR - BFM Lyon,https://iptv-epg.org/logos/France/BFMLyon.fr.png
-TELESCHILTIGHEIM-CANAL.fr,FR - TELE SCHILTIGHEIM - CANAL,
-TMC.fr,FR - TMC,https://iptv-epg.org/logos/France/TMC.fr.png
-CRTV.fr,FR - CRTV,https://iptv-epg.org/logos/France/CRTV.fr.png
-TV2COM.fr,FR - TV2COM,https://iptv-epg.org/logos/France/TV2COM.fr.png
-RMCSportLive11.fr,FR - RMC Sport Live 11,https://iptv-epg.org/logos/France/RMCSportLive11.fr.png
-Cine+Club.fr,FR - Ciné+ Club,https://iptv-epg.org/logos/France/Cine%2BClub.fr.png
-Nickelodeon.fr,FR - Nickelodeon,https://iptv-epg.org/logos/France/Nickelodeon.fr.png
-France3-Picardie.fr,FR - France 3 - Picardie,https://iptv-epg.org/logos/France/France3-Picardie.fr.png
-LCI.fr,FR - LCI,https://iptv-epg.org/logos/France/LCI.fr.png
-TeleGrenoble.fr,FR - Télé Grenoble,https://iptv-epg.org/logos/France/TeleGrenoble.fr.png
-Weo.fr,FR - Weo,https://iptv-epg.org/logos/France/Weo.fr.png
-CartoonNetwork.fr,FR - Cartoon Network,https://iptv-epg.org/logos/France/CartoonNetwork.fr.png
-TL7Saintetienne.fr,FR - TL7 Saint etienne,https://iptv-epg.org/logos/France/TL7Saintetienne.fr.png
-France3-ParisIle-de-France.fr,FR - France 3 - Paris Ile-de-France,https://iptv-epg.org/logos/France/France3-ParisIle-de-France.fr.png
-AlAoula.fr,FR - Al Aoula,https://iptv-epg.org/logos/France/AlAoula.fr.png
-SkyNews.fr,FR - Sky News,https://iptv-epg.org/logos/France/SkyNews.fr.png
-HunanSatelliteTV.fr,FR - Hunan Satellite TV,https://iptv-epg.org/logos/France/HunanSatelliteTV.fr.png
-RMCSTORY.fr,FR - RMC STORY,https://iptv-epg.org/logos/France/RMCSTORY.fr.png
-via34.fr,FR - vià34,
-KombatSport.fr,FR - Kombat Sport,https://iptv-epg.org/logos/France/KombatSport.fr.png
-I24NEWSARABIC.fr,FR - I24 NEWS ARABIC,https://iptv-epg.org/logos/France/I24NEWSARABIC.fr.png
-France3-Alsace.fr,FR - France 3 - Alsace,https://iptv-epg.org/logos/France/France3-Alsace.fr.png
-AlMaghribia.fr,FR - Al Maghribia,https://iptv-epg.org/logos/France/AlMaghribia.fr.png
-ORTM.fr,FR - ORTM,https://iptv-epg.org/logos/France/ORTM.fr.png
-ZOUKTV.fr,FR - ZOUK TV,https://iptv-epg.org/logos/France/ZOUKTV.fr.png
-GolfeTV.fr,FR - Golfe TV,https://iptv-epg.org/logos/France/GolfeTV.fr.png
-RMCSportLive6.fr,FR - RMC Sport Live 6,https://iptv-epg.org/logos/France/RMCSportLive6.fr.png
-PortoCanal.fr,FR - Porto Canal,https://iptv-epg.org/logos/France/PortoCanal.fr.png
-ElBiladTV.fr,FR - El Bilad TV,https://iptv-epg.org/logos/France/ElBiladTV.fr.png
-TF1+1.fr,FR - TF1 + 1,https://iptv-epg.org/logos/France/TF1%2B1.fr.png
-ToutelHistoire.fr,FR - Toute l'Histoire,https://iptv-epg.org/logos/France/ToutelHistoire.fr.png
-RTB.fr,FR - RTB,https://iptv-epg.org/logos/France/RTB.fr.png
-DragonTV.fr,FR - Dragon TV,https://iptv-epg.org/logos/France/DragonTV.fr.png
-France3-Franche-Comte.fr,FR - France 3 - Franche-Comté,https://iptv-epg.org/logos/France/France3-Franche-Comte.fr.png
-BFMGrandLittoral.fr,FR - BFM Grand Littoral,https://iptv-epg.org/logos/France/BFMGrandLittoral.fr.png
-GameOne.fr,FR - Game One,https://iptv-epg.org/logos/France/GameOne.fr.png
-VIAGRANDPARIS.fr,FR - VIA GRAND PARIS,https://iptv-epg.org/logos/France/VIAGRANDPARIS.fr.png
-France3NouvelleAquitaine.fr,FR - France 3 Nouvelle Aquitaine,https://iptv-epg.org/logos/France/France3NouvelleAquitaine.fr.png
-France3-Limousin.fr,FR - France 3 - Limousin,https://iptv-epg.org/logos/France/France3-Limousin.fr.png
-NRJHits.fr,FR - NRJ Hits,https://iptv-epg.org/logos/France/NRJHits.fr.png
-PhoenixCNE.fr,FR - Phoenix CNE,https://iptv-epg.org/logos/France/PhoenixCNE.fr.png
-OCSCity.fr,FR - OCS City,https://iptv-epg.org/logos/France/OCSCity.fr.png
-TVCongo.fr,FR - TV Congo,https://iptv-epg.org/logos/France/TVCongo.fr.png
-BFMTV.fr,FR - BFM TV,https://iptv-epg.org/logos/France/BFMTV.fr.png
-France3-Corse.fr,FR - France 3 - Corse,https://iptv-epg.org/logos/France/France3-Corse.fr.png
-Mosaik.fr,FR - Mosaïk,https://iptv-epg.org/logos/France/Mosaik.fr.png
-SolMusica.fr,FR - Sol Musica,https://iptv-epg.org/logos/France/SolMusica.fr.png
-TheIsraeliNetwork.fr,FR - The Israeli Network,https://iptv-epg.org/logos/France/TheIsraeliNetwork.fr.png
-VIAMirabelle.fr,FR - VIA Mirabelle,https://iptv-epg.org/logos/France/VIAMirabelle.fr.png
-LCP.fr,FR - LCP,https://iptv-epg.org/logos/France/LCP.fr.png
-TF1.fr,FR - TF1,https://iptv-epg.org/logos/France/TF1.fr.png
-NTD.fr,FR - NTD,https://iptv-epg.org/logos/France/NTD.fr.png
-RMCSport1.fr,FR - RMC Sport 1,https://iptv-epg.org/logos/France/RMCSport1.fr.png
-AlJazeeraEnglish.fr,FR - Al Jazeera English,https://iptv-epg.org/logos/France/AlJazeeraEnglish.fr.png
-LuxeTV.fr,FR - Luxe TV,https://iptv-epg.org/logos/France/LuxeTV.fr.png
-TELE-VISIONMONTREUIL.fr,FR - TELE-VISION MONTREUIL,
-RotanaAflam.fr,FR - Rotana Aflam,https://iptv-epg.org/logos/France/RotanaAflam.fr.png
-Baraem.fr,FR - Baraem,https://iptv-epg.org/logos/France/Baraem.fr.png
-Telwnantes.fr,FR - Télénantes,https://iptv-epg.org/logos/France/Telwnantes.fr.png
-VoxAfrica.fr,FR - Vox Africa,https://iptv-epg.org/logos/France/VoxAfrica.fr.png
-CCTV-4.fr,FR - CCTV-4,https://iptv-epg.org/logos/France/CCTV-4.fr.png
-LYONTV.fr,FR - LYON TV,https://iptv-epg.org/logos/France/LYONTV.fr.png
-RTPI.fr,FR - RTPI,https://iptv-epg.org/logos/France/RTPI.fr.png
-RotanaCinema.fr,FR - Rotana Cinema,https://iptv-epg.org/logos/France/RotanaCinema.fr.png
-TV5Monde.fr,FR - TV5 Monde,https://iptv-epg.org/logos/France/TV5Monde.fr.png
-Histoire.fr,FR - Histoire,https://iptv-epg.org/logos/France/Histoire.fr.png
-BBLACKCARIBBEAN.fr,FR - BBLACK CARIBBEAN,https://iptv-epg.org/logos/France/BBLACKCARIBBEAN.fr.png
-NickelodeonJunior.fr,FR - Nickelodeon Junior,https://iptv-epg.org/logos/France/NickelodeonJunior.fr.png
-JeemTV.fr,FR - Jeem TV,https://iptv-epg.org/logos/France/JeemTV.fr.png
-i24news.fr,FR - i24 news,https://iptv-epg.org/logos/France/i24news.fr.png
-Arrabia.fr,FR - Arrabiâ,https://iptv-epg.org/logos/France/Arrabia.fr.png
-Decasa.fr,FR - Decasa,https://iptv-epg.org/logos/France/Decasa.fr.png
-W9.fr,FR - W9,https://iptv-epg.org/logos/France/W9.fr.png
-TELELOCALEBIESHEIM.fr,FR - TELE LOCALE BIESHEIM,https://iptv-epg.org/logos/France/TELELOCALEBIESHEIM.fr.png
-Mangas.fr,FR - Mangas,https://iptv-epg.org/logos/France/Mangas.fr.png
-franceinfo:.fr,FR - franceinfo:,https://iptv-epg.org/logos/France/franceinfo:.fr.png
-RMCSportLive3.fr,FR - RMC Sport Live 3,https://iptv-epg.org/logos/France/RMCSportLive3.fr.png
-TraceUrban.fr,FR - Trace Urban,https://iptv-epg.org/logos/France/TraceUrban.fr.png
-RMCSportLive12.fr,FR - RMC Sport Live 12,https://iptv-epg.org/logos/France/RMCSportLive12.fr.png
-BBCENTERTAINMENT.fr,FR - BBC ENTERTAINMENT,https://iptv-epg.org/logos/France/BBCENTERTAINMENT.fr.png
-France5.fr,FR - France 5,https://iptv-epg.org/logos/France/France5.fr.png
-Alsace20.fr,FR - Alsace 20,https://iptv-epg.org/logos/France/Alsace20.fr.png
-TV7Bordeaux.fr,FR - TV7 Bordeaux,https://iptv-epg.org/logos/France/TV7Bordeaux.fr.png
-Cherie25.fr,FR - Chérie 25,https://iptv-epg.org/logos/France/Cherie25.fr.png
-France3-NordPas-de-Calais.fr,FR - France 3 - Nord Pas-de-Calais,https://iptv-epg.org/logos/France/France3-NordPas-de-Calais.fr.png
-AB1.fr,FR - AB1,https://iptv-epg.org/logos/France/AB1.fr.png
-France3-PaysdeLoire.fr,FR - France 3 - Pays de Loire,https://iptv-epg.org/logos/France/France3-PaysdeLoire.fr.png
-ChannelOneRussia.fr,FR - Channel One Russia,https://iptv-epg.org/logos/France/ChannelOneRussia.fr.png
-NHKWORLD-JAPAN.fr,FR - NHK WORLD-JAPAN,https://iptv-epg.org/logos/France/NHKWORLD-JAPAN.fr.png
-E!.fr,FR - E!,https://iptv-epg.org/logos/France/E%21.fr.png
-DW-TV.fr,FR - DW-TV,https://iptv-epg.org/logos/France/DW-TV.fr.png
-Cine+Premier.fr,FR - Ciné+ Premier,https://iptv-epg.org/logos/France/Cine%2BPremier.fr.png
-DubaiTV.fr,FR - Dubaï TV,https://iptv-epg.org/logos/France/DubaiTV.fr.png
-LocalVisao.fr,FR - Local Visao,https://iptv-epg.org/logos/France/LocalVisao.fr.png
-RTG.fr,FR - RTG,https://iptv-epg.org/logos/France/RTG.fr.png
-RMCSportLive9.fr,FR - RMC Sport Live 9,https://iptv-epg.org/logos/France/RMCSportLive9.fr.png
-TV78.fr,FR - TV78,https://iptv-epg.org/logos/France/TV78.fr.png
-Somos.fr,FR - Somos,https://iptv-epg.org/logos/France/Somos.fr.png
-RMCSportLive4.fr,FR - RMC Sport Live 4,https://iptv-epg.org/logos/France/RMCSportLive4.fr.png
-RMCSportLive10.fr,FR - RMC Sport Live 10,https://iptv-epg.org/logos/France/RMCSportLive10.fr.png
-IqraaInternational.fr,FR - Iqraa International,https://iptv-epg.org/logos/France/IqraaInternational.fr.png
-Arryadia.fr,FR - Arryadia,https://iptv-epg.org/logos/France/Arryadia.fr.png
-TVM.fr,FR - TVM,https://iptv-epg.org/logos/France/TVM.fr.png
-WANTZTV.fr,FR - WANTZ TV,https://iptv-epg.org/logos/France/WANTZTV.fr.png
-HANNIBALTV.fr,FR - HANNIBAL TV,https://iptv-epg.org/logos/France/HANNIBALTV.fr.png
-TelePaese.fr,FR - Télé Paese,https://iptv-epg.org/logos/France/TelePaese.fr.png
-CNBCEUROPE.fr,FR - CNBC EUROPE,https://iptv-epg.org/logos/France/CNBCEUROPE.fr.png
-24HTVE.fr,FR - 24H TVE,https://iptv-epg.org/logos/France/24HTVE.fr.png
-Teva.fr,FR - Téva,https://iptv-epg.org/logos/France/Teva.fr.png
-MezzoLive.fr,FR - Mezzo Live,https://iptv-epg.org/logos/France/MezzoLive.fr.png
-Lachainenormande.fr,FR - La chaîne normande,https://iptv-epg.org/logos/France/Lachainenormande.fr.png
-MensUpTV.fr,FR - Mens Up TV,https://iptv-epg.org/logos/France/MensUpTV.fr.png
-TVRomaniaInternational.fr,FR - TV Romania International,https://iptv-epg.org/logos/France/TVRomaniaInternational.fr.png
-ABOLATV.fr,FR - A BOLA TV,https://iptv-epg.org/logos/France/ABOLATV.fr.png
-MTVHits.fr,FR - MTV Hits,https://iptv-epg.org/logos/France/MTVHits.fr.png
-A3Cine.fr,FR - A3 Cine,https://iptv-epg.org/logos/France/A3Cine.fr.png
-LuckyJack.fr,FR - Lucky Jack,https://iptv-epg.org/logos/France/LuckyJack.fr.png
-France3.fr,FR - France 3,https://iptv-epg.org/logos/France/France3.fr.png
-BEINMOVIES.fr,FR - BEIN MOVIES,https://iptv-epg.org/logos/France/BEINMOVIES.fr.png
-France24.fr,FR - France 24,https://iptv-epg.org/logos/France/France24.fr.png
-France3-Lorraine.fr,FR - France 3 - Lorraine,https://iptv-epg.org/logos/France/France3-Lorraine.fr.png
-via66.fr,FR - vià66,
-RTLTelevision.fr,FR - RTL Television,https://iptv-epg.org/logos/France/RTLTelevision.fr.png
-TEBEO.fr,FR - TEBEO,https://iptv-epg.org/logos/France/TEBEO.fr.png
-Nickelodeon+1.fr,FR - Nickelodeon+1,https://iptv-epg.org/logos/France/Nickelodeon%2B1.fr.png
-BFMGrandLille.fr,FR - BFM Grand Lille,https://iptv-epg.org/logos/France/BFMGrandLille.fr.png
-GameOne+1.fr,FR - Game One +1,https://iptv-epg.org/logos/France/GameOne%2B1.fr.png
-KABELEINS.fr,FR - KABEL EINS,https://iptv-epg.org/logos/France/KABELEINS.fr.png
-France3-Midi-Pyrenees.fr,FR - France 3 - Midi-Pyrénées,https://iptv-epg.org/logos/France/France3-Midi-Pyrenees.fr.png
-ParisPremiere.fr,FR - Paris Première,https://iptv-epg.org/logos/France/ParisPremiere.fr.png
-KTO.fr,FR - KTO,https://iptv-epg.org/logos/France/KTO.fr.png
-RTS1.fr,FR - RTS 1,https://iptv-epg.org/logos/France/RTS1.fr.png
-Syfy.fr,FR - Syfy,https://iptv-epg.org/logos/France/Syfy.fr.png
-BloombergPAN-European.fr,FR - Bloomberg PAN-European,https://iptv-epg.org/logos/France/BloombergPAN-European.fr.png
-TraceAfrica.fr,FR - Trace Africa,https://iptv-epg.org/logos/France/TraceAfrica.fr.png
-MELODYTV.fr,FR - MELODY TV,https://iptv-epg.org/logos/France/MELODYTV.fr.png
-CGTN-Francais.fr,FR - CGTN-Français,https://iptv-epg.org/logos/France/CGTN-Francais.fr.png
-RAISCUOLA.fr,FR - RAI SCUOLA,https://iptv-epg.org/logos/France/RAISCUOLA.fr.png
-Arte.fr,FR - Arte,https://iptv-epg.org/logos/France/Arte.fr.png
-Cine+Famiz.fr,FR - Ciné+ Famiz,https://iptv-epg.org/logos/France/Cine%2BFamiz.fr.png
-Melodyd'Afrique.fr,FR - Melody d'Afrique,https://iptv-epg.org/logos/France/Melodyd%27Afrique.fr.png
-KANAL7AVRUPA.fr,FR - KANAL 7 AVRUPA,https://iptv-epg.org/logos/France/KANAL7AVRUPA.fr.png
-UshuaiaTV.fr,FR - Ushuaia TV,https://iptv-epg.org/logos/France/UshuaiaTV.fr.png
-ERETV.fr,FR - ERE TV,https://iptv-epg.org/logos/France/ERETV.fr.png
-CStar.fr,FR - CStar,https://iptv-epg.org/logos/France/CStar.fr.png
-France3-Bretagne.fr,FR - France 3 - Bretagne,https://iptv-epg.org/logos/France/France3-Bretagne.fr.png
-ILTV.fr,FR - IL TV,https://iptv-epg.org/logos/France/ILTV.fr.png
-Gabon24.fr,FR - Gabon 24,https://iptv-epg.org/logos/France/Gabon24.fr.png
-beINSPORTS1.fr,FR - beIN SPORTS 1,https://iptv-epg.org/logos/France/beINSPORTS1.fr.png
-beINSPORTS2.fr,FR - beIN SPORTS 2,https://iptv-epg.org/logos/France/beINSPORTS2.fr.png
-beINSPORTS3.fr,FR - beIN SPORTS 3,https://iptv-epg.org/logos/France/beINSPORTS3.fr.png
-beINSPORTSMAX4.fr,FR - beIN SPORTS MAX 4,https://iptv-epg.org/logos/France/beINSPORTSMAX4.fr.png
-beINSPORTSMAX5.fr,FR - beIN SPORTS MAX 5,https://iptv-epg.org/logos/France/beINSPORTSMAX5.fr.png
-beINSPORTSMAX6.fr,FR - beIN SPORTS MAX 6,https://iptv-epg.org/logos/France/beINSPORTSMAX6.fr.png
-beINSPORTSMAX7.fr,FR - beIN SPORTS MAX 7,https://iptv-epg.org/logos/France/beINSPORTSMAX7.fr.png
-beINSPORTSMAX8.fr,FR - beIN SPORTS MAX 8,https://iptv-epg.org/logos/France/beINSPORTSMAX8.fr.png
-beINSPORTSMAX9.fr,FR - beIN SPORTS MAX 9,https://iptv-epg.org/logos/France/beINSPORTSMAX9.fr.png
-beINSPORTSMAX10.fr,FR - beIN SPORTS MAX 10,https://iptv-epg.org/logos/France/beINSPORTSMAX10.fr.png
-OCSPulp.fr,FR - OCS Pulp,https://iptv-epg.org/logos/France/OCSPulp.fr.png
-MUSEUMTV.fr,FR - MUSEUM TV,https://iptv-epg.org/logos/France/MUSEUMTV.fr.png
-DREAMWORKS.fr,FR - DREAMWORKS,https://iptv-epg.org/logos/France/DREAMWORKS.fr.png
-MaisonAndTravauxTV.fr,FR - Maison &amp; Travaux TV,https://iptv-epg.org/logos/France/MaisonAndTravauxTV.fr.png
-TVMonaco.fr,FR - TVMonaco,https://iptv-epg.org/logos/France/TVMonaco.fr.png
-AutoPlusTV.fr,FR - AutoPlus TV,https://iptv-epg.org/logos/France/AutoPlusTV.fr.png
-TLC.fr,FR - TLC,https://iptv-epg.org/logos/France/TLC.fr.png
-TopSante.fr,FR - Top Santé,https://iptv-epg.org/logos/France/TopSante.fr.png
-STINGRAYCLASSICA.fr,FR - STINGRAY CLASSICA,https://iptv-epg.org/logos/France/STINGRAYCLASSICA.fr.png
-StingrayDjazz.fr,FR - Stingray Djazz,https://iptv-epg.org/logos/France/StingrayDjazz.fr.png
-A+InternationalFrance.fr,FR - A+ International France,https://iptv-epg.org/logos/France/A%2BInternationalFrance.fr.png
-RMCSportLive13.fr,FR - RMC Sport Live 13,https://iptv-epg.org/logos/France/RMCSportLive13.fr.png
-RMCSportLive14.fr,FR - RMC Sport Live 14,https://iptv-epg.org/logos/France/RMCSportLive14.fr.png
-Ginx.fr,FR - Ginx,https://iptv-epg.org/logos/France/Ginx.fr.png
-RMCSportAccess1.fr,FR - RMC Sport Access 1,https://iptv-epg.org/logos/France/RMCSportAccess1.fr.png
-RMCSportAccess2.fr,FR - RMC Sport Access 2,https://iptv-epg.org/logos/France/RMCSportAccess2.fr.png
-RMCSportAccess3.fr,FR - RMC Sport Access 3,https://iptv-epg.org/logos/France/RMCSportAccess3.fr.png
-Gong.fr,FR - Gong,https://iptv-epg.org/logos/France/Gong.fr.png
-LaChaineMeteo.fr,FR - La Chaine Meteo,https://iptv-epg.org/logos/France/LaChaineMeteo.fr.png
-AutomotoLaChaine.fr,FR - Automoto La Chaine,https://iptv-epg.org/logos/France/AutomotoLaChaine.fr.png
-Eurosport360_1.fr,FR - Eurosport 360 1,https://iptv-epg.org/logos/France/Eurosport360_1.fr.png
-Eurosport360_2.fr,FR - Eurosport 360 2,https://iptv-epg.org/logos/France/Eurosport360_2.fr.png
-Eurosport360_3.fr,FR - Eurosport 360 3,https://iptv-epg.org/logos/France/Eurosport360_3.fr.png
-Eurosport360_4.fr,FR - Eurosport 360 4,https://iptv-epg.org/logos/France/Eurosport360_4.fr.png
-Eurosport360_5.fr,FR - Eurosport 360 5,https://iptv-epg.org/logos/France/Eurosport360_5.fr.png
-Eurosport360_6.fr,FR - Eurosport 360 6,https://iptv-epg.org/logos/France/Eurosport360_6.fr.png
-Eurosport360_7.fr,FR - Eurosport 360 7,https://iptv-epg.org/logos/France/Eurosport360_7.fr.png
-Eurosport360_8.fr,FR - Eurosport 360 8,https://iptv-epg.org/logos/France/Eurosport360_8.fr.png
-T18.fr,FR - T18,https://iptv-epg.org/logos/France/T18.fr.png
-OlympiaTV.fr,FR - Olympia TV,https://iptv-epg.org/logos/France/OlympiaTV.fr.png
-MyZentv.fr,FR - MyZen.tv,https://iptv-epg.org/logos/France/MyZentv.fr.png
-NOVELASTV.fr,FR - NOVELAS TV,https://iptv-epg.org/logos/France/NOVELASTV.fr.png
-PLANETE+CRIME.fr,FR - PLANETE+ CRIME,https://iptv-epg.org/logos/France/PLANETE%2BCRIME.fr.png
-PLANETE+AandE.fr,FR - PLANETE+ A&amp;E,https://iptv-epg.org/logos/France/PLANETE%2BAandE.fr.png
-RTFRANCE.fr,FR - RT FRANCE,https://iptv-epg.org/logos/France/RTFRANCE.fr.png
-VICETV.fr,FR - VICE TV,https://iptv-epg.org/logos/France/VICETV.fr.png
-EUROSPORT1.fr,FR - EUROSPORT 1,https://iptv-epg.org/logos/France/EUROSPORT1.fr.png
-EUROSPORT2.fr,FR - EUROSPORT 2,https://iptv-epg.org/logos/France/EUROSPORT2.fr.png
-INFOSPORT+.fr,FR - INFOSPORT+,https://iptv-epg.org/logos/France/INFOSPORT%2B.fr.png
-CSTARHITS.fr,FR - C-STAR HITS,https://iptv-epg.org/logos/France/CSTARHITS.fr.png
-CANALALPHANE.fr,FR - CANAL ALPHA NE,https://iptv-epg.org/logos/France/CANALALPHANE.fr.png
-CANAL+Kids.fr,FR - CANAL+ Kids,https://iptv-epg.org/logos/France/CANAL%2BKids.fr.png
-CANAL+GRANDECRAN.fr,FR - CANAL+GRAND ECRAN,https://iptv-epg.org/logos/France/CANAL%2BGRANDECRAN.fr.png
-CANAL+DOCS.fr,FR - CANAL+DOCS,https://iptv-epg.org/logos/France/CANAL%2BDOCS.fr.png
-CANAL+SPORT360.fr,FR - CANAL+ SPORT 360,https://iptv-epg.org/logos/France/CANAL%2BSPORT360.fr.png
-CANAL+FOOT.fr,FR - CANAL+ FOOT,https://iptv-epg.org/logos/France/CANAL%2BFOOT.fr.png
-PLANETE+AVENTURE.fr,FR - PLANETE+AVENTURE,https://iptv-epg.org/logos/France/PLANETE%2BAVENTURE.fr.png
-MULTISPORTS1.fr,FR - MULTISPORTS 1,https://iptv-epg.org/logos/France/MULTISPORTS1.fr.png
-MULTISPORTS2.fr,FR - MULTISPORTS 2,https://iptv-epg.org/logos/France/MULTISPORTS2.fr.png
-MULTISPORTS3.fr,FR - MULTISPORTS 3,https://iptv-epg.org/logos/France/MULTISPORTS3.fr.png
-MULTISPORTS4.fr,FR - MULTISPORTS 4,https://iptv-epg.org/logos/France/MULTISPORTS4.fr.png
-MULTISPORTS5.fr,FR - MULTISPORTS 5,https://iptv-epg.org/logos/France/MULTISPORTS5.fr.png
-MULTISPORTS6.fr,FR - MULTISPORTS 6,https://iptv-epg.org/logos/France/MULTISPORTS6.fr.png
-CANAL+PREMIERLEAGUE.fr,FR - CANAL+ PREMIER LEAGUE,https://iptv-epg.org/logos/France/CANAL%2BPREMIERLEAGUE.fr.png
-CANAL+FORMULA1.fr,FR - CANAL+ FORMULA 1,https://iptv-epg.org/logos/France/CANAL%2BFORMULA1.fr.png
-CANAL+TOP14.fr,FR - CANAL+ TOP 14,https://iptv-epg.org/logos/France/CANAL%2BTOP14.fr.png
-CANAL+MOTOGP.fr,FR - CANAL+ MOTO GP,https://iptv-epg.org/logos/France/CANAL%2BMOTOGP.fr.png
-CANAL+BOXOFFICE.fr,FR - CANAL+BOX OFFICE,https://iptv-epg.org/logos/France/CANAL%2BBOXOFFICE.fr.png
-CANAL+BOXOFFICE_CH.fr,FR - CANAL+BOX OFFICE (CH)s,https://iptv-epg.org/logos/France/CANAL%2BBOXOFFICE_CH.fr.png
-CANAL+LIVE1.fr,FR - CANAL+LIVE 1,https://iptv-epg.org/logos/France/CANAL%2BLIVE1.fr.png
-CANAL+LIVE2.fr,FR - CANAL+LIVE 2,https://iptv-epg.org/logos/France/CANAL%2BLIVE2.fr.png
-CANAL+LIVE3.fr,FR - CANAL+LIVE 3,https://iptv-epg.org/logos/France/CANAL%2BLIVE3.fr.png
-CANAL+LIVE4.fr,FR - CANAL+LIVE 4,https://iptv-epg.org/logos/France/CANAL%2BLIVE4.fr.png
-CANAL+LIVE5.fr,FR - CANAL+LIVE 5,https://iptv-epg.org/logos/France/CANAL%2BLIVE5.fr.png
-CANAL+LIVE6.fr,FR - CANAL+LIVE 6,https://iptv-epg.org/logos/France/CANAL%2BLIVE6.fr.png
-CANAL+LIVE7.fr,FR - CANAL+LIVE 7,https://iptv-epg.org/logos/France/CANAL%2BLIVE7.fr.png
-CANAL+LIVE8.fr,FR - CANAL+LIVE 8,https://iptv-epg.org/logos/France/CANAL%2BLIVE8.fr.png
-CANAL+LIVE9.fr,FR - CANAL+LIVE 9,https://iptv-epg.org/logos/France/CANAL%2BLIVE9.fr.png
-CANAL+LIVE10.fr,FR - CANAL+LIVE 10,https://iptv-epg.org/logos/France/CANAL%2BLIVE10.fr.png
-CANAL+LIVE11.fr,FR - CANAL+LIVE 11,https://iptv-epg.org/logos/France/CANAL%2BLIVE11.fr.png
-CANAL+LIVE12.fr,FR - CANAL+LIVE 12,https://iptv-epg.org/logos/France/CANAL%2BLIVE12.fr.png
-CANAL+LIVE13.fr,FR - CANAL+LIVE 13,https://iptv-epg.org/logos/France/CANAL%2BLIVE13.fr.png
-CANAL+LIVE14.fr,FR - CANAL+LIVE 14,https://iptv-epg.org/logos/France/CANAL%2BLIVE14.fr.png
-CANAL+LIVE15.fr,FR - CANAL+LIVE 15,https://iptv-epg.org/logos/France/CANAL%2BLIVE15.fr.png
-CANAL+LIVE16.fr,FR - CANAL+LIVE 16,https://iptv-epg.org/logos/France/CANAL%2BLIVE16.fr.png
-CANAL+LIVE17.fr,FR - CANAL+LIVE 17,https://iptv-epg.org/logos/France/CANAL%2BLIVE17.fr.png
-CANAL+LIVE18.fr,FR - CANAL+LIVE 18,https://iptv-epg.org/logos/France/CANAL%2BLIVE18.fr.png
-CANAL+LIVE19.fr,FR - CANAL+LIVE 19,https://iptv-epg.org/logos/France/CANAL%2BLIVE19.fr.png
-SEASONS.fr,FR - SEASONS,https://iptv-epg.org/logos/France/SEASONS.fr.png
-Mezzo.fr,FR - Mezzo,https://iptv-epg.org/logos/France/Mezzo.fr.png
-Planeteplus.fr,FR - Planete+,https://iptv-epg.org/logos/France/Planeteplus.fr.png
-teleTOONplus.fr,FR - teleTOON+,https://iptv-epg.org/logos/France/teleTOONplus.fr.png
-COMEDIE+.fr,FR - COMEDIE+,https://iptv-epg.org/logos/France/COMEDIE%2B.fr.png
-POLAR+.fr,FR - POLAR+,https://iptv-epg.org/logos/France/POLAR%2B.fr.png
-PIWI+.fr,FR - PIWI+,https://iptv-epg.org/logos/France/PIWI%2B.fr.png
-CANAL+.fr,FR - CANAL+,https://iptv-epg.org/logos/France/CANAL%2B.fr.png
-CANAL+CINEMA.fr,FR - CANAL+ CINEMA,https://iptv-epg.org/logos/France/CANAL%2BCINEMA.fr.png
-CANAL+SERIES.fr,FR - CANAL+ SERIES,https://iptv-epg.org/logos/France/CANAL%2BSERIES.fr.png
-C+SPORT.fr,FR - C+ SPORT,https://iptv-epg.org/logos/France/C%2BSPORT.fr.png
-DAZN1.fr,FR - DAZN 1,https://iptv-epg.org/logos/France/DAZN1.fr.png
-DEMAIN.fr,FR - DEMAIN,https://iptv-epg.org/logos/France/DEMAIN.fr.png
-NationalGeographicWild.fr,FR - National Geographic Wild,https://iptv-epg.org/logos/France/NationalGeographicWild.fr.png
-NationalGeographic.fr,FR - National Geographic,https://iptv-epg.org/logos/France/NationalGeographic.fr.png
-DisneyChannel.fr,FR - Disney Channel,https://iptv-epg.org/logos/France/DisneyChannel.fr.png
-DisneyJunior.fr,FR - Disney Junior,https://iptv-epg.org/logos/France/DisneyJunior.fr.png
-CRIMEDISTRICT.fr,FR - CRIME DISTRICT,https://iptv-epg.org/logos/France/CRIMEDISTRICT.fr.png
-TRACESportStars.fr,FR - TRACE Sport Stars,https://iptv-epg.org/logos/France/TRACESportStars.fr.png
-BabyTV.fr,FR - Baby TV,https://iptv-epg.org/logos/France/BabyTV.fr.png
-WarnerTV.fr,FR - Warner TV,https://iptv-epg.org/logos/France/WarnerTV.fr.png
-WarnerTVNext.fr,FR - Warner TV Next,https://iptv-epg.org/logos/France/WarnerTVNext.fr.png
-GongMax.fr,FR - Gong Max,https://iptv-epg.org/logos/France/GongMax.fr.png
-Cine+OCS.fr,FR - Ciné+ OCS,https://iptv-epg.org/logos/France/Cine%2BOCS.fr.png
-Cine+Festival.fr,FR - Ciné+ Festival,https://iptv-epg.org/logos/France/Cine%2BFestival.fr.png
-SportEnFrance.fr,FR - Sport en France,https://iptvboss.xyz/logos/France/SportenFrance.fr.png
-Telenovelas24_24.fr,FR - Telenovelas 24/24,https://iptv-epg.org/logos/France/Telenovelas24_24.fr.png
-TelefilmsdeNoel24_24.fr,FR - Téléfilms de Noël 24/24,https://iptv-epg.org/logos/France/TelefilmsdeNoel24_24.fr.png
-TelefilmsRomance24_24.fr,FR - Téléfilms Romance 24/24,https://iptv-epg.org/logos/France/TelefilmsRomance24_24.fr.png
-NFL.fr,FR - NFL,https://iptv-epg.org/logos/France/NFL.fr.png
-Beyblade24_24.fr,FR - Beyblade 24/24,https://iptv-epg.org/logos/France/Beyblade24_24.fr.png
-Zoneinterdite24_24.fr,FR - Zone interdite 24/24,https://iptv-epg.org/logos/France/Zoneinterdite24_24.fr.png
-EnquetesCriminelles24_24.fr,FR - Enquêtes Criminelles 24/24,https://iptv-epg.org/logos/France/EnquetesCriminelles24_24.fr.png
-LesMarseillais24_24.fr,FR - Les Marseillais 24/24,https://iptv-epg.org/logos/France/LesMarseillais24_24.fr.png
-Turbo24_24.fr,FR - Turbo 24/24,https://iptv-epg.org/logos/France/Turbo24_24.fr.png
-ReinesduShopping24_24.fr,FR - Reines du shopping 24/24,https://iptv-epg.org/logos/France/ReinesduShopping24_24.fr.png
-Nashville24_24.fr,FR - Nashville 24/24,https://iptv-epg.org/logos/France/Nashville24_24.fr.png
-Cuisine24_24.fr,FR - Cuisine 24/24,https://iptv-epg.org/logos/France/Cuisine24_24.fr.png
-SF24_24.fr,FR - SF 24/24,https://iptv-epg.org/logos/France/SF24_24.fr.png
-IncroyablesTransformations24_24.fr,FR - Incroyables Transformations 24/24,https://iptv-epg.org/logos/France/IncroyablesTransformations24_24.fr.png
-RMCWOW.fr,FR - RMC WOW,https://iptv-epg.org/logos/France/RMCWOW.fr.png
-BFMDICIHAUTE-PROVENCE.fr,FR - BFM DICI HAUTE-PROVENCE,https://iptv-epg.org/logos/France/BFMDICIHAUTE-PROVENCE.fr.png
-BFMTOULONVAR.fr,FR - BFM TOULON VAR,https://iptv-epg.org/logos/France/BFMTOULONVAR.fr.png
-Jiraidormirchezvous.fr,FR - J'irai dormir chez vous,https://iptv-epg.org/logos/France/Jiraidormirchezvous.fr.png
-BFMALSACE.fr,FR - BFM ALSACE,https://iptv-epg.org/logos/France/BFMALSACE.fr.png
-BFM2.fr,FR - BFM2,https://iptv-epg.org/logos/France/BFM2.fr.png
-BFMNICECOTED'AZUR.fr,FR - BFM NICE COTE D'AZUR,https://iptv-epg.org/logos/France/BFMNICECOTED%27AZUR.fr.png
-RMCMecanic.fr,FR - RMC Mecanic,https://iptv-epg.org/logos/France/RMCMecanic.fr.png
-RMCMystere.fr,FR - RMC Mystère,https://iptv-epg.org/logos/France/RMCMystere.fr.png
-RMCTalkSport.fr,FR - RMC Talk Sport,https://iptv-epg.org/logos/France/RMCTalkSport.fr.png
-BFMNORMANDIE.fr,FR - BFM NORMANDIE,https://iptv-epg.org/logos/France/BFMNORMANDIE.fr.png
-BFMMARSEILLEPROVENCE.fr,FR - BFM MARSEILLE PROVENCE,https://iptv-epg.org/logos/France/BFMMARSEILLEPROVENCE.fr.png
-BFMPARISILE-DE-FRANCE.fr,FR - BFM PARIS ILE-DE-FRANCE,https://iptv-epg.org/logos/France/BFMPARISILE-DE-FRANCE.fr.png
-RMCAlerteSecours.fr,FR - RMC Alerte Secours,https://iptv-epg.org/logos/France/RMCAlerteSecours.fr.png
-BFMGrandsReportages.fr,FR - BFM Grands Reportages,https://iptv-epg.org/logos/France/BFMGrandsReportages.fr.png
-TECHAndCO.fr,FR - TECH &amp; CO,https://iptv-epg.org/logos/France/TECHAndCO.fr.png
-BFMDICIALPESDUSUD.fr,FR - BFM DICI ALPES DU SUD,https://iptv-epg.org/logos/France/BFMDICIALPESDUSUD.fr.png
-RMCTalkInfo.fr,FR - RMC Talk Info,https://iptv-epg.org/logos/France/RMCTalkInfo.fr.png
-FranceTVDocs.fr,FR - France TV Docs,https://iptv-epg.org/logos/France/FranceTVDocs.fr.png
-FranceTVSeries,France TV Séries,https://iptv-epg.org/logos/France/FranceTVSeries.png
-MarmitonTV.fr,FR - Marmiton TV,https://iptv-epg.org/logos/France/MarmitonTV.fr.png
-Ligue1+.fr,FR - Ligue 1+,https://iptv-epg.org/logos/France/Ligue1%2B.fr.png
-Ligue1+2.fr,FR - Ligue 1+ 2,https://iptv-epg.org/logos/France/Ligue1%2B2.fr.png
-Ligue1+3.fr,FR - Ligue 1+ 3,https://iptv-epg.org/logos/France/Ligue1%2B3.fr.png
-Ligue1+4.fr,FR - Ligue 1+ 4,https://iptv-epg.org/logos/France/Ligue1%2B4.fr.png
-Ligue1+5.fr,FR - Ligue 1+ 5,https://iptv-epg.org/logos/France/Ligue1%2B5.fr.png
-Ligue1+6.fr,FR - Ligue 1+ 6,https://iptv-epg.org/logos/France/Ligue1%2B6.fr.png
-Ligue1+7.fr,FR - Ligue 1+ 7,https://iptv-epg.org/logos/France/Ligue1%2B7.fr.png
-Ligue1+8.fr,FR - Ligue 1+ 8,https://iptv-epg.org/logos/France/Ligue1%2B8.fr.png
-Ligue1+9.fr,FR - Ligue 1+ 9,https://iptv-epg.org/logos/France/Ligue1%2B9.fr.png
-Ligue1+10.fr,FR - Ligue 1+ 10,https://iptv-epg.org/logos/France/Ligue1%2B10.fr.png
-PrimeVideoLigueChannel1.fr,FR - Prime Video Ligue Channel 1,https://iptv-epg.org/logos/France/PrimeVideoLigueChannel1.fr.png
-PrimeVideoLigueChannel2.fr,FR - Prime Video Ligue Channel 2,https://iptv-epg.org/logos/France/PrimeVideoLigueChannel2.fr.png
-PrimeVideoLigueChannel3.fr,FR - Prime Video Ligue Channel 3,https://iptv-epg.org/logos/France/PrimeVideoLigueChannel3.fr.png
-PrimeVideoLigueChannel4.fr,FR - Prime Video Ligue Channel 4,https://iptv-epg.org/logos/France/PrimeVideoLigueChannel4.fr.png
-PrimeVideoLigueChannel5.fr,FR - Prime Video Ligue Channel 5,https://iptv-epg.org/logos/France/PrimeVideoLigueChannel5.fr.png
-PrimeVideoLigueChannel6.fr,FR - Prime Video Ligue Channel 6,https://iptv-epg.org/logos/France/PrimeVideoLigueChannel6.fr.png
-PrimeVideoLigueChannel7.fr,FR - Prime Video Ligue Channel 7,https://iptv-epg.org/logos/France/PrimeVideoLigueChannel7.fr.png
-PrimeVideoLigueChannel8.fr,FR - Prime Video Ligue Channel 8,https://iptv-epg.org/logos/France/PrimeVideoLigueChannel8.fr.png
-PrimeVideoLigueChannel9.fr,FR - Prime Video Ligue Channel 9,https://iptv-epg.org/logos/France/PrimeVideoLigueChannel9.fr.png
-PrimeVideoLigueChannel10.fr,FR - Prime Video Ligue Channel 10,https://iptv-epg.org/logos/France/PrimeVideoLigueChannel10.fr.png
-AngersSCO.fr,FR - Angers SCO,https://iptv-epg.org/logos/France/AngersSCO.fr.png
-ASMonaco.fr,FR - AS Monaco,https://iptv-epg.org/logos/France/ASMonaco.fr.png
-Auxerre.fr,FR - Auxerre,https://iptv-epg.org/logos/France/Auxerre.fr.png
-FCNantes.fr,FR - FC Nantes,https://iptv-epg.org/logos/France/FCNantes.fr.png
-LeHavre.fr,FR - Le Havre,https://iptv-epg.org/logos/France/LeHavre.fr.png
-Lens.fr,FR - Lens,https://iptv-epg.org/logos/France/Lens.fr.png
-Lille.fr,FR - Lille,https://iptv-epg.org/logos/France/Lille.fr.png
-Montpellier.fr,FR - Montpellier,https://iptv-epg.org/logos/France/Montpellier.fr.png
-OGCNice.fr,FR - OGC Nice,https://iptv-epg.org/logos/France/OGCNice.fr.png
-OlympiqueLyonnais.fr,FR - Olympique Lyonnais,https://iptv-epg.org/logos/France/OlympiqueLyonnais.fr.png
-OlympiqueMarseille.fr,FR - Olympique Marseille,https://iptv-epg.org/logos/France/OlympiqueMarseille.fr.png
-ParisSaint-Germain.fr,FR - Paris Saint-Germain,https://iptv-epg.org/logos/France/ParisSaint-Germain.fr.png
-RCStrasbourg.fr,FR - RC Strasbourg,https://iptv-epg.org/logos/France/RCStrasbourg.fr.png
-Saint-Etienne.fr,FR - Saint-Etienne,https://iptv-epg.org/logos/France/Saint-Etienne.fr.png
-StadeBrestois29.fr,FR - Stade Brestois 29,https://iptv-epg.org/logos/France/StadeBrestois29.fr.png
-StadeDeReims.fr,FR - Stade de Reims,https://iptv-epg.org/logos/France/StadeDeReims.fr.png
-StadeRennais.fr,FR - Stade Rennais,https://iptv-epg.org/logos/France/StadeRennais.fr.png
-Toulouse.fr,FR - Toulouse,https://iptv-epg.org/logos/France/Toulouse.fr.png
+# Source: https://xmltvfr.fr/xmltv/xmltv.xml.gz
+01TV.fr,TECH &amp; CO,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/SFR100x100COLORTECHCO.png
+13eRue.fr,13ème rue,https://focus.telerama.fr/500x500/0000/00/01/clear-2.png
+2MMonde.fr,2M Maroc,https://focus.telerama.fr/500x500/0000/00/01/clear-340.png
+2STV.sn,2STV,https://static-cdn.tv.sfr.net/data/logos/tv_services/2STV_color.png
+3Plus.ch,3+,https://static.teleboy.ch/shared/stations/350/icon320_light.png?v2023_48_0
+3SAT.de,3SAT,https://upload.wikimedia.org/wikipedia/commons/8/81/3sat_2019.svg
+4Plus.ch,4Plus.ch,
+5Plus.ch,5Plus.ch,
+6Plus.ch,6Plus.ch,
+6ter.fr,6ter,https://static.teleboy.ch/shared/stations/367/icon320_light.png?v2023_48_0
+7ALimoges.fr,7 A LIMOGES,https://static-cdn.tv.sfr.net/data/logos/tv_services/7_A_LIMOGES_color.png
+7Plus.ch,7Plus.ch,
+8MontBlanc.fr,8 Mont Blanc,https://focus.telerama.fr/500x500/0000/00/01/clear-421.png
+AB1.fr,AB1,https://focus.telerama.fr/500x500/0000/00/01/clear-5.png
+AB3.fr,AB3,https://focus.telerama.fr/500x500/0000/00/01/clear-254.png
+ABMoteurs.fr,Automoto la chaine,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79135434
+ABOLATV.pt,A BOLA TV,https://static-cdn.tv.sfr.net/data/logos/tv_services/A_BOLA_TV_color.png
+ABXploreFR.fr,ABXplore,https://focus.telerama.fr/500x500/0000/00/01/clear-303.png
+ACTUATV.be,Actua TV,https://www.actu-tv.com/images/logo.gif
+ACTV.be,ACTV,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/ACTV.svg/1200px-ACTV.svg.png
+ADDIKTV.ca,Addik TV,https://cdn.tvpassport.com/image/station/640x360/v2/s44962_h15_ab.png
+AMITV.ca,AMITV,https://cdn.tvpassport.com/image/station/640x360/v2/s62670_h15_ab.png
+APlus.af,A+,https://focus.telerama.fr/500x500/0000/00/01/clear-2049.png
+APlusBenin.af,A+ BENIN,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180074/canal-ouah/CHN43FB/ABENIN_myCANAL_640x480
+APlusInternational.fr,APlusInternational.fr,
+APlusIvoire.ci,A+ Ivoire,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180681/canal-ouah/CHN43FB/AIVOIRE
+ARD.de,ARD,https://focus.telerama.fr/500x500/0000/00/01/clear-13.png
+ASTV.fr,ASTV,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/ASTV100x100couleuir.png
+ATVGuadeloupe.fr,ATVGuadeloupe.fr,
+ATVGuyane.fr,ATVGuyane.fr,
+ATVMartinique.fr,ATVMartinique.fr,
+Action.fr,Action,https://focus.telerama.fr/500x500/0000/00/01/clear-10.png
+AdultSwim.fr,AdultSwim.fr,
+Africa24.af,Africa 24,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180168/canal-ouah/CHN43FB/AFRICA24_myCANAL_640x480
+Africable.af,Africâble,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480
+AlJazeeraEnglish.uk,Al Jazeera English,https://focus.telerama.fr/500x500/0000/00/01/clear-525.png
+Alsace20.fr,BFM ALSACE,https://focus.telerama.fr/500x500/0000/00/01/clear-524.png
+AngersTele.fr,Angers télé,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/AngersTV100x100.png
+Animaux.fr,Animaux,https://focus.telerama.fr/500x500/0000/00/01/clear-12.png
+AntenneCentre.be,AntenneCentre.be,
+AntenneReunion.fr,ANTENNE REUNION,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/160005/canal-ouah/CHN43FB/ANTENNEREUNION_myCANAL_640x480
+Arewa24.af,Arewa 24,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180686/canal-ouah/CHN43FB/AREWA24_myCANAL_640x480
+Arte.be,Arte Belgique,https://focus.telerama.fr/500x500/0000/00/01/clear-2544.png
+Arte.de,Arte Allemand,https://static-cdn.tv.sfr.net/data/logos/tv_services/Arte_Allemand_color.png
+Arte.fr,Arte,https://static.teleboy.ch/shared/stations/330/icon320_light.png?v2023_48_0
+AsongaTV.af,Asonga TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180378/canal-ouah/CHN43FB/ASONGATV_myCANAL_640x480
+AstroCenter.fr,Astrocenter TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/64174310
+AutoPlusTV.fr,Auto Plus TV,https://freebox.cdn.scw.iliad.fr/large_AUTOPLUS_61b02519b4.png
+AzurTV.fr,BFM NICE COTE D'AZUR,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/NEUFBFMNICECOTEDAZUR100x100.png
+BBC1.uk,BBC One,https://focus.telerama.fr/500x500/0000/00/01/clear-16.png
+BBC2.uk,BBC Two,https://focus.telerama.fr/500x500/0000/00/01/clear-17.png
+BBC4.uk,BBC4.uk,
+BBCEntertainment.uk,BBC Entertainment,https://focus.telerama.fr/500x500/0000/00/01/clear-18.png
+BBCNews.uk,BBCNews.uk,
+BBCWorld.uk,BBC World,https://logos-download.com/wp-content/uploads/2018/09/BBC_World_Logo_text_2.png
+BBCWorldNews.uk,BBC NEWS,https://focus.telerama.fr/500x500/0000/00/01/clear-19.png
+BBlack.fr,BBlack.fr,
+BBlackAfrica.fr,BBLACK Africa,https://static-cdn.tv.sfr.net/data/logos/tv_services/BBLACK_AFRICA_color.png
+BBlackCaribbean.fr,BBLACK Caribbean,https://static-cdn.tv.sfr.net/data/logos/tv_services/BBLACK_CARIBBEAN_color.png
+BBlackClassik.fr,BBLACK Classik,https://static-cdn.tv.sfr.net/data/logos/tv_services/BBLACK_CLASSIK_color.png
+BE1Plus1H.be,BE1Plus1H,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRawaRx7vpJ7QD8Aq-f5ciHeBGEjrokb0Ytrgpr3med0W2D1oB-NYyEAFPGdg&amp;s
+BEIS.ca,BEIS,https://cdn.tvpassport.com/image/station/640x360/v2/s91308_h9_ab.png
+BET.fr,BET,https://focus.telerama.fr/500x500/0000/00/01/clear-1960.png
+BFM2.fr,BFM 2,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300BFM2coul.png
+BFMBusiness.fr,BFM Business,https://focus.telerama.fr/500x500/0000/00/01/clear-1073.png
+BFMGrandLille.fr,BFM Grand Lille,https://static-cdn.tv.sfr.net/data/logos/tv_services/bfmgrandlille-100x100.png
+BFMGrandLittoral.fr,BFM Grand Littoral,https://static-cdn.tv.sfr.net/data/logos/tv_services/bfmgrandlittoral-100x100.png
+BFMGrandsReportages.fr,BFM Grands Reportages,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300BFMGRANDSREPORTAGESmono.png
+BFMJiraiDormirChezVous.fr,BFMJiraiDormirChezVous.fr,
+BFMTV.fr,BFM TV,https://static.teleboy.ch/shared/stations/368/icon320_light.png?v2023_48_0
+BLUEZOOM.ch,blue Zoom fr,https://static.teleboy.ch/shared/stations/517/icon320_light.png?v2023_48_0
+BOne.af,B-ONE,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180273/canal-ouah/CHN43FB/BONE_NOIR_myCANAL_640x480
+BRFTV.ne,BRFTV,https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_BFM_TV_%282019%29.png
+BSmartTV.fr,BSmartTV,https://pbs.twimg.com/profile_images/1262702152155308032/96HGtdpa_400x400.jpg
+BX1.be,BX1,https://upload.wikimedia.org/wikipedia/commons/1/1f/BX1_logo.svg
+BabyTV.fr,BabyTV,https://upload.wikimedia.org/wikipedia/fr/4/45/BabyTV.png
+Be1.be,Be1,https://focus.telerama.fr/500x500/0000/00/01/clear-29.png
+BeCine.be,Be Ciné,https://focus.telerama.fr/500x500/0000/00/01/clear-417.png
+BeSeries.be,Be Series,https://focus.telerama.fr/500x500/0000/00/01/clear-418.png
+BelRTL.be,Bel RTL,https://upload.wikimedia.org/wikipedia/fr/1/1a/Bel_RTL_logo_2018.png
+BerbereJeunesse.ar,BerbereJeunesse.ar,
+BerbereMusique.ar,BerbereMusique.ar,
+BerbereTV.ar,Berbère TV,https://static-cdn.tv.sfr.net/data/logos/tv_services/Berbere_TV_color.png
+BeurFMTV.ar,Beur FM TV,https://static-cdn.tv.sfr.net/data/logos/tv_services/Beur_FM_TV_color.png
+BipTV.fr,BipTV.fr,
+Bloomberg.uk,Bloomberg.uk,
+BloombergUKEurope.uk,Bloomberg PAN-European,https://focus.telerama.fr/500x500/0000/00/01/clear-410.png
+Boing.fr,Cartoonito,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/CARTOONITO100x100Couleur.png
+Boomerang.fr,Boomerang,https://focus.telerama.fr/500x500/0000/00/01/clear-321.png
+Boomerangplus1.fr,Boomerang +1,https://static-cdn.tv.sfr.net/data/logos/tv_services/Boomerang_1_color.png
+Bruzz.be,Bruzz,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/BRUZZ_LOGO_RED_RGB.png/640px-BRUZZ_LOGO_RED_RGB.png
+BurkinaInfo.af,BURKINA INFO,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180556/canal-ouah/CHN43FB/BURKINAINFO_myCANAL_640x480
+CANALZ.be,CANALZ,https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Logo_Canal_Z.svg/2560px-Logo_Canal_Z.svg.png
+CARAC4.ch,CARAC4,https://static.teleboy.ch/shared/stations/527/icon320_light.png?v2023_48_0
+CBAFT.ca,ICI Radio Canada Télé Acadie,https://upload.wikimedia.org/wikipedia/fr/thumb/0/04/ICI_T%C3%A9l%C3%A9_logo.svg/langfr-400px-ICI_T%C3%A9l%C3%A9_logo.svg.png
+CBFT.ca,ICI Radio Canada Télé Grand Montréal,https://cdn.tvpassport.com/image/station/640x360/v2/s16371_h15_ae.png
+CBKFT.ca,ICI Radio Canada Télé Saskatchewan,https://upload.wikimedia.org/wikipedia/fr/thumb/0/04/ICI_T%C3%A9l%C3%A9_logo.svg/1200px-ICI_T%C3%A9l%C3%A9_logo.svg.png
+CBLFT.ca,ICI Radio Canada Télé Ontario,https://upload.wikimedia.org/wikipedia/fr/thumb/0/04/ICI_T%C3%A9l%C3%A9_logo.svg/800px-ICI_T%C3%A9l%C3%A9_logo.svg.png
+CBMT.ca,CBMT,https://cdn.tvpassport.com/image/station/640x360/v2/s10084_h15_ab.png
+CBOFT.ca,ICI Radio Canada Télé Ottawa-Gatineau,https://upload.wikimedia.org/wikipedia/fr/thumb/0/04/ICI_T%C3%A9l%C3%A9_logo.svg/800px-ICI_T%C3%A9l%C3%A9_logo.svg.png
+CBUFT.ca,ICI Radio Canada Télé Colombie Britannique,https://cdn.tvpassport.com/image/station/640x360/v2/s16371_h15_ae.png
+CBUT.ca,CBUT,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjaLplAtThR80u87pVWzaNph2h4UbSpTxf4nNZlMBygvc2-RGuGGwN-i1-1Kw&amp;amp;s
+CBVT.ca,ICI Radio Canada Télé Québec,https://upload.wikimedia.org/wikipedia/fr/thumb/0/04/ICI_T%C3%A9l%C3%A9_logo.svg/800px-ICI_T%C3%A9l%C3%A9_logo.svg.png
+CBWFT.ca,ICI Radio Canada Télé Manitoba,https://cdn.tvpassport.com/image/station/640x360/v2/s16371_h15_ae.png
+CBXFT.ca,ICI Radio Canada Télé Alberta,https://upload.wikimedia.org/wikipedia/fr/thumb/0/04/ICI_T%C3%A9l%C3%A9_logo.svg/langfr-560px-ICI_T%C3%A9l%C3%A9_logo.svg.png
+CFKM.ca,CFKM,https://cdn.tvpassport.com/image/station/640x360/v2/s15696_h15_ac.png
+CFTM.ca,CFTM,https://cdn.tvpassport.com/image/station/640x360/v2/s16367_h15_ab.png
+CGTN.fr,CGTN,https://focus.telerama.fr/500x500/0000/00/01/clear-318.png
+CGTNDocumentary.uk,CGTN-Documentary,https://static-cdn.tv.sfr.net/data/logos/tv_services/CGTN_Documentary_color.png
+CIVM.ca,CIVM,
+CJBR.ca,ICI Radio Canada Télé Est du Québec,https://upload.wikimedia.org/wikipedia/fr/thumb/0/04/ICI_T%C3%A9l%C3%A9_logo.svg/1200px-ICI_T%C3%A9l%C3%A9_logo.svg.png
+CKSH.ca,ICI Radio Canada Télé Estrie,https://upload.wikimedia.org/wikipedia/fr/thumb/0/04/ICI_T%C3%A9l%C3%A9_logo.svg/800px-ICI_T%C3%A9l%C3%A9_logo.svg.png
+CKTM.ca,ICI Radio Canada Télé Mauricie Centre du Québec,https://cdn.tvpassport.com/image/station/640x360/v2/s16371_h15_ae.png
+CKTV.ca,ICI Radio Canada Télé Saguenay,https://upload.wikimedia.org/wikipedia/fr/thumb/0/04/ICI_T%C3%A9l%C3%A9_logo.svg/800px-ICI_T%C3%A9l%C3%A9_logo.svg.png
+CMC.us,CMC,https://static-cdn.tv.sfr.net/data/logos/tv_services/CMC_color.png
+CMTV.pt,CMTV.pt,
+CNews.fr,CNews,https://focus.telerama.fr/500x500/0000/00/01/clear-226.png
+CNewsPrime.fr,CNews Prime,https://thumb.canalplus.pro/http/unsafe/%7BresolutionXY%7D/filters:quality(%7BimageQualityPercentage%7D)/canalplus-cdn.canal-plus.io/p1/channel/1172/canal-ouah/CHN43FN/CHN43FN_1172_20251124-f2op
+CPAC.ca,CPAC,https://cdn.tvpassport.com/image/station/640x360/v2/s17608_h15_ae.png
+CRTV.af,CRTV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180010/canal-ouah/CHN43FB/CRTV_myCANAL_640x480
+CRTVNews.af,CRTVNews,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180668/canal-ouah/CHN43FB/CRTVNEWS_myCANAL_640x480
+CStar.ch,CSTAR,https://static.teleboy.ch/shared/stations/422/icon320_light.png?v2023_48_0
+CStar.fr,CStar,https://focus.telerama.fr/500x500/0000/00/01/clear-458.png
+CStarHitsFrance.fr,CStar Hits France,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/67921972
+Canal10Guadeloupe.fr,Canal10Guadeloupe.fr,
+Canal21.fr,Canal 21,https://static-cdn.tv.sfr.net/data/logos/tv_services/Canal_21_color.png
+Canal2International.af,Canal2,https://static-cdn.tv.sfr.net/data/logos/tv_services/Canal2_color.png
+Canal32.fr,Canal 32,https://focus.telerama.fr/500x500/0000/00/01/clear-534.png
+Canal3Benin.af,CANAL 3 BENIN,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180546/canal-ouah/CHN43FB/C3BENIN_myCANAL_640x480-Copie
+Canal3Burkina.af,CANAL 3 BURKINA,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180795/canal-ouah/CHN43FB/CANAL3BURKINA_myCANAL_640x480
+Canal9.fr,Canal9,https://static.teleboy.ch/shared/stations/408/icon320_light.png?v2023_48_0
+CanalAlgerie.ar,Canal Algérie,https://static-cdn.tv.sfr.net/data/logos/tv_services/Canal_Algerie_color.png
+CanalAlphaJura.ch,Canal Alpha Jura,https://static.teleboy.ch/shared/stations/525/icon320_light.png?v2023_48_0
+CanalC.be,CanalC,https://upload.wikimedia.org/wikipedia/commons/8/8b/Canal_C_logo.png
+CanalD.ca,CanalD,https://cdn.tvpassport.com/image/station/640x360/v2/s15682_h9_aa.png
+CanalJ.fr,CANAL J,https://focus.telerama.fr/500x500/0000/00/01/clear-32.png
+CanalPlus.ch,Canal+ Suisse,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/94855624
+CanalPlus.fr,Canal+,https://focus.telerama.fr/500x500/0000/00/01/clear-34.png
+CanalPlusActionCentre.af,Canal+ Action Centre,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180626/canal-ouah/CHN43FB/CANALACTION_CENTRE_myCANAL_640x480
+CanalPlusActionOuest.af,Canal+ Action Ouest,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180645/canal-ouah/CHN43FB/CANALACTION_OUEST_myCANAL_640x480
+CanalPlusAntilles.fr,CanalPlusAntilles.fr,
+CanalPlusBoxOffice.fr,CANAL+ BOX OFFICE,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1074/canal-ouah/CHN43FB/CHN43FB_1074_29082023
+CanalPlusCinema.ch,Canal+ Cinema,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/94855999
+CanalPlusCinema.fr,Canal+ Cinema,https://focus.telerama.fr/500x500/0000/00/01/clear-33.png
+CanalPlusCinemaCentre.af,Canal+ Cinema Centre,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180125/canal-ouah/CHN43FB/CANALCINEMA_CENTRE_myCANAL_640x480
+CanalPlusCinemaOuest.af,Canal+ Cinema Ouest,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180016/canal-ouah/CHN43FB/CANALCINEMA_OUEST_myCANAL_640x480
+CanalPlusDocs.fr,Canal+ Docs,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/899/canal-ouah/CHN43FB/CHN43FB_899_29082023
+CanalPlusEllesCentre.af,CANAL+ ELLES CENTRE,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180302/canal-ouah/CHN43FB/CANALELLES_CENTRE_myCANAL_640x480
+CanalPlusFamilyCentre.af,Canal+ Family Centre,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180144/canal-ouah/CHN43FB/CANALFAMILY_CENTRE_myCANAL_640x480
+CanalPlusFamilyOuest.af,Canal+ Family Ouest,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180403/canal-ouah/CHN43FB/CANALFAMILY_OUEST_myCANAL_640x480
+CanalPlusFoot.fr,Canal+ Foot,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/19/canal-ouah/CHN43FB/CHN43FB_19_29082023
+CanalPlusGrandEcran.fr,Canal+ Grand Ecran,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/900/canal-ouah/CHN43FB/CHN43FB_900_29082023
+CanalPlusKIDS.fr,Canal+ Kids,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/259/canal-ouah/CHN43FB/CHN43FB_259_29082023
+CanalPlusLigue1.fr,CANAL+ Ligue 1 Uber Eats,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/894/canal-ouah/CHN43FB/CHN43FB_894_20231002
+CanalPlusLive1.fr,Canal+ Live 1,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1135/canal-ouah/CHN43FN/CHN43FN_1135_10092024-cEcG
+CanalPlusLive10.fr,Canal+ Live 10,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1144/canal-ouah/CHN43FN/CHN43FN_1144_20240910-AAy9
+CanalPlusLive11.fr,Canal+ Live 11,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1145/canal-ouah/CHN43FN/CHN43FN_1145_20240910-RDj_
+CanalPlusLive12.fr,Canal+ Live 12,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1146/canal-ouah/CHN43FN/CHN43FN_1146_20240910-DOOZ
+CanalPlusLive13.fr,Canal+ Live 13,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1147/canal-ouah/CHN43FN/CHN43FN_1147_20240910-qJgY
+CanalPlusLive14.fr,Canal+ Live 14,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1148/canal-ouah/CHN43FN/CHN43FN_1148_20240910-x8vz
+CanalPlusLive15.fr,Canal+ Live 15,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1149/canal-ouah/CHN43FN/CHN43FN_1149_20240910-TyQ0
+CanalPlusLive16.fr,Canal+ Live 16,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1150/canal-ouah/CHN43FN/CHN43FN_1150_20240910-TtsK
+CanalPlusLive17.fr,Canal+ Live 17,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1151/canal-ouah/CHN43FN/CHN43FN_1151_20240910-qxMQ
+CanalPlusLive18.fr,Canal+ Live 18,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1152/canal-ouah/CHN43FN/CHN43FN_1152_20240910-yyCF
+CanalPlusLive19.fr,Canal+ Live 19,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1153/canal-ouah/CHN43FN/CHN43FN_1153_20240910-GuM-
+CanalPlusLive2.fr,Canal+ Live 2,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1136/canal-ouah/CHN43FN/CHN43FN_1136_20240910-MzpB
+CanalPlusLive3.fr,Canal+ Live 3,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1137/canal-ouah/CHN43FN/CHN43FN_1137_20240910-d8dJ
+CanalPlusLive4.fr,Canal+ Live 4,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1138/canal-ouah/CHN43FN/CHN43FN_1138_20240910-bEql
+CanalPlusLive5.fr,Canal+ Live 5,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1139/canal-ouah/CHN43FN/CHN43FN_1139_20240910-YQYG
+CanalPlusLive6.fr,Canal+ Live 6,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1140/canal-ouah/CHN43FN/CHN43FN_1140_20240910-MO4V
+CanalPlusLive7.fr,Canal+ Live 7,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1141/canal-ouah/CHN43FN/CHN43FN_1141_20240910-deiH
+CanalPlusLive8.fr,Canal+ Live 8,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1142/canal-ouah/CHN43FN/CHN43FN_1142_20240910-m1CN
+CanalPlusLive9.fr,Canal+ Live 9,https://thumb.canalplus.pro/http/unsafe/204x152/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/1143/canal-ouah/CHN43FN/CHN43FN_1143_20240910-NMYX
+CanalPlusPopCentre.af,CANAL+ POP CENTRE,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180628/canal-ouah/CHN43FB/CANALPOP_CENTRE_myCANAL_640x480
+CanalPlusPopOuest.af,CANAL+ POP OUEST,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180646/canal-ouah/CHN43FB/CANALPOP_OUEST_myCANAL_640x480
+CanalPlusPremierLeague.fr,Canal+ Premier League,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/93739263
+CanalPlusPremiereCentre.af,CANAL+ PREMIERE CENTRE,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180129/canal-ouah/CHN43FB/CANALPREMIERE_CENTRE_myCANAL_640x480
+CanalPlusPremiereOuest.af,CANAL+ PREMIERE OUEST,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180018/canal-ouah/CHN43FB/CANALPREMIERE_OUEST_myCANAL_640x480
+CanalPlusSeries.fr,Canal+ Series,https://focus.telerama.fr/500x500/0000/00/01/clear-1563.png
+CanalPlusSport.ch,Canal+ Sport,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355
+CanalPlusSport.fr,Canal+ Sport,https://focus.telerama.fr/500x500/0000/00/01/clear-35.png
+CanalPlusSport1.af,Canal+ Sport 1,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CplusSport_1_FN
+CanalPlusSport2.af,Canal+ Sport 2,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CplusSport_2_FN
+CanalPlusSport3.af,Canal+ Sport 3,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CplusSport_3_FN
+CanalPlusSport360.fr,Canal+ Sport 360,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/83/canal-ouah/CHN43FB/CHN43FB_83_29082023
+CanalPlusSport4.af,Canal+ Sport 4,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CplusSport_4_FN
+CanalPlusSport5.af,CANAL+ SPORT 5,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CplusSport_5_FN
+CanalPlusUHD.fr,Canal+ UHD,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/71805593
+CanalQ.pt,Canal Q,https://static-cdn.tv.sfr.net/data/logos/tv_services/Canal_Q_color.png
+CanalSavoir.ca,Canal Savoir,https://cdn.tvpassport.com/image/station/640x360/v2/s15747_h15_ac.png
+CanalVie.ca,Canal Vie,https://cdn.tvpassport.com/image/station/640x360/v2/s17589_h15_ac.png
+CanalZoom.be,Canal Zoom,https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Canal_Zoom_logo.png/1200px-Canal_Zoom_logo.png
+CanalpartageTNTIDF.fr,Canal Partagé TNT IDF,https://tel.img.pmdstatic.net/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2F56eb9cd13dee9678.2Epng/1200x630/crop-from/top/quality/80/canal-partage-tnt-ile-de-france.png
+Canvas.fr,Canvas,https://www.hugochaume.com/wp-content/uploads/2017/04/canvas-lms-logo.png
+CartoonNetwork.fr,Cartoon Network,https://focus.telerama.fr/500x500/0000/00/01/clear-36.png
+Casa.ca,Casa,https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/CASA_logo.svg/1280px-CASA_logo.svg.png
+Cdirect.af,CDIRECT,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180765/canal-ouah/CHN43FB/CDIRECT_myCANAL_640x480
+ChaineEvenement.fr,Chaine Evenement,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/289/canal-ouah/CHN43FB/CHN43FB_289_20190201
+Channel4.uk,Channel4.uk,
+ChasseEtPeche.fr,Chasse et Pêche,https://focus.telerama.fr/500x500/0000/00/01/clear-38.png
+Cherie25.fr,RMC Life,https://i81.servimg.com/u/f81/19/39/09/46/img_4810.jpg
+CheriflaTV.af,CHERIFLA TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180669/canal-ouah/CHN43FB/CHERIFLATV_myCANAL_640x480
+ChevalTV.fr,Cheval TV,https://freebox.cdn.scw.iliad.fr/large_LOGO_CHEVAL_TV_NOIR_SUR_FOND_BLANC_1059ad89bb.jpg
+ChinaMovieChannel.cn,ChinaMovieChannel.cn,
+CinePlusClassic.be,Ciné+ Classic (Belgique),https://focus.telerama.fr/500x500/0000/00/01/clear-437.png
+CinePlusClassic.fr,Ciné+ Classic,https://focus.telerama.fr/500x500/0000/00/01/clear-287.png
+CinePlusClub.fr,Ciné+ Festival,https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cin%C3%A9%2BFestival2024.svg/500px-Cin%C3%A9%2BFestival2024.svg.png
+CinePlusEmotion.fr,Ciné+ Emotion,https://focus.telerama.fr/500x500/0000/00/01/clear-283.png
+CinePlusFamiz.fr,Ciné+ Family,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Cin%C3%A9%2BFamily2024.svg/500px-Cin%C3%A9%2BFamily2024.svg.png
+CinePlusFrisson.be,Ciné+ Frisson (Belgique),https://upload.wikimedia.org/wikipedia/fr/thumb/3/3d/CinePlusFrisson.svg/1280px-CinePlusFrisson.svg.png
+CinePlusFrisson.ch,Ciné+ Frisson,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/94856021
+CinePlusFrisson.fr,Ciné+ Frisson,https://focus.telerama.fr/500x500/0000/00/01/clear-284.png
+CinePlusPremier.be,Ciné+ Premier (Belgique),https://focus.telerama.fr/500x500/0000/00/01/clear-294.png
+CinePlusPremier.ch,OCS (Suisse),https://www.programme-tv.net/imgre/fit/~2~channel~7246bab97d61b8e2.png/300x300/quality/100/cineplus-premier.png
+CinePlusPremier.fr,OCS,https://www.programme-tv.net/imgre/fit/~2~channel~7246bab97d61b8e2.png/300x300/quality/100/cineplus-premier.png
+CinePop.ca,CinePop,https://cdn.tvpassport.com/image/station/640x360/v2/s49195_h6_aa.png
+Classic21.be,Classic21,https://upload.wikimedia.org/wikipedia/fr/thumb/6/68/Classic21.svg/1028px-Classic21.svg.png
+Classica.fr,Classica,https://upload.wikimedia.org/wikipedia/commons/b/b0/Logo_Classica_bandeau_noir.jpg
+ClubRTL.be,Club RTL,https://focus.telerama.fr/500x500/0000/00/01/clear-50.png
+ClubbingTV.fr,ClubbingTV,https://upload.wikimedia.org/wikipedia/fr/3/39/Clubbing_TV.png
+ComediePlus.fr,Comedie+,https://focus.telerama.fr/500x500/0000/00/01/clear-54.png
+ComedyCentral.fr,Comedy Central,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/92480792
+CrimeDistrict.fr,Crime District,https://focus.telerama.fr/500x500/0000/00/01/clear-2037.png
+CrtvSport.af,CRTV SPORT,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180717/canal-ouah/CHN43FB/CRTVSPORTS_myCANAL_640x480
+DAZN.fr,DAZN 1,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1077/canal-ouah/CHN43FB/CHN43FB_1077_20231002
+DAZN2.fr,DAZN 2,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1155/canal-ouah/CHN43FB/CHN43FN_1155_20240813-FjVl
+DAZN3.fr,DAZN 3,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1156/canal-ouah/CHN43FB/CHN43FN_1156_20240813-UxAQ
+DAZN4.fr,DAZN 4,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1157/canal-ouah/CHN43FB/CHN43FN_1157_20240904-VPvq
+DAZN5.fr,DAZN 5,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1158/canal-ouah/CHN43FB/CHN43FN_1158_20240904-4nWl
+DJAZ.fr,DJAZ,
+DW.de,DW.de,
+DasErste.de,Das Erste,https://static.teleboy.ch/shared/stations/309/icon320_light.png?v2023_48_0
+DemainTV.fr,DemainTV,https://focus.telerama.fr/500x500/0000/00/01/clear-57.png
+DiciTvAlpes.fr,BFM DICI ALPES DU SUD,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/BFMDICIALPESDUSUD100x100.png
+DiciTvProvence.fr,BFM DICI HAUTE-PROVENCE,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/BFMDICIHAUTEPROVENCE100x100.png
+DigitalCongo.af,Digital Congo,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180380/canal-ouah/CHN43FB/DIGITALCONGO_myCANAL_640x480
+DiscoveryChannel.fr,Discovery Channel,https://focus.telerama.fr/500x500/0000/00/01/clear-400.png
+DiscoveryInvestigation.fr,Discovery Investigation,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/ID100x100.png
+DiscoveryScience.fr,TLC,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1097/canal-ouah/CHN43FN/CHN43FN_1097_20240611-7qUQ
+DisneyChannel.be,Disney Channel (Belgique),https://upload.wikimedia.org/wikipedia/fr/8/82/Disney_Junior_logo_2019.png
+DisneyChannel.fr,Disney Channel,https://focus.telerama.fr/500x500/0000/00/01/clear-58.png
+DisneyChannelPlus1.fr,DisneyChannelPlus1,https://focus.telerama.fr/500x500/0000/00/01/clear-299.png
+DisneyJunior.be,Disney Junior (Belgique),https://upload.wikimedia.org/wikipedia/fr/thumb/8/82/Disney_Junior_logo_2019.png/640px-Disney_Junior_logo_2019.png
+DisneyJunior.fr,Disney Junior,https://focus.telerama.fr/500x500/0000/00/01/clear-300.png
+DisneyPlus.fr,Disney+,https://focus.telerama.fr/500x500/0000/00/01/clear-2974.png
+DisneyXD.fr,Disney XD,https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Logo_Disney_XD.svg/1200px-Logo_Disney_XD.svg.png
+DobbitTVF.be,DobbitTVF.be,
+DorcelTV.fr,DorcelTV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/536/canal-ouah/CHN43FB/CHN43FB_536_20220705
+DorcelTVAfrica.af,DorcelTVAfrica,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180702/canal-ouah/CHN43FB/DORCELTVAFRICA_POURFB_RVB
+DorcelXXX.fr,DorcelXXX,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/537/canal-ouah/CHN43FB/CHN43FB_537_20220705
+Dreamworks.fr,DREAMWORKS,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/DREAMWORKS100x100.png
+DriveInMovieChannel.fr,DriveInMovieChannel.fr,
+EEntertainment.fr,E! Entertainment,https://focus.telerama.fr/500x500/0000/00/01/clear-405.png
+ES1.fr,MGG TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/819/canal-ouah/CHN43FB/CHN43FB_819_20220127
+EVENEMENTALACARTE.fr,EVENEMENTALACARTE.fr,
+ElevenProL1.be,ElevenProL1,
+ElevenProL2.be,ElevenProL2,
+ElevenProL3.be,ElevenProL3,
+ElevenSports1FR.be,ElevenSports1FR,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&amp;s
+ElevenSports2FR.be,ElevenSports2FR,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&amp;s
+ElevenSports3FR.be,ElevenSports3FR,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&amp;s
+ElleGirl.fr,ElleGirl,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYXh9iY0Xbt-lY8J6SajBoJMrgCKkClrJJuFPiX8dV8Z3FAq8uvQCrJZ0gM9g&amp;s
+EnquetesCriminelles2424.fr,Enquetes Criminelles 24/24,https://i.imgur.com/BhT1VQo.png
+Equidia.fr,Equidia,https://focus.telerama.fr/500x500/0000/00/01/clear-64.png
+Eurochannel.fr,Eurochannel,https://focus.telerama.fr/500x500/0000/00/01/clear-1190.png
+Euronews.fr,Euronews,https://static.teleboy.ch/shared/stations/196/icon320_light.png?v2023_48_0
+Europe1TV.fr,Europe 1 TV,https://wbo.s.woopic.com/magtv-bucket-wbo/media/Europe1TV.png
+Eurosport1.fr,Eurosport 1,https://focus.telerama.fr/500x500/0000/00/01/clear-76.png
+Eurosport2.fr,Eurosport 2,https://focus.telerama.fr/500x500/0000/00/01/clear-439.png
+Eurosport3601.fr,Eurosport 360 - 1,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110
+Eurosport3602.fr,Eurosport 360 - 2,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FB/CHN43FB_636_20220110
+Eurosport3603.fr,Eurosport 360 - 3,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/637/canal-ouah/CHN43FB/CHN43FB_637_20220110
+Eurosport3604.fr,Eurosport 360 - 4,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/638/canal-ouah/CHN43FB/CHN43FB_638_20220110
+Eurosport3605.fr,Eurosport 360 - 5,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/650/canal-ouah/CHN43FB/CHN43FB_650_20220110
+Eurosport3606.fr,Eurosport 360 - 6,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/651/canal-ouah/CHN43FB/CHN43FB_651_20220110
+Eurosport3607.fr,Eurosport 360 - 7,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/652/canal-ouah/CHN43FB/CHN43FB_652_20220110
+Eurosport3608.fr,Eurosport 360 - 8,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/653/canal-ouah/CHN43FB/CHN43FB_653_20220110
+EurosportInternational1.fr,Eurosport International 1,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110
+Evasion.ca,Evasion,https://cdn.tvpassport.com/image/station/640x360/v2/s21545_h15_ab.png
+EvasionTV.af,EvasionTV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180398/canal-ouah/CHN43FB/EVASIONGUINEE_myCANAL_640x480
+EvenementsSports4KUHD.fr,Evenements Sports 4K UHD,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/74042707
+FashionTV.fr,Fashion TV,https://static-cdn.tv.sfr.net/data/logos/tv_services/Fashion_TV_color.png
+Festival.be,Festival,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvyNnagV3fqn7iDCJN2Q9iOi5vK58HEMLnDk_HILp-QDW2L7jJJRMHV7reMg&amp;amp;s
+FightSports.fr,FightSports.fr,
+France2.fr,France 2,https://static.teleboy.ch/shared/stations/342/icon320_light.png?v2023_48_0
+France24.fr,France 24,https://static.teleboy.ch/shared/stations/147/icon320_light.png?v2023_48_0
+France3.fr,France 3,https://static.teleboy.ch/shared/stations/58/icon320_light.png?v2023_48_0
+France3Alpes.fr,France 3 - Alpes,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79236354
+France3Alsace.fr,France 3 - Alsace,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79237070
+France3Aquitaine.fr,France 3 - Aquitaine,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79236306
+France3Auvergne.fr,France 3 - Auvergne,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79236351
+France3BasseNormandie.fr,France 3 - Basse-Normandie,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79236307
+France3Bourgogne.fr,France 3 - Bourgogne,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79236353
+France3Bretagne.fr,France 3 - Bretagne,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79237066
+France3Centre.fr,France 3 - Centre,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79237062
+France3ChampagneArdenne.fr,France 3 - Champagne-Ardenne,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79237065
+France3CorseViaStella.fr,France 3 - Corse,https://focus.telerama.fr/500x500/0000/00/01/clear-308.png
+France3CotedAzur.fr,France 3 - Côte d'Azur,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79237061
+France3FrancheComte.fr,France 3 - Franche-Comté,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79236305
+France3HauteNormandie.fr,France 3 - Haute-Normandie,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79237068
+France3Languedoc.fr,France 3 - Languedoc,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79236736
+France3Limousin.fr,France 3 - Limousin,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79236567
+France3Lorraine.fr,France 3 - Lorraine,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79236998
+France3MidiPyrenees.fr,France 3 - Midi-Pyrénées,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79237071
+France3NordPasDeCalais.fr,France 3 - Nord Pas-de-Calais,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79236564
+France3NouvelleAquitaine.fr,France 3 Nouvelle Aquitaine,https://static-cdn.tv.sfr.net/data/logos/tv_services/France-3-Nouvelle-Aquitaine-Color.jpg
+France3ParisIdF.fr,France 3 - Paris Ile-de-France,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79237063
+France3PaysDeLaLoire.fr,France 3 - Pays de Loire,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79237002
+France3Picardie.fr,France 3 - Picardie,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79236304
+France3PoitouCharentes.fr,France 3 - Poitou-Charentes,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79237064
+France3ProvenceAlpes.fr,France 3 - Provence Alpes,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79236717
+France3RhoneAlpes.fr,France 3 - Rhône-Alpes,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/79236644
+France4.fr,France 4,https://static.teleboy.ch/shared/stations/288/icon320_light.png?v2023_48_0
+France5.fr,France 5,https://static.teleboy.ch/shared/stations/80/icon320_light.png?v2023_48_0
+FranceInfo.fr,franceinfo:,https://focus.telerama.fr/500x500/0000/00/01/clear-2111.png
+FranceTVDocs.fr,France TV Docs,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1159/canal-ouah/CHN43FN/CHN43FN_1159_20241119-_Ehj
+FranceTVSeries.fr,France TV S&amp;eacute;ries,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1092/canal-ouah/CHN43FN/CHN43FN_1092_20240425-h_ne
+FrissonsTV.ca,Frissons TV,https://cdn.tvpassport.com/image/station/640x360/v2/s105852_h15_aa.png
+Gabon1ere.af,GABON 1ERE,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180187/canal-ouah/CHN43FB/GABON1ERE_myCANAL_640x480
+Gabon24.af,Gabon24,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180427/canal-ouah/CHN43FB/GABON24_NEW_myCANAL_640x480
+GabonCulture.af,GABON CULTURE,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180830/canal-ouah/CHN43FB/GABONCULTURE_myCANAL_640x480
+GameOne.fr,Game One,https://focus.telerama.fr/500x500/0000/00/01/clear-87.png
+GameOneplus1.fr,Game One +1,https://static-cdn.tv.sfr.net/data/logos/tv_services/Game_One_1_color.png
+GenesisTV.af,GENESIS TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180752/canal-ouah/CHN43FB/GENESISTV_POURFB_myCANAL_640x480
+Ginx.fr,Ginx,https://focus.telerama.fr/500x500/0000/00/01/clear-563.png
+GolfPlus.fr,Golf+,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/2951335
+Gong.fr,Gong.fr,
+GongMax.fr,GongMax,https://focus.telerama.fr/500x500/0000/00/01/clear-621.png
+Guadeloupe1.fr,Guadeloupe 1ère,https://focus.telerama.fr/500x500/0000/00/01/clear-329.png
+Gulli.fr,Gulli,https://static.teleboy.ch/shared/stations/270/icon320_light.png?v2023_48_0
+GulliAfrica.af,GULLI AFRICA,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180367/canal-ouah/CHN43FB/myCANAL_GULLIAFRICA_640x480
+Guyane1.fr,Guyane 1ère,https://focus.telerama.fr/500x500/0000/00/01/clear-260.png
+HLive.fr,HLive.fr,
+Histoire.fr,Histoire,https://focus.telerama.fr/500x500/0000/00/01/clear-88.png
+HopeTV.af,HOPE TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180061/canal-ouah/CHN43FB/HOPETV_myCANAL_640x480
+HorebTV.af,HOREB TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180064/canal-ouah/CHN43FB/HOREBTV_myCANAL_640x480
+HustlerTV.fr,HustlerTV,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxXzjWCiYyTd4mP_cZ0wX7VOvLT8XNMOexvklc7BxNRFW8rbOEP9qyZ55TJE&amp;amp;s
+I24news.fr,i24 news,https://static.teleboy.ch/shared/stations/449/icon320_light.png?v2023_48_0
+ICIARTV.ca,ICI ARTV,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL_IIYjpK-JpY1z691-eH5z2Iqk5BEz5DjHJ2iArXnjuKfaVZAhy1nGJyDKI0&amp;amp;s
+ICIExplora.ca,ICI Explora,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgwP-HuPjtGAE-l8zOtCSUv8Kxg-gBkGTDU0I_FLr1GjplJBtluWdNR5Cmug&amp;amp;s
+IDF1.fr,20 Minutes TV,https://focus.telerama.fr/500x500/0000/00/01/clear-701.png
+ILTV.fr,IL TV,https://static-cdn.tv.sfr.net/data/logos/tv_services/IL_TV_color.png
+IVOIRETVMusic.ci,IVOIRETVMusic,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180580/canal-ouah/CHN43FB/IVOIRETVMUSIC_myCANAL_640x480
+IncroyablesTransformations2424.fr,Incroyables Transformations 24/24,https://i.imgur.com/tHI2Ewu.png
+InfoTV.af,InfoTV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180025/canal-ouah/CHN43FB/INFOTV_myCANAL_640x480
+InfosportPlus.fr,InfosportPlus,https://focus.telerama.fr/500x500/0000/00/01/clear-94.png
+Investigation.ca,Investigation,https://cdn.tvpassport.com/image/station/640x360/v2/s87899_h15_ac.png
+JOne.fr,J-One,https://focus.telerama.fr/500x500/0000/00/01/clear-1585.png
+KANAALZ.be,KANAALZ,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzjOkiRSrN9WtxQwS_yfc0YilHxDl3dLqmE0TDHp57ayGsGX25e1pT4fwuyg&amp;amp;s
+KIKA.de,KIKA,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDXZBr6zWiObQ4iCya4aKLvrm92Yomy-qCJ0WLpSIcjSoAjLGmyh5dePVpHw&amp;amp;s
+KTO.fr,KTO,https://static.teleboy.ch/shared/stations/458/icon320_light.png?v2023_48_0
+KabelEins.de,KABEL EINS,https://static-cdn.tv.sfr.net/data/logos/tv_services/KABEL_EINS_color.png
+Ketnet.be,Ketnet,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxnck3sTGHFCu_v7EhiF0_aiSjCkwRkgmRFZk_iSwVRb_1y01SRBMfJijefg&amp;amp;s
+KetnetCanvas.be,KetnetCanvas,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpCzQGaETdejE-NT7weLYrKSwq_KF8f0H6Y2n57GLbVS_L2wGAqesv9l23izg&amp;amp;s
+LCI.fr,LCI,https://static.teleboy.ch/shared/stations/462/icon320_light.png?v2023_48_0
+LCN.ca,LCN,https://cdn.tvpassport.com/image/station/640x360/v2/s17590_h15_ad.png
+LCP100.fr,LCP-AN 24/24,https://static-cdn.tv.sfr.net/data/logos/tv_services/LCP_AN_24_24_color.png
+LEquipe21.fr,La chaine l’Équipe,https://static.teleboy.ch/shared/stations/373/icon320_light.png?v2023_48_0
+LEquipeLive1.fr,L'Equipe Live 1,https://i.imgur.com/vxoiXmc.png
+LEquipeLive2.fr,L'Equipe Live 2,https://i.imgur.com/vxoiXmc.png
+LEquipeLive3.fr,L'Equipe Live 3,https://i.imgur.com/vxoiXmc.png
+LEquipeLive4.fr,L'Equipe Live 4,https://i.imgur.com/vxoiXmc.png
+LEquipeLive5.fr,L'Equipe Live 5,https://i.imgur.com/vxoiXmc.png
+LEquipeLive6.fr,L'Equipe Live 6,https://i.imgur.com/vxoiXmc.png
+LEquipeLive7.fr,L'Equipe Live 7,https://i.imgur.com/vxoiXmc.png
+LEquipeLiveFoot.fr,L'Equipe Live Foot,https://i.imgur.com/vxoiXmc.png
+LEspritSorcier.fr,LEspritSorcier.fr,
+LFMTV.ch,CARAC 3 HD,https://static.teleboy.ch/shared/stations/520/icon320_light.png?v2023_48_0
+LMTVSarthe.fr,LMtv Sarthe,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/LMTV100x100.png
+LN24.be,LN24.be,
+LTM.af,LTM,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180573/canal-ouah/CHN43FB/LTM_myCANAL_640x480
+LaChaineMeteo.fr,LaChaineMeteo,https://focus.telerama.fr/500x500/0000/00/01/clear-124.png
+LaChaineNormande.fr,BFM NORMANDIE,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/BFMNORMANDIE100x100COULEUR.png
+LaChaineParlementaire.fr,LCP,https://focus.telerama.fr/500x500/0000/00/01/clear-234.png
+LaDeux.be,Tipik,https://focus.telerama.fr/500x500/0000/00/01/clear-187.png
+LaPremiere.be,La Premiere,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMS6euFCcMuM0n9o1xeaifCI_ExIP1MPpw_T7D9KSZHGDfY8kXIakUDrQJbQM&amp;amp;s
+LaTele.ch,La Télé,https://static.teleboy.ch/shared/stations/297/icon320_light.png?v2023_48_0
+LaTrois.be,La Trois,https://focus.telerama.fr/500x500/0000/00/01/clear-892.png
+LaUne.be,La Une,https://focus.telerama.fr/500x500/0000/00/01/clear-164.png
+LedjelyTV.af,LEDJELY TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180446/canal-ouah/CHN43FB/LEDJELYTV_myCANAL_640x480
+LemanBleu.ch,Léman Bleu,https://static.teleboy.ch/shared/stations/296/icon320_light.png?v2023_48_0
+LeralTV.af,LERAL TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180015/canal-ouah/CHN43FB/LERALTV_myCANAL_640x480
+LesMarseillais2424.fr,Les Marsellais 24/24,https://i.imgur.com/eI9fjaY.png
+LesReinesDuShopping2424.fr,Les Reines du Shopping 24/24,https://i.imgur.com/NiIDN66.png
+Ligue1Plus.fr,Ligue 1+,https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png
+Ligue1Plus10.fr,Ligue 1+ 10,https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png
+Ligue1Plus2.fr,Ligue 1+ 2,https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png
+Ligue1Plus3.fr,Ligue 1+ 3,https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png
+Ligue1Plus4.fr,Ligue 1+ 4,https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png
+Ligue1Plus5.fr,Ligue 1+ 5,https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png
+Ligue1Plus6.fr,Ligue 1+ 6,https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png
+Ligue1Plus7.fr,Ligue 1+ 7,https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png
+Ligue1Plus8.fr,Ligue 1+ 8,https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png
+Ligue1Plus9.fr,Ligue 1+ 9,https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png
+LiptakoTV.af,LIPTAKO TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180178/canal-ouah/CHN43FB/LIPTAKO_TV_640x480
+Lmtv.af,LMTV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180323/canal-ouah/CHN43FB/LMTV_myCANAL_640x480
+LuckyJack.fr,Lucky Jack,https://static-cdn.tv.sfr.net/data/logos/tv_services/Lucky_Jack_color.png
+LuxeTV.fr,Luxe TV,https://static-cdn.tv.sfr.net/data/logos/tv_services/Luxe_TV_color.png
+LyonTV.fr,Lyon Capitale TV,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/lyoncapitaletv1100x100couleur.png
+M6.fr,M6,https://static.teleboy.ch/shared/stations/312/icon320_light.png?v2023_48_0
+M6International.fr,M6 INTERNATIONAL,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180712/canal-ouah/CHN43FB/M6INTERNATIONAL_myCANAL_640x480
+M6Music.fr,M6 Music,https://focus.telerama.fr/500x500/0000/00/01/clear-453.png
+MATV.ca,MATV,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmXv1CWZz_XSNQo4iGlbEogR_HcZJ_vW8trU5D5i5tbPzdT8McTG0fyK9AFKY&amp;amp;s
+MAX.ca,MAX,https://cdn.tvpassport.com/image/station/640x360/v2/s17591_h15_aa.png
+MCM.fr,MCM,https://focus.telerama.fr/500x500/0000/00/01/clear-121.png
+MCMTop.fr,MCM Top,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUx5IGQVsb8xRXS8A6SUEegcQuzivKoo-pXg-Onb8lmFQ4p64PBXhOkA1rnz0&amp;amp;s
+METEO.ca,METEO,https://cdn.tvpassport.com/image/station/640x360/v2/s16000_h15_aa.png
+MFMTV.fr,MFMTV.fr,
+MTV.fr,MTV,https://focus.telerama.fr/500x500/0000/00/01/clear-128.png
+MTV00s.fr,MTV00s.fr,
+MTV80s.fr,MTV80s.fr,
+MTV90’s.fr,MTV90’s.fr,
+MTVDance.fr,MTV Dance,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE90sJgXdYMjiql2lQixPjzc93ebuewQN4M9Ebi8wv0akl7hcxoyGBRm56cA&amp;amp;s
+MTVHits.fr,MTV Hits,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/MTVHITSlogonoir100x100.png
+MTVRocks.fr,MTV Rocks,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD7fcvXQKoOF10r_ukFfg14GymSHvnEKy2UldAWDfb2ld1WHrbT1zw4dhQf7s&amp;amp;s
+MaTele.be,MaTele,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-fw_3XheZXvJcMifXn55ypj6IQI0IIgNL1zhQjptujNtglQJQaAbhOLA2pA&amp;amp;s
+MaisonEtTravaux.fr,MaisonEtTravaux.fr,
+ManX.fr,ManX,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/41071287
+MandarinTV.fr,MandarinTV.fr,
+Mangas.fr,Mangas,https://focus.telerama.fr/500x500/0000/00/01/clear-6.png
+MaritimaTV.fr,Maritima TV,https://static-cdn.tv.sfr.net/data/logos/tv_services/Maritima_TV_color.png
+MarmitonTV.fr,Marmiton TV,https://freebox.cdn.scw.iliad.fr/large_Logo_Marmiton_TV_bis_8e336d6d66.png
+Martinique1.fr,Martinique 1ère,https://focus.telerama.fr/500x500/0000/00/01/clear-328.png
+MaurienneTV.fr,MAURIENNE TV,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/mauriennetv100x100.png
+Mayotte1.fr,Mayotte 1ère,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZTfArhRJt8c0-d4Dyfc0v0wCf2v87gqXZ8g_uOn_AuWHLYikp0AojzNVCbE&amp;amp;s
+Melody.fr,MELODY TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/21523013
+MelodyDAfrique.af,Melody d'Afrique,https://static-cdn.tv.sfr.net/data/logos/tv_services/Melody_d_Afrique_color.png
+MensUpTV.fr,Men's Up TV,https://static-cdn.tv.sfr.net/data/logos/tv_services/Mens_Up_TV_color.png
+Mezzo.fr,Mezzo,https://focus.telerama.fr/500x500/0000/00/01/clear-125.png
+MezzoLive.fr,Mezzo Live HD,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/268/canal-ouah/CHN43FB/NEW_MEZZOLIVE_FN_BLANC_myCANAL_640x480
+MezzoLiveHD.fr,MezzoLiveHD,https://focus.telerama.fr/500x500/0000/00/01/clear-907.png
+MikubaTV.af,MIKUBA TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180929/canal-ouah/CHN43FB/MIKUBA_myCANAL_640x480
+MirabelleTV.fr,VIA Mirabelle,https://static-cdn.tv.sfr.net/data/logos/tv_services/VIA_Mirabelle_color.png
+Mishapi.af,MISHAPI,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180627/canal-ouah/CHN43FB/MISHAPIVOICETV_myCANAL_640x480
+MoliereTV.af,MoliereTV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180665/canal-ouah/CHN43FB/MOLIERETV_myCANAL_640x480
+Mosaik.fr,Mosaïk Cristal,https://static-cdn.tv.sfr.net/data/logos/tv_services/Mosaik_color.png
+MosaikCristal.fr,MosaikCristal.fr,
+MotorVisionTV.fr,MotorVision TV,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;amp;s
+Museum.fr,MUSEUM TV,https://focus.telerama.fr/500x500/0000/00/01/clear-1072.png
+MyZenTV.fr,My Zen TV,https://static-cdn.tv.sfr.net/data/logos/tv_services/myzentv-100x100.png
+NATV.fr,NA TV,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/NATV100x100couleur.png
+NOVO19.fr,NOVO19,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_NOVO19_-_2025.svg/330px-Logo_NOVO19_-_2025.svg.png
+NRJHits.fr,NRJ Hits,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/21522999
+NT1.fr,TFX,https://focus.telerama.fr/500x500/0000/00/01/clear-446.png
+NatGeoWild.fr,NatGeoWild,https://focus.telerama.fr/500x500/0000/00/01/clear-719.png
+NationalGeographic.fr,National Geographic,https://focus.telerama.fr/500x500/0000/00/01/clear-243.png
+NauticalChannel.fr,Nautical Channel,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn29jHgbZ0q2yAJyWS63vBUC4gDZl8cC1vDKDaTuGVyMG2B3xhdRRfNo48mTc&amp;amp;s
+NickJr.be,NickJr,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmV1CbNklnPFqiNlVehXPHig_jILmgTlFy656cTlxcxoYtIG6wM6Y0lbelvQ&amp;amp;s
+Nickelodeon.be,Nickelodeon,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYpR5z7x16TC4pv7sphIJf2UXDeyDJc2L3g1EyF8jlL8WYi5PNCH-MFoPilaw&amp;amp;s
+Nickelodeon.fr,Nickelodeon,https://focus.telerama.fr/500x500/0000/00/01/clear-473.png
+Nickelodeon4Teen.fr,Nickelodeon Teen,https://focus.telerama.fr/500x500/0000/00/01/clear-1746.png
+NickelodeonJunior.fr,Nickelodeon Junior,https://focus.telerama.fr/500x500/0000/00/01/clear-888.png
+NickelodeonPlus1.fr,NickelodeonPlus1.fr,
+Nickelodeonplus1.fr,Nickelodeon+1,https://static-cdn.tv.sfr.net/data/logos/tv_services/Nickelodeon_1_color.png
+NietaTV.af,NIETA TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180643/canal-ouah/CHN43FB/NIETA_TV_myCANAL_640x480
+NinaNovelas.fr,NinaNovelas.fr,
+NoTele.be,NoTele,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn5DeCglVcDc5jd-9ivBci4nCdZb9Qz4Qe68HyDF4s5lBfIp-Be7aD0-0_Fw&amp;amp;s
+NollywoodEpic.af,NollywoodEpic,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180600/canal-ouah/CHN43FB/NOLLYWOODTVEPIC_POURFONDBLANC_640x480
+NollywoodTV.af,NollywoodTV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180270/canal-ouah/CHN43FB/Nollywood_FB
+NollywoodTV.fr,Nollywood TV,https://focus.telerama.fr/500x500/0000/00/01/clear-1461.png
+NouvelleCaledonie.fr,NouvelleCaledonie,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSco5lDLkQBwweilyVo8AVaFiJ6ARhm2zsixWWjzcLKMl9gbfMYN2FVCVjCzA&amp;amp;s
+NovelasTV.fr,NOVELAS,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/92753990
+NovelasTVIvoire.af,NOVELAS TV (IVOIRE),https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180689/canal-ouah/CHN43FB/FBNOV
+Numero23.fr,RMC STORY,https://static.teleboy.ch/shared/stations/376/icon320_light.png?v2023_48_0
+OLTV.fr,OLPLAY,https://focus.telerama.fr/500x500/0000/00/01/clear-463.png
+ONETV.ch,CARAC 2 CH HD,https://static.teleboy.ch/shared/stations/521/icon320_light.png?v2023_48_0
+ORTB.af,ORTB,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180207/canal-ouah/CHN43FB/ORTB_myCANAL_640x480
+ORTC.af,ORTC,https://static-cdn.tv.sfr.net/data/logos/tv_services/ORTC_color.png
+ORTM.af,ORTM,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180069/canal-ouah/CHN43FB/ORTM1_myCANAL_640x480
+ORTM2.af,ORTM2,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180397/canal-ouah/CHN43FB/ORTM2_myCANAL_640x480
+OlympiaTV.fr,OlympiaTV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/93985302
+OneTV.af,ONE TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180404/canal-ouah/CHN43FB/ONETV_TOGO_myCANAL_640x480
+PIWI.fr,Piwi+,https://focus.telerama.fr/500x500/0000/00/01/clear-344.png
+PLANETEJustice.fr,Planète+ Crime Investigation,https://focus.telerama.fr/500x500/0000/00/01/clear-662.png
+PRO7.de,PRO7,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLp_ovaB0i2kUntwGaP0rfPtsV51Z8PFCLAMi-31uYoObpME5IzcqD0s6HuQ&amp;amp;s
+PalmaresADISQ.ca,PalmaresADISQ,https://cdn.tvpassport.com/image/station/640x360/v2/s108572_h15_aa.png
+ParamountChannel.fr,Paramount Channel,https://focus.telerama.fr/500x500/0000/00/01/clear-1562.png
+ParamountChannelDecale.fr,Paramount Channel Décalé,https://static-cdn.tv.sfr.net/data/logos/tv_services/Paramount_Channel_Decale_color.png
+ParisPremiere.fr,Paris Première,https://focus.telerama.fr/500x500/0000/00/01/clear-145.png
+PenthouseBlack.fr,Penthouse Black,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO3Q6HPCMdoQvtMB0bl17lfw2-uybgBaS9R9NMSmh5hwcAuJR_PkZ_IkUWfg&amp;amp;s
+PenthouseGold.fr,PenthouseGold.fr,
+PenthousePassion.fr,PenthousePassion.fr,
+Phoenix.de,Phoenix.de,
+PickxLiveF.be,PickxLiveF.be,
+PickxLiveFHD.be,PickxLiveFHD.be,
+PickxLiveN.be,PickxLiveN.be,
+PickxPlusF.be,PickxPlusF.be,
+PickxPlusN.be,PickxPlusN.be,
+PickxPlusSports10N.be,PickxPlusSports10N.be,
+PickxPlusSports1F.be,PickxPlusSports1F.be,
+PickxPlusSports1N.be,PickxPlusSports1N.be,
+PickxPlusSports2F.be,PickxPlusSports2F.be,
+PickxPlusSports2N.be,PickxPlusSports2N.be,
+PickxPlusSports3F.be,PickxPlusSports3F.be,
+PickxPlusSports3N.be,PickxPlusSports3N.be,
+PickxPlusSports4F.be,PickxPlusSports4F.be,
+PickxPlusSports4N.be,PickxPlusSports4N.be,
+PickxPlusSports5F.be,PickxPlusSports5F.be,
+PickxPlusSports5N.be,PickxPlusSports5N.be,
+PickxPlusSports6F.be,PickxPlusSports6F.be,
+PickxPlusSports6N.be,PickxPlusSports6N.be,
+PickxPlusSports7F.be,PickxPlusSports7F.be,
+PickxPlusSports7N.be,PickxPlusSports7N.be,
+PickxPlusSports8F.be,PickxPlusSports8F.be,
+PickxPlusSports8N.be,PickxPlusSports8N.be,
+PickxPlusSports9F.be,PickxPlusSports9F.be,
+PickxPlusSports9N.be,PickxPlusSports9N.be,
+PinkTV.fr,PinkTV,https://focus.telerama.fr/500x500/0000/00/01/clear-406.png
+PinkX.fr,PinkX,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/21523008
+PlaneteAction.fr,Planete+ Aventure,https://focus.telerama.fr/500x500/0000/00/01/clear-402.png
+PlanetePlus.fr,Planete+,https://focus.telerama.fr/500x500/0000/00/01/clear-147.png
+PlanetePlusCA.ca,Planete+ Canada,https://cdn.tvpassport.com/image/station/640x360/v2/s31323_h15_aa.png
+PlayboyTV.fr,PlayboyTV.fr,
+PlugRTL.be,Plug RTL,https://focus.telerama.fr/500x500/0000/00/01/clear-377.png
+PolarPlus.fr,Polar+,https://focus.telerama.fr/500x500/0000/00/01/clear-2326.png
+Polynesie1.fr,Polynesie 1ère,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQq2Na0oRzTLBsNqol9F1OQD6wnRl7Wvh7T8xwcdLNrAFe4fu22Mhx0imffyg&amp;amp;s
+ProSieben.de,ProSieben,https://static-cdn.tv.sfr.net/data/logos/tv_services/ProSieben_color.png
+ProvenceAzur.fr,BFM MARSEILLE PROVENCE,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/NEUFBFMMARSEILLEPROV100x100.png
+Proximus11.be,Proximus11,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-6Q8OHzorqV00gHkEzAYuRleDXZjBuJ31IYlHApCZ-EIbLFX_aPtvKmZt9k0&amp;amp;s
+PublicSenat.fr,Public Sénat,https://static-cdn.tv.sfr.net/data/logos/tv_services/publicsenat-100x100.png
+PublicSenat2424.fr,Public Sénat 24\/24,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpR6zUWhGkZJgfMXt21ugKRqn72TpI5XJZiMBD5Stw-F_V7F6fcZ0EKyp0zDY&amp;amp;s
+RDI.ca,RDI,https://cdn.tvpassport.com/image/station/640x360/v2/s15209_h9_ab.png
+RDS.ca,RDS,https://cdn.tvpassport.com/image/station/640x360/v2/s15676_h15_aa.png
+RDS2.ca,RDS2,https://cdn.tvpassport.com/image/station/640x360/v2/s73271_h6_aa.png
+RDSInfo.ca,RDS Info,https://cdn.tvpassport.com/image/station/640x360/v2/s39080_h15_ab.png
+RFMTV.fr,RFM TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/21654081
+RMCAlerteSecours.fr,RMC Alerte Secours,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300RMCALERTESECOURSmono.png
+RMCDecouverte.fr,RMC Découverte,https://static.teleboy.ch/shared/stations/380/icon320_light.png?v2023_48_0
+RMCMecanic.fr,RMC Mecanic,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300RMCMECANICmono.png
+RMCMystere.fr,RMC Mystère,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300RMCMYSTERESmono.png
+RMCSport1.fr,RMC Sport 1,https://static-cdn.tv.sfr.net/data/logos/tv_services/RMC_Sport_1_color.png
+RMCSport2.fr,RMC Sport 2,https://static-cdn.tv.sfr.net/data/logos/tv_services/RMC_Sport_2_color.png
+RMCSport3.fr,RMC Sport Live 3,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RMCSPORTLIVE3100x100.png
+RMCSport4.fr,RMCSport4.fr,
+RMCSportUHD.fr,RMC Sport UHD,https://focus.telerama.fr/500x500/0000/00/01/clear-2029.png
+RMCTalkInfo.fr,RMC Talk Info,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300RMCTALKINFOmono.png
+RMCTalkSport.fr,RMC Talk Sport,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300RMCTALKSPORTmono.png
+RMCWOW.fr,RMC WOW,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300RMCWOWmono.png
+RSI1.ch,RSI 1,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452691
+RSI2.ch,RSI 2,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698
+RTB.af,RTB,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/50513/CHN43FB/rtb.jpg
+RTC.be,RTC,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhiUpxpmsSCYxyMxlhCUp4XPdQYhIRqMyq-_bAswQBN5x3uWJbjtsS6dcmdDA&amp;amp;s
+RTG.af,RTG,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/50516/CHN43FB/RTG_FB.jpg
+RTG2.af,RTG2,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180017/canal-ouah/CHN43FB/RTG2_myCANAL_640x480
+RTI1.ci,RTI1,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180171/canal-ouah/CHN43FB/RTI1_myCANAL_640x480
+RTI2.ci,RTI2,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180271/canal-ouah/CHN43FB/New_RTI2_myCANAL_640x480
+RTL2.de,RTL2,https://static-cdn.tv.sfr.net/data/logos/tv_services/RTL2_color.png
+RTL9.fr,RTL9,https://focus.telerama.fr/500x500/0000/00/01/clear-115.png
+RTLDistrict.be,RTL District,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/RTL_District_Logo_2024.svg/1200px-RTL_District_Logo_2024.svg.png
+RTLNitroTV.de,RTL NITRO TV,https://static-cdn.tv.sfr.net/data/logos/tv_services/RTL_NITRO_TV_color.png
+RTLPlus.de,RTL Plus,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqT4x4ErWJn8ZyqTcGptBgX78IUaxmP88d5Gn-NR680nQ5RGeQqw-K1uFDQr8&amp;amp;s
+RTLTVI.be,RTL TVI,https://focus.telerama.fr/500x500/0000/00/01/clear-168.png
+RTNB.af,RTNB,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180716/canal-ouah/CHN43FB/RTNB_myCANAL_640x480
+RTNC.af,RTNC,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180208/canal-ouah/CHN43FB/RTNC_POURFB_640x480-KFoj
+RTS.sn,RTS 1,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180076/canal-ouah/CHN43FB/RTS1_myCANAL_640x480
+RTS2.sn,RTS 2 Sénégal,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180666/canal-ouah/CHN43FB/RTS2_myCANAL_640x480-0
+RTSDeux.ch,RTS Deux,https://static.teleboy.ch/shared/stations/305/icon320_light.png?v2023_48_0
+RTSUn.ch,RTS Un,https://static.teleboy.ch/shared/stations/331/icon320_light.png?v2023_48_0
+Radio1.be,Radio1,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf7E7Tz6x4vyZ0ZMUssTuQonYNg395UyNN8GVrV6zU2Ff4XDkP0pGMXQiWrA&amp;amp;s
+RealMadridTV.es,REAL MADRID TV,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png
+RegInfoF.be,RegInfoF.be,
+RenouveauTV.af,RENOUVEAU TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180778/canal-ouah/CHN43FB/RENOUVEAUTV_myCANAL_640x480
+Reunion1.fr,Reunion 1ère,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuiRrCxtmHPxQ3iKm06l4a2o-XdJ_dl57SGSVfFFZaEJsoySEqS6FuKOdBucE&amp;amp;s
+RougeTV.ch,CARAC 1 HD,https://static.teleboy.ch/shared/stations/365/icon320_light.png?v2023_48_0
+Rtce.af,RTCE,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180031/canal-ouah/CHN43FB/RTCE_myCANAL_640x480
+Rtd.af,RTD,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180399/canal-ouah/CHN43FB/RTD_myCANAL_640x480
+Rtds.af,RTDS,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180779/canal-ouah/CHN43FB/RTDS_640x480-uTGT
+Rtnk.af,RTNK,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180062/canal-ouah/CHN43FB/RTNKTV_myCANAL_640x480
+RwandaTV.af,RwandaTV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180251/canal-ouah/CHN43FB/RWANDATV_myCANAL_640x480
+SENTV.sn,SENTV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180377/canal-ouah/CHN43FB/SENTV_640x480-J11I
+SRF1.ch,SRF 1,https://static.teleboy.ch/shared/stations/303/icon320_light.png?v2023_48_0
+SRF2.ch,SRF zwei,https://static.teleboy.ch/shared/stations/304/icon320_light.png?v2023_48_0
+SRFinfo.ch,SRF info,https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0
+SWR.de,SWR,https://focus.telerama.fr/500x500/0000/00/01/clear-182.png
+Sat1.de,Sat.1,https://static.teleboy.ch/shared/stations/360/icon320_light.png?v2023_48_0
+SavaneTV.af,SavaneTV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180664/canal-ouah/CHN43FB/SAVANETV_myCANAL_640x480
+ScienceEtVieTV.fr,Science et Vie TV,https://focus.telerama.fr/500x500/0000/00/01/clear-63.png
+Seasons.fr,Seasons,https://focus.telerama.fr/500x500/0000/00/01/clear-173.png
+SeriesPlus.ca,Series+,https://cdn.tvpassport.com/image/station/640x360/v2/s21543_h15_ab.png
+ShanghaiDragonTV.cn,Dragon TV,https://static-cdn.tv.sfr.net/data/logos/tv_services/Dragon_TV_color.png
+SkyNews.us,Sky News,https://static-cdn.tv.sfr.net/data/logos/tv_services/Sky_News_color.png
+SosDocteurTV.af,SOS DOCTEUR TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180976/canal-ouah/CHN43FB/SOSDOCTEURTV_myCANAL_640x480
+SouvenirsFromEarth.fr,Souvenirs From Earth,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvnOTBqGzG7wD9tD1GZgvbRa1UWRgpTwzxlswxhK5PspNVtF139wxKdGV_mpE&amp;amp;s
+SportEnFrance.fr,Sport en France,https://static-cdn.tv.sfr.net/data/logos/tv_services/Sport_en_France_color.png
+StPierreEtMiquelon1.fr,St Pierre Et Miquelon 1ère,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXi7vs8TNuYmCbPMi6jy5vP0i11qA4FJwHD6Eak-PNpqBkBAQEvjmx7zWfBg&amp;amp;s
+StingrayCMusic.uk,StingrayCMusic.uk,
+StingrayClassica.fr,StingrayClassica,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeSsCnOCBUiW49RdSaIMxahFOTfZDqO4xpuI9mEmnEwPop7PjfjhqwDerWJ5U&amp;amp;s
+StingrayDjazz.fr,StingrayDjazz,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlMJ0hv0VS0yBDyuAWR6FKzgiMYOW9DzkZU4iKMVIngjlJbp8WIzn3SHReXZQ&amp;amp;s
+StingrayFestival.fr,StingrayFestival.fr,
+StingrayiConcerts.fr,StingrayiConcerts,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgM1jW-ZMtqnuVZFynFE4wpjbxRpF3HZ-TU7KxwqVlQZt_LsoOjt7RDFFT20Q&amp;amp;s
+Sud1ere.af,SUD 1ERE,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180828/canal-ouah/CHN43FB/SUDPREMIERE_myCANAL_640x480
+SundanceTV.fr,Sundance TV,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHLuhaj35IsHpTUk_xOLNlWrnauqkRg_sb1l8bpcjkpWN0NYblKkalgpyremc&amp;amp;s
+SunnaTV.af,SUNNA TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180926/canal-ouah/CHN43FB/SUNNATV_myCANAL_640x480
+SunuYeuf.af,SUNU YEUF,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180710/canal-ouah/CHN43FB/SUNUYEUF640x480
+SuperEcran1.ca,Super Ecran 1,https://cdn.tvpassport.com/image/station/640x360/v2/s15677_h15_ac.png
+SuperEcran2.ca,Super Ecran 2,https://cdn.tvpassport.com/image/station/640x360/v2/s16187_h15_ab.png
+SuperEcran3.ca,Super Ecran 3,https://cdn.tvpassport.com/image/station/640x360/v2/s16188_h15_ab.png
+SuperEcran4.ca,Super Ecran 4,https://cdn.tvpassport.com/image/station/640x360/v2/s24455_h15_ab.png
+SuperRTL.de,Super RTL,https://static-cdn.tv.sfr.net/data/logos/tv_services/Super_RTL_color.png
+Syfy.fr,Syfy,https://focus.telerama.fr/500x500/0000/00/01/clear-479.png
+T18.fr,T18,https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/langfr-250px-Logo_de_la_chaine_T18.svg.png
+TCM.fr,TCM Cinéma,https://focus.telerama.fr/500x500/0000/00/01/clear-185.png
+TELEVESDRE.be,TéléVESDRE,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqnda1J-_Ntq1YYm4qhlwSRvCCBzlo3kTJnj_kj5jpEJ9Ub5Yzli8E8ogD-iA&amp;amp;s
+TF1.fr,TF1,https://static.teleboy.ch/shared/stations/308/icon320_light.png?v2023_48_0
+TF14k.fr,TF14k.fr,
+TF1SeriesFilms.fr,TF1 Séries-Films,https://static.teleboy.ch/shared/stations/372/icon320_light.png?v2023_48_0
+TF1plus1.fr,TF1 + 1,https://static-cdn.tv.sfr.net/data/logos/tv_services/TF1_1_color.png
+TFM.af,TFM,https://static-cdn.tv.sfr.net/data/logos/tv_services/TFM_color.png
+TFO.ca,TFO,https://cdn.tvpassport.com/image/station/640x360/v2/s10109_h15_ab.png
+TIJI.fr,TIJI,https://focus.telerama.fr/500x500/0000/00/01/clear-229.png
+TL7SaintEtienne.fr,TL7,https://static-cdn.tv.sfr.net/data/logos/tv_services/TL7_Saint_etienne_color.png
+TMC.fr,TMC,https://static.teleboy.ch/shared/stations/383/icon320_light.png?v2023_48_0
+TRACEAyiti.fr,Trace Ayiti,https://freebox.cdn.scw.iliad.fr/large_trace_ayiti_94de0df748.png
+TRACESportStars.fr,TRACESportStars,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXj68165UyypOx-thXNP27mbj734qZ9BFiTLOrvGgYc79l_K4Dg6Hica7Tho&amp;amp;s
+TV1.af,TV1,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180748/canal-ouah/CHN43FB/TV1RWANDA_myCANAL_640x480
+TV10.af,TV10,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180326/canal-ouah/CHN43FB/TV10RWANDA_myCANAL_640x480
+TV2Com.fr,TV2COM,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/100x100tv2com.png
+TV5.ca,TV5 Canada,https://cdn.tvpassport.com/image/station/640x360/v2/s11185_h15_aa.png
+TV5Monde.fr,TV5 Monde,https://static.teleboy.ch/shared/stations/61/icon320_light.png?v2023_48_0
+TV5MondeAfrique.fr,TV5 Monde Afrique,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180105/canal-ouah/CHN43FB/TV5MONDE2022_myCANAL_640x480
+TV5MondeAmeriqueLatine.fr,TV5MondeAmeriqueLatine.fr,
+TV5MondeAsie.fr,TV5 Monde Asie,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;amp;s
+TV5MondeEtatsUnis.fr,TV5MondeEtatsUnis.fr,
+TV5MondeEurope.fr,TV5 Monde Europe,https://focus.telerama.fr/500x500/0000/00/01/clear-232.png
+TV5MondeInfo.fr,TV5 Monde Info,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQblq2bYzk22pzh2Eb652NvyfwpDfXQp0k6b9YYytZSQyGbDXTSSxuHeQuNn9E&amp;amp;s
+TV5MondeMaghrebOrient.fr,TV5MondeMaghrebOrient.fr,
+TV5MondePacifique.fr,TV5 Monde Pacifique,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;amp;s
+TV5Style.fr,TV5 Style,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5bBhY8llmKCpPQJDCta8lgkZdSxsWvEZA3V5qqLi8H1XqH0paQ6dVLfwgSjo&amp;amp;s
+TV78.fr,TV78,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/TV78100x100COULEUR.png
+TV7Bordeaux.fr,TV7 Bordeaux,https://focus.telerama.fr/500x500/0000/00/01/clear-273.png
+TV8MoselleEst.fr,TV8 Moselle-Est,https://static-cdn.tv.sfr.net/data/logos/tv_services/TV8_Moselle_Est_color.png
+TVAHD.ca,TVAHD,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTheHzNv660Nell2GCCOg_DejyhtlJXr_1Ax95cIxvA2CfMImnKgKvfNBekSnw&amp;amp;s
+TVASports.ca,TVA Sports,https://cdn.tvpassport.com/image/station/640x360/v2/s73141_h15_ad.png
+TVASports2.ca,TVA Sports 2,https://cdn.tvpassport.com/image/station/640x360/v2/s90204_h15_ac.png
+TVCom.be,TVCom,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRU4zxIK1NutYfZMIAAEwSkbdErktYCOgtsPYu_oHfNcgIIwZwvZq_sXg-rJI&amp;amp;s
+TVCongo.af,TV Congo,https://static-cdn.tv.sfr.net/data/logos/tv_services/TV_Congo_color.png
+TVLimburg.be,TVLimburg,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShL_mc70Z5I3_ZsRsySQ76cTqqQyjP0B-XtVfSefrOQf3AUZ3cG42I6psu2c0&amp;amp;s
+TVLux.be,TV Lux,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;amp;s
+TVMEstParisien.fr,TELE-VISION MONTREUIL,https://static-cdn.tv.sfr.net/data/logos/tv_services/TELE_VISION_MONTREUIL_color.png
+TVPI.fr,TVPI,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/Tvpilogojaunealpha100x100.png
+TVPitchoun.fr,TV Pitchoun,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXVw8Rje6lVtl5nTNZmZqy7eINTVEXGnYKl5O1re6DZ8OLRJcRauRGUpxJPA&amp;amp;s
+TVRennes35Bretagne.fr,TV RENNES 35,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/TVRennes35100x100couleur.png
+TVSUDNimes.fr,TVSUDNimes.fr,
+TVTchad.af,TVTchad,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180275/canal-ouah/CHN43FB/TELE_TCHAD_myCANAL_640x480
+TVTogo.af,TVTogo,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180272/canal-ouah/CHN43FB/TVT_myCANAL_640x480
+TVTours.fr,TV Tours,https://static-cdn.tv.sfr.net/data/logos/tv_services/TV_Tours_color.png
+TVVendee.fr,TV Vendée,https://static-cdn.tv.sfr.net/data/logos/tv_services/TV_Vendee_color.png
+TahitiNuiTV.fr,Tahiti Nui TV,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxm69U3l7Bcxf_vh8OoMHl5yygkJwSKpdFnWcaPslaYuwifClLQS6PgT6wYQ&amp;amp;s
+TchadInfos.af,TCHAD INFOS,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180079/canal-ouah/CHN43FB/LogoTItv_page-0001
+TebeSud.fr,TébéSud,https://upload.wikimedia.org/wikipedia/fr/2/20/T%C3%A9b%C3%A9Sud_logo_2013.png
+Tebeo.fr,TEBEO,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/TEBEOcolor1.png
+Tele50.af,Télé50,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180381/canal-ouah/CHN43FB/TELE50_myCANAL_640x480
+TeleAfrica.af,TéléAfrica,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180235/canal-ouah/CHN43FB/TELEAFRICA_myCANAL_640x480
+TeleBielingue.ch,Télé Bielingue,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452689
+TeleBocal.fr,Télé Bocal,https://static-cdn.tv.sfr.net/data/logos/tv_services/Tele_Bocal_color.png
+TeleCongo.af,Télé Congo,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180204/canal-ouah/CHN43FB/TELECONGO_myCANAL_640x480
+TeleGrenobleIsere.fr,Télé Grenoble,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/LogoTlgrenoble100x100.png
+TeleKreol.frdrom,TELE KREOL,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/160203/canal-ouah/CHN43FB/TELEKREOL_myCANAL_640x480
+TeleLyonMetropole.fr,BFM Lyon,https://focus.telerama.fr/500x500/0000/00/01/clear-116.png
+TeleMB.be,TéléMB,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIhSfzB7N9tJ_1-uE5FwQ0h7cIMXeOZU5UPMs_ihKIfyPaQjRqA7bw69NmuiU&amp;amp;s
+TeleMag.ca,TeleMag,https://cdn.tvpassport.com/image/station/640x360/v2/s72595_h9_aa.png
+TeleMaroc.ar,Télé Maroc,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/telemaroc100x100color.png
+TelePaese.fr,Télé Paese,https://static-cdn.tv.sfr.net/data/logos/tv_services/Tele_Paese_color.png
+TeleQuebec.ca,Télé Quebec,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTitLt7vHAbol2JNPBFG7GpYcRSoTqq-2Xk4BT6pMeJ1PSHTyK8W6vpW5kRdw&amp;amp;s
+TeleSahel.af,TéléSahel,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180274/canal-ouah/CHN43FB/TELESAHEL_ORTN_myCANAL_640x480
+TeleSambre.be,TéléSambre,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9DzJg4y8CuWT8cLVxumr0Orv-gpJWA7-RTX5z8lkfTXT5lK1mzEEl3RABFA&amp;amp;s
+TeleTOONplus1.fr,Télétoon +1,https://focus.telerama.fr/500x500/0000/00/01/clear-293.png
+TeleToonPlus.fr,TéléToon+,https://focus.telerama.fr/500x500/0000/00/01/clear-197.png
+TelefilmsRomance2424.fr,Téléfilms Romance 24/24,https://i.imgur.com/3c5IMZ5.png
+Telenantes.fr,Télénantes,https://focus.telerama.fr/500x500/0000/00/01/clear-491.png
+Telesud.fr,Télésud,https://focus.telerama.fr/500x500/0000/00/01/clear-449.png
+TeletoonCA.ca,TélétoonCA,https://cdn.tvpassport.com/image/station/640x360/v2/s17564_h15_ab.png
+Temoin.ca,Temoin,https://cdn.tvpassport.com/image/station/640x360/v2/s72006_h15_ac.png
+Teva.fr,Téva,https://focus.telerama.fr/500x500/0000/00/01/clear-191.png
+Tgb.af,TGB,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180499/canal-ouah/CHN43FB/TGB_myCANAL_640x480
+Tipikvision.be,Tipikvision,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxrO1rmEw_aeT1yCzzdzwizJG-xvv0NkHUqpx6HEthJx3_iJEUS7-j71-d1w&amp;amp;s
+Tivi5.fr,Tivi5,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpcAytYRQf0WCYv17p-4MHv0YKLWK-Rmh2JFMZmqzrv_S-RjqXHy9Nnht9TQ&amp;amp;s
+Toonami.fr,Warner TV Next,https://focus.telerama.fr/500x500/0000/00/01/clear-2040.png
+TopSanteTV.fr,Top Santé TV,https://freebox.cdn.scw.iliad.fr/large_top_sante_ea66c2d6c5.jpg
+TouteHistoire.fr,Toute l'Histoire,https://focus.telerama.fr/500x500/0000/00/01/clear-7.png
+TraceAfrica.fr,Trace Africa,https://static-cdn.tv.sfr.net/data/logos/tv_services/Trace_Africa_color.png
+TraceAfrikora.af,Trace Afrikora,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMTlWwUqJbUKvXYlaCAXjZZJYujfu7rSwaO-8fnXDyAC9_Vn1Q5PTEpGY62g&amp;amp;s
+TraceCaribbean.fr,TRACE CARIBBEAN,https://static-cdn.tv.sfr.net/data/logos/tv_services/TRACE_CARIBBEAN_color.png
+TraceGospel.af,Trace Gospel,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180620/canal-ouah/CHN43FB/TRACEGOSPEL_myCANAL_640x480
+TraceGospel.fr,Trace Gospel,https://static-cdn.tv.sfr.net/data/logos/tv_services/Trace_Gospel_color.png
+TraceKitoko.af,Trace Kitoko,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180621/canal-ouah/CHN43FB/TRACEKITOKO_myCANAL640x480
+TraceLatina.fr,Trace Latina,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/784/canal-ouah/CHN43FB/TRACELATINA_myCANAL_640x480
+TraceMboa.af,TRACE MBOA ,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180266/canal-ouah/CHN43FB/TRACEMBOA_myCANAL_640x480
+TraceMziki.af,TRACE MZIKI,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180570/canal-ouah/CHN43FB/TRACEMZIKI_myCANAL640x480
+TraceTeranga.af,TRACE TERANGA,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180714/canal-ouah/CHN43FB/TRACETERANGA_myCANAL_640x480
+TraceToca.fr,Trace Toca,https://static-cdn.tv.sfr.net/data/logos/tv_services/Trace_Toca_color.png
+TraceTropical.fr,Trace Tropical,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZjYaCZUHfwSB1sDQf0PzbUDiV0QuRvOe3_71eJSgUphA_fj2yGS9oeYhk1w&amp;amp;s
+TraceUrban.fr,Trace Urban,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/585/canal-ouah/CHN43FB/CHN43FB_585_20230208
+TraceUrbanAfrique.af,Trace Urban Afrique,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180186/canal-ouah/CHN43FB/TRACEURBAN_myCANAL_640x480
+TraceVanilla.frdrom,TRACE VANILLA,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/160800/canal-ouah/CHN43FB/TRACEVANILLA_myCANAL_640x480
+Trek.fr,TREK,https://focus.telerama.fr/500x500/0000/00/01/clear-1776.png
+Turbo2424.fr,Turbo 24/24,https://i.imgur.com/FtT302g.png
+TvBreizh.fr,TV Breizh,https://focus.telerama.fr/500x500/0000/00/01/clear-225.png
+UnionTV.fr,UnionTV.fr,
+UshuaiaTV.fr,Ushuaia TV,https://focus.telerama.fr/500x500/0000/00/01/clear-451.png
+VEDIA.ch,VEDIA.ch,
+VH1.fr,VH1,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQytdEW8hexcyLQuA5JkBO4_aZBs3_JPI9uK1aYWtmJuf-xA8WN9v8_VJsoTw&amp;amp;s
+VH1Classic.fr,VH1 Classic,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP_d4dzC_OxuU1tK8kVzLy8gTfuoG95QKbCTSAC2aFCPEWe2rByUXS883FBVM&amp;amp;s
+VISION.ca,VISION,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0S2BefV-5_vnN4tzmvGG80Ux1-fu0xrK-V7sg2qE4tzlzQE4u3cznBCSq7TQ&amp;amp;s
+VOO.be,VOO,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtFbj8K5_Lyc8deWHYv87abeQ1LVECtLnRPKkFHDC7eCmJk6yBbUJ6G9j8kE&amp;amp;s
+VOOSport1fr.be,VOO Sport1,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeVUTkE6ZlK4yt_62EI9V06ExUMBLu58dbRg7jDGUgBOulfMMs6vsw1MWErEo&amp;amp;s
+VOOSportWorld1.be,VOO Sport World 1,https://focus.telerama.fr/500x500/0000/00/01/clear-413.png
+VOOSportWorld2.be,VOO Sport World 2,https://focus.telerama.fr/500x500/0000/00/01/clear-414.png
+VOOSportWorld3.be,VOOSportWorld3.be,
+VTM.be,VTM,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnfobA0TONAfoyLIE2JOq8jBcIStE1pIzTlw-EX9C_KYoMCi1oOPiIHfA5NZM&amp;amp;s
+VTM2.be,VTM2,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDFToHw7Osv9ZrBBEvGsBFfq9USYPVGmmdqdzg9CryWpwwKmffERevQavORdk&amp;amp;s
+VTM3.be,VTM3,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoS5S6174Cs7wVmtZ-k5yb7pkcvUKKvHiyLtxh2Xg-RsjUrYUIQ5ET6q_j-fM&amp;amp;s
+VTM4.be,VTM4,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR51mU-El0HKGrMaRagq42iNvL7SujG47nRBui4PjUGdVjz0jN0pOtMmwIBSfM&amp;amp;s
+VTMKids.be,VTMKids,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy6FQDAFPUNQW_9MqIanhnCNh1a2VWcLT2GlOv7iXOKZ2bWXLjciOWccuqwQ&amp;amp;s
+VarAzur.fr,BFM TOULON VAR,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/NEUFBFMTOULONVAR100x100.png
+ViaGrandParis.fr,Le Figaro TV,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/LEFIGARO100x100couleur.png
+Vier.be,Vier,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMadvIX0chJoLkb73w5Opf2AMMw2AmiQr-Ouv1j6Mu5ZwepW4L1KgfzxFUzQ&amp;amp;s
+VoirPlus.af,Voir+,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180215/canal-ouah/CHN43FB/VOIR_PLUS_FB_myCANAL_640x480
+VosgesTV.fr,Vosges tv,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/VOSGES100x100couleur.png
+Vox.de,VOX,https://static-cdn.tv.sfr.net/data/logos/tv_services/Vox_color.png
+VoxAfrica.af,Vox Africa,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180193/canal-ouah/CHN43FB/VOXAFRICAPOURFB_myCANAL_640x480
+W9.fr,W9,https://static.teleboy.ch/shared/stations/268/icon320_light.png?v2023_48_0
+WALFTV.sn,WALFTV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180572/canal-ouah/CHN43FB/WALFTV_myCANAL_640x480
+WallisEtFutuna1.fr,Wallis Et Futuna 1ère,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5SQmOLKI3aNP5efgTqdClWhsL88RV4CH17SvMKIqcp5TNVNe9Y7Hpyttb3A&amp;amp;s
+WarnerTV.fr,WarnerTV,https://focus.telerama.fr/500x500/0000/00/01/clear-2334.png
+Weo.fr,Wéo TV, La voix du nord,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/WEOLAVDN100x100.png
+WeoPicardie.fr,Wéo Picardie,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/WeoPicardie100x100.png
+XXL.fr,XXL,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/25437094
+ZDF.de,ZDF,https://static.teleboy.ch/shared/stations/306/icon320_light.png?v2023_48_0
+ZTele.ca,Z Tele,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqrMRPUQoPrqsV9CqtS9kX7lN7aRxh7cLmlD9KwU4kOBeBiKoHGj3yz1YeHA&amp;amp;s
+Zeste.ca,Zeste,https://cdn.tvpassport.com/image/station/640x360/v2/s67174_h15_ac.png
+ZoneInterdite2424.fr,Zone Interdite 24/24,https://i.imgur.com/Tga6YU3.png
+ZoukTV.fr,ZOUK TV,https://static-cdn.tv.sfr.net/data/logos/tv_services/ZOUK_TV_color.png
+beINSPORTS1.fr,beIN SPORTS 1,https://focus.telerama.fr/500x500/0000/00/01/clear-1290.png
+beINSPORTS2.fr,beIN SPORTS 2,https://focus.telerama.fr/500x500/0000/00/01/clear-1304.png
+beINSPORTS3.fr,beIN SPORTS 3,https://focus.telerama.fr/500x500/0000/00/01/clear-1335.png
+beINSPORTSMAX10.fr,beIN SPORTS MAX 10,https://focus.telerama.fr/500x500/0000/00/01/clear-1342.png
+beINSPORTSMAX4.fr,beIN SPORTS MAX 4,https://focus.telerama.fr/500x500/0000/00/01/clear-1336.png
+beINSPORTSMAX5.fr,beIN SPORTS MAX 5,https://focus.telerama.fr/500x500/0000/00/01/clear-1337.png
+beINSPORTSMAX6.fr,beIN SPORTS MAX 6,https://focus.telerama.fr/500x500/0000/00/01/clear-1338.png
+beINSPORTSMAX7.fr,beIN SPORTS MAX 7,https://focus.telerama.fr/500x500/0000/00/01/clear-1339.png
+beINSPORTSMAX8.fr,beIN SPORTS MAX 8,https://focus.telerama.fr/500x500/0000/00/01/clear-1340.png
+beINSPORTSMAX9.fr,beIN SPORTS MAX 9,https://focus.telerama.fr/500x500/0000/00/01/clear-1341.png
+een.be,een,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSS611UYWZKQqIPmyZZUxO0szmw1tmPHbnXRm9htnNEeLckB0DCiQkS5RysA&amp;amp;s
+prise2.ca,prise2,https://cdn.tvpassport.com/image/station/640x360/v2/s49692_h15_ab.png
+serieclub.fr,SERIE CLUB,https://focus.telerama.fr/500x500/0000/00/01/clear-49.png
+viaATV.fr,viaATV,https://focus.telerama.fr/500x500/0000/00/01/clear-295.png
+viaMaTele.fr,Vià MATÉLÉ,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/viamatele100x100couleur.png

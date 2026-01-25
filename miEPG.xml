@@ -1,45 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="miEPG v3.6" generator-info-url="https://github.com/davidmuma/miEPG">
-  <channel id="La 1">
-    <display-name>La 1 SD</display-name>
-    <display-name>La 1 HD</display-name>
-    <display-name>La 1 4K</display-name>
-    <display-name>La 1 Full HD</display-name>
-    <display-name>La 1 UHD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Nuevo_Logo_de_TVE_UHD_en_2022_%2B_2023_%2B_2024.png" />
-  </channel>
-  <channel id="La 2 Super Full HD 8k">
-    <display-name>La 2 Super Full HD 8k SD</display-name>
-    <display-name>La 2 Super Full HD 8k HD</display-name>
-    <display-name>La 2 Super Full HD 8k 4K</display-name>
-    <display-name>La 2 Super Full HD 8k Full HD</display-name>
-    <display-name>La 2 Super Full HD 8k UHD</display-name>
-    <icon src="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/La%202.png" />
-  </channel>
-  <channel id="Eleven Sports 1 Polonia">
-    <display-name>Eleven Sports 1 Polonia SD</display-name>
-    <display-name>Eleven Sports 1 Polonia HD</display-name>
-    <display-name>Eleven Sports 1 Polonia 4K</display-name>
-    <display-name>Eleven Sports 1 Polonia Full HD</display-name>
-    <display-name>Eleven Sports 1 Polonia UHD</display-name>
-    <icon src="http://epg.ovh/logo/Eleven+Sports+1.png" />
-  </channel>
-  <channel id="Eleven Sports 2 Polonia">
-    <display-name>Eleven Sports 2 Polonia SD</display-name>
-    <display-name>Eleven Sports 2 Polonia HD</display-name>
-    <display-name>Eleven Sports 2 Polonia 4K</display-name>
-    <display-name>Eleven Sports 2 Polonia Full HD</display-name>
-    <display-name>Eleven Sports 2 Polonia UHD</display-name>
-    <icon src="http://epg.ovh/logo/Eleven+Sports+2.png" />
-  </channel>
-  <channel id="MX | Canal TV Azteca">
-    <display-name>MX | Canal TV Azteca SD</display-name>
-    <display-name>MX | Canal TV Azteca HD</display-name>
-    <display-name>MX | Canal TV Azteca 4K</display-name>
-    <display-name>MX | Canal TV Azteca Full HD</display-name>
-    <display-name>MX | Canal TV Azteca UHD</display-name>
-    <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/azteca_uno-mediano.png" />
-  </channel>
 	<programme start="20260125070000 +0100" stop="20260125100000 +0100" channel="La 1">
     <title>Noticias 24H</title>
     <desc>Información,Informativo | 2021 | *6.2/10

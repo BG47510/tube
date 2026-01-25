@@ -1,0 +1,6 @@
+L'Equipe.fr,FR - L'Equipe,https://iptv-epg.org/logos/France/L%27Equipe.fr.png
+France4.fr,FR - France 4,https://iptv-epg.org/logos/France/France4.fr.png
+France2.fr,FR - France 2,https://iptv-epg.org/logos/France/France2.fr.png
+
+
+

@@ -1,4 +1,2 @@
-C1401.api.telerama.fr,L'Equipe,https://focus.telerama.fr/500x500/0000/00/01/clear-1401.png
-RAI.Sport...227.it,RAI Sport   227,https://guidatv.sky.it/logo/807raisport_Light_Fit.png?tr=n-logo_80
-C183.api.telerama.fr,RTS 2,https://focus.telerama.fr/500x500/0000/00/01/clear-183.png
+NOVO19.fr,NOVO19
 #France2.fr,FR - France 2,https://iptv-epg.org/logos/France/France2.fr.png

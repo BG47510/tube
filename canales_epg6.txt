@@ -53,7 +53,7 @@ Sky.Sport..255.it,Sky Sport  255,https://guidatv.sky.it/logo/910skysport_Light_F
 Sky.Sport..256.it,Sky Sport  256,https://guidatv.sky.it/logo/912skysport_Light_Fit.png?checksum=1c38728d-1774-4c93-a75f-622e062b1c29?tr=n-logo_80
 Sky.Sport..257.it,Sky Sport  257,https://guidatv.sky.it/logo/775skysport_Light_Fit.png?checksum=5cd2e53d-e3b3-4921-9391-de3e72d6fb81?tr=n-logo_80
 Sky.Sport..258.it,Sky Sport  258,https://guidatv.sky.it/logo/772skysport_Light_Fit.png?checksum=51beb5ec-84fe-4bb1-8252-4269885af3c8?tr=n-logo_80
-Sky.Sport..259.it,Sky Sport  259,https://guidatv.sky.it/logo/613skysport_Light_Fit.png?checksum=a039404e-e357-4503-b42c-6e459e9e2511?tr=n-logo_80
+Sky.Sport..259.it,Sky Sport  259,
 Sky.Calcio.10..260.it,Sky Calcio 10  260,
 Sky.Calcio.11..261.it,Sky Calcio 11  261,
 SuperTennis.HD.it,SuperTennis HD,https://guidatv.sky.it/logo/5246supertennishd_Light_Fit.png?checksum=13f5cbb1646d848fde3af6fccba8dd4c?tr=n-logo_80
@@ -77,7 +77,7 @@ VALUE.24.TV.it,VALUE 24 TV,https://guidatv.sky.it/logo/5524value24tv_Light_Fit.p
 Sky.TG24.it,Sky TG24,https://guidatv.sky.it/logo/521skytg24_Light_Fit.png?checksum=da35dbfe-8079-4ba1-adcb-fa9e2cfe3392?tr=n-logo_80
 Sky.Meteo24.it,Sky Meteo24,
 TG24PrimoPiano.it,TG24PrimoPiano,
-Class.CNBC.it,Class CNBC,https://guidatv.sky.it/logo/433classcnbc_Light_Fit.png?checksum=97c47bdcf32270c45db6a9359886a97f?tr=n-logo_80
+Class.CNBC.it,Class CNBC,https://guidatv.sky.it/logo/433classcnbc_Light_Fit.png?checksum=5d79825c-e37a-4e81-8e9a-69ea5593279e?tr=n-logo_80
 TG.NORBA.24.it,TG NORBA 24,
 Emilia.Romagna.24.it,Emilia Romagna 24,
 TRM.h24.it,TRM h24,https://guidatv.sky.it/logo/5421trmh24_Light_Fit.png?checksum=550c404365a3b09ee9d2cb21d22ab992?tr=n-logo_80

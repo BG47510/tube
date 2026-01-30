@@ -8,364 +8,6 @@
     <display-name>NOVO19 UHD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_NOVO19_-_2025.svg/330px-Logo_NOVO19_-_2025.svg.png"/>
   </channel>
-  <programme start="20260128002000 +0100" stop="20260128013300 +0100" channel="NOVO19">
-    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
-    <sub-title lang="fr">Affaire Andy</sub-title>
-    <desc lang="fr">Andy, un jeune garçon de 16 ans, vit avec sa famille à Albitreccia, près d'Ajaccio, en Corse. Ensemble, ils renvoient l'image d'une famille idéale. Mais le 11 août 2009, un scénario macabre se dévoile. Andy prend le fusil à pompe de son père et exécute toute sa famille, à commencer par ses parents, puis ses deux petits frères jumeaux. Pourquoi et comment cet adolescent apprécié et sans histoires a-t-il pu commettre ces meurtres ?</desc>
-    <credits>
-      <director>Farrah Youbi</director>
-    </credits>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Justice</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BACB8BA754F200A4916CE1D6644759DC.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-  <programme start="20260128013300 +0100" stop="20260128060000 +0100" channel="NOVO19">
-    <title lang="fr">Programmes de la nuit</title>
-    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Programme</category>
-    <category lang="fr">Programme indéterminé</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260128051000 +0100" stop="20260128061100 +0100" channel="NOVO19">
-    <title lang="fr">Les visages du crime</title>
-    <sub-title lang="fr">Affaire Lejard : un divorce au coeur du crime</sub-title>
-    <desc lang="fr">Le 24 novembre 2010, Christophe Lejard est retrouvé sans vie par son fils, à proximité de leur domicile. Il quittait la maison pour se rendre à son travail lorsqu'un coup de feu lui a été fatal. Rien, dans le parcours de ce père de famille discret, ne laissait présager un tel drame. Au fil de l'enquête, des tensions et des ressentiments jusque-là insoupçonnés vont cependant émerger.</desc>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Justice</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/3E61975F3D9B2D36CDF2806DCE9065ED.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-  <programme start="20260128061100 +0100" stop="20260128062500 +0100" channel="NOVO19">
-    <title lang="fr">Foudre</title>
-    <sub-title lang="fr">Incroyable révélation</sub-title>
-    <desc lang="fr">Alice est toujours à la recherche d'Alex. Une jeune femme l'oriente vers la crique de Druelu, l'endroit où sa mère s'est noyée deux ans auparavant. Bouleversée, Alice s'y rend malgré tout. Elle y est accueillie par une vieille femme qui prétend l'attendre depuis longtemps. Alex est à ses côtés...</desc>
-    <credits>
-      <director>Stéphane Meunier</director>
-      <actor>David Tournay</actor>
-      <actor>Charles Templon</actor>
-      <actor>Lucy Flamant</actor>
-      <actor>Mouni Farro</actor>
-      <actor>Mouni Faro</actor>
-      <actor>Jacqueline Albert</actor>
-      <actor>Joséphine Jobert</actor>
-      <adapter>Laurent Daufès</adapter>
-      <adapter>Bertrand Cohen</adapter>
-      <producer>Denis Mermet</producer>
-      <producer>Bertrand Cohen</producer>
-      <editor>Bertrand Cohen</editor>
-      <editor>Laurent Daufès</editor>
-      <editor>Stéphane Meunier</editor>
-      <guest>Adventure Line Production</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Jeunesse</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/C82B1404F02F26DAEE755CD70817321D.jpg"/>
-    <episode-num system="xmltv_ns">0.24.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260128062500 +0100" stop="20260128065000 +0100" channel="NOVO19">
-    <title lang="fr">Foudre</title>
-    <sub-title lang="fr">Le plus beau des cadeaux</sub-title>
-    <desc lang="fr">Alex explique sa disparition à Alice. La vieille femme fait alors d'étonnantes révélations à la jeune fille...</desc>
-    <credits>
-      <director>Stéphane Meunier</director>
-      <actor>Lucy Flamant</actor>
-      <actor>Alexandre Loréal</actor>
-      <actor>Mouni Farro</actor>
-      <actor>Rémy Pöllabauer</actor>
-      <actor>Mouni Faro</actor>
-      <actor>Joséphine Jobert</actor>
-      <actor>David Tournay</actor>
-      <actor>Jacqueline Albert</actor>
-      <actor>Charles Templon</actor>
-      <adapter>Laurent Daufès</adapter>
-      <adapter>Bertrand Cohen</adapter>
-      <producer>Denis Mermet</producer>
-      <editor>Stéphane Meunier</editor>
-      <guest>Terence Films</guest>
-      <guest>Adventure Line Production</guest>
-      <guest>France 2</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Jeunesse</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/965C4FDD8B115A82E2AF1D67C0E81B06.jpg"/>
-    <episode-num system="xmltv_ns">0.25.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260128065000 +0100" stop="20260128071500 +0100" channel="NOVO19">
-    <title lang="fr">Foudre</title>
-    <sub-title lang="fr">Seuls au monde</sub-title>
-    <desc lang="fr">Alors qu'ils sont à Nouméa, Alex et Alice se réveillent un matin sur une île déserte, perdu en plein milieu du pacifique. Comment sont-ils arrivés là ?...</desc>
-    <credits>
-      <director>Stéphane Meunier</director>
-      <actor>David Tournay</actor>
-      <actor>Mouni Farro</actor>
-      <actor>Lucy Flamant</actor>
-      <actor>Sam Kagy</actor>
-      <actor>Mouni Faro</actor>
-      <actor>Joséphine Jobert</actor>
-      <actor>Charles Templon</actor>
-      <adapter>Alexandre Dos Santos</adapter>
-      <adapter>Bertrand Cohen</adapter>
-      <adapter>Laurent Daufès</adapter>
-      <editor>Stéphane Meunier</editor>
-      <guest>Adventure Line Production</guest>
-      <guest>France 2</guest>
-      <guest>Terence Films</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Jeunesse</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/965C4FDD8B115A82E2AF1D67C0E81B06.jpg"/>
-    <episode-num system="xmltv_ns">1.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260128071500 +0100" stop="20260128074000 +0100" channel="NOVO19">
-    <title lang="fr">Foudre</title>
-    <sub-title lang="fr">2 îles désertes</sub-title>
-    <desc lang="fr">Alex et Alice sont terrifiés par la présence de quelqu'un d'autre sur l'île. Alors qu'ils continuent d'explorer l'île déserte, ils découvrent Léo et Eva...</desc>
-    <credits>
-      <director>Stéphane Meunier</director>
-      <actor>Lucy Flamant</actor>
-      <actor>David Tournay</actor>
-      <actor>Mouni Farro</actor>
-      <actor>Mouni Faro</actor>
-      <actor>Joséphine Jobert</actor>
-      <actor>Charles Templon</actor>
-      <adapter>Eugénie Dard</adapter>
-      <editor>Bertrand Cohen</editor>
-      <editor>Laurent Daufès</editor>
-      <editor>Stéphane Meunier</editor>
-      <guest>Terence Films</guest>
-      <guest>Adventure Line Production</guest>
-      <guest>France 2</guest>
-    </credits>
-    <category lang="fr">Série</category>
-    <category lang="fr">Jeunesse</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/1E06CD9AC51FFBAFB84850F9B9CDAFCE.jpg"/>
-    <episode-num system="xmltv_ns">1.1.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260128074000 +0100" stop="20260128084500 +0100" channel="NOVO19">
-    <title lang="fr">Les visages du crime</title>
-    <sub-title lang="fr">Affaire Laurent Ségalat : Un coupable idéal ?</sub-title>
-    <desc lang="fr">Le samedi 9 janvier 2010, à 21h16, les secours suisses reçoivent l'appel d'un homme signalant le décès de la femme de son père, à son domicile du moulin de Vaux-sur-Morges, près de Lausanne. Il affirme avoir tenté de la réanimer sans succès. Cet appel marque le point de départ d'une longue procédure judiciaire, avec plus de deux ans d'instruction et de nombreuses expertises.</desc>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Justice</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/4302AA7E3CFDDA1741DAAA98E49943B5.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-  <programme start="20260128084500 +0100" stop="20260128095500 +0100" channel="NOVO19">
-    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
-    <sub-title lang="fr">Véronique et Sébastien, les amants diaboliques de Seine-Saint-Denis</sub-title>
-    <desc lang="fr">Le 3 mars 1996, le corps d'Abdeladim Gharbiche, 16 ans, est retrouvé à Gournay-sur-Marne, en Seine-Saint-Denis, lardé de 39 coups de couteau. Les enquêteurs découvrent rapidement, grâce à de très nombreux indices, que les auteurs du meurtre sont un jeune couple de lycéens, Véronique et Sébastien. Après une courte cavale, ces derniers sont interpellés dans le Cantal. Interrogés, ils livrent un récit glaçant aux policiers chargés de l'affaire, stupéfaits des déclarations de deux amants. Le crime aurait été planifié quelques mois auparavant, suite à une simple querelle ayant opposé Sébastien et Abdeladim.</desc>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Justice</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/E3C7304BD8620CD3E87E9E2B370FC127.jpg"/>
-    <episode-num system="xmltv_ns">2.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-  <programme start="20260128095500 +0100" stop="20260128110500 +0100" channel="NOVO19">
-    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
-    <sub-title lang="fr">Affaire Andy</sub-title>
-    <desc lang="fr">Andy, un jeune garçon de 16 ans, vit avec sa famille à Albitreccia, près d'Ajaccio, en Corse. Ensemble, ils renvoient l'image d'une famille idéale. Mais le 11 août 2009, un scénario macabre se dévoile. Andy prend le fusil à pompe de son père et exécute toute sa famille, à commencer par ses parents, puis ses deux petits frères jumeaux. Pourquoi et comment cet adolescent apprécié et sans histoires a-t-il pu commettre ces meurtres ?</desc>
-    <credits>
-      <director>Farrah Youbi</director>
-    </credits>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Justice</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BACB8BA754F200A4916CE1D6644759DC.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-  <programme start="20260128110500 +0100" stop="20260128125000 +0100" channel="NOVO19">
-    <title lang="fr">Mission : protection, les anges gardiens de votre quotidien</title>
-    <sub-title lang="fr">Paix sur la ville</sub-title>
-    <desc lang="fr">Mulhouse est la ville moyenne française par excellence. Chaque jour, ils sont quelques centaines à oeuvrer à la protection de ses 200.000 habitants et au maintien de la paix</desc>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/887466476B0B7C77609A5058E5DCF9E2.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-  <programme start="20260128125000 +0100" stop="20260128135000 +0100" channel="NOVO19">
-    <title lang="fr">100 jours avec les pompiers du Gard</title>
-    <desc lang="fr">Pendant cent jours, des pompiers du Gard sont suivis jour et nuit pour faire découvrir leur quotidien, des sauvetages les plus spectaculaires aux plus insolites.</desc>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/99F902019F93DE54EA4E1D5D85F017EE.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-  <programme start="20260128135000 +0100" stop="20260128144500 +0100" channel="NOVO19">
-    <title lang="fr">100 jours avec les pompiers du Gard</title>
-    <desc lang="fr">Entre incendies, accidents de la route et interventions à haut risque, les pompiers du département du Gard, qu'ils soient professionnels ou volontaires, sont sur tous les fronts.</desc>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/99F902019F93DE54EA4E1D5D85F017EE.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-  <programme start="20260128144500 +0100" stop="20260128155500 +0100" channel="NOVO19">
-    <title lang="fr">Nos héros du quotidien</title>
-    <sub-title lang="fr">Délits routiers, les juges en première ligne</sub-title>
-    <desc lang="fr">Les délits routiers constituent un tiers des condamnations prononcées en France. Leur nombre ne cesse d'augmenter depuis cinq ans. Enquête sur ce phénomène.</desc>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/896AF5BBA94A56D257417362314D606A.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-  <programme start="20260128155500 +0100" stop="20260128165500 +0100" channel="NOVO19">
-    <title lang="fr">Nos héros du quotidien</title>
-    <sub-title lang="fr">Méditérranée : Un été avec les gendarmes de Saint-Tropez</sub-title>
-    <desc lang="fr">Le quotidien des gendarmes de Saint-Tropez et des marins-pompiers de Marseille : sous le soleil de la Méditerranée, les journées et les nuits ne sont pas de tout repos.</desc>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/BC10349350FD7F007D07A505F5F3C6AB.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-  <programme start="20260128165500 +0100" stop="20260128180000 +0100" channel="NOVO19">
-    <title lang="fr">Nos héros du quotidien</title>
-    <sub-title lang="fr">Montpellier : les policiers en première ligne</sub-title>
-    <desc lang="fr">La brigade des stupéfiants de Montpellier a fort à faire. La ville est devenue une plaque tournante du trafic de drogue entre l'Espagne, l'Italie et le nord de l'Europe.</desc>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/896AF5BBA94A56D257417362314D606A.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-  <programme start="20260128180000 +0100" stop="20260128191000 +0100" channel="NOVO19">
-    <title lang="fr">Nos héros du quotidien</title>
-    <sub-title lang="fr">Gendarmerie scientifique : Les experts face au crime</sub-title>
-    <desc lang="fr">Les 250 hommes et femmes de l'Institut de Recherche criminelle de la Gendarmerie nationale (IRCGN) sont au coeur des affaires les plus sensibles de la gendarmerie.</desc>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Société</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/896AF5BBA94A56D257417362314D606A.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
-    </rating>
-  </programme>
-  <programme start="20260128191000 +0100" stop="20260128192500 +0100" channel="NOVO19">
-    <title lang="fr">On a de l'info</title>
-    <desc lang="fr">Du lundi au vendredi, 15 minutes d'information axée sur les territoires : actualités, innovation, environnement, économie, santé, vie locale, international.</desc>
-    <credits>
-      <guest>Martin Cangelosi</guest>
-    </credits>
-    <category lang="fr">Information</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/06BFB39C20682592B8D2F022750811E5.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260128192500 +0100" stop="20260128204500 +0100" channel="NOVO19">
-    <title lang="fr">On a du nouveau</title>
-    <desc lang="fr">Chaque jour, du lundi au vendredi, Claire Arnoux traite de faits d'actualité et de sujets du quotidien : santé, éducation, culture, travail. A ses côtés, emmenée par la voix singulière de Claude Askolovitch, une bande de chroniqueurs venus d'horizons divers, dont certains repérés grâce à un casting inédit.</desc>
-    <credits>
-      <guest>Claude Askolovitch</guest>
-      <guest>Claire Arnoux</guest>
-    </credits>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Talk show</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/2F9DB9D7EFD001A66A5B2E27A6E7F55C.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260128204500 +0100" stop="20260128211000 +0100" channel="NOVO19">
-    <title lang="fr">On a de l'info</title>
-    <desc lang="fr">Du lundi au vendredi, 15 minutes d'information axée sur les territoires : actualités, innovation, environnement, économie, santé, vie locale, international.</desc>
-    <credits>
-      <guest>Martin Cangelosi</guest>
-    </credits>
-    <category lang="fr">Information</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/22DA1696B33A1F0F7F4C386D5BFC06D4.jpg"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260128211000 +0100" stop="20260128223500 +0100" channel="NOVO19">
-    <title lang="fr">Inside Ikea</title>
-    <desc lang="fr">Grâce à ses prix bas, l'enseigne suédoise IKEA est devenue le leader incontesté de la vente de meubles. Chaque année, 680 millions de personnes à travers le monde y font leurs emplettes, pour dénicher des articles de décoration à des prix défiant toute concurrence et trouver des idées d'aménagement de leur espace de vie. Mais si la marque est bien connue du grand public, elle est pourtant l'une des entreprises les plus secrètes. Des usines de fabrication aux magasins, en passant par le très confidentiel département "design" et les stratégies de vente, enquête sur l'enseigne de meubles la plus connue au monde.</desc>
-    <credits>
-      <director>Gregory Cohen</director>
-      <guest>ST Productions</guest>
-    </credits>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Economie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/245C98943FA4E1369E7DBC68C1C8F89E.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260128223500 +0100" stop="20260129003500 +0100" channel="NOVO19">
-    <title lang="fr">Parc Astérix, fêtes foraines : la guerre des loisirs à sensation</title>
-    <desc lang="fr">Jamais la concurrence n'a été aussi rude dans l'industrie des loisirs. Face à cet engouement pour les attractions toujours plus impressionnantes, les forains essaient de se mobiliser. Avec quels moyens, parfois controversés, imposent-ils leur business ?</desc>
-    <credits>
-      <guest>Next Thing You Know Productions</guest>
-    </credits>
-    <category lang="fr">Documentaire</category>
-    <category lang="fr">Economie</category>
-    <icon src="https://img.bouygtel.fr/CMS/images/16CC5A64001F3BD32F189FBC5F0B917C.jpg"/>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
   <programme start="20260129003500 +0100" stop="20260129013900 +0100" channel="NOVO19">
     <title lang="fr">Europa-Park : les coulisses d'un incroyable succès</title>
     <desc lang="fr">Situé en Allemagne, à 50 kilomètres de Strasbourg, le parc d'attractions Europa-Park abrite plus de 100 manèges ainsi qu'un parc aquatique. La moitié des 3600 salariés est française. Les caméras ont notamment suivi le travail de Ludovic, comédien et cascadeur, Giuseppe, qui est à la tête de la plus grande boutique du parc, ainsi que d'une armée de cuisiniers et de serveurs qui officie dans les 38 restaurants du parc. Rien n'est laissé au hasard car les visiteurs peuvent débourser pour une seule nuit et visite jusque 1000 euros. Certains peuvent profiter également d'un camping unique en son genre.</desc>
@@ -785,82 +427,164 @@
     </rating>
   </programme>
   <programme start="20260130004000 +0100" stop="20260130021800 +0100" channel="NOVO19">
-    <title lang="fr">Les aventures de Flynn Carson : Le secret de la coupe maudite</title>
-    <sub-title lang="fr">Téléfilm Aventure</sub-title>
-    <desc lang="fr">Flynn Carson retrouve ses amis Charlene et Judson pour passer avec eux quelques jours réparateurs à La Nouvelle-Orléans. Là, il fait la connaissance de Simone Renoir, une chanteuse française qui lui dit être en possession d'une clé donnant accès à une coupe capable de ressusciter les vampires...</desc>
-    <category lang="fr">Telefilms</category>
-    <category lang="fr">Telefilm Aventure</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/116188326"/>
+    <title lang="fr">Les aventures de Flynn Carson</title>
+    <desc lang="fr">Parce que sa petite amie vient de le quitter, Flynn Carson traverse une bien mauvaise passe. Ses amis Charlene et Judson lui proposent de passer avec eux quelques jours réparateurs à La Nouvelle-Orléans. Là, il fait la connaissance de Simone Renoir, une chanteuse française qui lui dit être en possession d'une clé donnant accès à une coupe capable de ressusciter les vampires. C'est justement ce calice que tente de récupérer Sergei Kubichek. Cet ancien ministre de la Défense russe cherche par tous les moyens à redonner vie au prince Dracul...</desc>
+    <credits>
+      <director>Jonathan Frakes</director>
+      <actor>Jane Curtin</actor>
+      <actor>Joe Knezevich</actor>
+      <actor>Joe Ross</actor>
+      <actor>Bob Newhart</actor>
+      <actor>David Born</actor>
+      <actor>Dikran Tulaine</actor>
+      <actor>Beth Burvant</actor>
+      <actor>Stana Katic</actor>
+      <actor>Bruce Davison</actor>
+      <actor>Jason Douglas</actor>
+      <actor>Noah Wyle</actor>
+      <actor>John Curran</actor>
+      <adapter>David N. Titcher</adapter>
+      <adapter>Marco Schnabel</adapter>
+      <producer>Phillip M. Goldfarb</producer>
+      <producer>Dean Devlin</producer>
+      <producer>Kearie Peak</producer>
+      <producer>Marc Roskin</producer>
+      <producer>Noah Wyle</producer>
+      <composer>Joseph LoDuca</composer>
+      <guest>Electric Entertainment</guest>
+      <guest>Christina Eunji Kim</guest>
+    </credits>
+    <category lang="fr">Téléfilm</category>
+    <category lang="fr">Action</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/F21B020A2FAAB394DC85EC4BAB7501B0.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
   <programme start="20260130021800 +0100" stop="20260130060000 +0100" channel="NOVO19">
     <title lang="fr">Programmes de la nuit</title>
-    <sub-title lang="fr">Divers</sub-title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Divers</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/100372850"/>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
   <programme start="20260130060000 +0100" stop="20260130062500 +0100" channel="NOVO19">
-    <title lang="fr">Foudre - Saison 2</title>
+    <title lang="fr">Foudre</title>
     <sub-title lang="fr">US Army</sub-title>
     <desc lang="fr">Alex, qui a tenté d'aller chercher du secours sur l'île voisine, rentre épuisé. Il a effectué la traversée à la nage...</desc>
+    <credits>
+      <director>Stéphane Meunier</director>
+      <actor>Lucy Flamant</actor>
+      <actor>David Tournay</actor>
+      <actor>Sam Kagy</actor>
+      <actor>Mouni Farro</actor>
+      <actor>Mouni Faro</actor>
+      <actor>Joséphine Jobert</actor>
+      <actor>Charles Templon</actor>
+      <adapter>Laurent Daufès</adapter>
+      <editor>Bertrand Cohen</editor>
+      <editor>Stéphane Meunier</editor>
+      <guest>Terence Films</guest>
+      <guest>Adventure Line Production</guest>
+      <guest>France 2</guest>
+    </credits>
+    <category lang="fr">Série</category>
     <category lang="fr">Jeunesse</category>
-    <category lang="fr">Serie Jeunesse</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/115307576"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/1E06CD9AC51FFBAFB84850F9B9CDAFCE.jpg"/>
     <episode-num system="xmltv_ns">1.2.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
   <programme start="20260130062500 +0100" stop="20260130065000 +0100" channel="NOVO19">
-    <title lang="fr">Foudre - Saison 2</title>
+    <title lang="fr">Foudre</title>
     <sub-title lang="fr">L'amour ou la vie?</sub-title>
     <desc lang="fr">Alors que le canot pneumatique se dégonfle à vue d'oeil, les quatre amis voient arriver un secours inespéré...</desc>
+    <credits>
+      <director>Stéphane Meunier</director>
+      <actor>David Tournay</actor>
+      <actor>Charles Templon</actor>
+      <actor>Mouni Faro</actor>
+      <actor>Lucy Flamant</actor>
+      <actor>Joséphine Jobert</actor>
+      <adapter>Serge Gisquière</adapter>
+      <editor>Laurent Daufès</editor>
+      <editor>Stéphane Meunier</editor>
+      <editor>Bertrand Cohen</editor>
+      <guest>Adventure Line Production</guest>
+    </credits>
+    <category lang="fr">Série</category>
     <category lang="fr">Jeunesse</category>
-    <category lang="fr">Serie Jeunesse</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/115307576"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/1E06CD9AC51FFBAFB84850F9B9CDAFCE.jpg"/>
     <episode-num system="xmltv_ns">1.3.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
   <programme start="20260130065000 +0100" stop="20260130071500 +0100" channel="NOVO19">
-    <title lang="fr">Foudre - Saison 2</title>
+    <title lang="fr">Foudre</title>
     <sub-title lang="fr">Une journée de chien</sub-title>
     <desc lang="fr">Le retour à Nouméa est difficile. Alors que Léo et Eva s'installent chez Alex et Alice, la cohabitation s'annonce difficile car Léo est insupportable et Alex prend toujours sa défense...</desc>
+    <credits>
+      <director>Stéphane Meunier</director>
+      <actor>Ysabelle Abad</actor>
+      <actor>Lucy Flamant</actor>
+      <actor>David Tournay</actor>
+      <actor>Mouni Farro</actor>
+      <actor>Joséphine Jobert</actor>
+      <actor>Charles Templon</actor>
+      <actor>Ludo Goulette</actor>
+      <adapter>Eugénie Dard</adapter>
+      <editor>Laurent Daufès</editor>
+      <editor>Bertrand Cohen</editor>
+      <editor>Stéphane Meunier</editor>
+      <guest>Terence Films</guest>
+      <guest>Adventure Line Production</guest>
+      <guest>France 2</guest>
+    </credits>
+    <category lang="fr">Série</category>
     <category lang="fr">Jeunesse</category>
-    <category lang="fr">Serie Jeunesse</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/115307576"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/1E06CD9AC51FFBAFB84850F9B9CDAFCE.jpg"/>
     <episode-num system="xmltv_ns">1.4.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
   <programme start="20260130071500 +0100" stop="20260130074000 +0100" channel="NOVO19">
-    <title lang="fr">Foudre - Saison 2</title>
+    <title lang="fr">Foudre</title>
     <sub-title lang="fr">A poil</sub-title>
     <desc lang="fr">Alex et Léo ont retrouvé le signe qui flambait sur la plage de l'île déserte dans l'usine désaffectée, dernière adresse connue du propriétaire du chien...</desc>
+    <credits>
+      <director>Stéphane Meunier</director>
+      <actor>David Tournay</actor>
+      <actor>Charles Templon</actor>
+      <actor>Mouni Faro</actor>
+      <actor>Lucy Flamant</actor>
+      <actor>Joséphine Jobert</actor>
+      <adapter>Serge Gisquière</adapter>
+      <editor>Laurent Daufès</editor>
+      <editor>Stéphane Meunier</editor>
+      <editor>Bertrand Cohen</editor>
+      <guest>Adventure Line Production</guest>
+    </credits>
+    <category lang="fr">Série</category>
     <category lang="fr">Jeunesse</category>
-    <category lang="fr">Serie Jeunesse</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/115307576"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/1E06CD9AC51FFBAFB84850F9B9CDAFCE.jpg"/>
     <episode-num system="xmltv_ns">1.5.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
   <programme start="20260130074000 +0100" stop="20260130084000 +0100" channel="NOVO19">
-    <title lang="fr">Les visages du crime - Saison 1</title>
-    <sub-title lang="fr">L'affaire Alexandra Cosson</sub-title>
-    <desc lang="fr">Le 11 septembre 2020, Alexandra Cosson, 30 ans, ne rentre pas chez elle. Le lendemain matin, un ami d'enfance avoue le meurtre mais plaide l'homicide par accident. Retour également sur la mort de Rosine Roig, 45 ans, kidnappée par Ramon Cortes, son ancien compagnon et père de ses trois enfants.</desc>
-    <category lang="fr">Decouverte</category>
-    <category lang="fr">Doc Judiciaire</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/108252194"/>
+    <title lang="fr">Les visages du crime</title>
+    <sub-title lang="fr">Affaire Anaïs Guillaume : La mort est dans le pré</sub-title>
+    <desc lang="fr">Le 29 octobre 2019, un champ des Ardennes est retourné, creusé, fouillé par Victoria Gillet, qui recherche le corps d'Anaïs Guillaume, la dernière compagne de son père. Suspect numéro un, il clame depuis toutes ces années son innocence du fond de sa prison. Mais bientôt, son passé remonte à la surface.</desc>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Justice</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/4302AA7E3CFDDA1741DAAA98E49943B5.jpg"/>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>-10</value>
@@ -868,151 +592,164 @@
     </rating>
   </programme>
   <programme start="20260130084000 +0100" stop="20260130100000 +0100" channel="NOVO19">
-    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ? - Saison 2</title>
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
     <sub-title lang="fr">Florian, 14 ans, tue une enfant de 2 ans et demi</sub-title>
-    <desc lang="fr">Le 21 mai 2018, à Mairieux, dans le Nord, le corps de la petite Léa est retrouvé dans le ruisseau qui traverse le domicile de ses grands-parents. L'enfant âgée de deux ans et demi a été poignardée, étranglée puis noyée. Très vite, les soupçons des gendarmes vont se diriger vers Florian, un adolescent âgé de 14 ans placé en famille d'accueil chez les grands-parents de la victime.</desc>
-    <category lang="fr">Decouverte</category>
-    <category lang="fr">Doc Judiciaire</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/102513089"/>
+    <desc lang="fr">Le 21 mai 2018, à Mairieux, dans le Nord, le corps de la petite Léa est retrouvé dans le ruisseau qui traverse le domicile de ses grands-parents. Le constat du médecin légiste est insoutenable : l'enfant âgée de deux ans et demi a été poignardée, étranglée puis noyée. Très vite, les soupçons des gendarmes vont se diriger vers Florian, un adolescent âgé de 14 ans placé en famille d'accueil chez les grands-parents de la victime. Le mineur avait déjà été signalé à plusieurs reprises pour des comportements inadaptés, notamment d'ordre sexuel. Aujourd'hui, la famille de Léa s'insurge face à l'inaction des services sociaux. Le drame aurait-il pu être évité ?</desc>
+    <credits>
+      <director>Farrah Youbi</director>
+    </credits>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Justice</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/52B05751B682BDA621F4C97B23CE6CC4.jpg"/>
     <episode-num system="xmltv_ns">1.1.</episode-num>
     <rating system="CSA">
       <value>-10</value>
       <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
     </rating>
   </programme>
-  <programme start="20260130100000 +0100" stop="20260130111500 +0100" channel="NOVO19">
-    <title lang="fr">Adolescents et criminels - Saison 3</title>
+  <programme start="20260130100000 +0100" stop="20260130113000 +0100" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
     <sub-title lang="fr">Kevin, tué pour rien dans un parc belge</sub-title>
     <desc lang="fr">Le 14 janvier 2011, à Bruxelles, Kévin Marichal est sauvagement poignardé, à 41 reprises, dans un parc pourtant tranquille de la capitale belge. Pour tout le monde c'est l'incompréhension car la victime est un jeune homme très apprécié qui s'apprêtait à devenir pompier. Les policiers belges vont alors se mobiliser pour identifier ses bourreaux. Après une enquête de longue haleine, deux adolescents âgés de 17 ans vont devenir les suspects numéro un.</desc>
-    <category lang="fr">Decouverte</category>
-    <category lang="fr">Doc Judiciaire</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/108090191"/>
-    <episode-num system="xmltv_ns">2.4.</episode-num>
+    <credits>
+      <director>Farrah Youbi</director>
+    </credits>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Justice</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/57173B267283ABAECD252610A2F2C5BF.jpg"/>
+    <episode-num system="xmltv_ns">2.0.</episode-num>
     <rating system="CSA">
       <value>-10</value>
       <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
     </rating>
   </programme>
-  <programme start="20260130111500 +0100" stop="20260130125500 +0100" channel="NOVO19">
+  <programme start="20260130113000 +0100" stop="20260130130500 +0100" channel="NOVO19">
     <title lang="fr">Mission : protection, les anges gardiens de votre quotidien</title>
     <sub-title lang="fr">Routes dangereuses sous haute surveillance</sub-title>
     <desc lang="fr">La route Centre-Europe Atlantique, ou RCEA, qui rallie l'Est de la France à la façade Atlantique est un itinéraire incontournable pour les poids lourds, les particuliers et les vacanciers. C'est également la route la plus dangereuse de France avec un taux d'accident record et un passage régulier des trafiquants venus de l'Est. Services d'urgence, pompiers et gendarmes y sont sur le qui-vive en permanence.</desc>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Mag Societe</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/100463135"/>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E101EA171BBD57DD4A02A93123AD0A0D.jpg"/>
     <episode-num system="xmltv_ns">1.0.</episode-num>
     <rating system="CSA">
       <value>-10</value>
       <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
     </rating>
   </programme>
-  <programme start="20260130125500 +0100" stop="20260130135000 +0100" channel="NOVO19">
+  <programme start="20260130130500 +0100" stop="20260130140500 +0100" channel="NOVO19">
     <title lang="fr">100 jours avec les pompiers du Gard</title>
-    <sub-title lang="fr">Doc. Société</sub-title>
     <desc lang="fr">Dans le Gard, les casernes reçoivent chaque année plusieurs dizaines de milliers d'appels. Entre incendies violents, accidents de la route et interventions à haut risque, les pompiers du département, qu'ils soient professionnels ou volontaires, sont mobilisés sur tous les fronts. Pendant cent jours, plusieurs d'entre eux ont accepté d'être suivis jour et nuit pour faire découvrir leur quotidien, des sauvetages les plus spectaculaires aux plus insolites.</desc>
-    <category lang="fr">Decouverte</category>
-    <category lang="fr">Doc Societe</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121643778"/>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/99F902019F93DE54EA4E1D5D85F017EE.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>-10</value>
       <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
     </rating>
   </programme>
-  <programme start="20260130135000 +0100" stop="20260130144000 +0100" channel="NOVO19">
+  <programme start="20260130140500 +0100" stop="20260130145500 +0100" channel="NOVO19">
     <title lang="fr">100 jours avec les pompiers du Gard</title>
-    <sub-title lang="fr">Doc. Société</sub-title>
     <desc lang="fr">Dans le Gard, les casernes reçoivent chaque année plusieurs dizaines de milliers d'appels. Les pompiers du département sont mobilisés sur tous les fronts.</desc>
-    <category lang="fr">Decouverte</category>
-    <category lang="fr">Doc Societe</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121643778"/>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/794B76EC465EDC7D0E5FE5D77FEEA243.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>-10</value>
       <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
     </rating>
   </programme>
-  <programme start="20260130144000 +0100" stop="20260130155500 +0100" channel="NOVO19">
+  <programme start="20260130145500 +0100" stop="20260130160500 +0100" channel="NOVO19">
     <title lang="fr">Nos héros du quotidien</title>
     <sub-title lang="fr">Sur les routes de France : enquête sur les chauffards</sub-title>
     <desc lang="fr">Chaque année, 4000 automobilistes sont tués sur les routes. Si la vitesse reste un facteur connu des accidents, il existe également d'autres causes. Ainsi, les tronçons rectilignes des routes nationales peuvent occasionner des chocs frontaux. Les dépassements sont eux aussi à l'origine de nombreux carambolages.</desc>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Mag Societe</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/112428354"/>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/D33AB6636C61234D2D021A78070F9A00.jpg"/>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>-10</value>
       <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
     </rating>
   </programme>
-  <programme start="20260130155500 +0100" stop="20260130171000 +0100" channel="NOVO19">
+  <programme start="20260130160500 +0100" stop="20260130171000 +0100" channel="NOVO19">
     <title lang="fr">Nos héros du quotidien</title>
     <sub-title lang="fr">Nîmes : Vous avez demandé les urgences</sub-title>
     <desc lang="fr">En moins de vingt ans, la fréquentation des urgences des hôpitaux a doublé en France. Mais pas les effectifs. Conséquence : les personnels sont à bout.</desc>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Mag Societe</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121523349"/>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/896AF5BBA94A56D257417362314D606A.jpg"/>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>-10</value>
       <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
     </rating>
   </programme>
-  <programme start="20260130171000 +0100" stop="20260130181000 +0100" channel="NOVO19">
+  <programme start="20260130171000 +0100" stop="20260130180500 +0100" channel="NOVO19">
     <title lang="fr">Nos héros du quotidien</title>
     <sub-title lang="fr">Méditérranée : Un été avec les gendarmes de Saint-Tropez</sub-title>
     <desc lang="fr">Le quotidien des gendarmes de Saint-Tropez et des marins-pompiers de Marseille : sous le soleil de la Méditerranée, les journées et les nuits ne sont pas de tout repos.</desc>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Mag Societe</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121523349"/>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/BC10349350FD7F007D07A505F5F3C6AB.jpg"/>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>-10</value>
       <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
     </rating>
   </programme>
-  <programme start="20260130181000 +0100" stop="20260130182400 +0100" channel="NOVO19">
-    <title lang="fr">On a de l'info</title>
-    <sub-title lang="fr">Emission du 30 janv. 2026</sub-title>
-    <desc lang="fr">Du lundi au vendredi, 15 minutes d'information axée sur les territoires : actualités, innovation, environnement, économie, santé, vie locale, international.</desc>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121523330"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260130182400 +0100" stop="20260130195500 +0100" channel="NOVO19">
-    <title lang="fr">On a du nouveau</title>
-    <sub-title lang="fr">Emission du 30 janv. 2026</sub-title>
-    <desc lang="fr">Chaque jour, du lundi au vendredi, Claire Arnoux traite de faits d'actualité et de sujets du quotidien : santé, éducation, culture, travail. A ses côtés, emmenée par la voix singulière de Claude Askolovitch, une bande de chroniqueurs venus d'horizons divers, dont certains repérés grâce à un casting inédit.</desc>
-    <category lang="fr">Divertissement</category>
-    <category lang="fr">Talk show</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121523342"/>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20260130195500 +0100" stop="20260130205000 +0100" channel="NOVO19">
+  <programme start="20260130180500 +0100" stop="20260130191000 +0100" channel="NOVO19">
     <title lang="fr">Nos héros du quotidien</title>
     <sub-title lang="fr">Délinquance à grande vitesse : la police contre-attaque</sub-title>
     <desc lang="fr">Sur la route, quatre accidents mortels sur dix sont dus à une vitesse excessive. En mer, la démocratisation des scooters a généré une hausse du nombre d'accidents. Les forces de police et les gendarmes ont développé de nouveaux moyens d'intervention afin de lutter contre la délinquance des conducteurs irrespectueux.</desc>
-    <category lang="fr">Actualites</category>
-    <category lang="fr">Mag Societe</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121523349"/>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/896AF5BBA94A56D257417362314D606A.jpg"/>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>-10</value>
       <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
     </rating>
   </programme>
-  <programme start="20260130205000 +0100" stop="20260130211000 +0100" channel="NOVO19">
+  <programme start="20260130191000 +0100" stop="20260130192400 +0100" channel="NOVO19">
     <title lang="fr">On a de l'info</title>
-    <sub-title lang="fr">Emission du 30 janv. 2026</sub-title>
     <desc lang="fr">Du lundi au vendredi, 15 minutes d'information axée sur les territoires : actualités, innovation, environnement, économie, santé, vie locale, international.</desc>
-    <category lang="fr">Actualites</category>
+    <credits>
+      <guest>Martin Cangelosi</guest>
+    </credits>
+    <category lang="fr">Information</category>
     <category lang="fr">Journal</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121523330"/>
+    <icon src="https://img.bouygtel.fr/CMS/images/06BFB39C20682592B8D2F022750811E5.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260130192400 +0100" stop="20260130204500 +0100" channel="NOVO19">
+    <title lang="fr">On a du nouveau</title>
+    <desc lang="fr">Chaque jour, du lundi au vendredi, Claire Arnoux traite de faits d'actualité et de sujets du quotidien : santé, éducation, culture, travail. A ses côtés, emmenée par la voix singulière de Claude Askolovitch, une bande de chroniqueurs venus d'horizons divers, dont certains repérés grâce à un casting inédit.</desc>
+    <credits>
+      <guest>Claude Askolovitch</guest>
+      <guest>Claire Arnoux</guest>
+    </credits>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Talk show</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/2F9DB9D7EFD001A66A5B2E27A6E7F55C.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260130204500 +0100" stop="20260130211000 +0100" channel="NOVO19">
+    <title lang="fr">On a de l'info</title>
+    <desc lang="fr">Du lundi au vendredi, 15 minutes d'information axée sur les territoires : actualités, innovation, environnement, économie, santé, vie locale, international.</desc>
+    <credits>
+      <guest>Martin Cangelosi</guest>
+    </credits>
+    <category lang="fr">Information</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/06BFB39C20682592B8D2F022750811E5.jpg"/>
     <episode-num system="xmltv_ns">0.0.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
@@ -1020,22 +757,55 @@
   </programme>
   <programme start="20260130211000 +0100" stop="20260130231000 +0100" channel="NOVO19">
     <title lang="fr">Histoire interdite</title>
-    <sub-title lang="fr">Hitler, les secrets de l'ascensi...</sub-title>
-    <desc lang="fr">Issu d'une famille autrichienne de classe moyenne, rien ne prédestinait Adolf Hitler à devenir le leader incontesté de l'Allemagne nazie. Doté d'un charisme certain, il sera également l'un des premiers à utiliser des outils modernes de communication pour placer son parti politique au premier plan. Pour arriver au sommet, Hitler a également su séduire de grandes fortunes allemandes et en particulier de riches industriels, en leur promettant de juteux contrats publics.</desc>
-    <category lang="fr">Decouverte</category>
-    <category lang="fr">Doc Histoire</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122447387"/>
+    <sub-title lang="fr">Hitler, les secrets de l'ascension d'un monstre</sub-title>
+    <desc lang="fr">Issu d'une famille autrichienne de classe moyenne, rien ne prédestinait Adolf Hitler à devenir le leader incontesté de l'Allemagne nazie. Doté d'un charisme certain, il sera également l'un des premiers à utiliser des outils modernes de communication pour placer son parti politique au premier plan. Pour arriver au sommet, Hitler a également su séduire de grandes fortunes allemandes et en particulier de riches industriels, en leur promettant de juteux contrats publics. Cet accord va permettre à des dizaines d'entreprises de gagner beaucoup d'argent, mais va aussi entraîner certaines d'entre elles à participer directement aux pires atrocités.</desc>
+    <credits>
+      <director>Julie Pichot</director>
+      <director>Magali Cotard</director>
+      <director>Christelle Gilbert</director>
+      <producer>Nicolas Valode</producer>
+      <guest>Guy Lagache</guest>
+      <guest>Guy Walters</guest>
+      <guest>Yves Le Maner</guest>
+      <guest>Helen Fry</guest>
+      <guest>Christian Desseaux</guest>
+      <guest>John Loftus</guest>
+      <guest>Michel Bar-Zohar</guest>
+      <guest>Pierre Lescure</guest>
+      <guest>Bernard Lecomte</guest>
+      <guest>Paul Bandey</guest>
+    </credits>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Histoire</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/8D3A5BAD6482E37933520A5895E8E436.jpg"/>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
   <programme start="20260130231000 +0100" stop="20260131002000 +0100" channel="NOVO19">
     <title lang="fr">Paris : les lieux secrets de l'Occupation</title>
-    <sub-title lang="fr">Doc. Histoire</sub-title>
-    <desc lang="fr">Les souterrains de Paris ont joué un rôle central pendant l'Occupation. En 1943, les Nazis investissent les carrières de la capitale et réquisitionnent des endroits stratégiques en créant des bunkers dans les sous-sols. En face, la Résistance française, sous la direction d'Henri Rol-Tanguy, investit les carrières de la capitale et crée son poste de commandement stratégique sous la place Denfert Rochereau.</desc>
-    <category lang="fr">Decouverte</category>
-    <category lang="fr">Doc Histoire</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/55430929"/>
+    <desc lang="fr">Les souterrains de Paris ont joué un rôle central pendant l'Occupation. En 1943, alors que les Nazis investissent les carrières de la capitale et réquisitionnent des endroits stratégiques en créant des bunkers dans les sous-sols, ils s'installent près du Sénat où ils décident de construire un abri souterrain à 14 mètre au dessous du sol afin de faire office de poste de commandement. En face, la Résistance française, sous la direction d'Henri Rol-Tanguy, investit les carrières de la capitale et crée son poste de commandement stratégique sous la place Denfert Rochereau. Des témoignages de survivants, des interviews d'historiens et des images d'archives permettent de comprendre le rôle central des souterrains de Paris pendant l'Occupation.</desc>
+    <credits>
+      <director>Stanislas Kraland</director>
+      <guest>Patrick Sougné</guest>
+      <guest>Stefan Martens</guest>
+      <guest>Cécile Desprairies</guest>
+      <guest>Marie-José Chombart de Lauwe</guest>
+      <guest>La famiglia</guest>
+      <guest>Stanislas Kraland</guest>
+      <guest>Sylvie R. Zaidman</guest>
+      <guest>Eugene Handschuh</guest>
+      <guest>Damien Déchelette</guest>
+      <guest>Annette Wieviorka</guest>
+      <guest>Madeleine Riffaud</guest>
+      <guest>Roger Bourderon</guest>
+      <guest>Grégory Auda</guest>
+      <guest>Jean-Marc Berlière</guest>
+    </credits>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Histoire</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E8B936D94502F4DCAD86E29891FAD22E.jpg"/>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -1777,246 +1547,371 @@
     <category lang="fr">Programme indéterminé</category>
     <icon src="https://img-4.linternaute.com/b9shpSQ3x24WATs00UCVgu3ic18=/150x/smart/b8ce7ffb435c45cb9de37ecb08dd535d/ptv/7215910.jpg"/>
   </programme>
-  <programme start="20260128003400 +0000" stop="20260128013800 +0000" channel="NOVO19">
+  <programme start="20260203060000 +0100" stop="20260203062500 +0100" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">L'Australie</sub-title>
+    <desc lang="fr">Qu'allait faire Alex en Australie alors qu'il devait rentrer en France voir ses parents ? Dans le coeur d'Alice, la douleur fait place à la colère...</desc>
+    <credits>
+      <director>Stéphane Meunier</director>
+      <actor>Ysabelle Abad</actor>
+      <actor>Charles Templon</actor>
+      <actor>Mouni Farro</actor>
+      <actor>Mouni Faro</actor>
+      <actor>Lucy Flamant</actor>
+      <actor>Alexandre Loréal</actor>
+      <actor>Jean-Paul Smadja</actor>
+      <actor>David Tournay</actor>
+      <actor>Joséphine Jobert</actor>
+    </credits>
+    <category lang="fr">Série jeunesse</category>
+    <icon src="https://img-4.linternaute.com/eGy4qQX4tY_MkfD_jnp296_2oRw=/150x/smart/4412f2d7aebc45ada8f875da45d8ee6c/ptv/7215902.jpg"/>
+    <episode-num system="xmltv_ns">1.6.</episode-num>
+  </programme>
+  <programme start="20260203062500 +0100" stop="20260203065000 +0100" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">Problèmes de couples</sub-title>
+    <desc lang="fr">Alex est obsédé par l'île déserte et le message vidéo. Alice a l'impression qu'il ne la comprend plus...</desc>
+    <credits>
+      <director>Stéphane Meunier</director>
+      <actor>Trevor Stetter</actor>
+      <actor>Joséphine Jobert</actor>
+      <actor>David Tournay</actor>
+      <actor>Lucy Flamant</actor>
+      <actor>Mouni Faro</actor>
+      <actor>Charles Templon</actor>
+      <actor>Mouni Farro</actor>
+      <actor>Sam Kagy</actor>
+    </credits>
+    <category lang="fr">Série jeunesse</category>
+    <icon src="https://img-4.linternaute.com/0gcuYTd15sgYlOCelXZWvZBk2xc=/150x/smart/2356d85c125949b8b118c683d9b11665/ptv/7215903.jpg"/>
+    <episode-num system="xmltv_ns">1.7.</episode-num>
+  </programme>
+  <programme start="20260203065000 +0100" stop="20260203071500 +0100" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">Ridiculisés</sub-title>
+    <desc lang="fr">Alice est persuadée que ce qu'elle vit est lié à la disparition de sa mère. Quant à Léo, il cherche du travail...</desc>
+    <credits>
+      <director>Stéphane Meunier</director>
+      <director>Vincent Trisolini</director>
+      <actor>Ludo Goulette</actor>
+      <actor>Charles Templon</actor>
+      <actor>Mouni Farro</actor>
+      <actor>Mouni Faro</actor>
+      <actor>Lucy Flamant</actor>
+      <actor>Jean-Paul Smadja</actor>
+      <actor>David Tournay</actor>
+      <actor>Joséphine Jobert</actor>
+    </credits>
+    <category lang="fr">Série jeunesse</category>
+    <icon src="https://img-4.linternaute.com/a4_ZKdDNErsaSjKETfceajF8mYs=/150x/smart/9be5f83df9ef40c6b9cd47519f120d70/ptv/7218672.jpg"/>
+    <episode-num system="xmltv_ns">1.8.</episode-num>
+  </programme>
+  <programme start="20260203071500 +0100" stop="20260203074000 +0100" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">Jess puissance 10</sub-title>
+    <desc lang="fr">Sans prévenir Alice, Alex accepte l'argent de monsieur Watson pour retourner en France voir ses parents...</desc>
+    <credits>
+      <director>Stéphane Meunier</director>
+      <director>Vincent Trisolini</director>
+      <actor>Ludo Goulette</actor>
+      <actor>Ysabelle Abad</actor>
+      <actor>Charles Templon</actor>
+      <actor>Mouni Farro</actor>
+      <actor>Mouni Faro</actor>
+      <actor>Lucy Flamant</actor>
+      <actor>Rémy Pollabauer</actor>
+      <actor>David Tournay</actor>
+      <actor>Joséphine Jobert</actor>
+    </credits>
+    <category lang="fr">Série jeunesse</category>
+    <icon src="https://img-4.linternaute.com/abq-7dXp1tQ8bZ3qSZM3WtpMaQs=/150x/smart/b38e1d9a534347e19319cef97c4e8e2b/ptv/7218673.jpg"/>
+    <episode-num system="xmltv_ns">1.9.</episode-num>
+  </programme>
+  <programme start="20260203074000 +0100" stop="20260203085000 +0100" channel="NOVO19">
     <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
-    <sub-title lang="fr">Alexi et la tuerie de Louveciennes</sub-title>
-    <desc lang="fr">Alexi, un jeune homme de 16 ans, a tué six personnes, dont son père, un riche homme d&apos;affaires russe. Retour circonstancié sur cette effroyable affaire.</desc>
-    <category lang="fr">Documentaire</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/0/8/13009800.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/8/13009804.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/1/13085102.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/8/13009803.jpg" />
-    <episode-num system="onscreen">S3 E10</episode-num>
+    <sub-title lang="fr">Affaire Ginette Alvarez</sub-title>
+    <desc lang="fr">Le 19 octobre 2017, à Caudry, dans le nord de la France, deux promeneuses découvrent le corps d'une femme autour de la base de loisirs du Val du Riot. Elle a reçu un coup de couteau mortel dans le dos. La victime s'appelle Ginette Alvarez, elle avait 57 ans. Six mois plus tard, les gendarmes apprennent qu'un collégien prénommé Corentin, âgé d'à peine 15 ans, s'accuse du meurtre auprès de ses camarades sur les réseaux sociaux.</desc>
+    <credits>
+      <director>Farrah Youbi</director>
+    </credits>
+    <category lang="fr">Justice</category>
+    <icon src="https://img-4.linternaute.com/nw0bVKzRUkdZ42dkj9p0Y1gmLCg=/150x/smart/fdcd00fd52a2441fa0e7a347500bf93d/ptv/7219905.jpg"/>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
   </programme>
-  <programme start="20260128013800 +0000" stop="20260128023600 +0000" channel="NOVO19">
-    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
-    <sub-title lang="fr">Christopher, 12 ans, tué pour une insulte</sub-title>
-    <desc lang="fr">Près de Lille, une mère de famille fait une terrible découverte en rentrant à son domicile. Son fils, Christopher, 12 ans, a été sauvagement poignardé dans sa chambre.</desc>
-    <category lang="fr">Documentaire</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/0/8/13009800.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/8/13009804.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/5/5/6526556.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/8/13009803.jpg" />
-    <episode-num system="onscreen">S3 E4</episode-num>
-  </programme>
-  <programme start="20260128023600 +0000" stop="20260128024300 +0000" channel="NOVO19">
-    <title lang="fr">Déter</title>
-    <sub-title lang="fr">Anarchie</sub-title>
-    <desc lang="fr">Au lycée, tout le monde est pris de passion pour les débats. Les avis vont bon train, générant des discussions enflammées : le militantisme a gagné l&apos;internat.</desc>
-    <category lang="fr">Série dramatique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/7/11665752.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/8/8197874.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/9/3/8768392.jpg" />
-    <episode-num system="onscreen">S1 E15</episode-num>
-  </programme>
-  <programme start="20260128024300 +0000" stop="20260128025000 +0000" channel="NOVO19">
-    <title lang="fr">Déter</title>
-    <sub-title lang="fr">La colonie de vacances</sub-title>
-    <desc lang="fr">Les amis du lycée, Elsa, Lia ou Medhi, se retrouvent pour une semaine à la ferme. L&apos;ambiance devrait être bonne mais certains pensent que c&apos;est plutôt le bagne.</desc>
-    <category lang="fr">Série dramatique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/7/11665752.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/8/8197874.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/9/3/8768392.jpg" />
-    <episode-num system="onscreen">S1 E16</episode-num>
-  </programme>
-  <programme start="20260128025000 +0000" stop="20260128025800 +0000" channel="NOVO19">
-    <title lang="fr">Déter</title>
-    <sub-title lang="fr">Parano ?</sub-title>
-    <desc lang="fr">Pour les élèves de terminale, c&apos;est une période où se mêlent insouciance et anxiété face à l&apos;avenir. Le black spirit monte un peu trop à la tête d&apos;Elsa.</desc>
-    <category lang="fr">Série dramatique</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/7/11665752.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/8/8197874.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/9/3/8768392.jpg" />
-    <episode-num system="onscreen">S1 E17</episode-num>
-  </programme>
-  <programme start="20260128025800 +0000" stop="20260128041000 +0000" channel="NOVO19">
+  <programme start="20260203085000 +0100" stop="20260203095000 +0100" channel="NOVO19">
     <title lang="fr">Les visages du crime</title>
-    <sub-title lang="fr">Affaire du petit Grégory : Les dernières révélations d&apos;une enquête hors-norme</sub-title>
-    <desc lang="fr">Le 16 octobre 1984, le corps du petit Grégory est retrouvé dans la Vologne. L&apos;affaire devient bientôt la plus grande énigme judiciaire que la France ait connue. Aujourd&apos;hui, les enquêteurs aidés d&apos;un logiciel ultra-puissant ont croisé des milliers de documents, de témoignages et d&apos;indices pour raconter une toute nouvelle histoire.</desc>
-    <category lang="fr">Documentaire</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/0/6/13376605.jpg" />
-    <episode-num system="onscreen">S1 E5</episode-num>
+    <sub-title lang="fr">Affaire Jacques Rançon : Terreur à Perpignan</sub-title>
+    <desc lang="fr">A la fin des années 1990, Perpignan est bouleversée par une série de meurtres de jeunes filles. Jacques Rançon, en apparence un père de famille sans histoires, échappe aux enquêteurs pendant trente ans, commettant ses crimes en toute impunité.</desc>
+    <category lang="fr">Justice</category>
+    <icon src="https://img-4.linternaute.com/gQa6z7Lvp7O9FAi6GljQDWBBPbQ=/150x/smart/ef3ff33b44684e69b514ab7816a294cf/ptv/7181821.jpg"/>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
   </programme>
-  <programme start="20260128041000 +0000" stop="20260128051200 +0000" channel="NOVO19">
+  <programme start="20260203095000 +0100" stop="20260203105500 +0100" channel="NOVO19">
     <title lang="fr">Les visages du crime</title>
-    <sub-title lang="fr">Affaire Lejard : un divorce au coeur du crime</sub-title>
-    <desc lang="fr">Le 24 novembre 2010, Christophe Lejard est retrouvé sans vie par son fils, à proximité de leur domicile. Il quittait la maison pour se rendre à son travail lorsqu&apos;un coup de feu lui a été fatal. Rien, dans le parcours de ce père de famille discret, ne laissait présager un tel drame. Au fil de l&apos;enquête, des tensions et des ressentiments jusque-là insoupçonnés vont cependant émerger.</desc>
-    <category lang="fr">Documentaire</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/0/6/13376605.jpg" />
-    <episode-num system="onscreen">S1 E16</episode-num>
+    <sub-title lang="fr">Affaire Isoird : la grotte sanglante</sub-title>
+    <desc lang="fr">Le 17 juillet 2014, le corps de Patrick Isoird est retrouvé martyrisé dans une grotte à Sète dans le sud de la France. Une exécution digne du grand banditisme qui révélera bientôt une toute autre histoire où le passé de la victime remonte à la surface. Quel est ce secret qui justifie une telle exécution ? Comment Patrick Isoird a-t-il été emmené dans cette grotte pour y être assassiné ?</desc>
+    <category lang="fr">Justice</category>
+    <icon src="https://img-4.linternaute.com/JiLKkXhKQ2oxfB1oWm8SF6fRofg=/150x/smart/3cf25774b28241878c03d1d70dec0864/ptv/7218674.jpg"/>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
   </programme>
-  <programme start="20260128051200 +0000" stop="20260128053800 +0000" channel="NOVO19">
-    <title lang="fr">Foudre</title>
-    <sub-title lang="fr">Incroyable révélation</sub-title>
-    <desc lang="fr">Alice est toujours à la recherche d&apos;Alex. Une jeune femme l&apos;oriente vers la crique de Druelu, l&apos;endroit où sa mère s&apos;est noyée deux ans auparavant. Bouleversée, Alice s&apos;y rend malgré tout. Elle y est accueillie par une vieille femme qui prétend l&apos;attendre depuis longtemps. Alex est à ses côtés...</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/3/7/13058731.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/3/7/13058730.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/2/1/13445122.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
-    <episode-num system="onscreen">S1 E25</episode-num>
-  </programme>
-  <programme start="20260128053800 +0000" stop="20260128060300 +0000" channel="NOVO19">
-    <title lang="fr">Foudre</title>
-    <sub-title lang="fr">Le plus beau des cadeaux</sub-title>
-    <desc lang="fr">Alex explique sa disparition à Alice. La vieille femme fait alors d&apos;étonnantes révélations à la jeune fille...</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/3/7/13058731.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/3/7/13058730.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/5/8/8169854.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
-    <episode-num system="onscreen">S1 E26</episode-num>
-  </programme>
-  <programme start="20260128060300 +0000" stop="20260128062700 +0000" channel="NOVO19">
-    <title lang="fr">Foudre</title>
-    <sub-title lang="fr">Seuls au monde</sub-title>
-    <desc lang="fr">Alors qu&apos;ils sont à Nouméa, Alex et Alice se réveillent un matin sur une île déserte, perdu en plein milieu du pacifique. Comment sont-ils arrivés là ?...</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/9/0/12495098.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
-    <episode-num system="onscreen">S2 E1</episode-num>
-  </programme>
-  <programme start="20260128062700 +0000" stop="20260128065100 +0000" channel="NOVO19">
-    <title lang="fr">Foudre</title>
-    <sub-title lang="fr">2 îles désertes</sub-title>
-    <desc lang="fr">Alex et Alice sont terrifiés par la présence de quelqu&apos;un d&apos;autre sur l&apos;île. Alors qu&apos;ils continuent d&apos;explorer l&apos;île déserte, ils découvrent Léo et Eva...</desc>
-    <category lang="fr">Série</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/9/0/12495098.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
-    <episode-num system="onscreen">S2 E2</episode-num>
-  </programme>
-  <programme start="20260128065100 +0000" stop="20260128075400 +0000" channel="NOVO19">
-    <title lang="fr">Les visages du crime</title>
-    <sub-title lang="fr">Affaire Laurent Ségalat : Un coupable idéal ?</sub-title>
-    <desc lang="fr">Le samedi 9 janvier 2010, à 21h16, les secours suisses reçoivent l&apos;appel d&apos;un homme signalant le décès de la femme de son père, à son domicile du moulin de Vaux-sur-Morges, près de Lausanne. Il affirme avoir tenté de la réanimer sans succès. Cet appel marque le point de départ d&apos;une longue procédure judiciaire, avec plus de deux ans d&apos;instruction et de nombreuses expertises.</desc>
-    <category lang="fr">Documentaire</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/0/6/13376605.jpg" />
-    <episode-num system="onscreen">S1 E18</episode-num>
-  </programme>
-  <programme start="20260128075400 +0000" stop="20260128090200 +0000" channel="NOVO19">
-    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
-    <sub-title lang="fr">Véronique et Sébastien, les amants diaboliques de Seine-Saint-Denis</sub-title>
-    <desc lang="fr">Le 3 mars 1996, le corps d&apos;Abdeladim Gharbiche, 16 ans, est retrouvé à Gournay-sur-Marne, en Seine-Saint-Denis, lardé de 39 coups de couteau.</desc>
-    <category lang="fr">Documentaire</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/0/8/13009800.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/8/13009804.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/1/13085102.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/8/13009803.jpg" />
-    <episode-num system="onscreen">S3 E1</episode-num>
-  </programme>
-  <programme start="20260128090200 +0000" stop="20260128100900 +0000" channel="NOVO19">
-    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
-    <sub-title lang="fr">Affaire Andy</sub-title>
-    <desc lang="fr">Andy, un jeune garçon de 16 ans, vit avec sa famille à Albitreccia, près d&apos;Ajaccio, en Corse. Le 11 août 2009, il prend le fusil à pompe de son père et exécute toute sa famille.</desc>
-    <category lang="fr">Documentaire</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/0/8/13009800.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/8/13009804.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/1/4/12955415.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/8/13009803.jpg" />
-    <episode-num system="onscreen">S1 E2</episode-num>
-  </programme>
-  <programme start="20260128100900 +0000" stop="20260128111100 +0000" channel="NOVO19">
-    <title lang="fr">Les pisteurs : Secours en montagne</title>
-    <desc lang="fr">Une tempête est annoncée, et certaines pistes ferment au fur et à mesure de la journée, mettant à rude épreuve la patience et les nerfs des pisteurs.</desc>
-    <category lang="fr">Documentaire de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/7/5/13529575.jpg" />
-    <episode-num system="onscreen">S1 E2</episode-num>
-  </programme>
-  <programme start="20260128111100 +0000" stop="20260128121500 +0000" channel="NOVO19">
+  <programme start="20260203105500 +0100" stop="20260203114500 +0100" channel="NOVO19">
     <title lang="fr">100 jours avec les pompiers du Gard</title>
-    <desc lang="fr">Pendant cent jours, des pompiers du Gard sont suivis jour et nuit pour faire découvrir leur quotidien, des sauvetages les plus spectaculaires aux plus insolites.</desc>
-    <category lang="fr">Documentaire de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/2/13095244.jpg" />
-    <episode-num system="onscreen">S1 E1</episode-num>
+    <desc lang="fr">Entre incendies, accidents de la route et interventions à haut risque, les pompiers du département du Gard, qu'ils soient professionnels ou volontaires, sont sur tous les fronts.</desc>
+    <category lang="fr">Société</category>
+    <icon src="https://img-4.linternaute.com/zmwNYpzKA8K2psjnhPmG51-dYmE=/150x/smart/8d0c6ba8841544f1866e482f6ac32846/ptv/7106949.jpg"/>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
   </programme>
-  <programme start="20260128121500 +0000" stop="20260128131100 +0000" channel="NOVO19">
-    <title lang="fr">100 jours avec les pompiers du Gard</title>
-    <desc lang="fr">Entre incendies, accidents de la route et interventions à haut risque, les pompiers du département du Gard, qu&apos;ils soient professionnels ou volontaires, sont sur tous les fronts.</desc>
-    <category lang="fr">Documentaire de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/2/13095244.jpg" />
-    <episode-num system="onscreen">S1 E2</episode-num>
-  </programme>
-  <programme start="20260128131100 +0000" stop="20260128144400 +0000" channel="NOVO19">
-    <title lang="fr">Nos héros du quotidien</title>
-    <sub-title lang="fr">Dunkerque : les gendarmes en action</sub-title>
-    <desc lang="fr">La région de Dunkerque, proche de la Belgique, est un carrefour important par lequel transitent des millions d&apos;euros de marchandises, qui attisent les convoitises des cambrioleurs.</desc>
+  <programme start="20260203114500 +0100" stop="20260203133000 +0100" channel="NOVO19">
+    <title lang="fr">Mission : protection, les anges gardiens de votre quotidien</title>
+    <sub-title lang="fr">Commandos, le stage de l'extrême</sub-title>
+    <desc lang="fr">Les soldats de l'armée de Terre suivent un entraînement soutenu, comme le stage du CNEC, le Centre National d'Entraînement Commando, dont la réputation a fait le tour du monde.</desc>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
-    <episode-num system="onscreen">S1 E7</episode-num>
+    <icon src="https://img-4.linternaute.com/qG7pk799Br2ZjblqjF_hf61J8W0=/150x/smart/c64a57a00cec48b8b55569403e770e16/ptv/7026924.jpg"/>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
   </programme>
-  <programme start="20260128144400 +0000" stop="20260128155000 +0000" channel="NOVO19">
-    <title lang="fr">Nos héros du quotidien</title>
-    <sub-title lang="fr">Méditérranée : Un été avec les gendarmes de Saint-Tropez</sub-title>
-    <desc lang="fr">Le quotidien des gendarmes de Saint-Tropez et des marins-pompiers de Marseille : sous le soleil de la Méditerranée, les journées et les nuits ne sont pas de tout repos.</desc>
+  <programme start="20260203133000 +0100" stop="20260203150000 +0100" channel="NOVO19">
+    <title lang="fr">Mission : protection, les anges gardiens de votre quotidien</title>
+    <sub-title lang="fr">La vie à un fil</sub-title>
+    <desc lang="fr">Chaque jour, les pompiers et le SAMU sauvent des centaines de vies partout en France. Leurs premiers gestes étant décisifs, ces professionnels doivent être capables de garder leur calme en toute circonstance.</desc>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
-    <episode-num system="onscreen">S1 E33</episode-num>
+    <icon src="https://img-4.linternaute.com/qGx-larcqhhkE09r4RoW-IzzLb0=/150x/smart/15a47f8419ca4df4ae55145b26ed8579/ptv/7011740.jpg"/>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
   </programme>
-  <programme start="20260128155000 +0000" stop="20260128165900 +0000" channel="NOVO19">
+  <programme start="20260203150000 +0100" stop="20260203161000 +0100" channel="NOVO19">
     <title lang="fr">Nos héros du quotidien</title>
-    <sub-title lang="fr">Montpellier : les policiers en première ligne</sub-title>
-    <desc lang="fr">La brigade des stupéfiants de Montpellier a fort à faire. La ville est devenue une plaque tournante du trafic de drogue entre l&apos;Espagne, l&apos;Italie et le nord de l&apos;Europe.</desc>
+    <sub-title lang="fr">Cambrai : immersion au coeur de la gendarmerie</sub-title>
+    <desc lang="fr">A Cambrai, les informations données par une indic à la brigade de gendarmerie déclenche une enquête sur un trafic local de résine de cannabis.</desc>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
-    <episode-num system="onscreen">S1 E14</episode-num>
+    <icon src="https://img-4.linternaute.com/4M6AbDL1RTa3ssNUmg1GCHL-0KY=/150x/smart/7d97e6df52444bb29aa70b026106cdc9/ptv/7023499.jpg"/>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+    <star-rating>
+      <value>1/5</value>
+    </star-rating>
   </programme>
-  <programme start="20260128165900 +0000" stop="20260128181000 +0000" channel="NOVO19">
+  <programme start="20260203161000 +0100" stop="20260203171500 +0100" channel="NOVO19">
     <title lang="fr">Nos héros du quotidien</title>
-    <sub-title lang="fr">Gendarmerie scientifique : Les experts face au crime</sub-title>
-    <desc lang="fr">Les 250 hommes et femmes de l&apos;Institut de Recherche criminelle de la Gendarmerie nationale (IRCGN) sont au coeur des affaires les plus sensibles de la gendarmerie.</desc>
+    <sub-title lang="fr">Boulogne-Sur-Mer : Commissariat Central</sub-title>
+    <desc lang="fr">Le travail de la police consiste aussi à traiter une succession de petites histoires en apparence anodines, où l'accueil et la prise en charge des victimes sont déterminants.</desc>
     <category lang="fr">Magazine de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
-    <episode-num system="onscreen">S1 E31</episode-num>
+    <icon src="https://img-4.linternaute.com/XTVV5_u14W8tiPglPe9H5A4CIaA=/150x/smart/f902ed495b694108994fbdc251227736/ptv/7173431.jpg"/>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+    <star-rating>
+      <value>1/5</value>
+    </star-rating>
   </programme>
-  <programme start="20260128181000 +0000" stop="20260128182500 +0000" channel="NOVO19">
-    <title lang="fr">On a de l&apos;info</title>
-    <desc lang="fr">Du lundi au vendredi, pendant 15 minutes, on a de l&apos;info près de chez vous, et pour vous. Depuis Rennes, la Rédaction travaille avec ses reporters partout dans nos territoires, dans l&apos;Hexagone et en Outre-Mer. Un regard de proximité sur l&apos;actualité, où que vous viviez... pour savoir, agir et se rassembler ! On se donne rendez-vous à 18h10.</desc>
+  <programme start="20260203171500 +0100" stop="20260203181000 +0100" channel="NOVO19">
+    <title lang="fr">Au coeur de la fourmilière de Roissy</title>
+    <desc lang="fr">61 millions de passagers par an, 80 millions de bagages, 1500 avions par jour : l'aéroport de Roissy-Charles-de-Gaulle est le premier aéroport d'Europe en terme de trafic aérien.</desc>
+    <credits>
+      <director>Amélie Grout</director>
+      <director>Morgane Courgeon</director>
+      <director>Nina Montané</director>
+    </credits>
+    <category lang="fr">Découvertes</category>
+    <icon src="https://img-4.linternaute.com/TaHBMfuRwgH6VYUjb9-vFFxvZU4=/150x/smart/f1d1727e46c14c04849aaa34fcc19f10/ptv/7218676.jpg"/>
+  </programme>
+  <programme start="20260203181000 +0100" stop="20260203182500 +0100" channel="NOVO19">
+    <title lang="fr">On a de l'info</title>
+    <desc lang="fr">Du lundi au vendredi, pendant 15 minutes, on a de l'info près de chez vous, et pour vous. Depuis Rennes, la Rédaction travaille avec ses reporters partout dans nos territoires, dans l'Hexagone et en Outre...</desc>
     <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/8/13013810.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/8/13013814.jpg" />
-    <episode-num system="onscreen">S1 E98</episode-num>
+    <star-rating>
+      <value>1/5</value>
+    </star-rating>
   </programme>
-  <programme start="20260128182500 +0000" stop="20260128194600 +0000" channel="NOVO19">
+  <programme start="20260203182500 +0100" stop="20260203195500 +0100" channel="NOVO19">
     <title lang="fr">On a du nouveau</title>
-    <category lang="fr">Débat</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/0/8/13013808.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/8/13013812.jpg" />
-    <episode-num system="onscreen">S1 E104</episode-num>
+    <desc lang="fr">Aucune description</desc>
+    <credits>
+      <presenter>Claude Askolovitch</presenter>
+      <presenter>Claire Arnoux</presenter>
+    </credits>
+    <category lang="fr">Talk show</category>
+    <icon src="https://img-4.linternaute.com/WEHC2D2mJRO7uOlGiPY0o9zoar8=/150x/smart/620c9db342184a579fcc5c29eda49fd4/ptv/7218678.jpg"/>
+    <star-rating>
+      <value>1/5</value>
+    </star-rating>
   </programme>
-  <programme start="20260128194600 +0000" stop="20260128200800 +0000" channel="NOVO19">
-    <title lang="fr">On a de l&apos;info</title>
-    <desc lang="fr">Du lundi au vendredi, pendant 15 minutes, on a de l&apos;info près de chez vous, et pour vous. Depuis Rennes, la Rédaction travaille avec ses reporters partout dans nos territoires, dans l&apos;Hexagone et en Outre-Mer. Un regard de proximité sur l&apos;actualité, où que vous viviez... pour savoir, agir et se rassembler ! On se donne rendez-vous à 18h10.</desc>
+  <programme start="20260203195500 +0100" stop="20260203205000 +0100" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Lille : au coeur de la grande braderie</sub-title>
+    <desc lang="fr">La grande braderie de Lille se tient chaque premier week-end de septembre. Elle réunit 5 000 exposants, 600 agents municipaux et deux millions de visiteurs.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="https://img-4.linternaute.com/Wsm2Ia2JdKGcj-xG-lMG0aufOPk=/150x/smart/2e907954a4a84349bce2d5644f9413ba/ptv/7023503.jpg"/>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+    <star-rating>
+      <value>1/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260203205000 +0100" stop="20260203211000 +0100" channel="NOVO19">
+    <title lang="fr">On a de l'info</title>
+    <desc lang="fr">Du lundi au vendredi, pendant 15 minutes, on a de l'info près de chez vous, et pour vous. Depuis Rennes, la Rédaction travaille avec ses reporters partout dans nos territoires, dans l'Hexagone et en Outre...</desc>
     <category lang="fr">Journal</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/8/13013810.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/8/13013814.jpg" />
-    <episode-num system="onscreen">S1 E98</episode-num>
+    <icon src="https://img-4.linternaute.com/28sCCXmll4SATB0_R0s5KF2mEoY=/150x/smart/5f3017f5b0ad4815b3aeb2f267690b7e/ptv/7218677.jpg"/>
+    <star-rating>
+      <value>1/5</value>
+    </star-rating>
   </programme>
-  <programme start="20260128200800 +0000" stop="20260128213400 +0000" channel="NOVO19">
-    <title lang="fr">Inside Ikea</title>
-    <desc lang="fr">Des usines aux magasins, en passant par le département &quot;design&quot; et les stratégies de vente, enquête sur les dessous de l&apos;enseigne de meubles suédoise.</desc>
-    <category lang="fr">Documentaire de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/4/3/13448340.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/4/3/13448341.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/3/3/13448339.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/4/3/13448342.jpg" />
+  <programme start="20260203211000 +0100" stop="20260203220500 +0100" channel="NOVO19">
+    <title lang="fr">Mon ange</title>
+    <desc lang="fr">Julie Castro est portée disparue depuis plus de huit ans. Obstinée et résiliente, sa mère Suzanne cherche, en vain, un signe de vie. Alors qu'elle rend visite à un patient, elle distingue le visage de Julie sur la photo d'une manifestation récente parue dans un journal d'une petite ville de Haute-Loire. Partie à sa recherche, Suzanne découvre une communauté où personne n'a jamais entendu parler de Julie. Mais ses membres disent-ils la vérité ? Que cache la disparition de cette jeune fille ?...</desc>
+    <credits>
+      <director>Arnauld Mercadier</director>
+      <actor>Patrick Chesnais</actor>
+      <actor>Pascal Carré</actor>
+      <actor>Clara Guipont</actor>
+      <actor>Pauline Briand</actor>
+      <actor>Mickaël Lumière</actor>
+      <actor>Daniel Lobé</actor>
+      <actor>Romane Jolly</actor>
+      <actor>Séverine Sarrias</actor>
+      <actor>Mariam Hodique</actor>
+      <actor>Isabelle Desmazières</actor>
+      <actor>Chloé Renaud</actor>
+      <actor>Nathanaël Beausivoir</actor>
+      <actor>Alexis Moncorgé</actor>
+      <actor>Max Libert</actor>
+      <actor>Muriel Robin</actor>
+      <actor>Alexandra Vandernoot</actor>
+      <actor>Christian Bouillette</actor>
+      <actor>Marilou Berry</actor>
+      <actor>Mhamed Arezki</actor>
+      <actor>Mathieu Spinosi</actor>
+      <actor>Erika Sainte</actor>
+      <actor>Nicolas Jouhet</actor>
+      <actor>Louisiane Gouverneur</actor>
+      <actor>Jordi Le Bolloc'h</actor>
+      <actor>Véronique Frumy</actor>
+    </credits>
+    <category lang="fr">Série dramatique</category>
+    <icon src="https://img-4.linternaute.com/BzVNscqU8kAcVLkWw_6QVOYe0MM=/150x/smart/e758a0c856b94690ad55f00b5eb58dc7/ptv/7218679.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+    <star-rating>
+      <value>5/5</value>
+    </star-rating>
   </programme>
-  <programme start="20260128213400 +0000" stop="20260128233100 +0000" channel="NOVO19">
-    <title lang="fr">Parc Astérix, fêtes foraines : la guerre des loisirs à sensation</title>
-    <desc lang="fr">La course au gigantisme et les sensations extrêmes sont la clé du succès de l&apos;industrie des loisirs. Quels sont les moyens, parfois controversés, mis en oeuvre ?</desc>
-    <category lang="fr">Documentaire de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/5/8/7364853.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/5/8/7364856.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/5/8/7364854.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/9/4/9113494.jpg" />
+  <programme start="20260203220500 +0100" stop="20260203230500 +0100" channel="NOVO19">
+    <title lang="fr">Mon ange</title>
+    <desc lang="fr">Après la découverte du corps d'Anaïs, les soupçons se portent sur Suzanne. Pour elle, la disparition de Julie a un lien avec ce meurtre. La capitaine Gabrielle Varan enquête.</desc>
+    <credits>
+      <director>Arnauld Mercadier</director>
+      <actor>Patrick Chesnais</actor>
+      <actor>Pascal Carré</actor>
+      <actor>Clara Guipont</actor>
+      <actor>Pauline Briand</actor>
+      <actor>Mickaël Lumière</actor>
+      <actor>Daniel Lobé</actor>
+      <actor>Maxence Pupillo</actor>
+      <actor>Romane Jolly</actor>
+      <actor>Séverine Sarrias</actor>
+      <actor>Mariam Hodique</actor>
+      <actor>Isabelle Desmazières</actor>
+      <actor>Chloé Renaud</actor>
+      <actor>Nathanaël Beausivoir</actor>
+      <actor>Alexis Moncorgé</actor>
+      <actor>Max Libert</actor>
+      <actor>Muriel Robin</actor>
+      <actor>Alexandra Vandernoot</actor>
+      <actor>Christian Bouillette</actor>
+      <actor>Marilou Berry</actor>
+      <actor>Mhamed Arezki</actor>
+      <actor>Mathieu Spinosi</actor>
+      <actor>Erika Sainte</actor>
+      <actor>Nicolas Jouhet</actor>
+      <actor>Louisiane Gouverneur</actor>
+      <actor>Jordi Le Bolloc'h</actor>
+      <actor>Véronique Frumy</actor>
+    </credits>
+    <category lang="fr">Série dramatique</category>
+    <icon src="https://img-4.linternaute.com/LBp15s-YaGkTbnY8V9w3nSq4SfI=/150x/smart/bfa46dd2414b4c0b8e7b51e1469716b1/ptv/7218680.jpg"/>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+    <star-rating>
+      <value>5/5</value>
+    </star-rating>
   </programme>
-  <programme start="20260128233100 +0000" stop="20260129003600 +0000" channel="NOVO19">
-    <title lang="fr">Europa-Park : les coulisses d&apos;un incroyable succès</title>
-    <desc lang="fr">A 60 km de Strasbourg, en Allemagne, le parc d&apos;attraction Europa Park attire plus de 5 millions de visiteurs par an avec ses 55 attractions, dont le plus haut grand huit d&apos;Europe.</desc>
-    <category lang="fr">Documentaire de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/7/1/12003173.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/1/12003174.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/7/1/12003172.jpg" />
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/7/1/12003175.jpg" />
+  <programme start="20260203230500 +0100" stop="20260204002500 +0100" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
+    <sub-title lang="fr">L'affaire Agnès Marin</sub-title>
+    <desc lang="fr">Agnès Marin disparaît l'après-midi du 16 novembre 2011 au Chambon-sur-Lignon. Scolarisée dans un internat, elle avait cette après-midi-là une permission de sortie comme les autres camarades de son établissement. Un élève est suspecté : Mathieu, 17 ans, revenu recouvert de griffures sur le visage le soir de la disparition d'Agnès. Avec une attitude déroutante, il finira par avouer son crime après 48 heures de garde à vue.</desc>
+    <credits>
+      <director>Farrah Youbi</director>
+    </credits>
+    <category lang="fr">Justice</category>
+    <icon src="https://img-4.linternaute.com/Xj8xkfxyEOQ6YPERRijDsts8RQ0=/150x/smart/55c893f9ac4442a3b8d6ee9936212959/ptv/7092241.jpg"/>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260204002500 +0100" stop="20260204014000 +0100" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ? - Saison 2</title>
+    <sub-title lang="fr">Pierre F, 13 ans, abat ses parents et son petit frère</sub-title>
+    <desc lang="fr">Le mercredi 27 octobre 2004 à Ancourteville-sur-Héricourt, Pierre, 13 ans, se retrouve seul pour faire ses devoirs. Sa maman et son petit frère de 4 ans sont partis faire des courses, sa soeur âgée de 11 ans est à la piscine et son père au travail. Entre 15h et 17h30, il exécute froidement sa mère, son petit frère et son père.</desc>
+    <category lang="fr">Decouverte</category>
+    <category lang="fr">Doc Judiciaire</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/102640491"/>
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260204014000 +0100" stop="20260204060000 +0100" channel="NOVO19">
+    <title lang="fr">Programmes de la nuit</title>
+    <sub-title lang="fr">Divers</sub-title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Divertissement</category>
+    <category lang="fr">Divers</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/100372850"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
   </programme>
   <programme start="20260129003600 +0000" stop="20260129014000 +0000" channel="NOVO19">
     <title lang="fr">Les visages du crime</title>
@@ -2285,13 +2180,6 @@
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/2/13095244.jpg" />
     <episode-num system="onscreen">S1 E5</episode-num>
   </programme>
-  <programme start="20260130130500 +0000" stop="20260130135500 +0000" channel="NOVO19">
-    <title lang="fr">100 jours avec les pompiers du Gard</title>
-    <desc lang="fr">Dans le Gard, les casernes reçoivent chaque année plusieurs dizaines de milliers d&apos;appels. Les pompiers du département sont mobilisés sur tous les fronts.</desc>
-    <category lang="fr">Documentaire de société</category>
-    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/2/13095244.jpg" />
-    <episode-num system="onscreen">S1 E6</episode-num>
-  </programme>
   <programme start="20260130135500 +0000" stop="20260130150500 +0000" channel="NOVO19">
     <title lang="fr">Nos héros du quotidien</title>
     <sub-title lang="fr">Sur les routes de France : enquête sur les chauffards</sub-title>
@@ -2324,6 +2212,21 @@
     <category lang="fr">Magazine de société</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
     <episode-num system="onscreen">S1 E32</episode-num>
+  </programme>
+  <programme start="20260130181000 +0000" stop="20260130182400 +0000" channel="NOVO19">
+    <title lang="fr">On a de l&apos;info</title>
+    <desc lang="fr">Du lundi au vendredi, pendant 15 minutes, on a de l&apos;info près de chez vous, et pour vous. Depuis Rennes, la Rédaction travaille avec ses reporters partout dans nos territoires, dans l&apos;Hexagone et en Outre-Mer. Un regard de proximité sur l&apos;actualité, où que vous viviez... pour savoir, agir et se rassembler ! On se donne rendez-vous à 18h10.</desc>
+    <category lang="fr">Journal</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/8/13013810.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/8/13013814.jpg" />
+    <episode-num system="onscreen">S1 E100</episode-num>
+  </programme>
+  <programme start="20260130182400 +0000" stop="20260130194500 +0000" channel="NOVO19">
+    <title lang="fr">On a du nouveau</title>
+    <category lang="fr">Débat</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/0/8/13013808.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/8/13013812.jpg" />
+    <episode-num system="onscreen">S1 E106</episode-num>
   </programme>
   <programme start="20260130194500 +0000" stop="20260130201000 +0000" channel="NOVO19">
     <title lang="fr">On a de l&apos;info</title>
@@ -2616,6 +2519,1063 @@
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/6/9/7184961.jpg" />
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/7/5/13329576.jpg" />
     <episode-num system="onscreen">S2 E4</episode-num>
+  </programme>
+  <programme start="20260130012600 +0000" stop="20260130021800 +0000" channel="NOVO19">
+    <title lang="fr">Les visages du crime</title>
+    <sub-title lang="fr">Affaire Philippe Gletty : Le patron qu&apos;on aimait trop</sub-title>
+    <desc lang="fr">Comment les multiples vies de Philippe Gletty l&apos;ont-elles conduit à la mort ? Le 4 mars 2012, le corps de ce chef d&apos;entreprise est retrouvé dans un chemin forestier où il avait de curieuses habitudes. Son exécution ne lui a laissé aucune chance. Pourtant, cet homme généreux semblait être aimé de tous.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/0/6/13376605.jpg" />
+    <episode-num system="onscreen">S1 E15</episode-num>
+  </programme>
+  <programme start="20260130031500 +0000" stop="20260130041100 +0000" channel="NOVO19">
+    <title lang="fr">Les visages du crime</title>
+    <sub-title lang="fr">Affaire Sophie Lionnet : L&apos;effroyable descente aux enfers</sub-title>
+    <desc lang="fr">Le 21 septembre 2017, le corps carbonisé de Sophie Lionnet, une jeune Française de 21 ans, est retrouvé dans le jardin d&apos;une maison huppée de Londres. La police britannique arrête immédiatement les occupants, le couple expatrié Sabrina Kouider et Ouissem Médouni. Au fil de l&apos;enquête, Scotland Yard met au jour l&apos;impensable.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/0/6/13376605.jpg" />
+    <episode-num system="onscreen">S1 E11</episode-num>
+  </programme>
+  <programme start="20260130041100 +0000" stop="20260130045600 +0000" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Radars routiers : guerre contre la vitesse</sub-title>
+    <desc lang="fr">Le 27 octobre 2003, les automobilistes français ont vu fleurir le premier radar automatique au bord d&apos;une nationale. Il a été fracassé à coups de masse deux jours plus tard ! Dix ans après, cela n&apos;a pas empêché le pays tout entier de s&apos;équiper en masse : à la fin de l&apos;année 2013, la France comptera 6 000 radars sur l&apos;ensemble de son réseau routier.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
+    <episode-num system="onscreen">S1 E35</episode-num>
+  </programme>
+  <programme start="20260130045600 +0000" stop="20260130052100 +0000" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">US Army</sub-title>
+    <desc lang="fr">Alex, qui a tenté d&apos;aller chercher du secours sur l&apos;île voisine, rentre épuisé. Il a effectué la traversée à la nage...</desc>
+    <category lang="fr">Série</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/5/1/12169158.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
+    <episode-num system="onscreen">S2 E3</episode-num>
+  </programme>
+  <programme start="20260130052100 +0000" stop="20260130054400 +0000" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">L&apos;amour ou la vie?</sub-title>
+    <desc lang="fr">Alors que le canot pneumatique se dégonfle à vue d&apos;oeil, les quatre amis voient arriver un secours inespéré...</desc>
+    <category lang="fr">Série</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/5/1/12169158.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
+    <episode-num system="onscreen">S2 E4</episode-num>
+  </programme>
+  <programme start="20260130054400 +0000" stop="20260130060700 +0000" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">Une journée de chien</sub-title>
+    <desc lang="fr">Alors que Léo et Eva s&apos;installent chez Alex et Alice, la cohabitation s&apos;annonce difficile car Léo est insupportable et Alex prend toujours sa défense.</desc>
+    <category lang="fr">Série</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/9/0/12495098.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
+    <episode-num system="onscreen">S2 E5</episode-num>
+  </programme>
+  <programme start="20260130060700 +0000" stop="20260130063100 +0000" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">A poil</sub-title>
+    <desc lang="fr">Alex et Léo ont retrouvé le signe qui flambait sur la plage de l&apos;île déserte dans l&apos;usine désaffectée, dernière adresse connue du propriétaire du chien...</desc>
+    <category lang="fr">Série</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/9/0/12495098.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
+    <episode-num system="onscreen">S2 E6</episode-num>
+  </programme>
+  <programme start="20260130063100 +0000" stop="20260130073600 +0000" channel="NOVO19">
+    <title lang="fr">Les visages du crime</title>
+    <sub-title lang="fr">Affaire Anaïs Guillaume : La mort est dans le pré</sub-title>
+    <desc lang="fr">Le 29 octobre 2019, un champ des Ardennes est retourné, creusé, fouillé par Victoria Gillet, qui recherche le corps d&apos;Anaïs Guillaume, la dernière compagne de son père. Suspect numéro un, il clame depuis toutes ces années son innocence du fond de sa prison. Mais bientôt, son passé remonte à la surface.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/0/6/13376605.jpg" />
+    <episode-num system="onscreen">S1 E2</episode-num>
+  </programme>
+  <programme start="20260130073600 +0000" stop="20260130084900 +0000" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
+    <sub-title lang="fr">Florian, 14 ans, tue une enfant de 2 ans et demi</sub-title>
+    <desc lang="fr">Le 21 mai 2018, à Mairieux, dans le Nord, le corps de la petite Léa est retrouvé dans le ruisseau qui traverse le domicile de ses grands-parents.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/0/8/13009800.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/8/13009804.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/7/3/7653378.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/8/13009803.jpg" />
+    <episode-num system="onscreen">S2 E2</episode-num>
+  </programme>
+  <programme start="20260130084900 +0000" stop="20260130094900 +0000" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
+    <sub-title lang="fr">Kevin, tué pour rien dans un parc belge</sub-title>
+    <desc lang="fr">Le 14 janvier 2011, à Bruxelles, Kévin Marichal est sauvagement poignardé, à 41 reprises, dans un parc pourtant tranquille de la capitale belge.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/0/8/13009800.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/8/13009804.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/0/13064014.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/8/13009803.jpg" />
+    <episode-num system="onscreen">S3 E5</episode-num>
+  </programme>
+  <programme start="20260130094900 +0000" stop="20260130113300 +0000" channel="NOVO19">
+    <title lang="fr">Mission : protection, les anges gardiens de votre quotidien</title>
+    <sub-title lang="fr">Routes dangereuses sous haute surveillance</sub-title>
+    <desc lang="fr">La route Centre-Europe Atlantique, ou RCEA, qui rallie l&apos;Est de la France à la façade Atlantique est un itinéraire incontournable pour les poids lourds, les particuliers et les vacanciers. C&apos;est également la route la plus dangereuse de France avec un taux d&apos;accident record et un passage régulier des trafiquants venus de l&apos;Est. Services d&apos;urgence, pompiers et gendarmes y sont sur le qui-vive en permanence.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/4/2/12745249.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/5/2/12745257.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/7/12445714.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/5/2/12745253.jpg" />
+    <episode-num system="onscreen">S2 E5</episode-num>
+  </programme>
+  <programme start="20260130113300 +0000" stop="20260130123600 +0000" channel="NOVO19">
+    <title lang="fr">100 jours avec les pompiers du Gard</title>
+    <desc lang="fr">Dans le Gard, les casernes reçoivent chaque année plusieurs dizaines de milliers d&apos;appels. Entre incendies violents, accidents de la route et interventions à haut risque, les pompiers du département, qu&apos;ils soient professionnels ou volontaires, sont mobilisés sur tous les fronts. Pendant cent jours, plusieurs d&apos;entre eux ont accepté d&apos;être suivis jour et nuit pour faire découvrir leur quotidien, des sauvetages les plus spectaculaires aux plus insolites.</desc>
+    <category lang="fr">Documentaire de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/2/13095244.jpg" />
+    <episode-num system="onscreen">S1 E5</episode-num>
+  </programme>
+  <programme start="20260130123600 +0000" stop="20260130133700 +0000" channel="NOVO19">
+    <title lang="fr">100 jours avec les pompiers du Gard</title>
+    <desc lang="fr">Dans le Gard, les casernes reçoivent chaque année plusieurs dizaines de milliers d&apos;appels. Les pompiers du département sont mobilisés sur tous les fronts.</desc>
+    <category lang="fr">Documentaire de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/2/13095244.jpg" />
+    <episode-num system="onscreen">S1 E6</episode-num>
+  </programme>
+  <programme start="20260130133700 +0000" stop="20260130145000 +0000" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Sur les routes de France : enquête sur les chauffards</sub-title>
+    <desc lang="fr">Chaque année, 4000 automobilistes sont tués sur les routes. Si la vitesse reste un facteur connu des accidents, il existe également d&apos;autres causes. Ainsi, les tronçons rectilignes des routes nationales peuvent occasionner des chocs frontaux. Les dépassements sont eux aussi à l&apos;origine de nombreux carambolages.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/8/5/13168582.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
+    <episode-num system="onscreen">S1 E16</episode-num>
+  </programme>
+  <programme start="20260130145000 +0000" stop="20260130155800 +0000" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Nîmes : Vous avez demandé les urgences</sub-title>
+    <desc lang="fr">En moins de vingt ans, la fréquentation des urgences des hôpitaux a doublé en France. Mais pas les effectifs. Conséquence : les personnels sont à bout.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
+    <episode-num system="onscreen">S1 E41</episode-num>
+  </programme>
+  <programme start="20260130155800 +0000" stop="20260130170000 +0000" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Méditérranée : Un été avec les gendarmes de Saint-Tropez</sub-title>
+    <desc lang="fr">Le quotidien des gendarmes de Saint-Tropez et des marins-pompiers de Marseille : sous le soleil de la Méditerranée, les journées et les nuits ne sont pas de tout repos.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
+    <episode-num system="onscreen">S1 E33</episode-num>
+  </programme>
+  <programme start="20260130170000 +0000" stop="20260130181000 +0000" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Délinquance à grande vitesse : la police contre-attaque</sub-title>
+    <desc lang="fr">Sur la route, quatre accidents mortels sur dix sont dus à une vitesse excessive. En mer, la démocratisation des scooters a généré une hausse du nombre d&apos;accidents. Les forces de police et les gendarmes ont développé de nouveaux moyens d&apos;intervention afin de lutter contre la délinquance des conducteurs irrespectueux.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
+    <episode-num system="onscreen">S1 E32</episode-num>
+  </programme>
+  <programme start="20260130182700 +0000" stop="20260130194800 +0000" channel="NOVO19">
+    <title lang="fr">On a du nouveau</title>
+    <category lang="fr">Débat</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/0/8/13013808.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/8/13013812.jpg" />
+    <episode-num system="onscreen">S1 E106</episode-num>
+  </programme>
+  <programme start="20260130194800 +0000" stop="20260130200800 +0000" channel="NOVO19">
+    <title lang="fr">On a de l&apos;info</title>
+    <desc lang="fr">Du lundi au vendredi, pendant 15 minutes, on a de l&apos;info près de chez vous, et pour vous. Depuis Rennes, la Rédaction travaille avec ses reporters partout dans nos territoires, dans l&apos;Hexagone et en Outre-Mer. Un regard de proximité sur l&apos;actualité, où que vous viviez... pour savoir, agir et se rassembler ! On se donne rendez-vous à 18h10.</desc>
+    <category lang="fr">Journal</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/8/13013810.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/8/13013814.jpg" />
+    <episode-num system="onscreen">S1 E100</episode-num>
+  </programme>
+  <programme start="20260130200800 +0000" stop="20260130215700 +0000" channel="NOVO19">
+    <title lang="fr">Histoire interdite</title>
+    <sub-title lang="fr">Hitler, les secrets de l&apos;ascension d&apos;un monstre</sub-title>
+    <desc lang="fr">Rien ne prédestinait Adolf Hitler à devenir le leader incontesté de l&apos;Allemagne nazie : gros plan sur les grandes étapes de son ascension politique.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/2/6/13459627.jpg" />
+    <episode-num system="onscreen">S1 E3</episode-num>
+  </programme>
+  <programme start="20260130215700 +0000" stop="20260130230700 +0000" channel="NOVO19">
+    <title lang="fr">Paris : les lieux secrets de l&apos;Occupation</title>
+    <desc lang="fr">Des témoignages de survivants, des interviews d&apos;historiens et des images d&apos;archives permettent de comprendre le rôle central des souterrains de Paris pendant l&apos;Occupation.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/9/7/13244795.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/3/3/13297330.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/9/7/13244794.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/9/7/13244796.jpg" />
+  </programme>
+  <programme start="20260130230700 +0000" stop="20260131001400 +0000" channel="NOVO19">
+    <title lang="fr">Paris interdit, mégastructures souterraines</title>
+    <desc lang="fr">Un focus est fait sur les mégastructures mystérieuses, dangereuses et inconnues du public qui se cachent sous les trottoirs de la capitale française.</desc>
+    <category lang="fr">Documentaire de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/3/2/11559230.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/5/7/11571756.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/2/3/7933329.jpg" />
+  </programme>
+  <programme start="20260131001400 +0000" stop="20260131014400 +0000" channel="NOVO19">
+    <title lang="fr">L&apos;histoire vraie de la grande évasion</title>
+    <desc lang="fr">Retour sur la véritable histoire des pilotes alliés qui ont échappé à leur geôliers nazis en 1944, un exploit immortalisée en 1963 par le film &quot;La Grande Evasion&quot;, de John Sturges.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/7/6/13395673.jpg" />
+  </programme>
+  <programme start="20260201095500 +0000" stop="20260201105000 +0000" channel="NOVO19">
+    <title lang="fr">Les pisteurs : Secours en montagne</title>
+    <desc lang="fr">Louis est le seul pisteur belge de la station de Châtel. A peine la saison lancée, il est appelé sur une intervention délicate : une vacancière s&apos;est violemment cogné la tête.</desc>
+    <category lang="fr">Documentaire de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/7/5/13529575.jpg" />
+    <episode-num system="onscreen">S1 E1</episode-num>
+  </programme>
+  <programme start="20260202000500 +0000" stop="20260202012500 +0000" channel="NOVO19">
+    <title lang="fr">Bûcheron : un métier à hauts risques</title>
+    <sub-title lang="fr">Chantiers d&apos;exception</sub-title>
+    <desc lang="fr">Tandis que la famille Recorbet joue l&apos;avenir de son entreprise, la société d&apos;élagage de Rémy Chatelain extrait des bois en pleine circulation avec une grue XXL.</desc>
+    <category lang="fr">Documentaire de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/7/5/13329572.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/8/5/13329580.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/7/6461774.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/7/5/13329576.jpg" />
+    <episode-num system="onscreen">S2 E5</episode-num>
+  </programme>
+  <programme start="20260202012500 +0000" stop="20260202050000 +0000" channel="NOVO19">
+    <title lang="fr">Programmes de la nuit</title>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/7/6/13012671.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/4/8/12608846.jpg" />
+  </programme>
+  <programme start="20260202050000 +0000" stop="20260202052500 +0000" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">Une journée de chien</sub-title>
+    <desc lang="fr">Alors que Léo et Eva s&apos;installent chez Alex et Alice, la cohabitation s&apos;annonce difficile car Léo est insupportable et Alex prend toujours sa défense.</desc>
+    <category lang="fr">Série</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/9/0/12495098.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
+    <episode-num system="onscreen">S2 E5</episode-num>
+  </programme>
+  <programme start="20260202052500 +0000" stop="20260202055000 +0000" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">A poil</sub-title>
+    <desc lang="fr">Alex et Léo ont retrouvé le signe qui flambait sur la plage de l&apos;île déserte dans l&apos;usine désaffectée, dernière adresse connue du propriétaire du chien...</desc>
+    <category lang="fr">Série</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/9/0/12495098.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
+    <episode-num system="onscreen">S2 E6</episode-num>
+  </programme>
+  <programme start="20260202055000 +0000" stop="20260202061500 +0000" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">L&apos;Australie</sub-title>
+    <desc lang="fr">Qu&apos;allait faire Alex en Australie alors qu&apos;il devait rentrer en France voir ses parents ? Dans le coeur d&apos;Alice, la douleur fait place à la colère...</desc>
+    <category lang="fr">Série</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/9/0/12495097.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
+    <episode-num system="onscreen">S2 E7</episode-num>
+  </programme>
+  <programme start="20260202061500 +0000" stop="20260202064000 +0000" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">Problèmes de couples</sub-title>
+    <desc lang="fr">Alex est obsédé par l&apos;île déserte et le message vidéo. Alice a l&apos;impression qu&apos;il ne la comprend plus...</desc>
+    <category lang="fr">Série</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/9/0/12495098.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
+    <episode-num system="onscreen">S2 E8</episode-num>
+  </programme>
+  <programme start="20260202064000 +0000" stop="20260202075000 +0000" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
+    <sub-title lang="fr">L&apos;affaire Alexandre Castaldo</sub-title>
+    <desc lang="fr">Dans la nuit du 26 au 27 mars 2012, à Beauvoir-en-Lyons en Seine-Maritime, deux gardes-forestiers découvrent les restes du corps encore en feu d&apos;un lycéen de 17 ans.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/0/8/13009800.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/8/13009804.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/5/9/12828951.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/8/13009803.jpg" />
+    <episode-num system="onscreen">S1 E3</episode-num>
+  </programme>
+  <programme start="20260202075000 +0000" stop="20260202085000 +0000" channel="NOVO19">
+    <title lang="fr">Les visages du crime</title>
+    <sub-title lang="fr">Affaire Samira Ben Saad : Les amants terribles</sub-title>
+    <desc lang="fr">L&apos;inquiétude grandit lorsqu&apos;un entrepreneur alerte la police après ne plus avoir de nouvelles de Maël Combier, un chef de chantier de 22 ans. Marié et sur le point de devenir père, il s&apos;est volatilisé sans laisser de trace. Dans le même temps, Samira Ben Saad, 20 ans, disparaît elle aussi. Deux absences inexpliquées, deux familles plongées dans l&apos;angoisse.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/0/6/13376605.jpg" />
+    <episode-num system="onscreen">S1 E17</episode-num>
+  </programme>
+  <programme start="20260202104500 +0000" stop="20260202123000 +0000" channel="NOVO19">
+    <title lang="fr">Mission : protection, les anges gardiens de votre quotidien</title>
+    <sub-title lang="fr">Chantiers de l&apos;extrême, missions à haut risque</sub-title>
+    <desc lang="fr">Construction de tours et de gratte ciels, installation d&apos;éoliennes ou démantèlement de centrales nucléaires constituent des chantiers de très grande ampleur qui requièrent des aptitudes physiques et psychologiques ainsi qu&apos;une expertise hors du commun. Ces chantiers sont souvent très dangereux et les hommes et les femmes qui y prennent part le font parfois au péril de leur vie.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/4/2/12745249.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/5/2/12745257.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/7/12445714.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/5/2/12745253.jpg" />
+    <episode-num system="onscreen">S2 E6</episode-num>
+  </programme>
+  <programme start="20260202123000 +0000" stop="20260202135500 +0000" channel="NOVO19">
+    <title lang="fr">Mission : protection, les anges gardiens de votre quotidien</title>
+    <sub-title lang="fr">Immersion avec les brigades fluviales</sub-title>
+    <desc lang="fr">Dans cet épisode de &quot;Mission protection&quot;, les caméras suivent les brigades fluviales de Paris, Strasbourg et Martigues. Interpellations musclées, opérations de maintien de l&apos;ordre, sécurisation des berges, tel est le quotidien de ces hommes et de ces femmes surentraînés. Entre prises de risques, efforts physiques et conditions météorologiques aléatoires, ils sont souvent confrontés à des situations difficiles.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/4/2/12745249.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/5/2/12745257.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/2/6/12846622.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/5/2/12745253.jpg" />
+    <episode-num system="onscreen">E2</episode-num>
+  </programme>
+  <programme start="20260202135500 +0000" stop="20260202150000 +0000" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Belfort : les pompiers au coeur de l&apos;hiver</sub-title>
+    <desc lang="fr">Tempête, brouillard, verglas, tout se complique pour les pompiers une fois l&apos;hiver venu. Surtout là où il est le plus rigoureux, dans l&apos;Est de la France et la région de Belfort, aux portes de la Suisse. Pertes de contrôle, glissades, chocs frontaux se comptent par dizaines. Il faut aller sauver les voitures en perdition sur les petites routes de campagne, mais aussi intervenir pour des carambolages sur la grande autoroute qui traverse le département.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
+    <episode-num system="onscreen">S1 E12</episode-num>
+  </programme>
+  <programme start="20260202150000 +0000" stop="20260202160500 +0000" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Brignoles : les gendarmes du Var traquent les cambrioleurs</sub-title>
+    <desc lang="fr">Plongez au cœur du quotidien de ceux qui veillent sur notre sécurité et notre santé : policiers, gendarmes, pompiers, équipes du SAMU, etc. À travers la réalité des interventions, cette série met en lumière leur engagement, leur sang-froid face à l&apos;urgence, et les défis humains auxquels ils sont confrontés chaque jour. Une immersion saisissante dans le quotidien de femmes et d&apos;hommes d&apos;exception, animés par un seul objectif : protéger, secourir, servir.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
+    <episode-num system="onscreen">S1 E27</episode-num>
+  </programme>
+  <programme start="20260202160500 +0000" stop="20260202171000 +0000" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Montpellier : les policiers en première ligne</sub-title>
+    <desc lang="fr">La brigade des stupéfiants de Montpellier a fort à faire. La ville est devenue une plaque tournante du trafic de drogue entre l&apos;Espagne, l&apos;Italie et le nord de l&apos;Europe.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
+    <episode-num system="onscreen">S1 E14</episode-num>
+  </programme>
+  <programme start="20260202171000 +0000" stop="20260202181000 +0000" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
+  </programme>
+  <programme start="20260202195000 +0000" stop="20260202201000 +0000" channel="NOVO19">
+    <title lang="fr">On a de l&apos;info</title>
+    <desc lang="fr">Du lundi au vendredi, pendant 15 minutes, on a de l&apos;info près de chez vous, et pour vous. Depuis Rennes, la Rédaction travaille avec ses reporters partout dans nos territoires, dans l&apos;Hexagone et en Outre-Mer. Un regard de proximité sur l&apos;actualité, où que vous viviez... pour savoir, agir et se rassembler ! On se donne rendez-vous à 18h10.</desc>
+    <category lang="fr">Journal</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/8/13013810.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/8/13013814.jpg" />
+    <episode-num system="onscreen">S1 E101</episode-num>
+  </programme>
+  <programme start="20260202201000 +0000" stop="20260202211500 +0000" channel="NOVO19">
+    <title lang="fr">Les visages du crime</title>
+    <sub-title lang="fr">L&apos;affaire Magalie Part</sub-title>
+    <desc lang="fr">La disparition de Magalie Part, 19 ans, est signalée en 2001 dans le Pays de Gex. Depuis 2024, le pôle des crimes sériels ou non élucidés de Nanterre s&apos;est emparé de ce cold case.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/4/7/13529742.jpg" />
+    <episode-num system="onscreen">S2 E1</episode-num>
+  </programme>
+  <programme start="20260202211500 +0000" stop="20260202222000 +0000" channel="NOVO19">
+    <title lang="fr">Les visages du crime</title>
+    <sub-title lang="fr">L&apos;affaire Stéphane Dieterich</sub-title>
+    <desc lang="fr">Le 5 juillet 1994, le corps sans vie de Stéphane Dieterich est retrouvé sur un chemin forestier près de Belfort. Dix ans après le meurtre, un témoignage bouleverse l&apos;enquête.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/6/1/13479169.jpg" />
+    <episode-num system="onscreen">S2 E2</episode-num>
+  </programme>
+  <programme start="20260202222000 +0000" stop="20260202234500 +0000" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
+    <sub-title lang="fr">L&apos;affaire Alexia Silva Costa</sub-title>
+    <desc lang="fr">Le 1er février 2016, sur l&apos;île d&apos;Oléron. Alexia, 15 ans, disparaît à la sortie de son lycée. Sa famille diffuse des milliers d&apos;avis de recherche.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/0/8/13009800.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/8/13009804.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/0/0/13144005.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/8/13009803.jpg" />
+    <episode-num system="onscreen">S1 E1</episode-num>
+  </programme>
+  <programme start="20260202234500 +0000" stop="20260203001000 +0000" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
+    <sub-title lang="fr">L&apos;affaire Maxime Roussel</sub-title>
+    <desc lang="fr">En janvier 2012, le jeune Jeffrey est suspecté du meurtre de Maxime, garçon de 14 ans passionné de mécanique, dont le corps a été retrouvé carbonisé.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/0/8/13009800.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/8/13009804.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/8/4/13270482.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/8/13009803.jpg" />
+    <episode-num system="onscreen">S1 E6</episode-num>
+  </programme>
+  <programme start="20260128002000 +0100" stop="20260128013300 +0100" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
+    <sub-title lang="fr">Affaire Andy</sub-title>
+    <desc lang="fr">Andy, un jeune garçon de 16 ans, vit avec sa famille à Albitreccia, près d'Ajaccio, en Corse. Ensemble, ils renvoient l'image d'une famille idéale. Mais le 11 août 2009, un scénario macabre se dévoile. Andy prend le fusil à pompe de son père et exécute toute sa famille, à commencer par ses parents, puis ses deux petits frères jumeaux. Pourquoi et comment cet adolescent apprécié et sans histoires a-t-il pu commettre ces meurtres ?</desc>
+    <credits>
+      <director>Farrah Youbi</director>
+    </credits>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Justice</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/BACB8BA754F200A4916CE1D6644759DC.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260128013300 +0100" stop="20260128060000 +0100" channel="NOVO19">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Programme</category>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/61C856A33A407E6D91214DBD69B43F88.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260128051000 +0100" stop="20260128061100 +0100" channel="NOVO19">
+    <title lang="fr">Les visages du crime</title>
+    <sub-title lang="fr">Affaire Lejard : un divorce au coeur du crime</sub-title>
+    <desc lang="fr">Le 24 novembre 2010, Christophe Lejard est retrouvé sans vie par son fils, à proximité de leur domicile. Il quittait la maison pour se rendre à son travail lorsqu'un coup de feu lui a été fatal. Rien, dans le parcours de ce père de famille discret, ne laissait présager un tel drame. Au fil de l'enquête, des tensions et des ressentiments jusque-là insoupçonnés vont cependant émerger.</desc>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Justice</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/3E61975F3D9B2D36CDF2806DCE9065ED.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260128061100 +0100" stop="20260128062500 +0100" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">Incroyable révélation</sub-title>
+    <desc lang="fr">Alice est toujours à la recherche d'Alex. Une jeune femme l'oriente vers la crique de Druelu, l'endroit où sa mère s'est noyée deux ans auparavant. Bouleversée, Alice s'y rend malgré tout. Elle y est accueillie par une vieille femme qui prétend l'attendre depuis longtemps. Alex est à ses côtés...</desc>
+    <credits>
+      <director>Stéphane Meunier</director>
+      <actor>David Tournay</actor>
+      <actor>Charles Templon</actor>
+      <actor>Lucy Flamant</actor>
+      <actor>Mouni Farro</actor>
+      <actor>Mouni Faro</actor>
+      <actor>Jacqueline Albert</actor>
+      <actor>Joséphine Jobert</actor>
+      <adapter>Laurent Daufès</adapter>
+      <adapter>Bertrand Cohen</adapter>
+      <producer>Denis Mermet</producer>
+      <producer>Bertrand Cohen</producer>
+      <editor>Bertrand Cohen</editor>
+      <editor>Laurent Daufès</editor>
+      <editor>Stéphane Meunier</editor>
+      <guest>Adventure Line Production</guest>
+    </credits>
+    <category lang="fr">Série</category>
+    <category lang="fr">Jeunesse</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C82B1404F02F26DAEE755CD70817321D.jpg"/>
+    <episode-num system="xmltv_ns">0.24.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260128062500 +0100" stop="20260128065000 +0100" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">Le plus beau des cadeaux</sub-title>
+    <desc lang="fr">Alex explique sa disparition à Alice. La vieille femme fait alors d'étonnantes révélations à la jeune fille...</desc>
+    <credits>
+      <director>Stéphane Meunier</director>
+      <actor>Lucy Flamant</actor>
+      <actor>Alexandre Loréal</actor>
+      <actor>Mouni Farro</actor>
+      <actor>Rémy Pöllabauer</actor>
+      <actor>Mouni Faro</actor>
+      <actor>Joséphine Jobert</actor>
+      <actor>David Tournay</actor>
+      <actor>Jacqueline Albert</actor>
+      <actor>Charles Templon</actor>
+      <adapter>Laurent Daufès</adapter>
+      <adapter>Bertrand Cohen</adapter>
+      <producer>Denis Mermet</producer>
+      <editor>Stéphane Meunier</editor>
+      <guest>Terence Films</guest>
+      <guest>Adventure Line Production</guest>
+      <guest>France 2</guest>
+    </credits>
+    <category lang="fr">Série</category>
+    <category lang="fr">Jeunesse</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/965C4FDD8B115A82E2AF1D67C0E81B06.jpg"/>
+    <episode-num system="xmltv_ns">0.25.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260128065000 +0100" stop="20260128071500 +0100" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">Seuls au monde</sub-title>
+    <desc lang="fr">Alors qu'ils sont à Nouméa, Alex et Alice se réveillent un matin sur une île déserte, perdu en plein milieu du pacifique. Comment sont-ils arrivés là ?...</desc>
+    <credits>
+      <director>Stéphane Meunier</director>
+      <actor>David Tournay</actor>
+      <actor>Mouni Farro</actor>
+      <actor>Lucy Flamant</actor>
+      <actor>Sam Kagy</actor>
+      <actor>Mouni Faro</actor>
+      <actor>Joséphine Jobert</actor>
+      <actor>Charles Templon</actor>
+      <adapter>Alexandre Dos Santos</adapter>
+      <adapter>Bertrand Cohen</adapter>
+      <adapter>Laurent Daufès</adapter>
+      <editor>Stéphane Meunier</editor>
+      <guest>Adventure Line Production</guest>
+      <guest>France 2</guest>
+      <guest>Terence Films</guest>
+    </credits>
+    <category lang="fr">Série</category>
+    <category lang="fr">Jeunesse</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/965C4FDD8B115A82E2AF1D67C0E81B06.jpg"/>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260128071500 +0100" stop="20260128074000 +0100" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">2 îles désertes</sub-title>
+    <desc lang="fr">Alex et Alice sont terrifiés par la présence de quelqu'un d'autre sur l'île. Alors qu'ils continuent d'explorer l'île déserte, ils découvrent Léo et Eva...</desc>
+    <credits>
+      <director>Stéphane Meunier</director>
+      <actor>Lucy Flamant</actor>
+      <actor>David Tournay</actor>
+      <actor>Mouni Farro</actor>
+      <actor>Mouni Faro</actor>
+      <actor>Joséphine Jobert</actor>
+      <actor>Charles Templon</actor>
+      <adapter>Eugénie Dard</adapter>
+      <editor>Bertrand Cohen</editor>
+      <editor>Laurent Daufès</editor>
+      <editor>Stéphane Meunier</editor>
+      <guest>Terence Films</guest>
+      <guest>Adventure Line Production</guest>
+      <guest>France 2</guest>
+    </credits>
+    <category lang="fr">Série</category>
+    <category lang="fr">Jeunesse</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/1E06CD9AC51FFBAFB84850F9B9CDAFCE.jpg"/>
+    <episode-num system="xmltv_ns">1.1.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260128074000 +0100" stop="20260128084500 +0100" channel="NOVO19">
+    <title lang="fr">Les visages du crime</title>
+    <sub-title lang="fr">Affaire Laurent Ségalat : Un coupable idéal ?</sub-title>
+    <desc lang="fr">Le samedi 9 janvier 2010, à 21h16, les secours suisses reçoivent l'appel d'un homme signalant le décès de la femme de son père, à son domicile du moulin de Vaux-sur-Morges, près de Lausanne. Il affirme avoir tenté de la réanimer sans succès. Cet appel marque le point de départ d'une longue procédure judiciaire, avec plus de deux ans d'instruction et de nombreuses expertises.</desc>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Justice</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/4302AA7E3CFDDA1741DAAA98E49943B5.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260128084500 +0100" stop="20260128095500 +0100" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
+    <sub-title lang="fr">Véronique et Sébastien, les amants diaboliques de Seine-Saint-Denis</sub-title>
+    <desc lang="fr">Le 3 mars 1996, le corps d'Abdeladim Gharbiche, 16 ans, est retrouvé à Gournay-sur-Marne, en Seine-Saint-Denis, lardé de 39 coups de couteau. Les enquêteurs découvrent rapidement, grâce à de très nombreux indices, que les auteurs du meurtre sont un jeune couple de lycéens, Véronique et Sébastien. Après une courte cavale, ces derniers sont interpellés dans le Cantal. Interrogés, ils livrent un récit glaçant aux policiers chargés de l'affaire, stupéfaits des déclarations de deux amants. Le crime aurait été planifié quelques mois auparavant, suite à une simple querelle ayant opposé Sébastien et Abdeladim.</desc>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Justice</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E3C7304BD8620CD3E87E9E2B370FC127.jpg"/>
+    <episode-num system="xmltv_ns">2.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260128095500 +0100" stop="20260128110500 +0100" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
+    <sub-title lang="fr">Affaire Andy</sub-title>
+    <desc lang="fr">Andy, un jeune garçon de 16 ans, vit avec sa famille à Albitreccia, près d'Ajaccio, en Corse. Ensemble, ils renvoient l'image d'une famille idéale. Mais le 11 août 2009, un scénario macabre se dévoile. Andy prend le fusil à pompe de son père et exécute toute sa famille, à commencer par ses parents, puis ses deux petits frères jumeaux. Pourquoi et comment cet adolescent apprécié et sans histoires a-t-il pu commettre ces meurtres ?</desc>
+    <credits>
+      <director>Farrah Youbi</director>
+    </credits>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Justice</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/BACB8BA754F200A4916CE1D6644759DC.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260128110500 +0100" stop="20260128125000 +0100" channel="NOVO19">
+    <title lang="fr">Mission : protection, les anges gardiens de votre quotidien</title>
+    <sub-title lang="fr">Paix sur la ville</sub-title>
+    <desc lang="fr">Mulhouse est la ville moyenne française par excellence. Chaque jour, ils sont quelques centaines à oeuvrer à la protection de ses 200.000 habitants et au maintien de la paix</desc>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/887466476B0B7C77609A5058E5DCF9E2.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260128125000 +0100" stop="20260128135000 +0100" channel="NOVO19">
+    <title lang="fr">100 jours avec les pompiers du Gard</title>
+    <desc lang="fr">Pendant cent jours, des pompiers du Gard sont suivis jour et nuit pour faire découvrir leur quotidien, des sauvetages les plus spectaculaires aux plus insolites.</desc>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/99F902019F93DE54EA4E1D5D85F017EE.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260128135000 +0100" stop="20260128144500 +0100" channel="NOVO19">
+    <title lang="fr">100 jours avec les pompiers du Gard</title>
+    <desc lang="fr">Entre incendies, accidents de la route et interventions à haut risque, les pompiers du département du Gard, qu'ils soient professionnels ou volontaires, sont sur tous les fronts.</desc>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/99F902019F93DE54EA4E1D5D85F017EE.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260128144500 +0100" stop="20260128155500 +0100" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Délits routiers, les juges en première ligne</sub-title>
+    <desc lang="fr">Les délits routiers constituent un tiers des condamnations prononcées en France. Leur nombre ne cesse d'augmenter depuis cinq ans. Enquête sur ce phénomène.</desc>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/896AF5BBA94A56D257417362314D606A.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260128155500 +0100" stop="20260128165500 +0100" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Méditérranée : Un été avec les gendarmes de Saint-Tropez</sub-title>
+    <desc lang="fr">Le quotidien des gendarmes de Saint-Tropez et des marins-pompiers de Marseille : sous le soleil de la Méditerranée, les journées et les nuits ne sont pas de tout repos.</desc>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/BC10349350FD7F007D07A505F5F3C6AB.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260128165500 +0100" stop="20260128180000 +0100" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Montpellier : les policiers en première ligne</sub-title>
+    <desc lang="fr">La brigade des stupéfiants de Montpellier a fort à faire. La ville est devenue une plaque tournante du trafic de drogue entre l'Espagne, l'Italie et le nord de l'Europe.</desc>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/896AF5BBA94A56D257417362314D606A.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260128180000 +0100" stop="20260128191000 +0100" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Gendarmerie scientifique : Les experts face au crime</sub-title>
+    <desc lang="fr">Les 250 hommes et femmes de l'Institut de Recherche criminelle de la Gendarmerie nationale (IRCGN) sont au coeur des affaires les plus sensibles de la gendarmerie.</desc>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Société</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/896AF5BBA94A56D257417362314D606A.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260128191000 +0100" stop="20260128192500 +0100" channel="NOVO19">
+    <title lang="fr">On a de l'info</title>
+    <desc lang="fr">Du lundi au vendredi, 15 minutes d'information axée sur les territoires : actualités, innovation, environnement, économie, santé, vie locale, international.</desc>
+    <credits>
+      <guest>Martin Cangelosi</guest>
+    </credits>
+    <category lang="fr">Information</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/06BFB39C20682592B8D2F022750811E5.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260128192500 +0100" stop="20260128204500 +0100" channel="NOVO19">
+    <title lang="fr">On a du nouveau</title>
+    <desc lang="fr">Chaque jour, du lundi au vendredi, Claire Arnoux traite de faits d'actualité et de sujets du quotidien : santé, éducation, culture, travail. A ses côtés, emmenée par la voix singulière de Claude Askolovitch, une bande de chroniqueurs venus d'horizons divers, dont certains repérés grâce à un casting inédit.</desc>
+    <credits>
+      <guest>Claude Askolovitch</guest>
+      <guest>Claire Arnoux</guest>
+    </credits>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Talk show</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/2F9DB9D7EFD001A66A5B2E27A6E7F55C.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260128204500 +0100" stop="20260128211000 +0100" channel="NOVO19">
+    <title lang="fr">On a de l'info</title>
+    <desc lang="fr">Du lundi au vendredi, 15 minutes d'information axée sur les territoires : actualités, innovation, environnement, économie, santé, vie locale, international.</desc>
+    <credits>
+      <guest>Martin Cangelosi</guest>
+    </credits>
+    <category lang="fr">Information</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/22DA1696B33A1F0F7F4C386D5BFC06D4.jpg"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260128211000 +0100" stop="20260128223500 +0100" channel="NOVO19">
+    <title lang="fr">Inside Ikea</title>
+    <desc lang="fr">Grâce à ses prix bas, l'enseigne suédoise IKEA est devenue le leader incontesté de la vente de meubles. Chaque année, 680 millions de personnes à travers le monde y font leurs emplettes, pour dénicher des articles de décoration à des prix défiant toute concurrence et trouver des idées d'aménagement de leur espace de vie. Mais si la marque est bien connue du grand public, elle est pourtant l'une des entreprises les plus secrètes. Des usines de fabrication aux magasins, en passant par le très confidentiel département "design" et les stratégies de vente, enquête sur l'enseigne de meubles la plus connue au monde.</desc>
+    <credits>
+      <director>Gregory Cohen</director>
+      <guest>ST Productions</guest>
+    </credits>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Economie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/245C98943FA4E1369E7DBC68C1C8F89E.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260128223500 +0100" stop="20260129003500 +0100" channel="NOVO19">
+    <title lang="fr">Parc Astérix, fêtes foraines : la guerre des loisirs à sensation</title>
+    <desc lang="fr">Jamais la concurrence n'a été aussi rude dans l'industrie des loisirs. Face à cet engouement pour les attractions toujours plus impressionnantes, les forains essaient de se mobiliser. Avec quels moyens, parfois controversés, imposent-ils leur business ?</desc>
+    <credits>
+      <guest>Next Thing You Know Productions</guest>
+    </credits>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Economie</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/16CC5A64001F3BD32F189FBC5F0B917C.jpg"/>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260130111500 +0100" stop="20260130125500 +0100" channel="NOVO19">
+    <title lang="fr">Mission : protection, les anges gardiens de votre quotidien</title>
+    <sub-title lang="fr">Routes dangereuses sous haute surveillance</sub-title>
+    <desc lang="fr">La route Centre-Europe Atlantique, ou RCEA, qui rallie l'Est de la France à la façade Atlantique est un itinéraire incontournable pour les poids lourds, les particuliers et les vacanciers. C'est également la route la plus dangereuse de France avec un taux d'accident record et un passage régulier des trafiquants venus de l'Est. Services d'urgence, pompiers et gendarmes y sont sur le qui-vive en permanence.</desc>
+    <category lang="fr">Actualites</category>
+    <category lang="fr">Mag Societe</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/100463135"/>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260130125500 +0100" stop="20260130135000 +0100" channel="NOVO19">
+    <title lang="fr">100 jours avec les pompiers du Gard</title>
+    <sub-title lang="fr">Doc. Société</sub-title>
+    <desc lang="fr">Dans le Gard, les casernes reçoivent chaque année plusieurs dizaines de milliers d'appels. Entre incendies violents, accidents de la route et interventions à haut risque, les pompiers du département, qu'ils soient professionnels ou volontaires, sont mobilisés sur tous les fronts. Pendant cent jours, plusieurs d'entre eux ont accepté d'être suivis jour et nuit pour faire découvrir leur quotidien, des sauvetages les plus spectaculaires aux plus insolites.</desc>
+    <category lang="fr">Decouverte</category>
+    <category lang="fr">Doc Societe</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121643778"/>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260130135000 +0100" stop="20260130144000 +0100" channel="NOVO19">
+    <title lang="fr">100 jours avec les pompiers du Gard</title>
+    <sub-title lang="fr">Doc. Société</sub-title>
+    <desc lang="fr">Dans le Gard, les casernes reçoivent chaque année plusieurs dizaines de milliers d'appels. Les pompiers du département sont mobilisés sur tous les fronts.</desc>
+    <category lang="fr">Decouverte</category>
+    <category lang="fr">Doc Societe</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121643778"/>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260130144000 +0100" stop="20260130155500 +0100" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Sur les routes de France : enquête sur les chauffards</sub-title>
+    <desc lang="fr">Chaque année, 4000 automobilistes sont tués sur les routes. Si la vitesse reste un facteur connu des accidents, il existe également d'autres causes. Ainsi, les tronçons rectilignes des routes nationales peuvent occasionner des chocs frontaux. Les dépassements sont eux aussi à l'origine de nombreux carambolages.</desc>
+    <category lang="fr">Actualites</category>
+    <category lang="fr">Mag Societe</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/112428354"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260130155500 +0100" stop="20260130171000 +0100" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Nîmes : Vous avez demandé les urgences</sub-title>
+    <desc lang="fr">En moins de vingt ans, la fréquentation des urgences des hôpitaux a doublé en France. Mais pas les effectifs. Conséquence : les personnels sont à bout.</desc>
+    <category lang="fr">Actualites</category>
+    <category lang="fr">Mag Societe</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121523349"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260130195500 +0100" stop="20260130205000 +0100" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Délinquance à grande vitesse : la police contre-attaque</sub-title>
+    <desc lang="fr">Sur la route, quatre accidents mortels sur dix sont dus à une vitesse excessive. En mer, la démocratisation des scooters a généré une hausse du nombre d'accidents. Les forces de police et les gendarmes ont développé de nouveaux moyens d'intervention afin de lutter contre la délinquance des conducteurs irrespectueux.</desc>
+    <category lang="fr">Actualites</category>
+    <category lang="fr">Mag Societe</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121523349"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png"/>
+    </rating>
+  </programme>
+  <programme start="20260130205000 +0100" stop="20260130211000 +0100" channel="NOVO19">
+    <title lang="fr">On a de l'info</title>
+    <sub-title lang="fr">Emission du 30 janv. 2026</sub-title>
+    <desc lang="fr">Du lundi au vendredi, 15 minutes d'information axée sur les territoires : actualités, innovation, environnement, économie, santé, vie locale, international.</desc>
+    <category lang="fr">Actualites</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121523330"/>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260128003400 +0000" stop="20260128013800 +0000" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
+    <sub-title lang="fr">Alexi et la tuerie de Louveciennes</sub-title>
+    <desc lang="fr">Alexi, un jeune homme de 16 ans, a tué six personnes, dont son père, un riche homme d&apos;affaires russe. Retour circonstancié sur cette effroyable affaire.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/0/8/13009800.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/8/13009804.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/1/13085102.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/8/13009803.jpg" />
+    <episode-num system="onscreen">S3 E10</episode-num>
+  </programme>
+  <programme start="20260128013800 +0000" stop="20260128023600 +0000" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
+    <sub-title lang="fr">Christopher, 12 ans, tué pour une insulte</sub-title>
+    <desc lang="fr">Près de Lille, une mère de famille fait une terrible découverte en rentrant à son domicile. Son fils, Christopher, 12 ans, a été sauvagement poignardé dans sa chambre.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/0/8/13009800.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/8/13009804.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/5/5/6526556.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/8/13009803.jpg" />
+    <episode-num system="onscreen">S3 E4</episode-num>
+  </programme>
+  <programme start="20260128023600 +0000" stop="20260128024300 +0000" channel="NOVO19">
+    <title lang="fr">Déter</title>
+    <sub-title lang="fr">Anarchie</sub-title>
+    <desc lang="fr">Au lycée, tout le monde est pris de passion pour les débats. Les avis vont bon train, générant des discussions enflammées : le militantisme a gagné l&apos;internat.</desc>
+    <category lang="fr">Série dramatique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/7/11665752.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/8/8197874.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/9/3/8768392.jpg" />
+    <episode-num system="onscreen">S1 E15</episode-num>
+  </programme>
+  <programme start="20260128024300 +0000" stop="20260128025000 +0000" channel="NOVO19">
+    <title lang="fr">Déter</title>
+    <sub-title lang="fr">La colonie de vacances</sub-title>
+    <desc lang="fr">Les amis du lycée, Elsa, Lia ou Medhi, se retrouvent pour une semaine à la ferme. L&apos;ambiance devrait être bonne mais certains pensent que c&apos;est plutôt le bagne.</desc>
+    <category lang="fr">Série dramatique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/7/11665752.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/8/8197874.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/9/3/8768392.jpg" />
+    <episode-num system="onscreen">S1 E16</episode-num>
+  </programme>
+  <programme start="20260128025000 +0000" stop="20260128025800 +0000" channel="NOVO19">
+    <title lang="fr">Déter</title>
+    <sub-title lang="fr">Parano ?</sub-title>
+    <desc lang="fr">Pour les élèves de terminale, c&apos;est une période où se mêlent insouciance et anxiété face à l&apos;avenir. Le black spirit monte un peu trop à la tête d&apos;Elsa.</desc>
+    <category lang="fr">Série dramatique</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/7/11665752.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/8/8197874.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/9/3/8768392.jpg" />
+    <episode-num system="onscreen">S1 E17</episode-num>
+  </programme>
+  <programme start="20260128025800 +0000" stop="20260128041000 +0000" channel="NOVO19">
+    <title lang="fr">Les visages du crime</title>
+    <sub-title lang="fr">Affaire du petit Grégory : Les dernières révélations d&apos;une enquête hors-norme</sub-title>
+    <desc lang="fr">Le 16 octobre 1984, le corps du petit Grégory est retrouvé dans la Vologne. L&apos;affaire devient bientôt la plus grande énigme judiciaire que la France ait connue. Aujourd&apos;hui, les enquêteurs aidés d&apos;un logiciel ultra-puissant ont croisé des milliers de documents, de témoignages et d&apos;indices pour raconter une toute nouvelle histoire.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/0/6/13376605.jpg" />
+    <episode-num system="onscreen">S1 E5</episode-num>
+  </programme>
+  <programme start="20260128041000 +0000" stop="20260128051200 +0000" channel="NOVO19">
+    <title lang="fr">Les visages du crime</title>
+    <sub-title lang="fr">Affaire Lejard : un divorce au coeur du crime</sub-title>
+    <desc lang="fr">Le 24 novembre 2010, Christophe Lejard est retrouvé sans vie par son fils, à proximité de leur domicile. Il quittait la maison pour se rendre à son travail lorsqu&apos;un coup de feu lui a été fatal. Rien, dans le parcours de ce père de famille discret, ne laissait présager un tel drame. Au fil de l&apos;enquête, des tensions et des ressentiments jusque-là insoupçonnés vont cependant émerger.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/0/6/13376605.jpg" />
+    <episode-num system="onscreen">S1 E16</episode-num>
+  </programme>
+  <programme start="20260128051200 +0000" stop="20260128053800 +0000" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">Incroyable révélation</sub-title>
+    <desc lang="fr">Alice est toujours à la recherche d&apos;Alex. Une jeune femme l&apos;oriente vers la crique de Druelu, l&apos;endroit où sa mère s&apos;est noyée deux ans auparavant. Bouleversée, Alice s&apos;y rend malgré tout. Elle y est accueillie par une vieille femme qui prétend l&apos;attendre depuis longtemps. Alex est à ses côtés...</desc>
+    <category lang="fr">Série</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/3/7/13058731.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/3/7/13058730.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/2/1/13445122.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
+    <episode-num system="onscreen">S1 E25</episode-num>
+  </programme>
+  <programme start="20260128053800 +0000" stop="20260128060300 +0000" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">Le plus beau des cadeaux</sub-title>
+    <desc lang="fr">Alex explique sa disparition à Alice. La vieille femme fait alors d&apos;étonnantes révélations à la jeune fille...</desc>
+    <category lang="fr">Série</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/3/7/13058731.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/3/7/13058730.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/5/8/8169854.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
+    <episode-num system="onscreen">S1 E26</episode-num>
+  </programme>
+  <programme start="20260128060300 +0000" stop="20260128062700 +0000" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">Seuls au monde</sub-title>
+    <desc lang="fr">Alors qu&apos;ils sont à Nouméa, Alex et Alice se réveillent un matin sur une île déserte, perdu en plein milieu du pacifique. Comment sont-ils arrivés là ?...</desc>
+    <category lang="fr">Série</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/9/0/12495098.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
+    <episode-num system="onscreen">S2 E1</episode-num>
+  </programme>
+  <programme start="20260128062700 +0000" stop="20260128065100 +0000" channel="NOVO19">
+    <title lang="fr">Foudre</title>
+    <sub-title lang="fr">2 îles désertes</sub-title>
+    <desc lang="fr">Alex et Alice sont terrifiés par la présence de quelqu&apos;un d&apos;autre sur l&apos;île. Alors qu&apos;ils continuent d&apos;explorer l&apos;île déserte, ils découvrent Léo et Eva...</desc>
+    <category lang="fr">Série</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/9/0/12495098.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/5/9/13367952.jpg" />
+    <episode-num system="onscreen">S2 E2</episode-num>
+  </programme>
+  <programme start="20260128065100 +0000" stop="20260128075400 +0000" channel="NOVO19">
+    <title lang="fr">Les visages du crime</title>
+    <sub-title lang="fr">Affaire Laurent Ségalat : Un coupable idéal ?</sub-title>
+    <desc lang="fr">Le samedi 9 janvier 2010, à 21h16, les secours suisses reçoivent l&apos;appel d&apos;un homme signalant le décès de la femme de son père, à son domicile du moulin de Vaux-sur-Morges, près de Lausanne. Il affirme avoir tenté de la réanimer sans succès. Cet appel marque le point de départ d&apos;une longue procédure judiciaire, avec plus de deux ans d&apos;instruction et de nombreuses expertises.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/0/6/13376605.jpg" />
+    <episode-num system="onscreen">S1 E18</episode-num>
+  </programme>
+  <programme start="20260128075400 +0000" stop="20260128090200 +0000" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
+    <sub-title lang="fr">Véronique et Sébastien, les amants diaboliques de Seine-Saint-Denis</sub-title>
+    <desc lang="fr">Le 3 mars 1996, le corps d&apos;Abdeladim Gharbiche, 16 ans, est retrouvé à Gournay-sur-Marne, en Seine-Saint-Denis, lardé de 39 coups de couteau.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/0/8/13009800.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/8/13009804.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/0/1/13085102.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/8/13009803.jpg" />
+    <episode-num system="onscreen">S3 E1</episode-num>
+  </programme>
+  <programme start="20260128090200 +0000" stop="20260128100900 +0000" channel="NOVO19">
+    <title lang="fr">Adolescents et criminels : comment ont-ils basculé ?</title>
+    <sub-title lang="fr">Affaire Andy</sub-title>
+    <desc lang="fr">Andy, un jeune garçon de 16 ans, vit avec sa famille à Albitreccia, près d&apos;Ajaccio, en Corse. Le 11 août 2009, il prend le fusil à pompe de son père et exécute toute sa famille.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/0/8/13009800.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/0/8/13009804.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/1/4/12955415.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/0/8/13009803.jpg" />
+    <episode-num system="onscreen">S1 E2</episode-num>
+  </programme>
+  <programme start="20260128100900 +0000" stop="20260128111100 +0000" channel="NOVO19">
+    <title lang="fr">Les pisteurs : Secours en montagne</title>
+    <desc lang="fr">Une tempête est annoncée, et certaines pistes ferment au fur et à mesure de la journée, mettant à rude épreuve la patience et les nerfs des pisteurs.</desc>
+    <category lang="fr">Documentaire de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/7/5/13529575.jpg" />
+    <episode-num system="onscreen">S1 E2</episode-num>
+  </programme>
+  <programme start="20260128111100 +0000" stop="20260128121500 +0000" channel="NOVO19">
+    <title lang="fr">100 jours avec les pompiers du Gard</title>
+    <desc lang="fr">Pendant cent jours, des pompiers du Gard sont suivis jour et nuit pour faire découvrir leur quotidien, des sauvetages les plus spectaculaires aux plus insolites.</desc>
+    <category lang="fr">Documentaire de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/2/13095244.jpg" />
+    <episode-num system="onscreen">S1 E1</episode-num>
+  </programme>
+  <programme start="20260128121500 +0000" stop="20260128131100 +0000" channel="NOVO19">
+    <title lang="fr">100 jours avec les pompiers du Gard</title>
+    <desc lang="fr">Entre incendies, accidents de la route et interventions à haut risque, les pompiers du département du Gard, qu&apos;ils soient professionnels ou volontaires, sont sur tous les fronts.</desc>
+    <category lang="fr">Documentaire de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/4/2/13095244.jpg" />
+    <episode-num system="onscreen">S1 E2</episode-num>
+  </programme>
+  <programme start="20260128131100 +0000" stop="20260128144400 +0000" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Dunkerque : les gendarmes en action</sub-title>
+    <desc lang="fr">La région de Dunkerque, proche de la Belgique, est un carrefour important par lequel transitent des millions d&apos;euros de marchandises, qui attisent les convoitises des cambrioleurs.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
+    <episode-num system="onscreen">S1 E7</episode-num>
+  </programme>
+  <programme start="20260128144400 +0000" stop="20260128155000 +0000" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Méditérranée : Un été avec les gendarmes de Saint-Tropez</sub-title>
+    <desc lang="fr">Le quotidien des gendarmes de Saint-Tropez et des marins-pompiers de Marseille : sous le soleil de la Méditerranée, les journées et les nuits ne sont pas de tout repos.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
+    <episode-num system="onscreen">S1 E33</episode-num>
+  </programme>
+  <programme start="20260128155000 +0000" stop="20260128165900 +0000" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Montpellier : les policiers en première ligne</sub-title>
+    <desc lang="fr">La brigade des stupéfiants de Montpellier a fort à faire. La ville est devenue une plaque tournante du trafic de drogue entre l&apos;Espagne, l&apos;Italie et le nord de l&apos;Europe.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
+    <episode-num system="onscreen">S1 E14</episode-num>
+  </programme>
+  <programme start="20260128165900 +0000" stop="20260128181000 +0000" channel="NOVO19">
+    <title lang="fr">Nos héros du quotidien</title>
+    <sub-title lang="fr">Gendarmerie scientifique : Les experts face au crime</sub-title>
+    <desc lang="fr">Les 250 hommes et femmes de l&apos;Institut de Recherche criminelle de la Gendarmerie nationale (IRCGN) sont au coeur des affaires les plus sensibles de la gendarmerie.</desc>
+    <category lang="fr">Magazine de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/8/4/12858481.jpg" />
+    <episode-num system="onscreen">S1 E31</episode-num>
+  </programme>
+  <programme start="20260128181000 +0000" stop="20260128182500 +0000" channel="NOVO19">
+    <title lang="fr">On a de l&apos;info</title>
+    <desc lang="fr">Du lundi au vendredi, pendant 15 minutes, on a de l&apos;info près de chez vous, et pour vous. Depuis Rennes, la Rédaction travaille avec ses reporters partout dans nos territoires, dans l&apos;Hexagone et en Outre-Mer. Un regard de proximité sur l&apos;actualité, où que vous viviez... pour savoir, agir et se rassembler ! On se donne rendez-vous à 18h10.</desc>
+    <category lang="fr">Journal</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/8/13013810.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/8/13013814.jpg" />
+    <episode-num system="onscreen">S1 E98</episode-num>
+  </programme>
+  <programme start="20260128182500 +0000" stop="20260128194600 +0000" channel="NOVO19">
+    <title lang="fr">On a du nouveau</title>
+    <category lang="fr">Débat</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/8/0/8/13013808.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/1/8/13013812.jpg" />
+    <episode-num system="onscreen">S1 E104</episode-num>
+  </programme>
+  <programme start="20260128194600 +0000" stop="20260128200800 +0000" channel="NOVO19">
+    <title lang="fr">On a de l&apos;info</title>
+    <desc lang="fr">Du lundi au vendredi, pendant 15 minutes, on a de l&apos;info près de chez vous, et pour vous. Depuis Rennes, la Rédaction travaille avec ses reporters partout dans nos territoires, dans l&apos;Hexagone et en Outre-Mer. Un regard de proximité sur l&apos;actualité, où que vous viviez... pour savoir, agir et se rassembler ! On se donne rendez-vous à 18h10.</desc>
+    <category lang="fr">Journal</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/1/8/13013810.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/8/13013814.jpg" />
+    <episode-num system="onscreen">S1 E98</episode-num>
+  </programme>
+  <programme start="20260128200800 +0000" stop="20260128213400 +0000" channel="NOVO19">
+    <title lang="fr">Inside Ikea</title>
+    <desc lang="fr">Des usines aux magasins, en passant par le département &quot;design&quot; et les stratégies de vente, enquête sur les dessous de l&apos;enseigne de meubles suédoise.</desc>
+    <category lang="fr">Documentaire de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/0/4/3/13448340.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/1/4/3/13448341.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/3/3/13448339.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/4/3/13448342.jpg" />
+  </programme>
+  <programme start="20260128213400 +0000" stop="20260128233100 +0000" channel="NOVO19">
+    <title lang="fr">Parc Astérix, fêtes foraines : la guerre des loisirs à sensation</title>
+    <desc lang="fr">La course au gigantisme et les sensations extrêmes sont la clé du succès de l&apos;industrie des loisirs. Quels sont les moyens, parfois controversés, mis en oeuvre ?</desc>
+    <category lang="fr">Documentaire de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/5/8/7364853.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/5/8/7364856.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/5/8/7364854.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/9/4/9113494.jpg" />
+  </programme>
+  <programme start="20260128233100 +0000" stop="20260129003600 +0000" channel="NOVO19">
+    <title lang="fr">Europa-Park : les coulisses d&apos;un incroyable succès</title>
+    <desc lang="fr">A 60 km de Strasbourg, en Allemagne, le parc d&apos;attraction Europa Park attire plus de 5 millions de visiteurs par an avec ses 55 attractions, dont le plus haut grand huit d&apos;Europe.</desc>
+    <category lang="fr">Documentaire de société</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/7/1/12003173.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/7/1/12003174.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/2/7/1/12003172.jpg" />
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/5/7/1/12003175.jpg" />
   </programme>
   <programme start="20260127050000 +0000" stop="20260127060000 +0000" channel="RAI Sport 227">
     <title lang="it">Sci di Fondo - Stag. 2025 - Goms: Sprint tecnica classica</title>
@@ -3136,111 +4096,6 @@
     <title lang="it">Basket: Serie A2 Old Wild West</title>
     <desc lang="it">Pallacanestro. Serie A2 Old Wild West: Finale - gara 2.</desc>
     <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126050000 +0000" stop="20260126060000 +0000" channel="RAI Sport 227">
-    <title lang="it">Ciclocross - Stag. 2025 - Maasmechelen: Elite Donne</title>
-    <desc lang="it">St2025 Maasmechelen: Elite Donne - Coppa del Mondo - Maasmechelen: Elite Donne.</desc>
-    <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126060000 +0000" stop="20260126063000 +0000" channel="RAI Sport 227">
-    <title lang="it">Tg Sport</title>
-    <desc lang="it">TG Sport Giorno.</desc>
-    <category lang="it">Informazione</category>
-    <category lang="it">Notiziario</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126063000 +0000" stop="20260126083500 +0000" channel="RAI Sport 227">
-    <title lang="it">Rugby: Serie A Elite maschile 2025</title>
-    <desc lang="it">St2025 9a giornata: Petrarca - Viadana - 9a giornata: Petrarca - Viadana.</desc>
-    <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126083500 +0000" stop="20260126102500 +0000" channel="RAI Sport 227">
-    <title lang="it">Atletica 2026</title>
-    <desc lang="it">St2026 Cross del Campaccio - Cross del Campaccio.</desc>
-    <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126102500 +0000" stop="20260126113000 +0000" channel="RAI Sport 227">
-    <title lang="it">Europei maschili di Pallanuoto 2026</title>
-    <desc lang="it">St2026 Finale: Ungheria - Serbia - Atto conclusivo degli Europei 2026 di Belgrado. I padroni di casa della Serbia affrontano l'Ungheria, finalista in tre delle ultime quattro rassegne continentali.</desc>
-    <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126113000 +0000" stop="20260126120000 +0000" channel="RAI Sport 227">
-    <title lang="it">Sci di Fondo</title>
-    <desc lang="it">Granfondo Dobbiaco-Cortina - 42 km tecnica classica.</desc>
-    <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126120000 +0000" stop="20260126123500 +0000" channel="RAI Sport 227">
-    <title lang="it">Sci di Fondo</title>
-    <desc lang="it">Granfondo Dobbiaco-Cortina - 35 km tecnica libera.</desc>
-    <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126123500 +0000" stop="20260126130000 +0000" channel="RAI Sport 227">
-    <title lang="it">Sci di Fondo</title>
-    <desc lang="it">Val di Fiemme Skiri Trophy XCountry.</desc>
-    <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126130000 +0000" stop="20260126133500 +0000" channel="RAI Sport 227">
-    <title lang="it">Atletica</title>
-    <desc lang="it">Atletica - La Corsa di Miguel 2026.</desc>
-    <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126133500 +0000" stop="20260126150000 +0000" channel="RAI Sport 227">
-    <title lang="it">Europei femminili di Pallanuoto 2026</title>
-    <desc lang="it">St2026 Girone C: Italia - Croazia - Il Setterosa di Carlo Silipo inizia il suo cammino a Funchal 2026 contro la Croazia.</desc>
-    <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126150000 +0000" stop="20260126160000 +0000" channel="RAI Sport 227">
-    <title lang="it">Sci di Fondo 2025</title>
-    <desc lang="it">St2025 Goms: Sprint tecnica classica - Coppa del Mondo - Goms: Sprint tecnica classica.</desc>
-    <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126160000 +0000" stop="20260126170000 +0000" channel="RAI Sport 227">
-    <title lang="it">Sci di Fondo 2025</title>
-    <desc lang="it">St2025 Goms: 20 km Mass Start femminile tecnica classica - Coppa del Mondo - Goms: 20 km Mass Start femminile tecnica classica.</desc>
-    <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126170000 +0000" stop="20260126180000 +0000" channel="RAI Sport 227">
-    <title lang="it">Sci di Fondo 2025</title>
-    <desc lang="it">St2025 Goms: 20 km Mass Start maschile tecnica classica - Coppa del Mondo - Goms: 20 km Mass Start maschile tecnica classica.</desc>
-    <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126180000 +0000" stop="20260126190000 +0000" channel="RAI Sport 227">
-    <title lang="it">Stag. 2026 - Memory - Rai Sport</title>
-    <desc lang="it">Memory: Claudia Giordani.</desc>
-    <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126190000 +0000" stop="20260126192500 +0000" channel="RAI Sport 227">
-    <title lang="it">C siamo 2025</title>
-    <desc lang="it">St2025 C Siamo del 26/01/2026 - Storica trasmissione di Rai Sport dedicata alla Lega Pro, che offre un approfondimento su partite, squadre e protagonisti del campionato di calcio di terza serie italiana.</desc>
-    <category lang="it">Sport</category>
-    <category lang="it">Calcio</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126192500 +0000" stop="20260126213500 +0000" channel="RAI Sport 227">
-    <title lang="it">Serie C 2025</title>
-    <desc lang="it">St2025 23a giornata: Vicenza - Cittadella - Derby veneto e gara cruciale per la classifica del Gruppo A. Il Vicenza capolista affronta il Cittadella che punta sul riscatto.</desc>
-    <category lang="it">Intrattenimento</category>
-    <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
-  </programme>
-  <programme start="20260126213500 +0000" stop="20260127003000 +0000" channel="RAI Sport 227">
-    <title lang="it">Tg Sport 2026</title>
-    <desc lang="it">St2026 Speciale TG Sport: Cortina 70 - Approfondimento sportivo dedicato ai 70 anni di storia dello sport invernale e al legame con Cortina d'Ampezzo.</desc>
-    <category lang="it">Informazione</category>
-    <category lang="it">Notiziario</category>
     <icon src="https://guidatv.sky.it/uuid/SportCalcio_Cover_JgZRMKTlp.png" />
   </programme>
   <programme start="20260127003000 +0000" stop="20260127005500 +0000" channel="RAI Sport 227">

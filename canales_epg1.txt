@@ -23,7 +23,7 @@ ADDIKTV.ca,Addik TV,https://cdn.tvpassport.com/image/station/640x360/v2/s44962_h
 AMITV.ca,AMITV,https://cdn.tvpassport.com/image/station/640x360/v2/s62670_h15_ab.png
 APlus.af,A+,https://focus.telerama.fr/500x500/0000/00/01/clear-2049.png
 APlusBenin.af,A+ BENIN,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180074/canal-ouah/CHN43FB/ABENIN_myCANAL_640x480
-APlusInternational.fr,APlusInternational.fr,
+APlusInternational.fr,A+,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/845/canal-ouah/CHN43FB/CHN43FB_845_20251013-zM9t
 APlusIvoire.ci,A+ Ivoire,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180681/canal-ouah/CHN43FB/AIVOIRE
 ARD.de,ARD,https://focus.telerama.fr/500x500/0000/00/01/clear-13.png
 ASTV.fr,ASTV,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/ASTV100x100couleuir.png
@@ -146,7 +146,7 @@ CanalPlusCinema.fr,Canal+ Cinema,https://focus.telerama.fr/500x500/0000/00/01/cl
 CanalPlusCinemaCentre.af,Canal+ Cinema Centre,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180125/canal-ouah/CHN43FB/CANALCINEMA_CENTRE_myCANAL_640x480
 CanalPlusCinemaOuest.af,Canal+ Cinema Ouest,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180016/canal-ouah/CHN43FB/CANALCINEMA_OUEST_myCANAL_640x480
 CanalPlusDocs.fr,Canal+ Docs,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/899/canal-ouah/CHN43FB/CHN43FB_899_29082023
-CanalPlusEllesCentre.af,CANAL+ ELLES CENTRE,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180302/canal-ouah/CHN43FB/CANALELLES_CENTRE_myCANAL_640x480
+CanalPlusEllesCentre.af,CANAL+ Magic,https://thumb.canalplus.pro/bran/unsafe/272x153/filters:quality(100)/image/68da84c02142d/uploads/media/myCANAL_Logo_Fiche_Programme_1920x1080_1.png
 CanalPlusFamilyCentre.af,Canal+ Family Centre,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180144/canal-ouah/CHN43FB/CANALFAMILY_CENTRE_myCANAL_640x480
 CanalPlusFamilyOuest.af,Canal+ Family Ouest,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180403/canal-ouah/CHN43FB/CANALFAMILY_OUEST_myCANAL_640x480
 CanalPlusFoot.fr,Canal+ Foot,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/19/canal-ouah/CHN43FB/CHN43FB_19_29082023
@@ -639,7 +639,7 @@ TVLimburg.be,TVLimburg,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShL
 TVLux.be,TV Lux,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;amp;s
 TVMEstParisien.fr,TELE-VISION MONTREUIL,https://static-cdn.tv.sfr.net/data/logos/tv_services/TELE_VISION_MONTREUIL_color.png
 TVPI.fr,TVPI,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/Tvpilogojaunealpha100x100.png
-TVPitchoun.fr,TV Pitchoun,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXVw8Rje6lVtl5nTNZmZqy7eINTVEXGnYKl5O1re6DZ8OLRJcRauRGUpxJPA&amp;amp;s
+TVPitchoun.fr,TV Pitchoun,https://static.wikia.nocookie.net/logopedia/images/3/3c/PITCHOUN_TV_2018.png
 TVRennes35Bretagne.fr,TV RENNES 35,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/TVRennes35100x100couleur.png
 TVSUDNimes.fr,TVSUDNimes.fr,
 TVTchad.af,TVTchad,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180275/canal-ouah/CHN43FB/TELE_TCHAD_myCANAL_640x480
@@ -697,7 +697,7 @@ TraceVanilla.frdrom,TRACE VANILLA,https://thumb.canalplus.pro/http/unsafe/{resol
 Trek.fr,TREK,https://focus.telerama.fr/500x500/0000/00/01/clear-1776.png
 Turbo2424.fr,Turbo 24/24,https://i.imgur.com/FtT302g.png
 TvBreizh.fr,TV Breizh,https://focus.telerama.fr/500x500/0000/00/01/clear-225.png
-UnionTV.fr,UnionTV.fr,
+UnionTV.fr,UNION TV,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1082/canal-ouah/CHN43FB/CHN43FB_1082_20240223-UfeX
 UshuaiaTV.fr,Ushuaia TV,https://focus.telerama.fr/500x500/0000/00/01/clear-451.png
 VEDIA.ch,VEDIA.ch,
 VH1.fr,VH1,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQytdEW8hexcyLQuA5JkBO4_aZBs3_JPI9uK1aYWtmJuf-xA8WN9v8_VJsoTw&amp;amp;s

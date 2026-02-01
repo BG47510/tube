@@ -1,2 +1,0 @@
-NOVO19.fr,NOVO19
-#France2.fr,FR - France 2,https://iptv-epg.org/logos/France/France2.fr.png

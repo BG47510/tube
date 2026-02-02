@@ -30,8 +30,8 @@ jobs:
           if [ -f miEPG.xml ]; then
             gzip -f miEPG.xml
           fi
-          if [ -f epg_acumulado.xml ]; then
-            gzip -f epg_acumulado.xml
+          if [ -f epg_accumuler.xml ]; then
+            gzip -f epg_accumuler.xml
           fi
 
     - name: Configurer l'identité Git

@@ -198,10 +198,10 @@ done
 
 echo "─── LIMITES TEMPORAIRES DE TRAITEMENT ET CUMULATION ───"
 
-# 1. Assurez-vous que EPG_temp2.xml existe (là où les nouveaux programmes ont été ajoutés) et ajoutez l'historique de epg_acumulado.xml à ce même fichier.
-if [ -f epg_acumulado.xml ]; then
-    echo " Programmes de sauvetage epg_acumulado.xml..."
-    sed -n '/<programme/,/<\/programme>/p' epg_acumulado.xml >> EPG_temp2.xml
+# 1. Assurez-vous que EPG_temp2.xml existe (là où les nouveaux programmes ont été ajoutés) et ajoutez l'historique de epg_accumuler.xml à ce même fichier.
+if [ -f epg_accumuler.xml ]; then
+    echo " Programmes de sauvetage epg_accumuler.xml..."
+    sed -n '/<programme/,/<\/programme>/p' epg_accumuler.xml >> EPG_temp2.xml
 fi
 
 # 2. Lire les variables du jour à partir de variables.txt
@@ -271,8 +271,8 @@ if [ $? -eq 0 ]; then
     num_programas=$(grep -c "<programme " miEPG.xml)
     echo " └─► Canaux: $num_canales | Programmes: $num_programas"
 
-    cp miEPG.xml epg_acumulado.xml
-    echo " epg_accumulated.xml mis à jour pour la prochaine session."
+    cp miEPG.xml epg_accumuler.xml
+    echo " epg_accumuler.xml mis à jour pour la prochaine session."
 else
     echo " ❌ ERREUR: des erreurs ont été détectées dans la structure XML."
     echo "──────────────────────────────────────────────────────────────────"
@@ -294,7 +294,7 @@ else
     done
     
     echo "──────────────────────────────────────────────────────────────────"
-    echo " ⚠️ AVERTISSEMENT: epg_acumulado.xml n'a PAS été mis à jour."
+    echo " ⚠️ AVERTISSEMENT: epg_accumuler.xml n'a PAS été mis à jour."
 fi
 
 # Nettoyage des fichiers de session temporaires

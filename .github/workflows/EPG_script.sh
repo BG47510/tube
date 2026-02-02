@@ -215,8 +215,8 @@ dias_futuros=${dias_futuros:-99}
 fecha_corte_pasado=$(date -d "$dias_pasados days ago 00:00" +"%Y%m%d%H%M%S")
 fecha_corte_futuro=$(date -d "$dias_futuros days 02:00" +"%Y%m%d%H%M%S")
 
-echo " Nettoyage Passé: Maintenir depuis $fecha_corte_pasado ($dias_pasados días)"
-echo " Nettoyage futur: Limité à $fecha_corte_futuro ($dias_futuros días)"
+echo " Nettoyage Passé: Maintenir depuis $fecha_corte_pasado ($dias_pasados jours)"
+echo " Nettoyage futur: Limité à $fecha_corte_futuro ($dias_futuros jours)"
 
 # 4. Filtre Perl avancé: Déduplication + Rapport de répartition
 perl -i -ne '

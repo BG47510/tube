@@ -206,6 +206,7 @@ ChinaMovieChannel.cn,ChinaMovieChannel.cn,
 CinePlusClassic.be,Ciné+ Classic (Belgique),https://focus.telerama.fr/500x500/0000/00/01/clear-437.png
 CinePlusClassic.fr,Ciné+ Classic,https://focus.telerama.fr/500x500/0000/00/01/clear-287.png
 CinePlusClub.fr,Ciné+ Festival,https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cin%C3%A9%2BFestival2024.svg/500px-Cin%C3%A9%2BFestival2024.svg.png
+CinePlusClub.frdrom,CINE+ Festival,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/82633078
 CinePlusEmotion.fr,Ciné+ Emotion,https://focus.telerama.fr/500x500/0000/00/01/clear-283.png
 CinePlusFamiz.fr,Ciné+ Family,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Cin%C3%A9%2BFamily2024.svg/500px-Cin%C3%A9%2BFamily2024.svg.png
 CinePlusFrisson.be,Ciné+ Frisson (Belgique),https://upload.wikimedia.org/wikipedia/fr/thumb/3/3d/CinePlusFrisson.svg/1280px-CinePlusFrisson.svg.png
@@ -215,6 +216,7 @@ CinePlusPremier.be,Ciné+ Premier (Belgique),https://focus.telerama.fr/500x500/0
 CinePlusPremier.ch,OCS (Suisse),https://www.programme-tv.net/imgre/fit/~2~channel~7246bab97d61b8e2.png/300x300/quality/100/cineplus-premier.png
 CinePlusPremier.fr,OCS,https://www.programme-tv.net/imgre/fit/~2~channel~7246bab97d61b8e2.png/300x300/quality/100/cineplus-premier.png
 CinePop.ca,CinePop,https://cdn.tvpassport.com/image/station/640x360/v2/s49195_h6_aa.png
+CisTV.af,CIS TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180602/canal-ouah/CHN43FB/CISTV_myCANAL_640x480
 Classic21.be,Classic21,https://upload.wikimedia.org/wikipedia/fr/thumb/6/68/Classic21.svg/1028px-Classic21.svg.png
 Classica.fr,Classica,https://upload.wikimedia.org/wikipedia/commons/b/b0/Logo_Classica_bandeau_noir.jpg
 ClubRTL.be,Club RTL,https://focus.telerama.fr/500x500/0000/00/01/clear-50.png
@@ -263,19 +265,44 @@ ElevenSports3FR.be,ElevenSports3FR,https://encrypted-tbn0.gstatic.com/images?q=t
 ElleGirl.fr,ElleGirl,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYXh9iY0Xbt-lY8J6SajBoJMrgCKkClrJJuFPiX8dV8Z3FAq8uvQCrJZ0gM9g&amp;s
 EnquetesCriminelles2424.fr,Enquetes Criminelles 24/24,https://i.imgur.com/BhT1VQo.png
 Equidia.fr,Equidia,https://focus.telerama.fr/500x500/0000/00/01/clear-64.png
+EspaceTV.af,ESPACE TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180425/canal-ouah/CHN43FB/ESPACETV_myCANAL_640x480
 Eurochannel.fr,Eurochannel,https://focus.telerama.fr/500x500/0000/00/01/clear-1190.png
 Euronews.fr,Euronews,https://static.teleboy.ch/shared/stations/196/icon320_light.png?v2023_48_0
 Europe1TV.fr,Europe 1 TV,https://wbo.s.woopic.com/magtv-bucket-wbo/media/Europe1TV.png
 Eurosport1.fr,Eurosport 1,https://focus.telerama.fr/500x500/0000/00/01/clear-76.png
 Eurosport2.fr,Eurosport 2,https://focus.telerama.fr/500x500/0000/00/01/clear-439.png
 Eurosport3601.fr,Eurosport 360 - 1,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110
+Eurosport36010.fr,EUROSPORT 360 10,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1106/canal-ouah/CHN43FB/CHN43FB_1106_07162024-6UID
+Eurosport36011.fr,EUROSPORT 360 11,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1107/canal-ouah/CHN43FB/CHN43FB_1107_20240716-EUam
+Eurosport36012.fr,EUROSPORT 360 12,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1108/canal-ouah/CHN43FB/CHN43FB_1108_20240716-n2Ka
+Eurosport36013.fr,EUROSPORT 360 13,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1109/canal-ouah/CHN43FB/CHN43FB_1109_20240716-fSFm
+Eurosport36014.fr,EUROSPORT 360 14,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1110/canal-ouah/CHN43FB/CHN43FB_1110_20240716-f6IO
+Eurosport36015.fr,EUROSPORT 360 15,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1111/canal-ouah/CHN43FB/CHN43FB_1111_20240716-3r9K
+Eurosport36016.fr,EUROSPORT 360 16,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1112/canal-ouah/CHN43FB/CHN43FB_1112_20240716-lUDu
+Eurosport36017.fr,EUROSPORT 360 17,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1113/canal-ouah/CHN43FB/CHN43FB_1113_20240716-Pe37
+Eurosport36018.fr,EUROSPORT 360 18,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1114/canal-ouah/CHN43FB/CHN43FB_1114_20240716-nqxZ
+Eurosport36019.fr,EUROSPORT 360 19,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1115/canal-ouah/CHN43FB/CHN43FB_1115_20240716-D8vX
 Eurosport3602.fr,Eurosport 360 - 2,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FB/CHN43FB_636_20220110
+Eurosport36020.fr,EUROSPORT 360 20,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1116/canal-ouah/CHN43FB/CHN43FB_1116_20240716-hsgw
+Eurosport36021.fr,EUROSPORT 360 21,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1117/canal-ouah/CHN43FB/CHN43FB_1117_20240716-rb-2
+Eurosport36022.fr,EUROSPORT 360 22,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1118/canal-ouah/CHN43FB/CHN43FB_1118_20240716-yywV
+Eurosport36023.fr,EUROSPORT 360 23,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1119/canal-ouah/CHN43FB/CHN43FB_1119_20240716-FnEO
+Eurosport36024.fr,EUROSPORT 360 24,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1120/canal-ouah/CHN43FB/CHN43FB_1120_20240716-6Qxy
+Eurosport36025.fr,EUROSPORT 360 25,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1121/canal-ouah/CHN43FB/CHN43FB_1121_20240716--qBr
+Eurosport36026.fr,EUROSPORT 360 26,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1122/canal-ouah/CHN43FB/CHN43FB_1122_20240716-_IFA
+Eurosport36027.fr,EUROSPORT 360 27,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1123/canal-ouah/CHN43FB/CHN43FB_1123_20240716-uSCT
+Eurosport36028.fr,EUROSPORT 360 28,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1124/canal-ouah/CHN43FB/CHN43FB_1124_20240716-wJaD
+Eurosport36029.fr,EUROSPORT 360 29,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1125/canal-ouah/CHN43FB/CHN43FB_1125_20240716-K5nb
 Eurosport3603.fr,Eurosport 360 - 3,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/637/canal-ouah/CHN43FB/CHN43FB_637_20220110
+Eurosport36030.fr,EUROSPORT 360 30,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1126/canal-ouah/CHN43FB/CHN43FB_1126_20240716-uog7
+Eurosport36031.fr,EUROSPORT 360 31,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1127/canal-ouah/CHN43FB/CHN43FB_1127_20240716-aJ7F
+Eurosport36032.fr,EUROSPORT 360 32,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1128/canal-ouah/CHN43FB/CHN43FB_1128_20240716-W6KX
 Eurosport3604.fr,Eurosport 360 - 4,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/638/canal-ouah/CHN43FB/CHN43FB_638_20220110
 Eurosport3605.fr,Eurosport 360 - 5,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/650/canal-ouah/CHN43FB/CHN43FB_650_20220110
 Eurosport3606.fr,Eurosport 360 - 6,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/651/canal-ouah/CHN43FB/CHN43FB_651_20220110
 Eurosport3607.fr,Eurosport 360 - 7,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/652/canal-ouah/CHN43FB/CHN43FB_652_20220110
 Eurosport3608.fr,Eurosport 360 - 8,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/653/canal-ouah/CHN43FB/CHN43FB_653_20220110
+Eurosport3609.fr,EUROSPORT 360 9,https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1105/canal-ouah/CHN43FB/CHN43FB_1105_07162024-YTyZ
 EurosportInternational1.fr,Eurosport International 1,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110
 Evasion.ca,Evasion,https://cdn.tvpassport.com/image/station/640x360/v2/s21545_h15_ab.png
 EvasionTV.af,EvasionTV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180398/canal-ouah/CHN43FB/EVASIONGUINEE_myCANAL_640x480
@@ -351,6 +378,7 @@ KANAALZ.be,KANAALZ,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzjOkiR
 KIKA.de,KIKA,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDXZBr6zWiObQ4iCya4aKLvrm92Yomy-qCJ0WLpSIcjSoAjLGmyh5dePVpHw&amp;amp;s
 KTO.fr,KTO,https://static.teleboy.ch/shared/stations/458/icon320_light.png?v2023_48_0
 KabelEins.de,KABEL EINS,https://static-cdn.tv.sfr.net/data/logos/tv_services/KABEL_EINS_color.png
+KalacTV.af,KALAC TV,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180640/canal-ouah/CHN43FB/KALACTV_myCANAL_640x480
 Ketnet.be,Ketnet,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxnck3sTGHFCu_v7EhiF0_aiSjCkwRkgmRFZk_iSwVRb_1y01SRBMfJijefg&amp;amp;s
 KetnetCanvas.be,KetnetCanvas,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpCzQGaETdejE-NT7weLYrKSwq_KF8f0H6Y2n57GLbVS_L2wGAqesv9l23izg&amp;amp;s
 LCI.fr,LCI,https://static.teleboy.ch/shared/stations/462/icon320_light.png?v2023_48_0
@@ -440,10 +468,12 @@ MotorVisionTV.fr,MotorVision TV,https://encrypted-tbn0.gstatic.com/images?q=tbn:
 Museum.fr,MUSEUM TV,https://focus.telerama.fr/500x500/0000/00/01/clear-1072.png
 MyZenTV.fr,My Zen TV,https://static-cdn.tv.sfr.net/data/logos/tv_services/myzentv-100x100.png
 NATV.fr,NA TV,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/NATV100x100couleur.png
+NCI.af,NCI,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/NCI100x100couleurNCI.png
 NOVO19.fr,NOVO19,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_NOVO19_-_2025.svg/330px-Logo_NOVO19_-_2025.svg.png
 NRJHits.fr,NRJ Hits,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/21522999
 NT1.fr,TFX,https://focus.telerama.fr/500x500/0000/00/01/clear-446.png
 NatGeoWild.fr,NatGeoWild,https://focus.telerama.fr/500x500/0000/00/01/clear-719.png
+NathanPlus.af,NATHAN+,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180959/canal-ouah/CHN43FB/NATHAN_myCANAL_640x480
 NationalGeographic.fr,National Geographic,https://focus.telerama.fr/500x500/0000/00/01/clear-243.png
 NauticalChannel.fr,Nautical Channel,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn29jHgbZ0q2yAJyWS63vBUC4gDZl8cC1vDKDaTuGVyMG2B3xhdRRfNo48mTc&amp;amp;s
 NickJr.be,NickJr,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmV1CbNklnPFqiNlVehXPHig_jILmgTlFy656cTlxcxoYtIG6wM6Y0lbelvQ&amp;amp;s
@@ -729,6 +759,7 @@ WeoPicardie.fr,Wéo Picardie,https://static-cdn.tv.sfr.net/data/img/apps/chaines
 XXL.fr,XXL,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/img-hapi.canalplus.pro:80/ServiceImage/ImageID/25437094
 ZDF.de,ZDF,https://static.teleboy.ch/shared/stations/306/icon320_light.png?v2023_48_0
 ZTele.ca,Z Tele,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqrMRPUQoPrqsV9CqtS9kX7lN7aRxh7cLmlD9KwU4kOBeBiKoHGj3yz1YeHA&amp;amp;s
+ZeeMagic.af,ZeeMagic,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180396/canal-ouah/CHN43FB/ZEEMAGIC_myCANAL_640x480
 Zeste.ca,Zeste,https://cdn.tvpassport.com/image/station/640x360/v2/s67174_h15_ac.png
 ZoneInterdite2424.fr,Zone Interdite 24/24,https://i.imgur.com/Tga6YU3.png
 ZoukTV.fr,ZOUK TV,https://static-cdn.tv.sfr.net/data/logos/tv_services/ZOUK_TV_color.png
@@ -747,3 +778,4 @@ prise2.ca,prise2,https://cdn.tvpassport.com/image/station/640x360/v2/s49692_h15_
 serieclub.fr,SERIE CLUB,https://focus.telerama.fr/500x500/0000/00/01/clear-49.png
 viaATV.fr,viaATV,https://focus.telerama.fr/500x500/0000/00/01/clear-295.png
 viaMaTele.fr,Vià MATÉLÉ,https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/viamatele100x100couleur.png
+Cuisines.af,CUISINES,https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180711/canal-ouah/CHN43FB/CUISINES_FB_myCANAL_640x480

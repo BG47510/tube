@@ -82,7 +82,7 @@ TG.NORBA.24.it,TG NORBA 24,
 Emilia.Romagna.24.it,Emilia Romagna 24,
 TRM.h24.it,TRM h24,https://guidatv.sky.it/logo/5421trmh24_Light_Fit.png?checksum=550c404365a3b09ee9d2cb21d22ab992?tr=n-logo_80
 San.Marino.RTV.it,San Marino RTV,https://guidatv.sky.it/logo/5407sanmarinortv_Light_Fit.png?checksum=b427cf09-e93d-4aa9-aea3-1f5ce6a5cade?tr=n-logo_80
-Euronews.it,Euronews,https://guidatv.sky.it/logo/801euronews_Light_Fit.png?checksum=277e1027b916e49f4f386e93321cf63c?tr=n-logo_80
+Euronews.it,Euronews,
 Sky.News.it,Sky News,https://guidatv.sky.it/logo/108skynews_Light_Fit.png?checksum=7aed4b47-0ec3-443a-9bfd-df84af1ad880?tr=n-logo_80
 Fox.News.it,Fox News,https://guidatv.sky.it/logo/103foxnews_Light_Fit.png?tr=n-logo_80
 CNN.Intl..it,CNN Intl.,https://guidatv.sky.it/logo/211cnnintl_Light_Fit.png?checksum=9b32c1b66584bbd6a1e1ff740832e9b0?tr=n-logo_80
@@ -108,7 +108,7 @@ DeAJunior.it,DeAJunior,https://guidatv.sky.it/logo/313deajunior_Light_Fit.png?ch
 Deejay.TV.it,Deejay TV,https://guidatv.sky.it/logo/304deejaytv_Light_Fit.png?checksum=11b1a939093a39a925ebb98ed7b44990?tr=n-logo_80
 Radio.Italia.TV.HD.it,Radio Italia TV HD,https://guidatv.sky.it/logo/5454radioitaliatvhd_Light_Fit.png?checksum=9cc02777-f1a0-44f1-a432-a1de036be5b7?tr=n-logo_80
 Radio.Italia.Trend.Tv.HD.it,Radio Italia Trend Tv HD,https://guidatv.sky.it/logo/5438radioitalialive_Light_Fit.png?tr=n-logo_80
-RADIONORBA.TV.it,RADIONORBA TV,https://guidatv.sky.it/logo/5430radionorbatv_Light_Fit.png?checksum=c7f071b6f964bd33edf77eccdffa06b6?tr=n-logo_80
+RADIONORBA.TV.it,RADIONORBA TV,
 RTL.102.5.HD.it,RTL 102.5 HD,https://guidatv.sky.it/logo/812rtl1025hd_Light_Fit.png?checksum=abbc96b26d53d6eadc8fc7d148e7c3d7?tr=n-logo_80
 RADIOFRECCIA.HD.it,RADIOFRECCIA HD,https://guidatv.sky.it/logo/5465radiofrecciahd_Light_Fit.png?checksum=a2e0135c4b8958cb151b619397abb6a0?tr=n-logo_80
 LA7.HD.it,LA7 HD,https://guidatv.sky.it/logo/407la7hd_Light_Fit.png?checksum=d9bcc8bf-703c-4d33-823d-5171697fe8a5?tr=n-logo_80

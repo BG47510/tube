@@ -25,6 +25,15 @@ jobs:
     - name: Exécuter le script
       run: .github/workflows/EPG_script.sh
 
+    - name: Compresser les xml en xml.gz et supprimer les xml
+      run: |
+          if [ -f miEPG.xml ]; then
+            gzip -f miEPG.xml
+          fi
+          if [ -f epg_acumulado.xml ]; then
+            gzip -f epg_acumulado.xml
+          fi
+
     - name: Configurer l'identité Git
       run: |
         git config user.name "GitHub Actions"

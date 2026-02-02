@@ -152,7 +152,7 @@ for linea in "${canales[@]}"; do
         sed -i ':a;N;$!ba;s/\nEPG_temp//g' EPG_temp02.xml
   
 		if [[ "$offset" =~ ^[+-]?[0-9]+$ ]]; then
-			echo " └─► Réglage de l'heure dans le canal $new ($offset horas)"
+			echo " └─► Réglage de l'heure dans le canal $new ($offset heures)"
 			export OFFSET="$offset"
 			export NEW_CHANNEL="$new"
             

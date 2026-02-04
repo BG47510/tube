@@ -48,11 +48,11 @@ Sky.Sport.Legend.it,Sky Sport Legend,https://guidatv.sky.it/logo/578skysportlege
 Sky.Sport..251.it,Sky Sport  251,https://guidatv.sky.it/logo/917skysport_Light_Fit.png?checksum=4f061bab-25db-4c9b-8220-e560abc222b5?tr=n-logo_80
 Sky.Sport..252.it,Sky Sport  252,https://guidatv.sky.it/logo/951skysport_Light_Fit.png?tr=n-logo_80
 Sky.Sport..253.it,Sky Sport  253,https://guidatv.sky.it/logo/233233_Light_Fit.png?checksum=cde08272-c3a9-40f5-942d-0c32d01095d1?tr=n-logo_80
-Sky.Sport..254.it,Sky Sport  254,
-Sky.Sport..255.it,Sky Sport  255,
-Sky.Sport..256.it,Sky Sport  256,
-Sky.Sport..257.it,Sky Sport  257,
-Sky.Sport..258.it,Sky Sport  258,
+Sky.Sport..254.it,Sky Sport  254,https://guidatv.sky.it/logo/234skysport_Light_Fit.png?tr=n-logo_80
+Sky.Sport..255.it,Sky Sport  255,https://guidatv.sky.it/logo/910skysport_Light_Fit.png?checksum=1486554b-09f4-4727-921c-4c9b1655b59e?tr=n-logo_80
+Sky.Sport..256.it,Sky Sport  256,https://guidatv.sky.it/logo/912skysport_Light_Fit.png?checksum=1c38728d-1774-4c93-a75f-622e062b1c29?tr=n-logo_80
+Sky.Sport..257.it,Sky Sport  257,https://guidatv.sky.it/logo/775skysport_Light_Fit.png?checksum=5cd2e53d-e3b3-4921-9391-de3e72d6fb81?tr=n-logo_80
+Sky.Sport..258.it,Sky Sport  258,https://guidatv.sky.it/logo/772skysport_Light_Fit.png?checksum=51beb5ec-84fe-4bb1-8252-4269885af3c8?tr=n-logo_80
 Sky.Sport..259.it,Sky Sport  259,
 Sky.Calcio.10..260.it,Sky Calcio 10  260,
 Sky.Calcio.11..261.it,Sky Calcio 11  261,

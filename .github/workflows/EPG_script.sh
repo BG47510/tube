@@ -27,31 +27,45 @@ log "─── TÉLÉCHARGEMENT EPGs ───"
 epg_count=0
 
 while IFS=, read -r epg; do
-	((epg_count++))
+    ((epg_count++))
     extension="${epg##*.}"
-    temp="EPG_temp00${epg_count}"
+    temp="EPG_temp_${epg_count}"
 
     if [ "$extension" = "gz" ]; then
         log " │ Téléchargement et décompression: $epg"
         wget -O "${temp}.gz" -q "$epg"
-        if [ ! -s "${temp}.gz" ]; then
-            log " │ Échec du téléchargement: $epg"
+        
+        if [ -f "${temp}.gz" ]; then
+            log " │ Fichier gzip créé avec succès: ${temp}.gz"
+        else
+            log " │ Échec de la création: ${temp}.gz"
             continue
         fi
+
         if ! gzip -t "${temp}.gz" 2>/dev/null; then
             log " │ Le fichier n'est pas un gzip valide"
             continue
         fi
+
         gzip -d -f "${temp}.gz"
+        
+        if [ -f "${temp}.xml" ]; then
+            log " │ Fichier XML créé avec succès: ${temp}.xml"
+        else
+            log " │ Échec de la création: ${temp}.xml"
+        fi
     else
-        log " │ Décompression réussie: ${temp}.gz"
+        log " │ Traitement d'un fichier XML: $epg"
         wget -O "${temp}.xml" -q "$epg"
-        if [ ! -s "${temp}.xml" ]; then
-            log " │ Échec du téléchargement: $epg"
-            continue
+        
+        if [ -f "${temp}.xml" ]; then
+            log " │ Fichier XML créé avec succès: ${temp}.xml"
+        else
+            log " │ Échec de la création: ${temp}.xml"
         fi
     fi
-	if [ -f "${temp}.xml" ]; then
+    if [ -f "${temp}.xml" ]; then
+
 # Extraction des chaînes
         listado="canales_epg${epg_count}.txt"
         log " │ Générer une liste de chaînes: $listado"

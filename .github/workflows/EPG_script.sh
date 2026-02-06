@@ -1,7 +1,9 @@
 #!/bin/bash
 # ============================================================================== 
-# Script: miEPG.sh (version 3.7)
-# Fonction : Combine plusieurs fichiers XML, renomme les chaînes, modifie les logos et règle l'heure
+# Script: EPG_script.sh (version 1.0)
+# Fonction : Le script télécharge, fusionne, et modifie tous les fichiers XML en utilisant XMLStarlet.
+# Il ajuste tous les horaires de programme en fonction du décalage horaire spécifié, via Perl.
+# La sortie finale est dans EPG_final.xml.
 # Utilise XMLStarlet pour manipuler le XML et Perl pour ajuster les horaires
 # ==============================================================================
 
@@ -195,16 +197,3 @@ done
 mv EPG_mod.xml EPG_final.xml
 
 echo "Traitement terminé. Fichier final : EPG_final.xml"
-Résumé
-Le script télécharge, fusionne, et modifie tous les fichiers XML en utilisant XMLStarlet.
-Il ajuste tous les horaires de programme en fonction du décalage horaire spécifié, via Perl.
-La sortie finale est dans EPG_final.xml.
-Instructions
-Assurez-vous d’avoir xmlstarlet et Perl installés.
-Placez ce script dans le même répertoire que vos fichiers epgs.txt, canales.txt, etc.
-Lancez-le : bash miEPG.sh
-Si vous souhaitez, je peux vous fournir une version encore plus détaillée, avec des vérifications, ou adaptée à votre environnement précis. N'hésitez pas à demander !
-
-Ecrivez votre message
-
-Effacer

@@ -28,8 +28,8 @@ jobs:
       run: |
         chmod +x .github/workflows/EPG_script.sh
 
-    - name: Exécuter le script
-      run: .github/workflows/EPG_script.sh
+    #- name: Exécuter le script
+      #run: .github/workflows/EPG_script.sh
 
     - name: Donner des autorisations d'exécution au script
       run: |

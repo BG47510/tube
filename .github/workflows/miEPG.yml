@@ -18,6 +18,12 @@ jobs:
       run: |
         sudo apt-get update && sudo apt-get install -y libxml2-utils
 
+    - name: Install xmlstarlet
+      run: sudo apt-get install -y xmlstarlet
+
+    - name: Run xmlstarlet command
+      run: xmlstarlet val -s schema.xsd input.xml
+
     - name: Donner des autorisations d'exécution au script
       run: |
         chmod +x .github/workflows/EPG_script.sh

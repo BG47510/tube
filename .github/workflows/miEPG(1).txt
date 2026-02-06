@@ -1,0 +1,48 @@
+name: EPG xmlstarlet
+
+on:
+  schedule:
+    - cron: '30 12 * * * ' # Courir à 00h30 (noter l'heure d'été/d'hiver)
+  workflow_dispatch:
+permissions:
+   contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Récupération du référentiel
+      uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update sudo apt-get install -y xmlstarlet gzip wget perl
+
+    - name: Make script executable
+      run: |
+        chmod +x .github/b01/script_epg.sh
+
+    - name: Exécuter le script
+      run: .github/b01/script_epg.sh
+
+    - name: Compresser les xml en xml.gz et supprimer les xml
+      run: |
+          if [ -f miEPG.xml ]; then
+            gzip -f miEPG.xml
+          fi
+          if [ -f epg_accumuler.xml ]; then
+            gzip -f epg_accumuler.xml
+          fi
+
+    - name: Configurer l'identité Git
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        
+    - name: Télécharger des fichiers
+      run: |
+        git add .
+        git commit -m "Nouveau miEPG.xml"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

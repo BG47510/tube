@@ -29,7 +29,7 @@ epg_count=0
 while IFS=, read -r epg; do
 	((epg_count++))
     extension="${epg##*.}"
-    temp="EPG_temp_${epg_count}.xml"
+    temp="EPG_temp_${epg_count}"
 
     if [ "$extension" = "gz" ]; then
         log " │ Téléchargement et décompression: $epg"

@@ -24,6 +24,8 @@ clean_temp() {
 
 echo "─── TÉLÉCHARGEMENT EPGs ───"
 
+epg_count=0
+
 while IFS=, read -r epg; do
 	((epg_count++))
     extension="${epg##*.}"

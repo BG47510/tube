@@ -17,25 +17,6 @@ clean_temp() {
 # 1. Lecture des variables
 ########################################
 
-load_variables() {
-    dias_pasados=0
-    dias_futuros=99
-    display_suffixes=()
-
-    [[ ! -f variables.txt ]] && return
-
-    while IFS='=' read -r key value; do
-        value=$(echo "$value" | xargs)
-        case "$key" in
-            dias-pasados) dias_pasados="${value:-0}" ;;
-            dias-futuros) dias_futuros="${value:-99}" ;;
-            display-name)
-                value=${value//, /,}
-                IFS=',' read -r -a display_suffixes <<< "$value"
-                ;;
-        esac
-    done < variables.txt
-}
 
 ########################################
 # 2. Téléchargement et fusion des EPG
@@ -67,8 +48,9 @@ while IFS=, read -r epg; do
         fi
     fi
 	if [ -f EPG_temp00.xml ]; then
+# Extraction des chaînes
         listado="canales_epg${epg_count}.txt"
-        echo " └─► Générer une liste de chaînes: $listado"
+        log " │ Générer une liste de chaînes: $listado"
         echo "# Source: $epg" > "$listado"
 		awk '
 		/<channel / {
@@ -84,12 +66,11 @@ while IFS=, read -r epg; do
 		/<\/channel>/ {
 		    print id "," name "," logo;
 		}
-		' EPG_temp00.xml >> "$listado"
-		cat EPG_temp00.xml >> EPG_temp.xml
+		' "$temp" >> "$listado"
+		cat "$temp" >> EPG_temp.xml
         sed -i 's/></>\n</g' EPG_temp.xml		
     fi	
 done < epgs.txt
-
 echo "─── CANAUX DE TRAITEMENT ───"
 
 mapfile -t canales < canales.txt

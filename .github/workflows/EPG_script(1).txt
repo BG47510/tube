@@ -1,17 +1,45 @@
 #!/bin/bash
-# ============================================================================== 
-# Script: miEPG.sh 
-# Versión: 3.7
-# Fonction: Combinez plusieurs fichiers XML, renommez les chaînes, modifiez les logos et réglez l'heure
-# https://github.com/davidmuma/miEPG/tree/db7bec4fd21458c28a5674c897abef372727f360
-# ============================================================================== 
+set -euo pipefail
 
-sed -i '/^ *$/d' epgs.txt
-sed -i '/^ *$/d' canales.txt
+########################################
+# 0. Fonctions utilitaires
+########################################
 
-rm -f EPG_temp* canales_epg*.txt
+log() { echo -e "$1"; }
 
-epg_count=0
+die() { echo "❌ $1" >&2; exit 1; }
+
+clean_temp() {
+    rm -f EPG_temp* canales_epg*.txt 2>/dev/null || true
+}
+
+########################################
+# 1. Lecture des variables
+########################################
+
+load_variables() {
+    dias_pasados=0
+    dias_futuros=99
+    display_suffixes=()
+
+    [[ ! -f variables.txt ]] && return
+
+    while IFS='=' read -r key value; do
+        value=$(echo "$value" | xargs)
+        case "$key" in
+            dias-pasados) dias_pasados="${value:-0}" ;;
+            dias-futuros) dias_futuros="${value:-99}" ;;
+            display-name)
+                value=${value//, /,}
+                IFS=',' read -r -a display_suffixes <<< "$value"
+                ;;
+        esac
+    done < variables.txt
+}
+
+########################################
+# 2. Téléchargement et fusion des EPG
+########################################
 
 echo "─── TÉLÉCHARGEMENT EPGs ───"
 

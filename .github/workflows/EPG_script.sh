@@ -22,34 +22,36 @@ clean_temp() {
 # 2. Téléchargement et fusion des EPG
 ########################################
 
-echo "─── TÉLÉCHARGEMENT EPGs ───"
+log "─── TÉLÉCHARGEMENT EPGs ───"
 
 epg_count=0
 
 while IFS=, read -r epg; do
 	((epg_count++))
     extension="${epg##*.}"
+    temp="EPG_temp_${epg_count}.xml"
+
     if [ "$extension" = "gz" ]; then
-        echo " │ Téléchargement et décompression: $epg"
-        wget -O EPG_temp00.xml.gz -q "$epg"
-        if [ ! -s EPG_temp00.xml.gz ]; then
-            echo " └─► ❌ ERREUR: le fichier téléchargé est vide ou n'a pas été téléchargé correctement"
+        log " │ Téléchargement et décompression: $epg"
+        wget -O "${temp}.gz" -q "$epg"
+        if [ ! -s "${temp}.gz" ]; then
+            log " │ Échec du téléchargement: $epg"
             continue
         fi
-        if ! gzip -t EPG_temp00.xml.gz 2>/dev/null; then
-            echo " └─► ❌ ERREUR: le fichier n'est pas un gzip valide"
+        if ! gzip -t "${temp}.gz" 2>/dev/null; then
+            log " │ Le fichier n'est pas un gzip valide"
             continue
         fi
-        gzip -d -f EPG_temp00.xml.gz
+        gzip -d -f "${temp}.gz"
     else
-        echo " │ Téléchargement: $epg"
-        wget -O EPG_temp00.xml -q "$epg"
-        if [ ! -s EPG_temp00.xml ]; then
-            echo " └─► ❌ ERREUR: le fichier téléchargé est vide ou n'a pas été téléchargé correctement"
+        log " │ Décompression réussie: ${temp}.gz"
+        wget -O "${temp}.xml" -q "$epg"
+        if [ ! -s "${temp}.xml" ]; then
+            log " │ Échec du téléchargement: $epg"
             continue
         fi
     fi
-	if [ -f EPG_temp00.xml ]; then
+	if [ -f "${temp}.xml" ]; then
 # Extraction des chaînes
         listado="canales_epg${epg_count}.txt"
         log " │ Générer une liste de chaînes: $listado"

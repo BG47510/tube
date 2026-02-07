@@ -17,7 +17,13 @@ rm -f EPG_temp*.xml
 epg_count=0
 echo "─── TÉLÉCHARGEMENT EPGs ───"
 
-# 1. Télécharger, décompresser et extraire données
+# Vérification de l'existence du fichier epgs.txt
+if [ ! -f "epgs.txt" ]; then
+    echo "Le fichier epgs.txt n'existe pas."
+    exit 1
+fi
+
+# Lecture de epgs.txt
 while IFS=, read -r epg; do
     ((epg_count++))
     extension="${epg##*.}"
@@ -44,7 +50,6 @@ while IFS=, read -r epg; do
             continue
         fi
     fi
-
     # Vérification fichier XML
     if [ -f "$filename" ]; then
         # Extraction des chaînes (id, display-name, icon)

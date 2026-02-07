@@ -15,37 +15,49 @@ echo '<tv generator-info-name="EPG Generator" source-info-name="Custom">' >> "$o
 
 # Fonction pour télécharger et extraire un fichier
 process_epg() {
-    url=$1
-    tempfile=$(mktemp)
+    output="epgs_processed.txt"  # Nom du fichier de sortie pour les chaînes
+    log="telechargement.log"      # Nom du fichier journal pour les erreurs
 
-    if ! wget -q "$url" -O "$tempfile"; then
-        echo "Erreur : Impossible de télécharger $url" >> "$log"
+    # Vérifier si epgs.txt existe
+    if [ ! -f "epgs.txt" ]; then
+        echo "Erreur : Le fichier epgs.txt n'existe pas." >> "$log"
         return
     fi
 
-    if [[ "$url" == *.gz ]]; then
-        if ! gunzip -c "$tempfile" > "$tempfile.unzipped"; then
-            echo "Erreur : Fichier gz invalide $url" >> "$log"
+    # Lire chaque URL à partir de epgs.txt
+    while IFS= read -r url; do
+        tempfile=$(mktemp)
+
+        # Tenter de télécharger le fichier
+        if ! wget -q "$url" -O "$tempfile"; then
+            echo "Erreur : Impossible de télécharger $url" >> "$log"
             rm "$tempfile"
-            return
-        fi
-        tempfile="$tempfile.unzipped"
-    fi
-
-    # Extraire les chaînes demandées et les programmes
-    while IFS=, read -r id name icon offset; do
-        if [ -z "$id" ]; then
-            continue  # Ignorer les lignes vides dans choix.txt
+            continue
         fi
 
-        # Ajouter la définition du channel (une seule fois par id)
-        if ! grep -q "<channel id=\"$id\">" "$output"; then
-            echo "  <channel id=\"$id\">" >> "$output"
-            echo "    <display-name>$name</display-name>" >> "$output"
-            echo "    <icon src=\"$icon\"/>" >> "$output"
-            echo "  </channel>" >> "$output"
+        # Vérifier si le fichier est un gzip et le décompresser
+        if [[ "$url" == *.gz ]]; then
+            if ! gunzip -c "$tempfile" > "$tempfile.unzipped"; then
+                echo "Erreur : Fichier gz invalide $url" >> "$log"
+                rm "$tempfile"
+                continue
+            fi
+            tempfile="$tempfile.unzipped"
         fi
 
+        # Extraire les chaînes demandées et les programmes
+        while IFS=, read -r id name icon; do
+            if [ -z "$id" ]; then
+                continue  # Ignorer les lignes vides
+            fi
+
+            # Ajouter la définition de la chaîne (une seule fois par id)
+            if ! grep -q "<channel id=\"$id\">" "$output"; then
+                echo "  <channel id=\"$id\">" >> "$output"
+                echo "    <display-name>$name</display-name>" >> "$output"
+                echo "    <icon src=\"$icon\"/>" >> "$output"
+                echo "  </channel>" >> "$output"
+            fi
         # Calcul des timestamps pour le décalage
         now=$(date +%s)
         start_filter=$((now - 86400 * jours_avant))

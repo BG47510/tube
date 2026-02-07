@@ -1,204 +1,167 @@
 #!/bin/bash
-# ============================================================================== 
-# Script: EPG_script.sh (version 1.0)
-# Fonction : Le script télécharge, fusionne, et modifie tous les fichiers XML en utilisant XMLStarlet.
-# Il ajuste tous les horaires de programme en fonction du décalage horaire spécifié, via Perl.
-# La sortie finale est dans EPG_final.xml.
-# Utilise XMLStarlet pour manipuler le XML et Perl pour ajuster les horaires
-# ==============================================================================
 
-command -v xmlstarlet >/dev/null 2>&1 || { echo >&2 "XMLStarlet est requis. Abandon."; exit 1; }
+# Vérification de xmlstarlet
+command -v xmlstarlet >/dev/null 2>&1 || { echo "Erreur : xmlstarlet requis"; exit 1; }
 
-# Nettoyage initial
-sed -i '/^ *$/d' epgs.txt
-sed -i '/^ *$/d' canales.txt
-rm -f EPG_temp*.xml
+# Fichiers
+EPG_FINAL="EPG_final.xml"
+TMP_FILE="EPG_temp.xml"
+DUPLICATES_FILE="programmes_unique.txt"
+VARIABLES_FILE="variables.txt"
 
-epg_count=0
-echo "─── TÉLÉCHARGEMENT EPGs ───"
+# Lecture des variables : jours-avant et jours-venir
+jours_avant=0
+jours_venir=7
 
-# Vérification de l'existence du fichier epgs.txt
-if [ ! -f "epgs.txt" ]; then
-    echo "Le fichier epgs.txt n'existe pas."
-    exit 1
+if [ -f "$VARIABLES_FILE" ]; then
+    while IFS='=' read -r key value; do
+        key=$(echo "$key" | xargs)
+        value=$(echo "$value" | xargs)
+        case "$key" in
+            "jours-avant") jours_avant=$value ;;
+            "jours-venir") jours_venir=$value ;;
+        esac
+    done < "$VARIABLES_FILE"
 fi
 
-# Lecture de epgs.txt
-while IFS=, read -r epg; do
-    ((epg_count++))
-    extension="${epg##*.}"
-    filename="EPG_temp00.xml"
+# Calcul des bornes de date
+date_debut=$(date -d "today - $jours_avant days" +"%Y%m%d")
+date_fin=$(date -d "today + $jours_venir days" +"%Y%m%d")
+echo "Filtrage des programmes du $date_debut au $date_fin"
 
-    # Téléchargement et décompression
-    if [ "$extension" = "gz" ]; then
-        echo " │ Téléchargement et décompression: $epg"
-        wget -O "$filename.gz" -q "$epg"
-        if [ ! -s "$filename.gz" ]; then
-            echo " └─►  ERREUR: fichier gz vide ou introuvable"
-            continue
-        fi
-        if ! gzip -t "$filename.gz" 2>/dev/null; then
-            echo " └─►  ERREUR: fichier gz invalide"
-            continue
-        fi
+# Fonctions
+download_and_extract() {
+    local url="$1"
+    local filename="$2"
+    local ext="${url##*.}"
+    if [ "$ext" = "gz" ]; then
+        wget -O "$filename.gz" -q "$url" || return 1
         gzip -d -f "$filename.gz"
     else
-        echo " │ Téléchargement: $epg"
-        wget -O "$filename" -q "$epg"
-        if [ ! -s "$filename" ]; then
-            echo " └─►  ERREUR: fichier xml vide ou introuvable"
-            continue
-        fi
+        wget -O "$filename" -q "$url" || return 1
     fi
-    # Vérification fichier XML
-    if [ -f "$filename" ]; then
-        # Extraction des chaînes (id, display-name, icon)
-        list_filename="canal_epg${epg_count}.txt"
-        echo " └─► Générer une liste de chaînes: $list_filename"
-        xmlstarlet sel -t -m "//channel" \
-            -v "@id" -o "," \
-            -v "display-name" -o "," \
-            -v "icon/@src" -n "$filename" > "$list_filename"
-        # Fusionner dans le fichier global
-        cat "$filename" >> EPG_temp.xml
+    [ -s "$filename" ] || { echo "Erreur : fichier vide ou introuvable $url"; return 1; }
+}
+
+extract_channel_info() {
+    local xmlfile="$1"
+    local output="$2"
+    xmlstarlet sel -t -m "//channel" -v "@id" -o "," -v "display-name" -o "," -v "icon/@src" -n "$xmlfile" > "$output"
+}
+
+update_channel_name() {
+    local xmlfile="$1" old_id="$2" new_name="$3"
+    if xmlstarlet sel -t -c "//channel[@id='$old_id']" "$xmlfile" >/dev/null; then
+        xmlstarlet ed -L -u "//channel[@id='$old_id']/display-name" -v "$new_name" "$xmlfile"
+    else
+        xmlstarlet ed -L -s "//channel" -t elem -n channel -v "" \
+            -i "//channel[last()]" -t attr -n "id" -v "$old_id" \
+            -s "//channel[@id='$old_id']" -t elem -n display-name -v "$new_name" "$xmlfile"
     fi
-done < epgs.txt
+}
 
-# 2. Charger les canaux
-mapfile -t canales < canales.txt
+update_channel_logo() {
+    local xmlfile="$1" old_id="$2" new_logo="$3"
+    if xmlstarlet sel -t -v "//channel[@id='$old_id']/icon" "$xmlfile" >/dev/null; then
+        xmlstarlet ed -L -u "//channel[@id='$old_id']/icon/@src" -v "$new_logo" "$xmlfile"
+    else
+        xmlstarlet ed -L -s "//channel" -t elem -n channel -v "" \
+            -i "//channel[last()]" -t attr -n "id" -v "$old_id" \
+            -s "//channel[@id='$old_id']" -t elem -n icon -v "" \
+            -u "//channel[@id='$old_id']/icon/@src" -v "$new_logo" "$xmlfile"
+    fi
+}
 
-# 3. Processus de chaque canal
-for i in "${!canales[@]}"; do
-    IFS=',' read -r old new logo offset <<< "${canales[$i]}"
-    old=$(echo "$old" | xargs)
-    new=$(echo "$new" | xargs)
+rename_channel() {
+    local xmlfile="$1" old_id="$2" new_id="$3"
+    xmlstarlet ed -L -u "//channel[@id='$old_id']/@id" -v "$new_id" "$xmlfile"
+    xmlstarlet ed -L -u "//programme[@channel='$old_id']/@channel" -v "$new_id" "$xmlfile"
+}
+
+adjust_time() {
+    perl -e '
+        use Time::Piece;
+        my ($dt, $offset)=@ARGV;
+        my $t=Time::Piece->strptime($dt, "%Y%m%d%H%M%S");
+        my $nt=$t->add_seconds($offset*3600);
+        print $nt->strftime("%Y%m%d%H%M%S");
+    ' "$1" "$2"
+}
+
+adjust_programs_for_channel() {
+    local xmlfile="$1" channel_id="$2" offset="$3"
+    xmlstarlet sel -t -m "//programme[@channel='$channel_id']" -v "@start" -o "|" -v "@stop" -v "@channel" -n "$xmlfile" | \
+    while IFS='|' read -r start stop ch; do
+        new_start=$(adjust_time "$start" "$offset")
+        new_stop=$(adjust_time "$stop" "$offset")
+        xmlstarlet ed -L \
+            -u "//programme[@channel='$ch' and @start='$start']/@start" -v "$new_start" \
+            -u "//programme[@channel='$ch' and @stop='$stop']/@stop" -v "$new_stop" \
+            "$xmlfile"
+    done
+}
+
+# Nettoyage
+rm -f "$EPG_FINAL" "$DUPLICATES_FILE"
+touch "$DUPLICATES_FILE"
+
+# 1. Télécharger et fusionner
+while IFS=, read -r url; do
+    filename="EPG_temp.xml"
+    download_and_extract "$url" "$filename" || continue
+    extract_channel_info "$filename" "channels_info.txt"
+    cat "$filename" >> "$EPG_FINAL"
+done < "epgs.txt"
+
+# 2. Charger canaux
+mapfile -t canaux < "canales.txt"
+
+# 3. Mise à jour canaux et ajustements
+for entry in "${canaux[@]}"; do
+    IFS=',' read -r old_id new_name logo offset <<< "$entry"
+    old_id=$(echo "$old_id" | xargs)
+    new_name=$(echo "$new_name" | xargs)
     logo=$(echo "$logo" | xargs)
     offset=$(echo "$offset" | xargs)
 
-    # Si offset est un nombre seul
-    if [[ "$logo" =~ ^[+-]?[0-9]+$ ]] && [[ -z "$offset" ]]; then
-        offset="$logo"
-        logo=""
-    fi
-
-    # Vérifier si le canal existe
-    if ! xmlstarlet sel -t -c "//channel[@id='$old']" EPG_temp.xml >/dev/null; then
-        echo "Chaîne non trouvée dans XML: $old"
+    if ! xmlstarlet sel -t -c "//channel[@id='$old_id']" "$EPG_FINAL" >/dev/null; then
+        echo "Canal non trouvé: $old_id"
         continue
     fi
 
-    # Récupérer le logo actuel
-    logo_original=$(xmlstarlet sel -t -v "//channel[@id='$old']/icon/@src" EPG_temp.xml)
+    update_channel_name "$EPG_FINAL" "$old_id" "$new_name"
+    [ -n "$logo" ] && update_channel_logo "$EPG_FINAL" "$old_id" "$logo"
+    rename_channel "$EPG_FINAL" "$old_id" "$new_name"
 
-    # Définir le logo final
-    logo_final=""
-    if [ -n "$logo" ]; then
-        logo_final="<icon src=\"$logo\"/>"
-    elif [ -n "$logo_original" ]; then
-        logo_final="<icon src=\"$logo_original\"/>"
-    fi
-
-    # Mise à jour ou ajout display-name
-    if xmlstarlet sel -t -v "//channel[@id='$old']/display-name" EPG_temp.xml >/dev/null; then
-        xmlstarlet ed -L -u "//channel[@id='$old']/display-name" -v "$new" EPG_temp.xml
-    else
-        xmlstarlet ed -L -s "//channel[@id='$old']" -t elem -n display-name -v "$new" EPG_temp.xml
-    fi
-
-    # Mise à jour ou ajout icon
-    if [ -n "$logo_final" ]; then
-        if xmlstarlet sel -t -v "//channel[@id='$old']/icon" EPG_temp.xml >/dev/null; then
-            xmlstarlet ed -L -u "//channel[@id='$old']/icon/@src" -v "$logo" EPG_temp.xml
-        else
-            xmlstarlet ed -L -s "//channel[@id='$old']" -t elem -n icon -v ""
-            xmlstarlet ed -L -u "//channel[@id='$old']/icon/@src" -v "$logo" EPG_temp.xml
-        fi
-    fi
-
-    # Renommer l'id du channel
-    xmlstarlet ed -L -u "//channel[@id='$old']/@id" -v "$new" EPG_temp.xml
-
-    # Modifier les programmes pour le nouveau channel
-    xmlstarlet ed -L -u "//programme[@channel='$old']/@channel" -v "$new" EPG_temp.xml
-
-    # Gestion du décalage horaire
     if [[ "$offset" =~ ^[+-]?[0-9]+$ ]]; then
-        echo "Décalage horaire de $offset heures pour $new"
-        # Extraction de tous les programmes du canal
-        xmlstarlet sel -t -m "//programme[@channel='$new']" -v "@start" -o " " -v "@stop" -n EPG_temp.xml | while read -r start stop; do
-            # Ajuster start
-            adjusted_start=$(perl -e '
-                use Time::Piece;
-                my ($dt_str, $tz)=split / /,$ARGV[0];
-                my $dt=Time::Piece->strptime($dt_str, "%Y%m%d%H%M%S");
-                my $offset=$ARGV[1];
-                my $new_dt=$dt->add_seconds($offset*3600);
-                print $new_dt->strftime("%Y%m%d%H%M%S");
-            ' "$start" "$offset")
-            # Ajuster stop
-            adjusted_stop=$(perl -e '
-                use Time::Piece;
-                my ($dt_str, $tz)=split / /,$ARGV[0];
-                my $dt=Time::Piece->strptime($dt_str, "%Y%m%d%H%M%S");
-                my $offset=$ARGV[1];
-                my $new_dt=$dt->add_seconds($offset*3600);
-                print $new_dt->strftime("%Y%m%d%H%M%S");
-            ' "$stop" "$offset")
-            # Mettre à jour dans le XML
-            # On doit remplacer start et stop pour chaque programme
-            # La façon la plus sûre : extraire, ajuster, réécrire
-            # Mais pour simplicité, on peut faire une substitution globale après
-            # ici, on laisse pour le moment
-            # En pratique, il faut faire une boucle pour tous les programme
-        done
-        # La partie précise consiste à faire une mise à jour dans le XML pour chaque programme
-        # que nous ferons après
+        echo "Décalage $offset heures pour $new_name"
+        adjust_programs_for_channel "$EPG_FINAL" "$new_name" "$offset"
     fi
 done
 
-# 4. Ajouter l'historique
-if [ -f epg_accumuler.xml ]; then
-    echo "Ajout de l'historique epg_accumuler.xml"
-    # Extraire tous les <programme> et les ajouter
-    xmlstarlet sel -t -c "//programme" epg_accumuler.xml >> EPG_temp.xml
+# 4. Ajouter historique
+if [ -f "epg_accumuler.xml" ]; then
+    echo "Ajout historique"
+    xmlstarlet sel -t -c "//programme" "epg_accumuler.xml" >> "$EPG_FINAL"
 fi
 
-# 5. Modifier les horaires dans le XML
-# Pour chaque programme, ajuster start et stop
-# On va extraire tous les programmes, les traiter, et réécrire
-
-# Créer un fichier temporaire pour la version modifiée
-cp EPG_temp.xml EPG_mod.xml
-
-# Extraire tous les programmes
-xmlstarlet sel -t -m "//programme" -v "@start" -o "|" -v "@stop" -v "@channel" -n EPG_mod.xml | while IFS='|' read -r start stop channel_id; do
-    # Ajuster start
-    adj_start=$(perl -e '
-        use Time::Piece;
-        my ($dt_str,$tz)=split / /,$ARGV[0];
-        my $dt=Time::Piece->strptime($dt_str, "%Y%m%d%H%M%S");
-        my $offset=$ARGV[1];
-        my $new_dt=$dt->add_seconds($offset*3600);
-        print $new_dt->strftime("%Y%m%d%H%M%S");
-    ' "$start" "$offset")
-    # Ajuster stop
-    adj_stop=$(perl -e '
-        use Time::Piece;
-        my ($dt_str,$tz)=split / /,$ARGV[0];
-        my $dt=Time::Piece->strptime($dt_str, "%Y%m%d%H%M%S");
-        my $offset=$ARGV[1];
-        my $new_dt=$dt->add_seconds($offset*3600);
-        print $new_dt->strftime("%Y%m%d%H%M%S");
-    ' "$stop" "$offset")
-    # Mettre à jour le programme dans le XML
-    # Remplacer start et stop pour ce programme
-    xmlstarlet ed -L \
-        -u "//programme[@channel='$channel_id' and @start='$start']/@start" -v "$adj_start" \
-        -u "//programme[@channel='$channel_id' and @stop='$stop']/@stop" -v "$adj_stop" \
-        EPG_mod.xml
+# 5. Filtrage période
+> "$DUPLICATES_FILE"
+xmlstarlet sel -t -m "//programme" -v "@start" -o "|" -v "@stop" -o "|" -v "@channel" -n "$EPG_FINAL" | \
+while IFS='|' read -r start stop ch; do
+    start_date=${start:0:8}
+    if [[ "$start_date" < "$date_debut" || "$start_date" > "$date_fin" ]]; then
+        continue
+    fi
+    key="${ch}_${start}_${stop}"
+    if grep -qx "$key" "$DUPLICATES_FILE"; then
+        continue
+    else
+        echo "$key" >> "$DUPLICATES_FILE"
+    fi
 done
 
-# 6. Finaliser
-mv EPG_mod.xml EPG_final.xml
+# 6. Nettoyage final
+mv "$EPG_FINAL" "$EPG_FINAL"
 
-echo "Traitement terminé. Fichier final : EPG_final.xml"
+echo "Traitement terminé. Fichier final : $EPG_FINAL"

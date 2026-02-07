@@ -23,7 +23,7 @@ jobs:
         chmod +x ${{ github.action_path }}/script_epg.sh
 
     - name: Exécuter le script
-      run: ./script_epg.sh
+      run: ${{ github.action_path }}/script_epg.sh
 
     - name: Compresser les xml en xml.gz et supprimer les xml
       run: |

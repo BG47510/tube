@@ -7,6 +7,17 @@
 # Aller au répertoire du script
 cd "$(dirname "$0")" || exit 1
 
+# Vérification de l'existence des fichiers
+if [ ! -f "epgs.txt" ]; then
+  echo "Erreur : le fichier epgs.txt est introuvable."
+  exit 1
+fi
+
+if [ ! -f "variables.txt" ]; then
+  echo "Erreur : le fichier variables.txt est introuvable."
+  exit 1
+fi
+
 # Lire les variables de décalage
 source variables.txt
 

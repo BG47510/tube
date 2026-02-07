@@ -14,11 +14,11 @@ jobs:
     - name: Récupération du référentiel
       uses: actions/checkout@v4
 
-    - name: Install dependencies
+    - name: Installer les dépendances xmlstarlet
       run: |
         sudo apt-get update && sudo apt-get install -y xmlstarlet gzip wget perl
 
-    - name: Make script executable
+    - name: Rendre le script exécutable
       run: |
         # chmod +x ${{ github.action_path }}/script_epg.sh
         chmod +x ${GITHUB_WORKSPACE}/b01/script_epg.sh
@@ -44,7 +44,7 @@ jobs:
     - name: Télécharger des fichiers
       run: |
         git add .
-        git commit -m "Nouveau miEPG.xml"
+        git commit -m "Nouvel epg"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

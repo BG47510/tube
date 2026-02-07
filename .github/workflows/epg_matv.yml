@@ -21,10 +21,11 @@ jobs:
     - name: Make script executable
       run: |
         # chmod +x ${{ github.action_path }}/script_epg.sh
-        chmod +x ${{ github.action_path }}/b01/script_epg.sh
+        chmod +x ${GITHUB_WORKSPACE}/b01/script_epg.sh
 
     - name: Exécuter le script
-      run: ${{ github.action_path }}/b01/script_epg.sh
+      run: | 
+       ${GITHUB_WORKSPACE}/b01/script_epg.sh
 
     - name: Compresser les xml en xml.gz et supprimer les xml
       run: |

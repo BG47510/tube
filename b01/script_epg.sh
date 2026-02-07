@@ -60,7 +60,7 @@ while IFS=, read -r epg; do
 done < epgs.txt
 
 # 2. Charger les canaux
-mapfile -t canales <canales.txt>
+mapfile -t canales < canales.txt
 
 # 3. Processus de chaque canal
 for i in "${!canales[@]}"; do

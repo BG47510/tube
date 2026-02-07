@@ -29,8 +29,8 @@ jobs:
 
     - name: Compresser les xml en xml.gz et supprimer les xml
       run: |
-          if [ -f miEPG.xml ]; then
-            gzip -f miEPG.xml
+          if [ -f EPG_final.xml ]; then
+            gzip -f EPG_final.xml
           fi
           if [ -f epg_accumuler.xml ]; then
             gzip -f epg_accumuler.xml

@@ -4,6 +4,9 @@
 # Fichiers attendus : epgs.txt, choix.txt, variables.txt
 # Résultat : epg.xml
 
+# Aller au répertoire du script
+cd "$(dirname "$0")" || exit 1
+
 # Lire les variables de décalage
 source variables.txt
 

@@ -20,10 +20,10 @@ jobs:
 
     - name: Make script executable
       run: |
-        chmod +x .github/b01/script_epg.sh
+        chmod +x ./script_epg.sh
 
     - name: Exécuter le script
-      run: .github/b01/script_epg.sh
+      run: ./script_epg.sh
 
     - name: Compresser les xml en xml.gz et supprimer les xml
       run: |

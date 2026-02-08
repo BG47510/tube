@@ -1,8 +1,8 @@
 name: EPG xmlstarlet
 
 on:
-  schedule:
-    - cron: '30 12 * * * ' # Courir à 00h30 (noter l'heure d'été/d'hiver)
+  #schedule:
+    #- cron: '30 12 * * * ' # Courir à 00h30 (noter l'heure d'été/d'hiver)
   workflow_dispatch:
 permissions:
    contents: write
@@ -36,15 +36,11 @@ jobs:
             gzip -f epg_accumuler.xml
           fi
 
-    - name: Configurer l'identité Git
+    - name: Valider et envoyer les modifications
       run: |
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
-        
-    - name: Télécharger des fichiers
-      run: |
-        git add .
-        git commit -m "Nouvel epg"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add -A
+          ls -la 
+          git commit -m "Dernière actualisation" # github.com/BG47510
+          git push

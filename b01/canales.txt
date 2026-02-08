@@ -1,2 +1,0 @@
-Arte.fr,Arte,https://static.teleboy.ch/shared/stations/330/icon320_light.png?v2023_48_0
-France3NouvelleAquitaine.fr,France 3 Nouvelle Aquitaine,https://static-cdn.tv.sfr.net/data/logos/tv_services/France-3-Nouvelle-Aquitaine-Color.jpg

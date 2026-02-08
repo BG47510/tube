@@ -32,6 +32,15 @@ output="epg.xml"
 echo '<?xml version="1.0" encoding="UTF-8"?>' > "$output"
 echo '<tv generator-info-name="EPG Extractor" generator-info-url="https://example.com">' >> "$output"
 
+# Fonction d'échappement des caractères spéciaux
+escape_xml() {
+    echo "$1" | sed -e 's/&/&amp;/g' \
+                     -e 's/</&lt;/g' \
+                     -e 's/>/&gt;/g' \
+                     -e 's/"/&quot;/g' \
+                     -e "s/'/&apos;/g"
+}
+
 # Lire chaque URL
 while IFS= read -r url; do
     echo "Traitement de $url..."
@@ -44,13 +53,18 @@ while IFS= read -r url; do
 
     # Lire chaque chaîne à extraire
     while IFS=, read -r id name icon; do
+        # Vérification du format des chaînes
+        if [[ -z "$id" || -z "$name" ]]; then
+            echo "Erreur : La chaîne $name ne respecte pas le format requis dans choix.txt."
+            exit 1
+        fi
         echo "  Extraction pour la chaîne $name ($id)"
         # Extraire les programmes pour cette chaîne et cette période
         xmlstarlet sel -t \
-            -m "//channel[@id='$id']/programme[starts-with(@start, '$date_debut') and starts-with(@stop, '$date_fin')]" \
-            -v "concat('<programme channel=\"$id\" start=\"', @start, '\" stop=\"', @stop, '\">')" \
-            -v "concat('<title>', title, '</title>')" \
-            -v "concat('<desc>', desc, '</desc>')" \
+            -m "//channel[@id='$(escape_xml $id)']/programme[starts-with(@start, '$date_debut') and starts-with(@stop, '$date_fin')]" \
+            -v "concat('<programme channel=\"$(escape_xml $id)\" start=\"', @start, '\" stop=\"', @stop, '\">')" \
+            -v "concat('<title>', $(escape_xml title), '</title>')" \
+            -v "concat('<desc>', $(escape_xml desc), '</desc>')" \
             -v "</programme>" \
             -n temp.xml >> "$output"
     done < choix.txt

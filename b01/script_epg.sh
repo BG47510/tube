@@ -51,6 +51,9 @@ while IFS= read -r url; do
         wget -q -O temp.xml "$url"
     fi
 
+    # Ignorer la déclaration DTD si elle existe
+    sed -i '/<!DOCTYPE/d' temp.xml
+
     # Lire chaque chaîne à extraire
     while IFS=, read -r id name icon; do
         # Vérification du format des chaînes

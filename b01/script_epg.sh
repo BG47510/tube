@@ -59,13 +59,14 @@ while IFS= read -r url; do
             exit 1
         fi
         echo "  Extraction pour la chaîne $name ($id)"
+        
         # Extraire les programmes pour cette chaîne et cette période
         xmlstarlet sel -t \
             -m "//channel[@id='$(escape_xml $id)']/programme[starts-with(@start, '$date_debut') and starts-with(@stop, '$date_fin')]" \
-            -v "concat('<programme channel=\"$(escape_xml $id)\" start=\"', @start, '\" stop=\"', @stop, '\">')" \
-            -v "concat('<title>', $(escape_xml title), '</title>')" \
-            -v "concat('<desc>', $(escape_xml desc), '</desc>')" \
-            -v "</programme>" \
+            -o "<programme channel='$(escape_xml $id)' start='@start' stop='@stop'>" \
+            -v "title" -o "</title>" \
+            -n -o "<desc>" -v "desc" -o "</desc>" \
+            -o "</programme>" \
             -n temp.xml >> "$output"
     done < choix.txt
 done < epgs.txt
@@ -76,4 +77,10 @@ echo '</tv>' >> "$output"
 # Nettoyer
 rm -f temp.xml
 
-echo "Extraction terminée. Résultat dans $output"
+# Valider le fichier XML généré
+if xmlstarlet val "$output"; then
+    echo "Extraction terminée. Résultat dans $output"
+else
+    echo "Erreur : le fichier XML généré n'est pas valide."
+    exit 1
+fi

@@ -40,13 +40,21 @@ jobs:
           if [ -f epg_accumuler.xml ]; then
             gzip -f epg_accumuler.xml
           fi
-
+          
+    - name: Vérifier l'état de Git
+      run: git status
+      
     - name: git add
       run: |
         git add -A
         ls -la
 
-    - name: commit & push
+    - name: Commit des modifications
       run: |
-        git commit -m "Les liens sont mis à jour"
-        git push
+          if [[ `git status --porcelain` ]]; then
+          git commit -m "Les liens sont mis à jour"
+          git push
+          else
+          echo "Aucune modification à committer"
+          fi
+

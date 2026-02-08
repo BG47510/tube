@@ -25,6 +25,8 @@ source variables.txt
 date_debut=$(date -d "$jours_avant days ago" +%Y%m%d)
 date_fin=$(date -d "$jours_venir days" +%Y%m%d)
 
+echo "Début: $date_debut, Fin: $date_fin"
+
 # Fichier de sortie
 output="epg.xml"
 
@@ -41,7 +43,7 @@ escape_xml() {
                      -e "s/'/&apos;/g"
 }
 
-# Lire chaque URL
+# Lire chaque URL dans epgs.txt
 while IFS= read -r url; do
     echo "Traitement de $url..."
     # Télécharger et décompresser si nécessaire
@@ -62,15 +64,21 @@ while IFS= read -r url; do
             exit 1
         fi
         echo "  Extraction pour la chaîne $name ($id)"
-        
+
         # Extraire les programmes pour cette chaîne et cette période
-        xmlstarlet sel -t \
+        result=$(xmlstarlet sel -t \
             -m "//channel[@id='$(escape_xml $id)']/programme[starts-with(@start, '$date_debut') and starts-with(@stop, '$date_fin')]" \
             -o "<programme channel='$(escape_xml $id)' start='@start' stop='@stop'>" \
             -v "title" -o "</title>" \
             -n -o "<desc>" -v "desc" -o "</desc>" \
             -o "</programme>" \
-            -n temp.xml >> "$output"
+            -n temp.xml)
+
+        if [[ -n $result ]]; then
+            echo "$result" >> "$output"
+        else
+            echo "Aucun programme trouvé pour la chaîne $name avec l'ID $id."
+        fi
     done < choix.txt
 done < epgs.txt
 

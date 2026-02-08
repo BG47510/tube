@@ -36,11 +36,12 @@ jobs:
             gzip -f epg_accumuler.xml
           fi
 
-    - name: Valider et envoyer les modifications
+    - name: git add
       run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-          git add -A
-          ls -la 
-          git commit -m "Dernière actualisation" # github.com/BG47510
-          git push origin main
+        git add -A
+        ls -la
+
+    - name: commit & push
+      run: |
+        git commit -m "Les liens sont mis à jour"
+        git push

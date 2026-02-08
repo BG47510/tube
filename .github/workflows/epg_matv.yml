@@ -43,4 +43,4 @@ jobs:
           git add -A
           ls -la 
           git commit -m "Dernière actualisation" # github.com/BG47510
-          git push
+          git push origin main

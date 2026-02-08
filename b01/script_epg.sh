@@ -9,13 +9,13 @@ cd "$(dirname "$0")" || exit 1
 
 # Vérification de l'existence des fichiers
 if [ ! -f "epgs.txt" ]; then
-  echo "Erreur : le fichier epgs.txt est introuvable."
-  exit 1
+    echo "Erreur : le fichier epgs.txt est introuvable."
+    exit 1
 fi
 
 if [ ! -f "variables.txt" ]; then
-  echo "Erreur : le fichier variables.txt est introuvable."
-  exit 1
+    echo "Erreur : le fichier variables.txt est introuvable."
+    exit 1
 fi
 
 # Lire les variables de décalage
@@ -45,12 +45,18 @@ escape_xml() {
 
 # Lire chaque URL dans epgs.txt
 while IFS= read -r url; do
-    echo "Traitement de $url..."
+    echo "Traitement de l'URL: $url..."
     # Télécharger et décompresser si nécessaire
     if [[ "$url" == *.gz ]]; then
         wget -q -O - "$url" | gunzip > temp.xml
     else
         wget -q -O temp.xml "$url"
+    fi
+
+    # Vérifier le succès du téléchargement
+    if [[ $? -ne 0 ]]; then
+        echo "Erreur lors du téléchargement de $url"
+        continue
     fi
 
     # Ignorer la déclaration DTD si elle existe
@@ -67,8 +73,8 @@ while IFS= read -r url; do
 
         # Extraire les programmes pour cette chaîne et cette période
         result=$(xmlstarlet sel -t \
-            -m "//channel[@id='$(escape_xml $id)']/programme[starts-with(@start, '$date_debut') and starts-with(@stop, '$date_fin')]" \
-            -o "<programme channel='$(escape_xml $id)' start='@start' stop='@stop'>" \
+            -m "//channel[@id='$(escape_xml "$id")']/programme[starts-with(@start, '$date_debut') and starts-with(@stop, '$date_fin')]" \
+            -o "<programme channel='$(escape_xml "$id")' start='@start' stop='@stop'>" \
             -v "title" -o "</title>" \
             -n -o "<desc>" -v "desc" -o "</desc>" \
             -o "</programme>" \
@@ -80,13 +86,13 @@ while IFS= read -r url; do
             echo "Aucun programme trouvé pour la chaîne $name avec l'ID $id."
         fi
     done < choix.txt
+
+    # Nettoyer le fichier temporaire après chaque traitement
+    rm -f temp.xml
 done < epgs.txt
 
 # Fermer le fichier XML
 echo '</tv>' >> "$output"
-
-# Nettoyer
-rm -f temp.xml
 
 # Valider le fichier XML généré
 if xmlstarlet val "$output"; then

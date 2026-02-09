@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script d'extraction EPG consolidé
+# Script d'extraction EPG consolidé avec débogage
 # Fichiers attendus : epgs.txt, choix.txt, variables.txt
 # Résultat : epg.xml et listes de canaux
 
@@ -48,6 +48,8 @@ while IFS= read -r epg; do
     temp_file="EPG_temp${epg_count}.xml"
     gz_file="$temp_file.gz"
 
+    echo "Traitement de l'URL: $epg..."
+    
     if [[ "$epg" == *.gz ]]; then
         echo "Téléchargement et décompression de : $epg"
         wget -O "$gz_file" -q "$epg"
@@ -71,6 +73,10 @@ while IFS= read -r epg; do
     # Ignorer la déclaration DTD si elle existe
     sed -i '/<!DOCTYPE/d' "$temp_file"
 
+    # Débogage : affichage du contenu temporaire
+    echo "Contenu temporaire de $temp_file :"
+    cat "$temp_file" | head -n 20  # Affiche les 20 premières lignes
+
     # Génération de la liste de canaux
     listing="canaux_epg${epg_count}.txt"
     echo "# Source: $epg" > "$listing"
@@ -89,6 +95,8 @@ while IFS= read -r epg; do
         fi
 
         echo "Extraction pour la chaîne $name ($id)"
+        echo "Date de début : $date_debut, Date de fin : $date_fin"  # Débogage des dates
+
         result=$(xmlstarlet sel -t \
             -m "//channel[@id='$(escape_xml "$id")']/programme[starts-with(@start, '$date_debut') and starts-with(@stop, '$date_fin')]" \
             -o "<programme channel='$(escape_xml "$id")' start='@start' stop='@stop'>" \

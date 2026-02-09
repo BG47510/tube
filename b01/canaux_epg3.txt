@@ -1,0 +1,45 @@
+# Source: https://github.com/Catch-up-TV-and-More/xmltv/raw/master/tv_guide_fr.xml
+C4.api.telerama.fr,France 2,https://focus.telerama.fr/500x500/0000/00/01/clear-4.png
+C34.api.telerama.fr,Canal+,https://focus.telerama.fr/500x500/0000/00/01/clear-34.png
+C47.api.telerama.fr,France 5,https://focus.telerama.fr/500x500/0000/00/01/clear-47.png
+C64.api.telerama.fr,Equidia,https://focus.telerama.fr/500x500/0000/00/01/clear-64.png
+C78.api.telerama.fr,France 4,https://focus.telerama.fr/500x500/0000/00/01/clear-78.png
+C80.api.telerama.fr,France 3,https://focus.telerama.fr/500x500/0000/00/01/clear-80.png
+C110.api.telerama.fr,KTO,https://focus.telerama.fr/500x500/0000/00/01/clear-110.png
+C111.api.telerama.fr,Arte,https://focus.telerama.fr/500x500/0000/00/01/clear-111.png
+C112.api.telerama.fr,LCI,https://focus.telerama.fr/500x500/0000/00/01/clear-112.png
+C118.api.telerama.fr,M6,https://focus.telerama.fr/500x500/0000/00/01/clear-118.png
+C119.api.telerama.fr,W9,https://focus.telerama.fr/500x500/0000/00/01/clear-119.png
+C140.api.telerama.fr,EuroNews,https://focus.telerama.fr/500x500/0000/00/01/clear-140.png
+C174.api.telerama.fr,SRF zwei,https://focus.telerama.fr/500x500/0000/00/01/clear-174.png
+C183.api.telerama.fr,RTS 2,https://focus.telerama.fr/500x500/0000/00/01/clear-183.png
+C192.api.telerama.fr,TF1,https://focus.telerama.fr/500x500/0000/00/01/clear-192.png
+C195.api.telerama.fr,TMC,https://focus.telerama.fr/500x500/0000/00/01/clear-195.png
+C205.api.telerama.fr,TV5 Monde FBS,https://focus.telerama.fr/500x500/0000/00/01/clear-205.png
+C226.api.telerama.fr,CNews,https://focus.telerama.fr/500x500/0000/00/01/clear-226.png
+C234.api.telerama.fr,La Chaîne Parlementaire,https://focus.telerama.fr/500x500/0000/00/01/clear-234.png
+C240.api.telerama.fr,Nouvelle-Calédonie 1ère,https://focus.telerama.fr/500x500/0000/00/01/clear-240.png
+C245.api.telerama.fr,Réunion 1ère,https://focus.telerama.fr/500x500/0000/00/01/clear-245.png
+C260.api.telerama.fr,Guyane 1ère,https://focus.telerama.fr/500x500/0000/00/01/clear-260.png
+C273.api.telerama.fr,TV7 Bordeaux,https://focus.telerama.fr/500x500/0000/00/01/clear-273.png
+C295.api.telerama.fr,ViàATV Martinique,https://focus.telerama.fr/500x500/0000/00/01/clear-295.png
+C328.api.telerama.fr,Martinique 1ère,https://focus.telerama.fr/500x500/0000/00/01/clear-328.png
+C329.api.telerama.fr,Guadeloupe 1ère,https://focus.telerama.fr/500x500/0000/00/01/clear-329.png
+C421.api.telerama.fr,8 Mont Blanc,https://focus.telerama.fr/500x500/0000/00/01/clear-421.png
+C446.api.telerama.fr,TFX,https://focus.telerama.fr/500x500/0000/00/01/clear-446.png
+C458.api.telerama.fr,CSTAR,https://focus.telerama.fr/500x500/0000/00/01/clear-458.png
+C459.api.telerama.fr,Polynésie 1ère,https://focus.telerama.fr/500x500/0000/00/01/clear-459.png
+C481.api.telerama.fr,BFM TV,https://focus.telerama.fr/500x500/0000/00/01/clear-481.png
+C482.api.telerama.fr,Gulli,https://focus.telerama.fr/500x500/0000/00/01/clear-482.png
+C491.api.telerama.fr,Télénantes,https://focus.telerama.fr/500x500/0000/00/01/clear-491.png
+C529.api.telerama.fr,France 24,https://focus.telerama.fr/500x500/0000/00/01/clear-529.png
+C1073.api.telerama.fr,BFM Business,https://focus.telerama.fr/500x500/0000/00/01/clear-1073.png
+C1399.api.telerama.fr,Chérie 25,https://focus.telerama.fr/500x500/0000/00/01/clear-1399.png
+C1400.api.telerama.fr,RMC Découverte,https://focus.telerama.fr/500x500/0000/00/01/clear-1400.png
+C1401.api.telerama.fr,L'Equipe,https://focus.telerama.fr/500x500/0000/00/01/clear-1401.png
+C1402.api.telerama.fr,RMC Story,https://focus.telerama.fr/500x500/0000/00/01/clear-1402.png
+C1403.api.telerama.fr,6ter,https://focus.telerama.fr/500x500/0000/00/01/clear-1403.png
+C1404.api.telerama.fr,TF1 Séries Films,https://focus.telerama.fr/500x500/0000/00/01/clear-1404.png
+C2111.api.telerama.fr,Franceinfo,https://focus.telerama.fr/500x500/0000/00/01/clear-2111.png
+C4138.api.telerama.fr,NOVO19,https://focus.telerama.fr/500x500/0000/00/01/clear-4138.png
+C4139.api.telerama.fr,T18,https://focus.telerama.fr/500x500/0000/00/01/clear-4139.png

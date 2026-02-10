@@ -94,14 +94,14 @@ while IFS= read -r epg; do
             exit 1
         fi
 
-        # Calculer l'heure d'ajustement basé sur l'offset (en heures)
-        offset_seconds=$((priority * 3600))  # Convertir les heures en secondes
-        adjusted_start=$(date -d "${date_debut}000000 + ${offset_seconds} seconds" +%Y%m%d%H%M%S)
-        adjusted_end=$(date -d "${date_fin}235959 + ${offset_seconds} seconds" +%Y%m%d%H%M%S)
+        # Ajustement pour le début et la fin en utilisant l'offset (en heures)
+        adjusted_start=$(date -d "${date_debut}000000 + ${priority} hours" +%Y%m%d%H%M%S)
+        adjusted_end=$(date -d "${date_fin}235959 + ${priority} hours" +%Y%m%d%H%M%S)
 
         echo "Extraction pour la chaîne $name ($id)"
         echo "Heure ajustée de début : $adjusted_start, Heure ajustée de fin : $adjusted_end"  # Débogage des dates
 
+        # Recherche de programmes
         result=$(xmlstarlet sel -t \
             -m "//channel[@id='$(escape_xml "$id")']/programme[@start >= '$adjusted_start' and @stop <= '$adjusted_end']" \
             -o "<programme channel='$(escape_xml "$id")' start='@start' stop='@stop'>" \

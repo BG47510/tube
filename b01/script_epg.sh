@@ -19,8 +19,8 @@ done
 source variables.txt
 
 # Calcul des dates (format YYYYMMDD)
-date_debut=$(date +%Y%m%d)
-date_fin=$(date +%Y%m%d)
+date_debut=$(date -d "$jours_avant days ago" +%Y%m%d)
+date_fin=$(date -d "$jours_venir days" +%Y%m%d)
 
 echo "Début: $date_debut, Fin: $date_fin"
 

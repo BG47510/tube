@@ -88,17 +88,22 @@ while IFS= read -r epg; do
     -v "icon/@src" -n "$temp_file" >> "$listing"
 
     # Lire chaque chaîne à extraire
-    while IFS=, read -r id name icon; do
+    while IFS=, read -r id name icon priority; do
         if [[ -z "$id" || -z "$name" ]]; then
             echo "Erreur : La chaîne $name ne respecte pas le format requis dans choix.txt."
             exit 1
         fi
 
+        # Calculer l'heure d'ajustement basé sur l'offset (en heures)
+        offset_seconds=$((priority * 3600))  # Convertir les heures en secondes
+        adjusted_start=$(date -d "${date_debut}000000 + ${offset_seconds} seconds" +%Y%m%d%H%M%S)
+        adjusted_end=$(date -d "${date_fin}235959 + ${offset_seconds} seconds" +%Y%m%d%H%M%S)
+
         echo "Extraction pour la chaîne $name ($id)"
-        echo "Date de début : $date_debut, Date de fin : $date_fin"  # Débogage des dates
+        echo "Heure ajustée de début : $adjusted_start, Heure ajustée de fin : $adjusted_end"  # Débogage des dates
 
         result=$(xmlstarlet sel -t \
-            -m "//channel[@id='$(escape_xml "$id")']/programme[@start >= '${date_debut}000000' and @stop <= '${date_fin}235959']" \
+            -m "//channel[@id='$(escape_xml "$id")']/programme[@start >= '$adjusted_start' and @stop <= '$adjusted_end']" \
             -o "<programme channel='$(escape_xml "$id")' start='@start' stop='@stop'>" \
             -v "title" -o "</title>" \
             -n -o "<desc>" -v "desc" -o "</desc>" \

@@ -98,7 +98,7 @@ while IFS= read -r epg; do
         echo "Date de début : $date_debut, Date de fin : $date_fin"  # Débogage des dates
 
         result=$(xmlstarlet sel -t \
-            -m "//channel[@id='$(escape_xml "$id")']/programme" \
+            -m "//channel[@id='$(escape_xml "$id")']/programme[starts-with(@start, '$date_debut') and starts-with(@stop, '$date_fin')]" \
             -o "<programme channel='$(escape_xml "$id")' start='@start' stop='@stop'>" \
             -v "title" -o "</title>" \
             -n -o "<desc>" -v "desc" -o "</desc>" \

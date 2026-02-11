@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -euo pipefail
 
 # Script d'extraction EPG consolidé optimisé
 cd "$(dirname "$0")" || exit 1
@@ -26,8 +28,10 @@ temp_programmes="$TMPDIR/programmes_temp.txt"
 > "$temp_programmes"
 
 # Initialisation XML
-echo '<?xml version="1.0" encoding="UTF-8"?>' > "$output"
-echo '<tv generator-info-name="EPG Extractor" generator-info-url="https://example.com">' >> "$output"
+{
+    echo '<?xml version="1.0" encoding="UTF-8"?>'
+    echo '<tv generator-info-name="EPG Extractor" generator-info-url="https://example.com">'
+} > "$output"
 
 # Fonction d'échappement XML
 escape_xml() {
@@ -59,11 +63,14 @@ while IFS= read -r epg; do
 
     echo "Téléchargement : $epg"
 
-    if [[ "$epg" == *.gz" ]]; then
+    # Test .gz corrigé
+    if [[ "$epg" == *.gz ]]; then
         wget -q -O "$gz" "$epg"
-        gzip -t "$gz" 2>/dev/null || { echo "Erreur : gzip invalide"; continue; }
+        if ! gzip -t "$gz" 2>/dev/null; then
+            echo "Erreur : gzip invalide"
+            continue
+        fi
         gzip -d -f "$gz"
-        temp="$TMPDIR/EPG_temp${epg_count}.xml"
     else
         wget -q -O "$temp" "$epg"
     fi
@@ -100,8 +107,9 @@ while IFS= read -r epg; do
 
         echo "Extraction : $new_id ($id) [$adj_start → $adj_end]"
 
-        chan_xpath=$(escape_xml "$id")
-        xpath="//programme[@channel='$chan_xpath' and substring(@stop,1,14) >= '$adj_start' and substring(@start,1,14) <= '$adj_end']"
+        # Construction propre du XPath
+        chan=$(escape_xml "$id")
+        xpath="//programme[@channel='$chan' and substring(@stop,1,14) >= '$adj_start' and substring(@start,1,14) <= '$adj_end']"
 
         xmlstarlet sel -t \
             -m "$xpath" \

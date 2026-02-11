@@ -18,6 +18,7 @@ date_fin=$(date -d "$jours_venir days" +"%Y%m%d%H%M%S")
 echo "Fenêtre : $date_debut → $date_fin"
 
 output="epg.xml"
+temp_programmes="programmes_temp.txt"
 
 # Initialisation XML
 echo '<?xml version="1.0" encoding="UTF-8"?>' > "$output"
@@ -38,6 +39,7 @@ fmt_date() {
 }
 
 epg_count=0
+> "$temp_programmes"
 
 while IFS= read -r epg; do
     ((epg_count++))
@@ -48,25 +50,16 @@ while IFS= read -r epg; do
 
     if [[ "$epg" == *.gz ]]; then
         wget -q -O "$gz" "$epg"
-        if ! gzip -t "$gz" 2>/dev/null; then
-            echo "Erreur : gzip invalide"
-            continue
-        fi
+        gzip -t "$gz" 2>/dev/null || { echo "Erreur : gzip invalide"; continue; }
         gzip -d -f "$gz"
     else
         wget -q -O "$temp" "$epg"
     fi
 
-    if [[ ! -s "$temp" ]]; then
-        echo "Erreur : fichier vide"
-        continue
-    fi
+    [[ ! -s "$temp" ]] && echo "Erreur : fichier vide" && continue
 
     # Supprimer DTD
     sed -i '/<!DOCTYPE/d' "$temp"
-
-    echo "Contenu temporaire de $temp :"
-    head -n 20 "$temp"
 
     # Génération liste des chaînes
     listing="canaux_epg${epg_count}.txt"
@@ -87,13 +80,12 @@ while IFS= read -r epg; do
         icon="${icon:-$xml_icon}"
         priority="${priority:-0}"
 
-        # Calcul des dates XMLTV (uniquement avec priority)
         adjusted_start=$(date -d "$(fmt_date "$date_debut") $priority hours" +"%Y%m%d%H%M%S +0100")
         adjusted_end=$(date -d "$(fmt_date "$date_fin") $priority hours" +"%Y%m%d%H%M%S +0100")
 
         echo "Extraction : $new_id ($id) [$adjusted_start → $adjusted_end]"
 
-        # Extraction des programmes (chevauchement inclus)
+        # Extraction des programmes → stockés dans un fichier temporaire
         xmlstarlet sel -t \
             -m "//programme[@channel='$(escape_xml "$id")' and @stop >= '$adjusted_start' and @start <= '$adjusted_end']" \
             -o "<programme channel='$(escape_xml "$new_id")' start='" \
@@ -104,12 +96,19 @@ while IFS= read -r epg; do
             -o "<title>" -v "title" -o "</title>" \
             -o "<desc>" -v "desc" -o "</desc>" \
             -o "</programme>" \
-            -n "$temp" >> "$output"
+            -n "$temp" >> "$temp_programmes"
 
     done < choix.txt
 
 done < epgs.txt
 
+# Nettoyage : suppression lignes vides
+sed -i '/^$/d' "$temp_programmes"
+
+# Suppression des doublons
+sort -u "$temp_programmes" >> "$output"
+
+# Fermeture XML
 echo "</tv>" >> "$output"
 
 xmlstarlet val "$output" && echo "EPG généré : $output" || echo "Erreur XML"

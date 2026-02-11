@@ -33,7 +33,7 @@ jobs:
         run: |
           cd "${GITHUB_WORKSPACE}/b01"
           echo "Exécution dans : $(pwd)"
-          ./script_epg.sh || echo "Le script a retourné une erreur"
+          ./script_epg.sh
           echo "Fichiers générés :"
           ls -lh
 

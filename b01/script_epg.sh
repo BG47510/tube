@@ -88,23 +88,23 @@ while IFS= read -r epg; do
     -v "icon/@src" -n "$temp_file" >> "$listing"
 
     # Lire chaque chaîne à extraire
-    while IFS=, read -r id name icon priority; do
-        if [[ -z "$id" || -z "$name" ]]; then
-            echo "Erreur : La chaîne $name ne respecte pas le format requis dans choix.txt."
+    while IFS=, read -r id new_id; do
+        if [[ -z "$id" || -z "$new_id" ]]; then
+            echo "Erreur : La chaîne avec ID $id ne respecte pas le format requis dans choix.txt."
             exit 1
         fi
 
-        # Ajustement pour le début et la fin en utilisant l'offset (en heures)
-        adjusted_start=$(date -d "${date_debut}000000 + ${priority} hours" +%Y%m%d%H%M%S)
-        adjusted_end=$(date -d "${date_fin}235959 + ${priority} hours" +%Y%m%d%H%M%S)
+        # Ajustement des heures en utilisant les priorités
+        adjusted_start=$(date -d "${date_debut}000000 + ${priority} hours" +"%Y%m%d%H%M%S +0100")
+        adjusted_end=$(date -d "${date_fin}235959 + ${priority} hours" +"%Y%m%d%H%M%S +0100")
 
-        echo "Extraction pour la chaîne $name ($id)"
-        echo "Heure ajustée de début : $adjusted_start, Heure ajustée de fin : $adjusted_end"  # Débogage des dates
+        echo "Extraction pour la chaîne $new_id ($id)"
+        echo "Heure ajustée de début : $adjusted_start, Heure ajustée de fin : $adjusted_end"
 
         # Recherche de programmes
         result=$(xmlstarlet sel -t \
-            -m "//channel[@id='$(escape_xml "$id")']/programme[@start >= '$adjusted_start' and @stop <= '$adjusted_end']" \
-            -o "<programme channel='$(escape_xml "$id")' start='@start' stop='@stop'>" \
+            -m "//programme[@channel='$(escape_xml "$id")' and @start >= '$adjusted_start' and @stop <= '$adjusted_end']" \
+            -o "<programme channel='$(escape_xml "$new_id")' start='@start' stop='@stop'>" \
             -v "title" -o "</title>" \
             -n -o "<desc>" -v "desc" -o "</desc>" \
             -o "</programme>" \
@@ -113,7 +113,7 @@ while IFS= read -r epg; do
         if [[ -n $result ]]; then
             echo "$result" >> "$output"
         else
-            echo "Aucun programme trouvé pour la chaîne $name avec l'ID $id."
+            echo "Aucun programme trouvé pour la chaîne $new_id avec l'ID $id."
         fi
     done < choix.txt
 
@@ -129,5 +129,6 @@ if xmlstarlet val "$output"; then
     echo "Extraction terminée. Résultat dans $output"
 else
     echo "Erreur : le fichier XML généré n'est pas valide."
+    xmlstarlet val "$output"  # Cela affichera les erreurs de validation
     exit 1
 fi

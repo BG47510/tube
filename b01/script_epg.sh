@@ -20,10 +20,8 @@ echo "Fenêtre : $date_debut → $date_fin"
 output="epg.xml"
 
 # Initialisation XML
-cat > "$output" <<EOF
-<?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="EPG Extractor" generator-info-url="https://example.com">
-EOF
+echo '<?xml version="1.0" encoding="UTF-8"?>' > "$output"
+echo '<tv generator-info-name="EPG Extractor" generator-info-url="https://example.com">' >> "$output"
 
 # Fonction d'échappement XML
 escape_xml() {
@@ -34,7 +32,7 @@ escape_xml() {
                      -e "s/'/&apos;/g"
 }
 
-# Convertir YYYYMMDDHHMMSS → YYYY-MM-DD HH:MM:SS (compatible GNU date)
+# Convertir YYYYMMDDHHMMSS → YYYY-MM-DD HH:MM:SS
 fmt_date() {
     echo "$1" | sed 's/\(....\)\(..\)\(..\)\(..\)\(..\)\(..\)/\1-\2-\3 \4:\5:\6/'
 }
@@ -50,15 +48,25 @@ while IFS= read -r epg; do
 
     if [[ "$epg" == *.gz ]]; then
         wget -q -O "$gz" "$epg"
-        gzip -t "$gz" 2>/dev/null || { echo "Gzip invalide"; continue; }
+        if ! gzip -t "$gz" 2>/dev/null; then
+            echo "Erreur : gzip invalide"
+            continue
+        fi
         gzip -d -f "$gz"
     else
         wget -q -O "$temp" "$epg"
     fi
 
-    [[ ! -s "$temp" ]] && echo "Fichier vide" && continue
+    if [[ ! -s "$temp" ]]; then
+        echo "Erreur : fichier vide"
+        continue
+    fi
 
+    # Supprimer DTD
     sed -i '/<!DOCTYPE/d' "$temp"
+
+    echo "Contenu temporaire de $temp :"
+    head -n 20 "$temp"
 
     # Génération liste des chaînes
     listing="canaux_epg${epg_count}.txt"
@@ -99,8 +107,6 @@ while IFS= read -r epg; do
             -n "$temp" >> "$output"
 
     done < choix.txt
-
-    rm -f "$temp"
 
 done < epgs.txt
 

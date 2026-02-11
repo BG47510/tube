@@ -25,12 +25,18 @@ cat > "$output" <<EOF
 <tv generator-info-name="EPG Extractor" generator-info-url="https://example.com">
 EOF
 
+# Fonction d'échappement XML
 escape_xml() {
     echo "$1" | sed -e 's/&/&amp;/g' \
                      -e 's/</&lt;/g' \
                      -e 's/>/&gt;/g' \
                      -e 's/"/&quot;/g' \
                      -e "s/'/&apos;/g"
+}
+
+# Convertir YYYYMMDDHHMMSS → YYYY-MM-DD HH:MM:SS (compatible GNU date)
+fmt_date() {
+    echo "$1" | sed 's/\(....\)\(..\)\(..\)\(..\)\(..\)\(..\)/\1-\2-\3 \4:\5:\6/'
 }
 
 epg_count=0
@@ -73,13 +79,13 @@ while IFS= read -r epg; do
         icon="${icon:-$xml_icon}"
         priority="${priority:-0}"
 
-        # Ajustement des dates
-        adjusted_start=$(date -d "${date_debut} + $priority hours" +"%Y%m%d%H%M%S +0100")
-        adjusted_end=$(date -d "${date_fin} + $priority hours" +"%Y%m%d%H%M%S +0100")
+        # Calcul des dates XMLTV (uniquement avec priority)
+        adjusted_start=$(date -d "$(fmt_date "$date_debut") $priority hours" +"%Y%m%d%H%M%S +0100")
+        adjusted_end=$(date -d "$(fmt_date "$date_fin") $priority hours" +"%Y%m%d%H%M%S +0100")
 
         echo "Extraction : $new_id ($id) [$adjusted_start → $adjusted_end]"
 
-        # Extraction des programmes (chevauchement)
+        # Extraction des programmes (chevauchement inclus)
         xmlstarlet sel -t \
             -m "//programme[@channel='$(escape_xml "$id")' and @stop >= '$adjusted_start' and @start <= '$adjusted_end']" \
             -o "<programme channel='$(escape_xml "$new_id")' start='" \

@@ -17,7 +17,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Installer xmlstarlet
-        run: sudo apt-get update && sudo apt-get install -y xmlstarlet
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xmlstarlet
 
       - name: Debug : afficher l’arborescence du dépôt
         run: |

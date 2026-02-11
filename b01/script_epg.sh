@@ -3,6 +3,10 @@
 # Script d'extraction EPG consolidé optimisé
 cd "$(dirname "$0")" || exit 1
 
+# Dossier temporaire hors du dépôt Git
+TMPDIR="/tmp/epg_extract"
+mkdir -p "$TMPDIR"
+
 # Vérification des fichiers requis
 for file in epgs.txt variables.txt choix.txt; do
     [[ ! -f "$file" ]] && echo "Erreur : fichier $file introuvable." && exit 1
@@ -18,7 +22,8 @@ date_fin=$(date -d "$jours_venir days" +"%Y%m%d%H%M%S")
 echo "Fenêtre : $date_debut → $date_fin"
 
 output="epg.xml"
-temp_programmes="programmes_temp.txt"
+temp_programmes="$TMPDIR/programmes_temp.txt"
+> "$temp_programmes"
 
 # Initialisation XML
 echo '<?xml version="1.0" encoding="UTF-8"?>' > "$output"
@@ -39,12 +44,13 @@ fmt_date() {
 }
 
 epg_count=0
-> "$temp_programmes"
 
 while IFS= read -r epg; do
     ((epg_count++))
-    temp="EPG_temp${epg_count}.xml"
-    gz="$temp.gz"
+
+    temp="$TMPDIR/EPG_temp${epg_count}.xml"
+    gz="$TMPDIR/EPG_temp${epg_count}.xml.gz"
+    listing="$TMPDIR/canaux_epg${epg_count}.txt"
 
     echo "Téléchargement : $epg"
 
@@ -62,7 +68,6 @@ while IFS= read -r epg; do
     sed -i '/<!DOCTYPE/d' "$temp"
 
     # Génération liste des chaînes
-    listing="canaux_epg${epg_count}.txt"
     echo "# Source: $epg" > "$listing"
 
     xmlstarlet sel -t -m "//channel" \
@@ -85,7 +90,6 @@ while IFS= read -r epg; do
 
         echo "Extraction : $new_id ($id) [$adjusted_start → $adjusted_end]"
 
-        # Extraction des programmes → stockés dans un fichier temporaire
         xmlstarlet sel -t \
             -m "//programme[@channel='$(escape_xml "$id")' and @stop >= '$adjusted_start' and @start <= '$adjusted_end']" \
             -o "<programme channel='$(escape_xml "$new_id")' start='" \

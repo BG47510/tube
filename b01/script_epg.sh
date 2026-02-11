@@ -88,15 +88,15 @@ while IFS= read -r epg; do
     -v "icon/@src" -n "$temp_file" >> "$listing"
 
     # Lire chaque chaîne à extraire
-    while IFS=, read -r id new_id; do
-        if [[ -z "$id" || -z "$new_id" ]]; then
-            echo "Erreur : La chaîne avec ID $id ne respecte pas le format requis dans choix.txt."
+    while IFS=, read -r id new_id icon priority; do
+        if [[ -z "$id" || -z "$new_id" || -z "$priority" ]]; then
+            echo "Erreur : la chaîne avec ID $id ne respecte pas le format requis dans choix.txt."
             exit 1
         fi
 
-        # Ajustement des heures en utilisant les priorités
-        adjusted_start=$(date -d "${date_debut}000000 + ${priority} hours" +"%Y%m%d%H%M%S +0100")
-        adjusted_end=$(date -d "${date_fin}235959 + ${priority} hours" +"%Y%m%d%H%M%S +0100")
+        # Ajustement pour le début et la fin en utilisant la priorité (en heures)
+        adjusted_start=$(date -d "${date_debut} + $priority hours" +"%Y%m%d%H%M%S +0100")
+        adjusted_end=$(date -d "${date_fin} + $priority hours" +"%Y%m%d%H%M%S +0100")
 
         echo "Extraction pour la chaîne $new_id ($id)"
         echo "Heure ajustée de début : $adjusted_start, Heure ajustée de fin : $adjusted_end"

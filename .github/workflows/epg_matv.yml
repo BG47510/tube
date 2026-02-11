@@ -1,9 +1,9 @@
-name: EPG xmlstarlet
+name: Génération EPG
 
 on:
   schedule:
-    - cron: "0 2 * * *"   # Tous les jours à 02:00 (heure UTC)
-  workflow_dispatch:       # Permet de lancer manuellement
+    - cron: "0 2 * * *"   # Tous les jours à 02:00 UTC
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -18,20 +18,28 @@ jobs:
 
       - name: Installer xmlstarlet
         run: sudo apt-get update && sudo apt-get install -y xmlstarlet
-        #sudo apt-get update && sudo apt-get install -y xmlstarlet gzip wget perl
-
 
       - name: Rendre le script exécutable
         run: chmod +x ${GITHUB_WORKSPACE}/b01/script_epg.sh
 
       - name: Exécuter le script
-        run: ${GITHUB_WORKSPACE}/b01/script_epg.sh
+        run: |
+          echo "Répertoire courant : $(pwd)"
+          ${GITHUB_WORKSPACE}/b01/script_epg.sh
+          echo "Liste des fichiers générés :"
+          ls -lh
+
+      - name: Vérifier epg.xml
+        run: |
+          if [ ! -f epg.xml ]; then
+            echo "ERREUR : epg.xml n'a pas été généré"
+            exit 1
+          fi
+          echo "Taille de epg.xml :"
+          ls -lh epg.xml
 
       - name: Upload epg.xml comme artefact
         uses: actions/upload-artifact@v4
         with:
           name: epg
           path: epg.xml
-
-
-

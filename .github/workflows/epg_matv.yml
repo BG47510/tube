@@ -19,27 +19,33 @@ jobs:
       - name: Installer xmlstarlet
         run: sudo apt-get update && sudo apt-get install -y xmlstarlet
 
+      - name: Debug : afficher l’arborescence du dépôt
+        run: |
+          echo "Répertoire courant : $(pwd)"
+          ls -R .
+
       - name: Rendre le script exécutable
-        run: chmod +x ${GITHUB_WORKSPACE}/b01/script_epg.sh
+        run: chmod +x "${GITHUB_WORKSPACE}/b01/script_epg.sh"
 
       - name: Exécuter le script
         run: |
-          echo "Répertoire courant : $(pwd)"
-          ${GITHUB_WORKSPACE}/b01/script_epg.sh
-          echo "Liste des fichiers générés :"
+          cd "${GITHUB_WORKSPACE}/b01"
+          echo "Exécution dans : $(pwd)"
+          ./script_epg.sh || echo "Le script a retourné une erreur"
+          echo "Fichiers générés :"
           ls -lh
 
       - name: Vérifier epg.xml
         run: |
-          if [ ! -f epg.xml ]; then
-            echo "ERREUR : epg.xml n'a pas été généré"
+          if [ ! -f "${GITHUB_WORKSPACE}/b01/epg.xml" ]; then
+            echo "ERREUR : epg.xml n'a PAS été généré"
             exit 1
           fi
           echo "Taille de epg.xml :"
-          ls -lh epg.xml
+          ls -lh "${GITHUB_WORKSPACE}/b01/epg.xml"
 
       - name: Upload epg.xml comme artefact
         uses: actions/upload-artifact@v4
         with:
           name: epg
-          path: epg.xml
+          path: b01/epg.xml

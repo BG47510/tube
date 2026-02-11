@@ -1,60 +1,37 @@
 name: EPG xmlstarlet
 
 on:
-  #schedule:
-    #- cron: '30 12 * * * ' # Courir à 00h30 (noter l'heure d'été/d'hiver)
-  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"   # Tous les jours à 02:00 (heure UTC)
+  workflow_dispatch:       # Permet de lancer manuellement
+
 permissions:
-   contents: write
+  contents: read
+
 jobs:
-  build:
+  build_epg:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Récupération du référentiel
-      uses: actions/checkout@v4
+      - name: Checkout du dépôt
+        uses: actions/checkout@v4
 
-    - name: config
-      run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
+      - name: Installer xmlstarlet
+        run: sudo apt-get update && sudo apt-get install -y xmlstarlet
+        #sudo apt-get update && sudo apt-get install -y xmlstarlet gzip wget perl
 
-    - name: Installer les dépendances xmlstarlet
-      run: |
-        sudo apt-get update && sudo apt-get install -y xmlstarlet gzip wget perl
 
-    - name: Rendre le script exécutable
-      run: |
-        # chmod +x ${{ github.action_path }}/script_epg.sh
-        chmod +x ${GITHUB_WORKSPACE}/b01/script_epg.sh
+      - name: Rendre le script exécutable
+        run: chmod +x ${GITHUB_WORKSPACE}/b01/script_epg.sh
 
-    - name: Exécuter le script
-      run: | 
-       ${GITHUB_WORKSPACE}/b01/script_epg.sh
+      - name: Exécuter le script
+        run: ${GITHUB_WORKSPACE}/b01/script_epg.sh
 
-    - name: Compresser les xml en xml.gz et supprimer les xml
-      run: |
-          if [ -f EPG_final.xml ]; then
-            gzip -f EPG_final.xml
-          fi
-          if [ -f epg_accumuler.xml ]; then
-            gzip -f epg_accumuler.xml
-          fi
-          
-    - name: Vérifier l'état de Git
-      run: git status
-      
-    - name: git add
-      run: |
-        git add -A
-        ls -la
+      - name: Upload epg.xml comme artefact
+        uses: actions/upload-artifact@v4
+        with:
+          name: epg
+          path: epg.xml
 
-    - name: Commit des modifications
-      run: |
-          if [[ `git status --porcelain` ]]; then
-          git commit -m "Les liens sont mis à jour"
-          git push
-          else
-          echo "Aucune modification à committer"
-          fi
+
 

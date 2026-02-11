@@ -347,33 +347,42 @@ Eurosport360_8.fr,FR - Eurosport 360 8,https://iptv-epg.org/logos/France/Eurospo
 T18.fr,FR - T18,https://iptv-epg.org/logos/France/T18.fr.png
 OlympiaTV.fr,FR - Olympia TV,https://iptv-epg.org/logos/France/OlympiaTV.fr.png
 MyZentv.fr,FR - MyZen.tv,https://iptv-epg.org/logos/France/MyZentv.fr.png
-NOVELASTV.fr,FR - NOVELAS TV,https://iptv-epg.org/logos/France/NOVELASTV.fr.png
 PLANETE+CRIME.fr,FR - PLANETE+ CRIME,https://iptv-epg.org/logos/France/PLANETE%2BCRIME.fr.png
 PLANETE+AandE.fr,FR - PLANETE+ A&amp;E,https://iptv-epg.org/logos/France/PLANETE%2BAandE.fr.png
-RTFRANCE.fr,FR - RT FRANCE,https://iptv-epg.org/logos/France/RTFRANCE.fr.png
-VICETV.fr,FR - VICE TV,https://iptv-epg.org/logos/France/VICETV.fr.png
-EUROSPORT1.fr,FR - EUROSPORT 1,https://iptv-epg.org/logos/France/EUROSPORT1.fr.png
 EUROSPORT2.fr,FR - EUROSPORT 2,https://iptv-epg.org/logos/France/EUROSPORT2.fr.png
 INFOSPORT+.fr,FR - INFOSPORT+,https://iptv-epg.org/logos/France/INFOSPORT%2B.fr.png
 CSTARHITS.fr,FR - C-STAR HITS,https://iptv-epg.org/logos/France/CSTARHITS.fr.png
-CANALALPHANE.fr,FR - CANAL ALPHA NE,https://iptv-epg.org/logos/France/CANALALPHANE.fr.png
+EUROSPORT1.fr,FR - EUROSPORT 1,https://iptv-epg.org/logos/France/EUROSPORT1.fr.png
 CANAL+Kids.fr,FR - CANAL+ Kids,https://iptv-epg.org/logos/France/CANAL%2BKids.fr.png
 CANAL+GRANDECRAN.fr,FR - CANAL+GRAND ECRAN,https://iptv-epg.org/logos/France/CANAL%2BGRANDECRAN.fr.png
 CANAL+DOCS.fr,FR - CANAL+DOCS,https://iptv-epg.org/logos/France/CANAL%2BDOCS.fr.png
 CANAL+SPORT360.fr,FR - CANAL+ SPORT 360,https://iptv-epg.org/logos/France/CANAL%2BSPORT360.fr.png
 CANAL+FOOT.fr,FR - CANAL+ FOOT,https://iptv-epg.org/logos/France/CANAL%2BFOOT.fr.png
 PLANETE+AVENTURE.fr,FR - PLANETE+AVENTURE,https://iptv-epg.org/logos/France/PLANETE%2BAVENTURE.fr.png
+RTFRANCE.fr,FR - RT FRANCE,https://iptv-epg.org/logos/France/RTFRANCE.fr.png
+CANAL+PREMIERLEAGUE.fr,FR - CANAL+ PREMIER LEAGUE,https://iptv-epg.org/logos/France/CANAL%2BPREMIERLEAGUE.fr.png
+CANAL+BOXOFFICE.fr,FR - CANAL+BOX OFFICE,https://iptv-epg.org/logos/France/CANAL%2BBOXOFFICE.fr.png
+SEASONS.fr,FR - SEASONS,https://iptv-epg.org/logos/France/SEASONS.fr.png
+Mezzo.fr,FR - Mezzo,https://iptv-epg.org/logos/France/Mezzo.fr.png
+Planeteplus.fr,FR - Planete+,https://iptv-epg.org/logos/France/Planeteplus.fr.png
+teleTOONplus.fr,FR - teleTOON+,https://iptv-epg.org/logos/France/teleTOONplus.fr.png
+COMEDIE+.fr,FR - COMEDIE+,https://iptv-epg.org/logos/France/COMEDIE%2B.fr.png
+POLAR+.fr,FR - POLAR+,https://iptv-epg.org/logos/France/POLAR%2B.fr.png
+PIWI+.fr,FR - PIWI+,https://iptv-epg.org/logos/France/PIWI%2B.fr.png
+CANAL+.fr,FR - CANAL+,https://iptv-epg.org/logos/France/CANAL%2B.fr.png
+CANAL+CINEMA.fr,FR - CANAL+ CINEMA,https://iptv-epg.org/logos/France/CANAL%2BCINEMA.fr.png
+C+SPORT.fr,FR - C+ SPORT,https://iptv-epg.org/logos/France/C%2BSPORT.fr.png
+VICETV.fr,FR - VICE TV,https://iptv-epg.org/logos/France/VICETV.fr.png
+CANALALPHANE.fr,FR - CANAL ALPHA NE,https://iptv-epg.org/logos/France/CANALALPHANE.fr.png
 MULTISPORTS1.fr,FR - MULTISPORTS 1,https://iptv-epg.org/logos/France/MULTISPORTS1.fr.png
 MULTISPORTS2.fr,FR - MULTISPORTS 2,https://iptv-epg.org/logos/France/MULTISPORTS2.fr.png
 MULTISPORTS3.fr,FR - MULTISPORTS 3,https://iptv-epg.org/logos/France/MULTISPORTS3.fr.png
 MULTISPORTS4.fr,FR - MULTISPORTS 4,https://iptv-epg.org/logos/France/MULTISPORTS4.fr.png
 MULTISPORTS5.fr,FR - MULTISPORTS 5,https://iptv-epg.org/logos/France/MULTISPORTS5.fr.png
 MULTISPORTS6.fr,FR - MULTISPORTS 6,https://iptv-epg.org/logos/France/MULTISPORTS6.fr.png
-CANAL+PREMIERLEAGUE.fr,FR - CANAL+ PREMIER LEAGUE,https://iptv-epg.org/logos/France/CANAL%2BPREMIERLEAGUE.fr.png
 CANAL+FORMULA1.fr,FR - CANAL+ FORMULA 1,https://iptv-epg.org/logos/France/CANAL%2BFORMULA1.fr.png
 CANAL+TOP14.fr,FR - CANAL+ TOP 14,https://iptv-epg.org/logos/France/CANAL%2BTOP14.fr.png
 CANAL+MOTOGP.fr,FR - CANAL+ MOTO GP,https://iptv-epg.org/logos/France/CANAL%2BMOTOGP.fr.png
-CANAL+BOXOFFICE.fr,FR - CANAL+BOX OFFICE,https://iptv-epg.org/logos/France/CANAL%2BBOXOFFICE.fr.png
 CANAL+BOXOFFICE_CH.fr,FR - CANAL+BOX OFFICE (CH)s,https://iptv-epg.org/logos/France/CANAL%2BBOXOFFICE_CH.fr.png
 CANAL+LIVE1.fr,FR - CANAL+LIVE 1,https://iptv-epg.org/logos/France/CANAL%2BLIVE1.fr.png
 CANAL+LIVE2.fr,FR - CANAL+LIVE 2,https://iptv-epg.org/logos/France/CANAL%2BLIVE2.fr.png
@@ -394,17 +403,7 @@ CANAL+LIVE16.fr,FR - CANAL+LIVE 16,https://iptv-epg.org/logos/France/CANAL%2BLIV
 CANAL+LIVE17.fr,FR - CANAL+LIVE 17,https://iptv-epg.org/logos/France/CANAL%2BLIVE17.fr.png
 CANAL+LIVE18.fr,FR - CANAL+LIVE 18,https://iptv-epg.org/logos/France/CANAL%2BLIVE18.fr.png
 CANAL+LIVE19.fr,FR - CANAL+LIVE 19,https://iptv-epg.org/logos/France/CANAL%2BLIVE19.fr.png
-SEASONS.fr,FR - SEASONS,https://iptv-epg.org/logos/France/SEASONS.fr.png
-Mezzo.fr,FR - Mezzo,https://iptv-epg.org/logos/France/Mezzo.fr.png
-Planeteplus.fr,FR - Planete+,https://iptv-epg.org/logos/France/Planeteplus.fr.png
-teleTOONplus.fr,FR - teleTOON+,https://iptv-epg.org/logos/France/teleTOONplus.fr.png
-COMEDIE+.fr,FR - COMEDIE+,https://iptv-epg.org/logos/France/COMEDIE%2B.fr.png
-POLAR+.fr,FR - POLAR+,https://iptv-epg.org/logos/France/POLAR%2B.fr.png
-PIWI+.fr,FR - PIWI+,https://iptv-epg.org/logos/France/PIWI%2B.fr.png
-CANAL+.fr,FR - CANAL+,https://iptv-epg.org/logos/France/CANAL%2B.fr.png
-CANAL+CINEMA.fr,FR - CANAL+ CINEMA,https://iptv-epg.org/logos/France/CANAL%2BCINEMA.fr.png
 CANAL+SERIES.fr,FR - CANAL+ SERIES,https://iptv-epg.org/logos/France/CANAL%2BSERIES.fr.png
-C+SPORT.fr,FR - C+ SPORT,https://iptv-epg.org/logos/France/C%2BSPORT.fr.png
 DAZN1.fr,FR - DAZN 1,https://iptv-epg.org/logos/France/DAZN1.fr.png
 DEMAIN.fr,FR - DEMAIN,https://iptv-epg.org/logos/France/DEMAIN.fr.png
 NationalGeographicWild.fr,FR - National Geographic Wild,https://iptv-epg.org/logos/France/NationalGeographicWild.fr.png
@@ -419,6 +418,7 @@ WarnerTVNext.fr,FR - Warner TV Next,https://iptv-epg.org/logos/France/WarnerTVNe
 GongMax.fr,FR - Gong Max,https://iptv-epg.org/logos/France/GongMax.fr.png
 Cine+OCS.fr,FR - Ciné+ OCS,https://iptv-epg.org/logos/France/Cine%2BOCS.fr.png
 Cine+Festival.fr,FR - Ciné+ Festival,https://iptv-epg.org/logos/France/Cine%2BFestival.fr.png
+NOVELASTV.fr,FR - NOVELAS TV,https://iptv-epg.org/logos/France/NOVELASTV.fr.png
 SportEnFrance.fr,FR - Sport en France,https://iptvboss.xyz/logos/France/SportenFrance.fr.png
 Telenovelas24_24.fr,FR - Telenovelas 24/24,https://iptv-epg.org/logos/France/Telenovelas24_24.fr.png
 TelefilmsdeNoel24_24.fr,FR - Téléfilms de Noël 24/24,https://iptv-epg.org/logos/France/TelefilmsdeNoel24_24.fr.png

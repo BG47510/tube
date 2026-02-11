@@ -38,9 +38,9 @@ escape_xml() {
                      -e "s/'/&apos;/g"
 }
 
-# Convertir YYYYMMDDHHMMSS → YYYY-MM-DD HH:MM:SS
-fmt_date() {
-    echo "$1" | sed 's/\(....\)\(..\)\(..\)\(..\)\(..\)\(..\)/\1-\2-\3 \4:\5:\6/'
+# Fonction pour nettoyer les dates XMLTV (supprimer fuseau)
+clean_date() {
+    echo "$1" | cut -c1-14
 }
 
 epg_count=0
@@ -79,40 +79,4 @@ while IFS= read -r epg; do
     while IFS=, read -r id new_id icon priority; do
         [[ -z "$id" ]] && continue
 
-        xml_icon=$(xmlstarlet sel -t -m "//channel[@id='$(escape_xml "$id")']/icon/@src" -v . "$temp")
-
-        new_id="${new_id:-$id}"
-        icon="${icon:-$xml_icon}"
-        priority="${priority:-0}"
-
-        adjusted_start=$(date -d "$(fmt_date "$date_debut") $priority hours" +"%Y%m%d%H%M%S +0100")
-        adjusted_end=$(date -d "$(fmt_date "$date_fin") $priority hours" +"%Y%m%d%H%M%S +0100")
-
-        echo "Extraction : $new_id ($id) [$adjusted_start → $adjusted_end]"
-
-        xmlstarlet sel -t \
-            -m "//programme[@channel='$(escape_xml "$id")' and @stop >= '$adjusted_start' and @start <= '$adjusted_end']" \
-            -o "<programme channel='$(escape_xml "$new_id")' start='" \
-            -v "@start" \
-            -o "' stop='" \
-            -v "@stop" \
-            -o "'>" \
-            -o "<title>" -v "title" -o "</title>" \
-            -o "<desc>" -v "desc" -o "</desc>" \
-            -o "</programme>" \
-            -n "$temp" >> "$temp_programmes"
-
-    done < choix.txt
-
-done < epgs.txt
-
-# Nettoyage : suppression lignes vides
-sed -i '/^$/d' "$temp_programmes"
-
-# Suppression des doublons
-sort -u "$temp_programmes" >> "$output"
-
-# Fermeture XML
-echo "</tv>" >> "$output"
-
-xmlstarlet val "$output" && echo "EPG généré : $output" || echo "Erreur XML"
+        xml_icon=$(xmlstarlet sel -t -m "//channel[@id='$(escape_xml

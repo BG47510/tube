@@ -89,10 +89,20 @@ while IFS= read -r epg; do
 
     # Lire chaque chaîne à extraire
     while IFS=, read -r id new_id icon priority; do
-        if [[ -z "$id" || -z "$new_id" || -z "$priority" ]]; then
-            echo "Erreur : la chaîne avec ID $id ne respecte pas le format requis dans choix.txt."
-            exit 1
+        if [[ -z "$id" ]]; then
+            echo "Erreur : ID manquant dans choix.txt, ligne ignorée."
+            continue  # Ignorer la ligne si id est vide
         fi
+        
+        # Sélectionner l'icône correspondante depuis le XML
+        xml_icon=$(xmlstarlet sel -t -m "//channel[@id='$(escape_xml "$id")']/icon/@src" -v . -n "$temp_file")
+        
+        # Utiliser des valeurs du fichier source si elles ne sont pas fournies dans choix.txt
+        new_id="${new_id:-$id}"  # Utiliser id original si new_id est vide
+        icon="${icon:-$xml_icon}"  # Utiliser l'icône du XML si elle est vide
+        priority="${priority:-0}"   # Valoriser la priorité à 0 par défaut
+
+        echo "Traitement de la chaîne : ID = $id, Nouveau ID = $new_id, Icon = $icon, Priorité = $priority"
 
         # Ajustement pour le début et la fin en utilisant la priorité (en heures)
         adjusted_start=$(date -d "${date_debut} + $priority hours" +"%Y%m%d%H%M%S +0100")

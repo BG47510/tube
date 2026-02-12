@@ -47,7 +47,7 @@ jobs:
           ls -lh "${GITHUB_WORKSPACE}/b01/epg.xml"
 
       - name: "Upload epg.xml comme artefact"
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v4
         with:
           name: epg
           path: b01/epg.xml

@@ -50,5 +50,5 @@ jobs:
       - name: "Télécharger l'artefact"
         uses: actions/download-artifact@v4
         with:
-          name: epg
+          name: epg  # Même étiquette que l'upload
           path: b01  # Spécifiez que l'artefact sera téléchargé dans le dossier b01

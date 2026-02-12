@@ -51,3 +51,5 @@ jobs:
         with:
           name: epg
           path: b01/epg.xml
+          retention-days: 7
+          if-no-files-found: ignore

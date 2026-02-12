@@ -9,10 +9,8 @@ permissions:
   contents: read
 
 jobs:
-  build_epg:
+  build:
     runs-on: ubuntu-latest
-    needs: build
-
     steps:
       - name: "Checkout du dépôt"
         uses: actions/checkout@v5
@@ -21,32 +19,22 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y xmlstarlet
-
-      - name: "Debug : afficher l’arborescence du dépôt"
-        run: |
-          echo "Répertoire courant : $(pwd)"
-          ls -R .
-
+      
       - name: "Rendre le script exécutable"
         run: chmod +x "${GITHUB_WORKSPACE}/b01/script_epg.sh"
 
       - name: "Exécuter le script"
         run: |
           cd "${GITHUB_WORKSPACE}/b01"
-          echo "Exécution dans : $(pwd)"
           ./script_epg.sh
-          echo "Fichiers générés :"
-          ls -lh
-
+      
       - name: "Vérifier epg.xml"
         run: |
           if [ ! -f "${GITHUB_WORKSPACE}/b01/epg.xml" ]; then
             echo "ERREUR : epg.xml n'a PAS été généré"
             exit 1
           fi
-          echo "Taille de epg.xml :"
-          ls -lh "${GITHUB_WORKSPACE}/b01/epg.xml"
-
+          
       - name: "Upload epg.xml comme artefact"
         uses: actions/upload-artifact@v4
         with:
@@ -54,3 +42,13 @@ jobs:
           path: b01/epg.xml
           retention-days: 7
           if-no-files-found: ignore
+
+  retrieve_artifact:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: "Télécharger l'artefact"
+        uses: actions/download-artifact@v4
+        with:
+          name: epg
+          path: b01  # Spécifiez que l'artefact sera téléchargé dans le dossier b01

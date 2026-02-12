@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: "Checkout du dépôt"
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: "Installer xmlstarlet"
         run: |
@@ -47,7 +47,7 @@ jobs:
           ls -lh "${GITHUB_WORKSPACE}/b01/epg.xml"
 
       - name: "Upload epg.xml comme artefact"
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: epg
           path: b01/epg.xml

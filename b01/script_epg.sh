@@ -1,161 +1,88 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-set -euo pipefail
+# Fichiers d'entrée
+EPG_FILE_LIST="epg.txt"
+CHOIX_FILE="choix.txt"
+VARIABLES_FILE="variables.txt"
+OUTPUT_XML="final.xml"
 
-cd "$(dirname "$0")" || exit 1
+# Read days before and after from variables.txt
+source $VARIABLES_FILE
+today=$(date -u +%Y%m%d)
+start_date=$(date -u -d "$today - $jours_avant days" +%Y%m%d)
+end_date=$(date -u -d "$today + $jours_venir days" +%Y%m%d)
 
-TMPDIR="/tmp/epg_extract"
-mkdir -p "$TMPDIR"
+# Temporary files
+TEMP_XML="temp.xml"
+CHANNEL_IDS="channel_ids.txt"
 
-# Vérification fichiers requis
-for file in epgs.txt variables.txt choix.txt; do
-    if [[ ! -f "$file" ]]; then
-        echo "Erreur : fichier $file introuvable."
-        exit 1
-    fi
-done
+# Initialize the output file
+echo '<?xml version="1.0" encoding="UTF-8"?>' > $OUTPUT_XML
+echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">' >> $OUTPUT_XML
+echo '<tv>' >> $OUTPUT_XML
 
-# Charger variables
-source variables.txt
+# Extract channel IDs from XML files
+while read -r url; do
+    gzip -dc "$url" | xmllint --xpath '//channel/@id' - >> $CHANNEL_IDS
+done < $EPG_FILE_LIST
 
-date_debut=$(date -d "$jours_avant days ago" +"%Y%m%d%H%M%S")
-date_fin=$(date -d "$jours_venir days" +"%Y%m%d%H%M%S")
+# Remove duplicates and create unique channel IDs
+sort -u $CHANNEL_IDS -o $CHANNEL_IDS
 
-echo "Fenêtre : $date_debut → $date_fin"
+# Convert the choices into a format for processing
+declare -A CHANNEL_MAP
+while IFS=',' read -r ancien_id nouveau_id logo_url offset_h; do
+    CHANNEL_MAP[$ancien_id]="$nouveau_id,$logo_url,$offset_h"
+done < $CHOIX_FILE
 
-output="epg.xml"
-temp_programmes="$TMPDIR/programmes_temp.txt"
-> "$temp_programmes"
-
-# Initialisation XML
-{
-    echo '<?xml version="1.0" encoding="UTF-8"?>'
-    echo '<tv generator-info-name="EPG Extractor">'
-} > "$output"
-
-escape_xml() {
-    echo "$1" | sed -e 's/&/&amp;/g' \
-                     -e 's/</&lt;/g' \
-                     -e 's/>/&gt;/g' \
-                     -e 's/"/&quot;/g' \
-                     -e "s/'/&apos;/g"
-}
-
-fmt_date() {
-    echo "$1" | sed 's/\(....\)\(..\)\(..\)\(..\)\(..\)\(..\)/\1-\2-\3 \4:\5:\6/'
-}
-
-clean_date() {
-    echo "$1" | cut -c1-14
-}
-
-epg_count=0
-
-while IFS= read -r epg; do
-    ((epg_count++))
-
-    temp="$TMPDIR/EPG_temp${epg_count}.xml"
-    gz="$TMPDIR/EPG_temp${epg_count}.xml.gz"
-    listing="$TMPDIR/canaux_epg${epg_count}.txt"
-
-    echo "Téléchargement : $epg"
-
-    # Téléchargement blindé
-    if [[ "$epg" == *.gz ]]; then
-        if ! wget -q -O "$gz" "$epg"; then
-            echo "Erreur : téléchargement échoué"
-            continue
+# Process each XML file
+while read -r url; do
+    gzip -dc "$url" | while read -r line; do
+        if [[ $line == *"<channel "* ]]; then
+            channel_id=$(echo "$line" | sed -n 's/.*id="\([^"]*\)".*/\1/p')
+            if [[ -n "${CHANNEL_MAP[$channel_id]}" ]]; then
+                new_info=(${CHANNEL_MAP[$channel_id]//,/ })
+                new_id=${new_info[0]}
+                logo_url=${new_info[1]}
+                line=$(echo "$line" | sed "s/id=\"$channel_id\"/id=\"$new_id\"/")
+                if [[ ! -z $logo_url ]]; then
+                    line=$(echo "$line" | sed "s|src=\"[^\"]*\"|src=\"$logo_url\"|")
+                fi
+                echo "$line" >> $TEMP_XML
+            fi
+        elif [[ $line == *"<programme "* ]]; then
+            start_time=$(echo "$line" | sed -n 's/.*start="\([^"]*\)".*/\1/p')
+            stop_time=$(echo "$line" | sed -n 's/.*stop="\([^"]*\)".*/\1/p')
+            channel_id=$(echo "$line" | sed -n 's/.*channel="\([^"]*\)".*/\1/p')
+            if [[ -n "${CHANNEL_MAP[$channel_id]}" ]]; then
+                offset_h=${CHANNEL_MAP[$channel_id]//,*}
+                if [[ ! -z "$offset_h" ]]; then
+                    offset_seconds=$((offset_h * 3600))
+                    start_time=$(date -u -d "$start_time + $offset_seconds seconds" +%Y%m%d%H%M%S)
+                    stop_time=$(date -u -d "$stop_time + $offset_seconds seconds" +%Y%m%d%H%M%S)
+                fi
+                line=$(echo "$line" | sed "s/start=\"[^\"]*\"/start=\"$start_time\"/")
+                line=$(echo "$line" | sed "s/stop=\"[^\"]*\"/stop=\"$stop_time\"/")
+                echo "$line" >> $TEMP_XML
+            fi
         fi
+    done
+done < $EPG_FILE_LIST
 
-        if ! gzip -t "$gz" 2>/dev/null; then
-            echo "Erreur : gzip invalide"
-            continue
-        fi
+# Cleaning up temporary files and duplicates
+awk '!seen[$0]++' $TEMP_XML >> $OUTPUT_XML
+rm $TEMP_XML
 
-        if ! gzip -d -f "$gz"; then
-            echo "Erreur : décompression échouée"
-            continue
-        fi
+# Close the final XML structure
+echo '</tv>' >> $OUTPUT_XML
 
-        mv "$TMPDIR/EPG_temp${epg_count}.xml" "$temp"
-
-    else
-        if ! wget -q -O "$temp" "$epg"; then
-            echo "Erreur : téléchargement échoué"
-            continue
-        fi
-    fi
-
-    if [[ ! -s "$temp" ]]; then
-        echo "Erreur : fichier vide"
-        continue
-    fi
-
-    sed -i '/<!DOCTYPE/d' "$temp"
-
-    echo "# Source: $epg" > "$listing"
-
-    # Extraction des chaînes blindée
-    if ! xmlstarlet sel -t -m "//channel" \
-        -v "@id" -o "," \
-        -v "display-name" -o "," \
-        -v "icon/@src" -n "$temp" >> "$listing" 2>/dev/null; then
-        echo "Erreur : XML invalide dans $temp"
-        continue
-    fi
-
-    # Lecture des chaînes à extraire
-    while IFS=, read -r id new_id icon priority; do
-        [[ -z "$id" ]] && continue
-
-        new_id="${new_id:-$id}"
-        priority="${priority:-0}"
-
-        # Récupération icône si vide
-        if [[ -z "$icon" ]]; then
-            icon=$(xmlstarlet sel -t -m "//channel[@id='$(escape_xml "$id")']/icon/@src" -v . "$temp" 2>/dev/null || echo "")
-        fi
-
-        # Calcul dates ajustées
-        adjusted_start=$(date -d "$(fmt_date "$date_debut") $priority hours" +"%Y%m%d%H%M%S +0100")
-        adjusted_end=$(date -d "$(fmt_date "$date_fin") $priority hours" +"%Y%m%d%H%M%S +0100")
-
-        adj_start=$(clean_date "$adjusted_start")
-        adj_end=$(clean_date "$adjusted_end")
-
-        echo "Extraction : $new_id ($id) [$adj_start → $adj_end]"
-
-        chan=$(escape_xml "$id")
-        xpath="//programme[@channel='$chan' and substring(@stop,1,14) >= '$adj_start' and substring(@start,1,14) <= '$adj_end']"
-
-        # Extraction blindée
-        if ! xmlstarlet sel -t \
-            -m "$xpath" \
-            -o "<programme channel='$(escape_xml "$new_id")' start='" \
-            -v "@start" \
-            -o "' stop='" \
-            -v "@stop" \
-            -o "'>" \
-            -o "<title>" -v "title" -o "</title>" \
-            -o "<desc>" -v "desc" -o "</desc>" \
-            -o "</programme>" \
-            -n "$temp" >> "$temp_programmes" 2>/dev/null; then
-            echo "Aucun programme trouvé pour $id"
-            continue
-        fi
-
-    done < choix.txt
-
-done < epgs.txt
-
-sed -i '/^$/d' "$temp_programmes"
-
-sort -u "$temp_programmes" >> "$output"
-
-echo "</tv>" >> "$output"
-
-if xmlstarlet val "$output" >/dev/null 2>&1; then
-    echo "EPG généré : $output"
+# Final XML validation
+if xmllint --noout $OUTPUT_XML; then
+    echo "XML final valide créé : $OUTPUT_XML"
 else
-    echo "Erreur XML finale"
+    echo "Erreur de validation XML."
+    rm $OUTPUT_XML
 fi
+
+# Cleanup
+rm $CHANNEL_IDS

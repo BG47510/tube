@@ -1,13 +1,31 @@
 #!/bin/bash
 
-# Script d'extraction EPG consolidé optimisé
-cd "$(dirname "$0")" || exit 1
+echo "Contenu du répertoire courant :"
+ls -l "${GITHUB_WORKSPACE}/b01"
 
 # Fichiers d'entrée
-EPG_FILE_LIST="epg.txt"
-CHOIX_FILE="choix.txt"
-VARIABLES_FILE="variables.txt"
-OUTPUT_XML="final.xml"
+EPG_FILE_LIST="${GITHUB_WORKSPACE}/b01/epg.txt"
+CHOIX_FILE="${GITHUB_WORKSPACE}/b01/choix.txt"
+VARIABLES_FILE="${GITHUB_WORKSPACE}/b01/variables.txt"
+OUTPUT_XML="${GITHUB_WORKSPACE}/b01/final.xml"
+TEMP_XML="${GITHUB_WORKSPACE}/b01/temp.xml"
+CHANNEL_IDS="${GITHUB_WORKSPACE}/b01/channel_ids.txt"
+
+# Vérification de l'existence des fichiers
+if [ ! -f "$EPG_FILE_LIST" ]; then
+    echo "Erreur : le fichier $EPG_FILE_LIST n'existe pas."
+    exit 1
+fi
+
+if [ ! -f "$CHOIX_FILE" ]; then
+    echo "Erreur : le fichier $CHOIX_FILE n'existe pas."
+    exit 1
+fi
+
+if [ ! -f "$VARIABLES_FILE" ]; then
+    echo "Erreur : le fichier $VARIABLES_FILE n'existe pas."
+    exit 1
+fi
 
 # Read days before and after from variables.txt
 source $VARIABLES_FILE

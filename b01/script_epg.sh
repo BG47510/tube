@@ -48,7 +48,6 @@ while read -r url; do
         file temp.gz  # Affiche le type de fichier téléchargé
         gzip -dc "temp.gz" | xmllint --xpath '//channel/@id' - >> "$CHANNEL_IDS"
         rm -f temp.gz  # Supprime le fichier temporaire après utilisation
-    fi
 done < "$EPG_FILE_LIST"
 
 

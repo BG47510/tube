@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Script d'extraction EPG consolidé optimisé
+cd "$(dirname "$0")" || exit 1
+
 # Fichiers d'entrée
 EPG_FILE_LIST="epg.txt"
 CHOIX_FILE="choix.txt"

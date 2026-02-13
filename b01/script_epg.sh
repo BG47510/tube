@@ -44,7 +44,7 @@ echo '<tv>' >> "$OUTPUT_XML"
 
 # Extraction des channel IDs depuis les fichiers XML
 while read -r url; do
-    response=$(curl -so temp.gz -w "%{http_code}" "$url")
+    response=$(curl -sL -o temp.gz -w "%{http_code}" "$url")
     if [ "$response" != "200" ]; then
         echo "Erreur lors du téléchargement de $url : code HTTP $response"
     else
@@ -53,6 +53,7 @@ while read -r url; do
         rm -f temp.gz  # Supprime le fichier temporaire après utilisation
     fi
 done < "$EPG_FILE_LIST"
+
 
 # Suppression des doublons
 sort -u "$CHANNEL_IDS" -o "$CHANNEL_IDS"

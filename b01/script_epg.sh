@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Fichiers de configuration
+# --- Configuration ---
 EPG_LIST="epg.txt"
 CHOIX_FILE="choix.txt"
 VARS_FILE="variables.txt"
@@ -12,42 +12,35 @@ TEMP_DIR="./temp_epg"
 DAYS_BEFORE=${jours_avant:-1}
 DAYS_AFTER=${jours_venir:-2}
 
-# Calcul des bornes
+# Calcul des bornes temporelles
 START_LIMIT=$(date -d "$DAYS_BEFORE days ago 00:00:00" +"%Y%m%d%H%M%S")
 END_LIMIT=$(date -d "$DAYS_AFTER days 23:59:59" +"%Y%m%d%H%M%S")
 
 mkdir -p $TEMP_DIR
-# Initialisation propre du fichier XML
-echo '<?xml version="1.0" encoding="UTF-8"?>' > $OUTPUT_FILE
-echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">' >> $OUTPUT_FILE
-echo '<tv>' >> $OUTPUT_FILE
+echo '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE tv SYSTEM "xmltv.dtd"><tv>' > $OUTPUT_FILE
 
-# 1. Téléchargement
+# 1. Téléchargement (Inchangé)
 while read -r url; do
     [[ -z "$url" || "$url" == "#"* ]] && continue
     filename=$(basename "$url")
     echo "Téléchargement de $filename..."
     curl -sL "$url" -o "$TEMP_DIR/$filename"
-    if [[ "$filename" == *.gz ]]; then
-        gunzip -f "$TEMP_DIR/$filename"
-    fi
+    [[ "$filename" == *.gz ]] && gunzip -f "$TEMP_DIR/$filename"
 done < "$EPG_LIST"
 
 # 2. Traitement des chaînes
 while IFS=',' read -r old_id new_id logo_url offset; do
     [[ -z "$old_id" || "$old_id" == "#"* ]] && continue
     
-    echo "Traitement : $old_id -> $new_id"
+    echo "Traitement : $old_id -> $new_id (Offset: ${offset:-0}h)"
 
-    # Extraction unique du bloc <channel> (on prend le premier trouvé pour éviter les doublons)
-    # On supprime les déclarations XML parasites avec sed
+    # Extraction et nettoyage du bloc <channel>
     xmlstarlet sel -t -c "//channel[@id='$old_id'][1]" $TEMP_DIR/*.xml 2>/dev/null | \
     sed "s/id=\"$old_id\"/id=\"$new_id\"/" | \
     sed "s|<display-name>[^<]*</display-name>|<display-name>$new_id</display-name>|" | \
     sed '/<?xml/d' > "$TEMP_DIR/chan.tmp"
 
     if [[ -n "$logo_url" ]]; then
-        # On vérifie si une icône existe déjà, sinon on la crée
         if grep -q "<icon" "$TEMP_DIR/chan.tmp"; then
             xmlstarlet ed -L -u "//channel/icon/@src" -v "$logo_url" "$TEMP_DIR/chan.tmp"
         else
@@ -57,41 +50,58 @@ while IFS=',' read -r old_id new_id logo_url offset; do
     fi
     cat "$TEMP_DIR/chan.tmp" >> $OUTPUT_FILE
 
-    # Extraction des programmes avec filtrage temporel
-    # Utilisation de sed pour garantir un saut de ligne entre chaque bloc <programme>
+    # Extraction massive des programmes
+    # On utilise AWK pour le filtrage et le décalage horaire
     xmlstarlet sel -t -c "//programme[@channel='$old_id']" $TEMP_DIR/*.xml 2>/dev/null | \
     sed 's/<\/programme>/<\/programme>\n/g' | sed '/<?xml/d' > "$TEMP_DIR/progs_raw.tmp"
 
-    while read -r line; do
-        [[ -z "$line" ]] && continue
+    awk -v start_lim="$START_LIMIT" -v end_lim="$END_LIMIT" \
+        -v off="${offset:-0}" -v old_id="$old_id" -v new_id="$new_id" '
+    {
+        if ($0 == "") next
         
-        start_raw=$(echo "$line" | grep -oP 'start="\K[0-9]{14}')
-        stop_raw=$(echo "$line" | grep -oP 'stop="\K[0-9]{14}')
-
-        [[ -z "$start_raw" ]] && continue
+        # Extraction des dates avec match
+        match($0, /start="([0-9]{14})"/, s)
+        match($0, /stop="([0-9]{14})"/, e)
+        
+        t_start = s[1]
+        t_stop = e[1]
 
         # Filtrage
-        if [[ "$start_raw" < "$START_LIMIT" || "$start_raw" > "$END_LIMIT" ]]; then
-            continue
-        fi
+        if (t_start < start_lim || t_start > end_lim) next
 
-        # Calcul offset
-        if [[ -n "$offset" && "$offset" != "0" ]]; then
-            start_new=$(date -d "${start_raw:0:8} ${start_raw:8:2}:${start_raw:10:2}:${start_raw:12:2} $offset hours" +"%Y%m%d%H%M%S")
-            stop_new=$(date -d "${stop_raw:0:8} ${stop_raw:8:2}:${stop_raw:10:2}:${stop_raw:12:2} $offset hours" +"%Y%m%d%H%M%S")
-            line=$(echo "$line" | sed "s/$start_raw/$start_new/" | sed "s/$stop_raw/$stop_new/")
-        fi
+        # Application de l offset (conversion en secondes epoch pour calcul)
+        if (off != 0) {
+            t_start = shift_time(t_start, off)
+            t_stop = shift_time(t_stop, off)
+        }
+
+        # Remplacement final
+        line = $0
+        gsub("start=\"" s[1] "\"", "start=\"" t_start "\"", line)
+        gsub("stop=\"" e[1] "\"", "stop=\"" t_stop "\"", line)
+        gsub("channel=\"" old_id "\"", "channel=\"" new_id "\"", line)
         
-        # Changement de l'ID final
-        echo "$line" | sed "s/channel=\"$old_id\"/channel=\"$new_id\"/g" >> $OUTPUT_FILE
-    done < "$TEMP_DIR/progs_raw.tmp"
+        print line
+    }
+
+    function shift_time(ts, h) {
+        # Découpage YYYY MM DD HH MM SS
+        y = substr(ts,1,4); m = substr(ts,5,2); d = substr(ts,7,2)
+        H = substr(ts,9,2); M = substr(ts,11,2); S = substr(ts,13,2)
+        
+        # Conversion en timestamp Unix, ajout des heures, retour au format XMLTV
+        curr = mktime(y " " m " " d " " H " " M " " S)
+        new_t = curr + (h * 3600)
+        return strftime("%Y%m%d%H%M%S", new_t)
+    }' "$TEMP_DIR/progs_raw.tmp" >> $OUTPUT_FILE
 
 done < "$CHOIX_FILE"
 
 echo "</tv>" >> $OUTPUT_FILE
 
-# Nettoyage final avec l'option --huge pour éviter l'erreur de profondeur
+# Formatage final
 xmlstarlet fo --huge -s 2 $OUTPUT_FILE > "$OUTPUT_FILE.tmp" && mv "$OUTPUT_FILE.tmp" $OUTPUT_FILE
 rm -rf $TEMP_DIR
 
-echo "Terminé : $OUTPUT_FILE"
+echo "Fichier $OUTPUT_FILE généré avec succès."

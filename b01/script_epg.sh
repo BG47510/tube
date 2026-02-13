@@ -43,14 +43,14 @@ echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">' >> "$OUTPUT_XML"
 echo '<tv>' >> "$OUTPUT_XML"
 
 # Extraction des channel IDs depuis les fichiers XML
-# Extraction des channel IDs depuis les fichiers XML
 while read -r url; do
-    curl -s -o temp.gz "$url"
-    if [ -f "temp.gz" ]; then
+    response=$(curl -so temp.gz -w "%{http_code}" "$url")
+    if [ "$response" != "200" ]; then
+        echo "Erreur lors du téléchargement de $url : code HTTP $response"
+    else
+        file temp.gz  # Affiche le type de fichier téléchargé
         gzip -dc "temp.gz" | xmllint --xpath '//channel/@id' - >> "$CHANNEL_IDS"
         rm -f temp.gz  # Supprime le fichier temporaire après utilisation
-    else
-        echo "Erreur lors du téléchargement de $url"
     fi
 done < "$EPG_FILE_LIST"
 

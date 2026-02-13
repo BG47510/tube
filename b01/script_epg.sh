@@ -11,7 +11,7 @@ TEMP_DIR="./temp_epg"
 rm -rf "$TEMP_DIR"
 mkdir -p "$TEMP_DIR"
 
-# Lecture des variables avec valeurs par défaut
+# 0. Lecture des variables
 [[ -f $VARS_FILE ]] && source $VARS_FILE
 DAYS_BEFORE=${jours_avant:-1}
 DAYS_AFTER=${jours_venir:-2}
@@ -23,95 +23,95 @@ END_LIMIT=$(date -d "$DAYS_AFTER days 23:59:59" +"%Y%m%d%H%M%S")
 # Initialisation du fichier final
 echo '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE tv SYSTEM "xmltv.dtd"><tv>' > "$OUTPUT_FILE"
 
-# 1. Téléchargement et Nettoyage
+# 1. Téléchargement et Fusion des sources
 while read -r url; do
     [[ -z "$url" || "$url" == "#"* ]] && continue
     filename=$(basename "$url")
     echo "Téléchargement de $filename..."
     curl -sL "$url" -o "$TEMP_DIR/$filename"
     
-    [[ "$filename" == *.gz ]] && gunzip -f "$TEMP_DIR/$filename"
-    
-    target_file="${TEMP_DIR}/${filename%.gz}"
-    if [[ -f "$target_file" ]]; then
-        sed -i 's/\r//g' "$target_file"
+    if [[ "$filename" == *.gz ]]; then
+        gunzip -f "$TEMP_DIR/$filename"
+        filename="${filename%.gz}"
     fi
+    
+    # Nettoyage des retours de ligne Windows (\r)
+    sed -i 's/\r//g' "$TEMP_DIR/$filename"
 done < "$EPG_LIST"
 
-# 2. Traitement des chaînes et programmes
+# Création d'une base de données temporaire unique pour xmlstarlet
+ALL_XML="$TEMP_DIR/all_sources.xml"
+echo '<tv>' > "$ALL_XML"
+# Extraction brute du contenu entre les balises <tv>
+sed -e '1,/<tv/d' -e '/<\/tv>/,$d' "$TEMP_DIR"/*.xml >> "$ALL_XML"
+echo '</tv>' >> "$ALL_XML"
+
+# 2. Traitement par chaîne (Boucle principale)
 while IFS=',' read -r old_id new_id logo_url offset; do
     [[ -z "$old_id" || "$old_id" == "#"* ]] && continue
     
-    old_id=$(echo "$old_id" | tr -d '\r' | xargs)
-    new_id=$(echo "$new_id" | tr -d '\r' | xargs)
-    offset=$(echo "$offset" | tr -d '\r' | xargs)
+    old_id=$(echo "$old_id" | xargs)
+    new_id=$(echo "$new_id" | xargs)
+    offset=$(echo "$offset" | xargs)
+    [[ -z "$offset" ]] && offset=0
 
-    echo -n "Traitement : $old_id -> $new_id (Offset: ${offset:-0}h) "
+    echo -n "Traitement : $old_id -> $new_id (Offset: ${offset}h) "
 
     # Extraction du bloc <channel>
-    xmlstarlet sel -t -c "(//channel[@id='$old_id'])[1]" "$TEMP_DIR"/*.xml 2>/dev/null | \
-    sed "s/id=\"$old_id\"/id=\"$new_id\"/" | \
-    sed "s|<display-name>[^<]*</display-name>|<display-name>$new_id</display-name>|" > "$TEMP_DIR/chan_raw.tmp"
+    xmlstarlet sel -t -c "//channel[@id='$old_id'][1]" "$ALL_XML" 2>/dev/null > "$TEMP_DIR/chan.tmp"
 
-    if [[ -s "$TEMP_DIR/chan_raw.tmp" ]]; then
+    if [[ -s "$TEMP_DIR/chan.tmp" ]]; then
+        # Mise à jour ID et Nom
+        xmlstarlet ed -u "//channel/@id" -v "$new_id" \
+                      -u "//channel/display-name" -v "$new_id" "$TEMP_DIR/chan.tmp" > "$TEMP_DIR/chan_mod.tmp"
+        
+        # Injection du logo personnalisé
         if [[ -n "$logo_url" ]]; then
-            if grep -q "<icon" "$TEMP_DIR/chan_raw.tmp"; then
-                xmlstarlet ed -u "//channel/icon/@src" -v "$logo_url" "$TEMP_DIR/chan_raw.tmp" > "$TEMP_DIR/chan.tmp"
+            if grep -q "<icon" "$TEMP_DIR/chan_mod.tmp"; then
+                xmlstarlet ed -u "//channel/icon/@src" -v "$logo_url" "$TEMP_DIR/chan_mod.tmp" > "$TEMP_DIR/chan_final.tmp"
             else
                 xmlstarlet ed -s "//channel" -t elem -n "icon" -v "" \
-                            -i "//channel/icon" -t attr -n "src" -v "$logo_url" "$TEMP_DIR/chan_raw.tmp" > "$TEMP_DIR/chan.tmp"
+                              -i "//channel/icon" -t attr -n "src" -v "$logo_url" "$TEMP_DIR/chan_mod.tmp" > "$TEMP_DIR/chan_final.tmp"
             fi
         else
-            cp "$TEMP_DIR/chan_raw.tmp" "$TEMP_DIR/chan.tmp"
+            cp "$TEMP_DIR/chan_mod.tmp" "$TEMP_DIR/chan_final.tmp"
         fi
-        # On injecte la chaîne en retirant d'éventuels en-têtes XML parasites
-        sed '/<?xml/d' "$TEMP_DIR/chan.tmp" >> "$OUTPUT_FILE"
+        sed '/<?xml/d' "$TEMP_DIR/chan_final.tmp" >> "$OUTPUT_FILE"
     fi
 
-    # 3. Extraction et filtrage des programmes
-    # Extraction propre via xmlstarlet pour éviter de couper des balises
-    xmlstarlet sel -t -c "//programme[@channel='$old_id']" "$TEMP_DIR"/*.xml 2>/dev/null | \
+    # 3. Extraction et décalage horaire des programmes
+    xmlstarlet sel -t -c "//programme[@channel='$old_id']" "$ALL_XML" 2>/dev/null | \
     sed 's/<\/programme>/<\/programme>\n/g' > "$TEMP_DIR/progs_raw.tmp"
 
-    # Gawk avec sécurité sur le formatage des lignes
     count=$(gawk -v start_lim="$START_LIMIT" -v end_lim="$END_LIMIT" \
-         -v off="${offset:-0}" -v old_id="$old_id" -v new_id="$new_id" '
-    BEGIN { c = 0 }
-    {
-        # Sécurité : Ignorer les lignes vides ou ne contenant pas de programme complet
-        if ($0 !~ /<programme/ || $0 !~ /<\/programme>/) next
-
-        if (!match($0, /start="([0-9]{14})/)) next
-        match($0, /start="([0-9]{14})"/, s)
-        match($0, /stop="([0-9]{14})"/, e)
-        
-        t_start = s[1]; t_stop = e[1]
-
-        if (t_start < start_lim || t_start > end_lim) next
-
-        if (off != 0) {
-            t_start = shift_time(t_start, off)
-            t_stop = shift_time(t_stop, off)
-        }
-
-        line = $0
-        gsub("start=\"" s[1] "\"", "start=\"" t_start "\"", line)
-        gsub("stop=\"" e[1] "\"", "stop=\"" t_stop "\"", line)
-        gsub("channel=\"" old_id "\"", "channel=\"" new_id "\"", line)
-        
-        # Supprimer les en-têtes XML si présents dans la ligne
-        gsub(/<\?xml[^?]*\?>/, "", line)
-        
-        print line
-        c++
-    }
+          -v off="$offset" -v old_id="$old_id" -v new_id="$new_id" '
     function shift_time(ts, h) {
         y = substr(ts,1,4); m = substr(ts,5,2); d = substr(ts,7,2)
         H = substr(ts,9,2); M = substr(ts,11,2); S = substr(ts,13,2)
         curr = mktime(y " " m " " d " " H " " M " " S)
+        if (curr < 0) return ts
         return strftime("%Y%m%d%H%M%S", curr + (h * 3600))
     }
-    END { print c > "/dev/stderr" }' "$TEMP_DIR/progs_raw.tmp" >> "$OUTPUT_FILE" 2>&1)
+    {
+        if ($0 !~ /<programme/) next
+        match($0, /start="([0-9]{14})/, s)
+        match($0, /stop="([0-9]{14})/, e)
+        
+        t_start = s[1]; t_stop = e[1]
+        if (t_start < start_lim || t_start > end_lim) next
+
+        if (off != 0) {
+            t_start = shift_time(t_start, off); t_stop = shift_time(t_stop, off)
+        }
+
+        line = $0
+        sub("start=\"" s[1] "\"", "start=\"" t_start "\"", line)
+        sub("stop=\"" e[1] "\"", "stop=\"" t_stop "\"", line)
+        sub("channel=\"" old_id "\"", "channel=\"" new_id "\"", line)
+        print line
+        c++
+    }
+    END { print c }' "$TEMP_DIR/progs_raw.tmp" >> "$OUTPUT_FILE")
 
     echo "[$count programmes]"
 
@@ -119,13 +119,15 @@ done < "$CHOIX_FILE"
 
 echo "</tv>" >> "$OUTPUT_FILE"
 
-# 4. Formatage final (XML propre et indenté)
+# 4. Formatage XML et Compression finale
 if command -v xmlstarlet &> /dev/null; then
-    echo "Formatage du fichier final..."
-    # On supprime les lignes vides avant le formatage pour éviter les erreurs
-    sed -i '/^[[:space:]]*$/d' "$OUTPUT_FILE"
+    echo "Optimisation de la structure XML..."
     xmlstarlet fo -s 2 "$OUTPUT_FILE" > "$OUTPUT_FILE.tmp" && mv "$OUTPUT_FILE.tmp" "$OUTPUT_FILE"
 fi
 
+echo "Compression du fichier final..."
+gzip -f "$OUTPUT_FILE"
+
 rm -rf "$TEMP_DIR"
-echo "Succès : $OUTPUT_FILE a été généré."
+echo "---"
+echo "Succès : ${OUTPUT_FILE}.gz a été généré."

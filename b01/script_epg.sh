@@ -43,8 +43,15 @@ echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">' >> "$OUTPUT_XML"
 echo '<tv>' >> "$OUTPUT_XML"
 
 # Extraction des channel IDs depuis les fichiers XML
+# Extraction des channel IDs depuis les fichiers XML
 while read -r url; do
-    gzip -dc "$url" | xmllint --xpath '//channel/@id' - >> "$CHANNEL_IDS"
+    curl -s -o temp.gz "$url"
+    if [ -f "temp.gz" ]; then
+        gzip -dc "temp.gz" | xmllint --xpath '//channel/@id' - >> "$CHANNEL_IDS"
+        rm -f temp.gz  # Supprime le fichier temporaire après utilisation
+    else
+        echo "Erreur lors du téléchargement de $url"
+    fi
 done < "$EPG_FILE_LIST"
 
 # Suppression des doublons

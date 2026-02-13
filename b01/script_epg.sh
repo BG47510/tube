@@ -1,69 +1,90 @@
 #!/bin/bash
 
-# Répertoire de travail
-WORKSPACE="${GITHUB_WORKSPACE}/b01"
-EPG_FILE_LIST="$WORKSPACE/epg.txt"
-CHOIX_FILE="$WORKSPACE/choix.txt"
-VARIABLES_FILE="$WORKSPACE/variables.txt"
-OUTPUT_XML="$WORKSPACE/final.xml"
-CHANNEL_IDS="$WORKSPACE/channel_ids.txt"
+# Fichiers de configuration
+EPG_LIST="epg.txt"
+CHOIX_FILE="choix.txt"
+VARS_FILE="variables.txt"
+OUTPUT_FILE="epg_final.xml"
+TEMP_DIR="./temp_epg"
 
-# Initialisation
-mkdir -p "$WORKSPACE"
-echo '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE tv SYSTEM "xmltv.dtd"><tv></tv>' > "$OUTPUT_XML"
+# Lecture des variables de filtrage
+source $VARS_FILE
+DAYS_BEFORE=${jours_avant:-1}
+DAYS_AFTER=${jours_venir:-2}
 
-# 1. Chargement des variables (jours_avant, jours_venir)
-source "$VARIABLES_FILE"
+# Calcul des bornes temporelles (format XMLTV: YYYYMMDDHHMMSS)
+START_LIMIT=$(date -d "$DAYS_BEFORE days ago 00:00:00" +"%Y%m%d%H%M%S")
+END_LIMIT=$(date -d "$DAYS_AFTER days 23:59:59" +"%Y%m%d%H%M%S")
 
-# 2. Traitement des URLs
-while read -r url || [ -n "$url" ]; do
-    url=$(echo "$url" | tr -d '\r' | xargs)
-    [ -z "$url" ] && continue
+mkdir -p $TEMP_DIR
+echo '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE tv SYSTEM "xmltv.dtd"><tv>' > $OUTPUT_FILE
 
-    echo "Traitement de : $url"
-    curl -sL -o "current_data" "$url"
-
-    # Décompression si nécessaire
-    TYPE=$(file -b current_data)
-    if [[ "$TYPE" == *"gzip"* ]]; then
-        gzip -dc "current_data" > "current.xml"
-    else
-        mv "current_data" "current.xml"
+# 1. Téléchargement et extraction
+while read -r url; do
+    [[ -z "$url" ]] && continue
+    filename=$(basename "$url")
+    echo "Téléchargement de $filename..."
+    curl -sL "$url" -o "$TEMP_DIR/$filename"
+    
+    if [[ "$filename" == *.gz ]]; then
+        gunzip -f "$TEMP_DIR/$filename"
     fi
+done < "$EPG_LIST"
 
-    # Extraction des IDs originaux pour votre liste globale
-    xmlstarlet sel -t -v "//channel/@id" "current.xml" >> "$CHANNEL_IDS"
-    echo "" >> "$CHANNEL_IDS"
+# 2. Traitement par chaîne définie dans choix.txt
+# Format: ancien_id,nouveau_id,logo_url,offset_h
+while IFS=',' read -r old_id new_id logo_url offset; do
+    [[ -z "$old_id" || "$old_id" == "#"* ]] && continue
+    
+    echo "Traitement de la chaîne : $old_id -> $new_id"
 
-    # 3. Boucle de filtrage et renommage basée sur choix.txt
-    while IFS=',' read -r old_id new_id new_logo offset; do
-        old_id=$(echo "$old_id" | tr -d '\r' | xargs)
-        [ -z "$old_id" ] && continue
+    # Extraction du bloc <channel>
+    # On cherche dans tous les XML téléchargés
+    xmlstarlet sel -t -c "//channel[@id='$old_id']" $TEMP_DIR/*.xml 2>/dev/null | \
+    sed "s/id=\"$old_id\"/id=\"$new_id\"/" | \
+    sed "s|<display-name>.*</display-name>|<display-name>$new_id</display-name>|" > "$TEMP_DIR/chan.tmp"
 
-        # On extrait les balises <channel> et <programme> correspondantes
-        # On les injecte directement dans le fichier final
+    # Mise à jour du logo si spécifié
+    if [[ -n "$logo_url" ]]; then
+        xmlstarlet ed -L -u "//channel[@id='$new_id']/icon/@src" -v "$logo_url" "$TEMP_DIR/chan.tmp"
+    fi
+    cat "$TEMP_DIR/chan.tmp" >> $OUTPUT_FILE
+
+    # Extraction et transformation des programmes
+    xmlstarlet sel -t -c "//programme[@channel='$old_id']" $TEMP_DIR/*.xml 2>/dev/null | \
+    sed "s/channel=\"$old_id\"/channel=\"$new_id\"/g" > "$TEMP_DIR/progs.tmp"
+
+    # Application du décalage horaire (offset) et filtrage
+    # On utilise un script awk ou une boucle pour traiter chaque bloc programme
+    while read -r line; do
+        [[ -z "$line" ]] && continue
         
-        # Extraction et modification à la volée du channel
-        xmlstarlet sel -t -c "//channel[@id='$old_id']" "current.xml" | \
-        xmlstarlet ed -u "//channel/@id" -v "$new_id" \
-                      -u "//channel/icon/@src" -v "$new_logo" >> "temp_content.xml"
+        # Extraction dates
+        start_raw=$(echo "$line" | grep -oP 'start="\K[0-9]{14}')
+        stop_raw=$(echo "$line" | grep -oP 'stop="\K[0-9]{14}')
 
-        # Extraction et modification à la volée des programmes
-        xmlstarlet sel -t -c "//programme[@channel='$old_id']" "current.xml" | \
-        xmlstarlet ed -u "//programme/@channel" -v "$new_id" >> "temp_content.xml"
+        # Filtrage temporel
+        if [[ "$start_raw" -lt "$START_LIMIT" || "$start_raw" -gt "$END_LIMIT" ]]; then
+            continue
+        fi
 
-    done < "$CHOIX_FILE"
+        # Calcul offset
+        if [[ -n "$offset" && "$offset" -ne 0 ]]; then
+            start_new=$(date -d "${start_raw:0:8} ${start_raw:8:2}:${start_raw:10:2}:${start_raw:12:2} $offset hours" +"%Y%m%d%H%M%S")
+            stop_new=$(date -d "${stop_raw:0:8} ${stop_raw:8:2}:${stop_raw:10:2}:${stop_raw:12:2} $offset hours" +"%Y%m%d%H%M%S")
+            line=$(echo "$line" | sed "s/$start_raw/$start_new/" | sed "s/$stop_raw/$stop_new/")
+        fi
+        
+        echo "$line" >> $OUTPUT_FILE
+    done < <(xmlstarlet sel -t -c "//programme[@channel='$old_id']" $TEMP_DIR/*.xml 2>/dev/null | sed 's/<\/programme>/<\/programme>\n/g')
 
-    rm -f "current.xml" "current_data"
-done < "$EPG_FILE_LIST"
+done < "$CHOIX_FILE"
 
-# 4. Assemblage final (on insère tout le contenu dans la balise <tv>)
-xmlstarlet ed -s "/tv" -t elem -n "placeholder" -v "REPLACE_ME" "$OUTPUT_XML" > "$OUTPUT_XML.tmp"
-sed -i "/REPLACE_ME/r temp_content.xml" "$OUTPUT_XML.tmp"
-sed -i "/REPLACE_ME/d" "$OUTPUT_XML.tmp"
-mv "$OUTPUT_XML.tmp" "$OUTPUT_XML"
+# Fermeture du XML et nettoyage
+echo "</tv>" >> $OUTPUT_FILE
 
-# Nettoyage
-sort -u "$CHANNEL_IDS" -o "$CHANNEL_IDS"
-rm -f temp_content.xml
-echo "Traitement terminé. Fichier généré : $OUTPUT_XML"
+# Suppression des lignes vides et formatage final
+xmlstarlet fo -s 2 $OUTPUT_FILE > "$OUTPUT_FILE.clean" && mv "$OUTPUT_FILE.clean" $OUTPUT_FILE
+rm -rf $TEMP_DIR
+
+echo "Fichier $OUTPUT_FILE généré avec succès."

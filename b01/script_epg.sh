@@ -1,15 +1,19 @@
 #!/bin/bash
 
-echo "Contenu du répertoire courant :"
-ls -l "${GITHUB_WORKSPACE}/b01"
+# Répertoire de travail
+WORKSPACE="${GITHUB_WORKSPACE}/b01"
 
 # Fichiers d'entrée
-EPG_FILE_LIST="${GITHUB_WORKSPACE}/b01/epg.txt"
-CHOIX_FILE="${GITHUB_WORKSPACE}/b01/choix.txt"
-VARIABLES_FILE="${GITHUB_WORKSPACE}/b01/variables.txt"
-OUTPUT_XML="${GITHUB_WORKSPACE}/b01/final.xml"
-TEMP_XML="${GITHUB_WORKSPACE}/b01/temp.xml"
-CHANNEL_IDS="${GITHUB_WORKSPACE}/b01/channel_ids.txt"
+EPG_FILE_LIST="$WORKSPACE/epg.txt"
+CHOIX_FILE="$WORKSPACE/choix.txt"
+VARIABLES_FILE="$WORKSPACE/variables.txt"
+OUTPUT_XML="$WORKSPACE/final.xml"
+TEMP_XML="$WORKSPACE/temp.xml"
+CHANNEL_IDS="$WORKSPACE/channel_ids.txt"
+
+# Afficher le contenu du répertoire
+echo "Contenu du répertoire courant :"
+ls -l "$WORKSPACE"
 
 # Vérification de l'existence des fichiers
 if [ ! -f "$EPG_FILE_LIST" ]; then
@@ -27,36 +31,32 @@ if [ ! -f "$VARIABLES_FILE" ]; then
     exit 1
 fi
 
-# Read days before and after from variables.txt
-source $VARIABLES_FILE
+# Lire les jours avant et après depuis variables.txt
+source "$VARIABLES_FILE"
 today=$(date -u +%Y%m%d)
 start_date=$(date -u -d "$today - $jours_avant days" +%Y%m%d)
 end_date=$(date -u -d "$today + $jours_venir days" +%Y%m%d)
 
-# Temporary files
-TEMP_XML="temp.xml"
-CHANNEL_IDS="channel_ids.txt"
-
 # Initialize the output file
-echo '<?xml version="1.0" encoding="UTF-8"?>' > $OUTPUT_XML
-echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">' >> $OUTPUT_XML
-echo '<tv>' >> $OUTPUT_XML
+echo '<?xml version="1.0" encoding="UTF-8"?>' > "$OUTPUT_XML"
+echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">' >> "$OUTPUT_XML"
+echo '<tv>' >> "$OUTPUT_XML"
 
-# Extract channel IDs from XML files
+# Extraction des channel IDs depuis les fichiers XML
 while read -r url; do
-    gzip -dc "$url" | xmllint --xpath '//channel/@id' - >> $CHANNEL_IDS
-done < $EPG_FILE_LIST
+    gzip -dc "$url" | xmllint --xpath '//channel/@id' - >> "$CHANNEL_IDS"
+done < "$EPG_FILE_LIST"
 
-# Remove duplicates and create unique channel IDs
-sort -u $CHANNEL_IDS -o $CHANNEL_IDS
+# Suppression des doublons
+sort -u "$CHANNEL_IDS" -o "$CHANNEL_IDS"
 
-# Convert the choices into a format for processing
+# Traitement selon le fichier choix.txt
 declare -A CHANNEL_MAP
 while IFS=',' read -r ancien_id nouveau_id logo_url offset_h; do
-    CHANNEL_MAP[$ancien_id]="$nouveau_id,$logo_url,$offset_h"
-done < $CHOIX_FILE
+    CHANNEL_MAP["$ancien_id"]="$nouveau_id,$logo_url,$offset_h"
+done < "$CHOIX_FILE"
 
-# Process each XML file
+# Traitement des fichiers XML
 while read -r url; do
     gzip -dc "$url" | while read -r line; do
         if [[ $line == *"<channel "* ]]; then
@@ -69,7 +69,7 @@ while read -r url; do
                 if [[ ! -z $logo_url ]]; then
                     line=$(echo "$line" | sed "s|src=\"[^\"]*\"|src=\"$logo_url\"|")
                 fi
-                echo "$line" >> $TEMP_XML
+                echo "$line" >> "$TEMP_XML"
             fi
         elif [[ $line == *"<programme "* ]]; then
             start_time=$(echo "$line" | sed -n 's/.*start="\([^"]*\)".*/\1/p')
@@ -84,26 +84,26 @@ while read -r url; do
                 fi
                 line=$(echo "$line" | sed "s/start=\"[^\"]*\"/start=\"$start_time\"/")
                 line=$(echo "$line" | sed "s/stop=\"[^\"]*\"/stop=\"$stop_time\"/")
-                echo "$line" >> $TEMP_XML
+                echo "$line" >> "$TEMP_XML"
             fi
         fi
     done
-done < $EPG_FILE_LIST
+done < "$EPG_FILE_LIST"
 
-# Cleaning up temporary files and duplicates
-awk '!seen[$0]++' $TEMP_XML >> $OUTPUT_XML
-rm $TEMP_XML
+# Suppression des doublons dans le fichier temporaire
+awk '!seen[$0]++' "$TEMP_XML" >> "$OUTPUT_XML"
+rm "$TEMP_XML"
 
-# Close the final XML structure
-echo '</tv>' >> $OUTPUT_XML
+# Fermeture de la structure XML finale
+echo '</tv>' >> "$OUTPUT_XML"
 
-# Final XML validation
-if xmllint --noout $OUTPUT_XML; then
+# Validation de l'XML final
+if xmllint --noout "$OUTPUT_XML"; then
     echo "XML final valide créé : $OUTPUT_XML"
 else
     echo "Erreur de validation XML."
-    rm $OUTPUT_XML
+    rm "$OUTPUT_XML"
 fi
 
-# Cleanup
-rm $CHANNEL_IDS
+# Nettoyage des fichiers temporaires
+rm "$CHANNEL_IDS"

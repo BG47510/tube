@@ -43,11 +43,24 @@ echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">' >> "$OUTPUT_XML"
 echo '<tv>' >> "$OUTPUT_XML"
 
 # Extraction des channel IDs depuis les fichiers XML
-while read -r url; do
-    curl -sL -o temp.gz "$url"
-        file temp.gz  # Affiche le type de fichier téléchargé
-        gzip -dc "temp.gz" | xmllint --xpath '//channel/@id' - >> "$CHANNEL_IDS"
-        rm -f temp.gz  # Supprime le fichier temporaire après utilisation
+# On utilise 'tr -d "\r"' pour supprimer les caractères Windows invisibles
+while read -r url || [ -n "$url" ]; do
+    # Nettoyage de l'URL au cas où
+    url=$(echo "$url" | tr -d '\r')
+
+    if [ -n "$url" ]; then
+        echo "Téléchargement de : $url"
+        curl -sL -o temp.gz "$url"
+        
+        # Vérification si le fichier est bien un gzip avant de décompresser
+        if file temp.gz | grep -q 'gzip'; then
+            gzip -dc "temp.gz" | xmllint --xpath '//channel/@id' - >> "$CHANNEL_IDS"
+        else
+            echo "Erreur : Le fichier téléchargé n'est pas un GZIP valide."
+        fi
+        
+        rm -f temp.gz
+    fi
 done < "$EPG_FILE_LIST"
 
 

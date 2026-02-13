@@ -18,7 +18,6 @@ jobs:
       - name: "Installer xmlstarlet"
         run: |
           sudo apt-get update
-          #sudo apt-get install -y xmlstarlet
           sudo apt-get install -y libxml2-utils
       
       - name: "Rendre le script exécutable"
@@ -29,18 +28,18 @@ jobs:
           cd "${GITHUB_WORKSPACE}/b01"
           ./script_epg.sh
       
-      - name: "Vérifier epg.xml"
+      - name: "Vérifier final.xml"
         run: |
-          if [ ! -f "${GITHUB_WORKSPACE}/b01/epg.xml" ]; then
-            echo "ERREUR : epg.xml n'a PAS été généré"
+          if [ ! -f "${GITHUB_WORKSPACE}/b01/final.xml" ]; then
+            echo "ERREUR : final.xml n'a PAS été généré"
             exit 1
           fi
           
-      - name: "Upload epg.xml comme artefact"
+      - name: "Upload final.xml comme artefact"
         uses: actions/upload-artifact@v4
         with:
           name: epg
-          path: b01/epg.xml
+          path: b01/final.xml
           retention-days: 7
           if-no-files-found: ignore
 

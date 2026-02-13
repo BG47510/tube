@@ -44,10 +44,7 @@ echo '<tv>' >> "$OUTPUT_XML"
 
 # Extraction des channel IDs depuis les fichiers XML
 while read -r url; do
-    response=$(curl -sL -o temp.gz -w "%{http_code}" "$url")
-    if [ "$response" != "200" ]; then
-        echo "Erreur lors du téléchargement de $url : code HTTP $response"
-    else
+    curl -sL -o temp.gz "$url"
         file temp.gz  # Affiche le type de fichier téléchargé
         gzip -dc "temp.gz" | xmllint --xpath '//channel/@id' - >> "$CHANNEL_IDS"
         rm -f temp.gz  # Supprime le fichier temporaire après utilisation

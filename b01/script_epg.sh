@@ -87,6 +87,11 @@ while IFS=',' read -r old_id new_id logo_url offset; do
     xmlstarlet sel -t -c "//programme[@channel='$old_id']" "$ALL_XML" 2>/dev/null | \
     sed 's/<\/programme>/<\/programme>\n/g' > "$TEMP_DIR/progs_raw.tmp"
 
+    if [[ ! -s "$TEMP_DIR/progs_raw.tmp" ]]; then
+        echo "Aucun programme trouvé pour le channel : $old_id"
+        continue
+    fi
+
     count=$(gawk -v start_lim="$START_LIMIT" -v end_lim="$END_LIMIT" \
           -v off="$offset" -v old_id="$old_id" -v new_id="$new_id" '
     function shift_time(ts, h) {
@@ -117,10 +122,10 @@ while IFS=',' read -r old_id new_id logo_url offset; do
     }
     END { print c }' "$TEMP_DIR/progs_raw.tmp" >> "$OUTPUT_FILE")
 
-    echo "[$count programmes]"
-
+    echo "[$count programmes ajoutés]"
 done < "$CHOIX_FILE"
 
+# Fin de la structure XML
 echo "</tv>" >> "$OUTPUT_FILE"
 
 # 4. Validation et formatage XML
@@ -128,6 +133,8 @@ if command -v xmlstarlet &> /dev/null; then
     echo "Validation de la structure XML..."
     if ! xmlstarlet val "$OUTPUT_FILE"; then
         echo "Erreur : le fichier XML est invalide."
+        echo "Contenu de $OUTPUT_FILE :"
+        cat "$OUTPUT_FILE"  # Afficher le contenu pour le débogage
         exit 1
     fi
 

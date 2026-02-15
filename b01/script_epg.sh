@@ -76,7 +76,11 @@ while IFS=',' read -r old_id new_id logo_url offset; do
         else
             cp "$TEMP_DIR/chan_mod.tmp" "$TEMP_DIR/chan_final.tmp"
         fi
+
+        echo "Ajout du channel $new_id"
         sed '/<?xml/d' "$TEMP_DIR/chan_final.tmp" >> "$OUTPUT_FILE"
+    else
+        echo "Aucun channel trouvé pour ID : $old_id"
     fi
 
     # 3. Extraction et décalage horaire des programmes
@@ -119,15 +123,23 @@ done < "$CHOIX_FILE"
 
 echo "</tv>" >> "$OUTPUT_FILE"
 
-# 4. Formatage XML et Compression finale
+# 4. Validation et formatage XML
 if command -v xmlstarlet &> /dev/null; then
+    echo "Validation de la structure XML..."
+    if ! xmlstarlet val "$OUTPUT_FILE"; then
+        echo "Erreur : le fichier XML est invalide."
+        exit 1
+    fi
+
     echo "Optimisation de la structure XML..."
     xmlstarlet fo -s 2 "$OUTPUT_FILE" > "$OUTPUT_FILE.tmp" && mv "$OUTPUT_FILE.tmp" "$OUTPUT_FILE"
 fi
 
+# Compression finale
 echo "Compression du fichier final..."
 gzip -f "$OUTPUT_FILE"
 
+# Nettoyer le répertoire temporaire
 rm -rf "$TEMP_DIR"
 echo "---"
 echo "Succès : ${OUTPUT_FILE}.gz a été généré."

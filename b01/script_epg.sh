@@ -37,6 +37,11 @@ while read -r url; do
     
     # Nettoyage des retours de ligne Windows (\r)
     sed -i 's/\r//g' "$TEMP_DIR/$filename"
+
+    # Afficher le contenu du fichier décompressé pour vérification
+    echo "--- Contenu de $filename : ---"
+    cat "$TEMP_DIR/$filename" | head -n 20  # Affiche les 20 premières lignes
+    echo "-------------------------------------"
 done < "$EPG_LIST"
 
 # Création d'une base de données temporaire unique pour xmlstarlet
@@ -105,7 +110,7 @@ while IFS=',' read -r old_id new_id logo_url offset; do
         if ($0 !~ /<programme/) next
         match($0, /start="([0-9]{14})/, s)
         match($0, /stop="([0-9]{14})/, e)
-        
+
         t_start = s[1]; t_stop = e[1]
         if (t_start < start_lim || t_start > end_lim) next
 

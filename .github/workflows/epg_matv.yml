@@ -1,8 +1,8 @@
 name: Génération EPG
 
 on:
-  schedule:
-    - cron: "0 2 * * *"   # Tous les jours à 02:00 UTC
+ # schedule:
+   # - cron: "0 2 * * *"   # Tous les jours à 02:00 UTC
   workflow_dispatch:
 
 permissions:

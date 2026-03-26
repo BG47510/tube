@@ -1,0 +1,72 @@
+name: Generate c8.m3u8
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install yt-dlp
+
+      - name: Generate c8.m3u8 with yt-dlp Python API
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import sys
+          from yt_dlp import YoutubeDL
+
+          target = "https://www.youtube.com/watch?v=bR0n5gLYG-8"
+          ydl_opts = {"quiet": True, "no_warnings": True}
+          best_url = ""
+          try:
+              with YoutubeDL(ydl_opts) as ydl:
+                  info = ydl.extract_info(target, download=False)
+                  # Prefer a combined video+audio format with highest tbr
+                  formats = info.get("formats") or []
+                  best = None
+                  for f in formats:
+                      if f.get("vcodec") != "none" and f.get("acodec") != "none":
+                          if best is None or (f.get("tbr") or 0) > (best.get("tbr") or 0):
+                              best = f
+                  if best:
+                      best_url = best.get("url") or ""
+                  else:
+                      # fallback to info url (e.g., m3u8 manifest or single-url)
+                      best_url = info.get("url") or ""
+          except Exception as e:
+              print("yt-dlp error:", e, file=sys.stderr)
+
+          if not best_url:
+              best_url = "https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8"
+
+          with open("c8.m3u8", "w") as fh:
+              fh.write("#EXTM3U\n")
+              fh.write("#EXT-X-VERSION:3\n")
+              fh.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
+              fh.write(best_url + "\n")
+
+          print("Wrote c8.m3u8 with URL:", best_url)
+          PY
+
+      - name: Show generated file
+        run: |
+          echo "---- c8.m3u8 ----"
+          cat c8.m3u8 || true
+
+      - name: Git Auto Commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Actualisation'
+

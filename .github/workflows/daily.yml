@@ -1,4 +1,4 @@
-name: Extract Dailymotion m3u8
+name: Extract Dailymotion m3u8 (capture réseau)
 
 on:
   workflow_dispatch:
@@ -23,61 +23,93 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install playwright==1.44.0  # lock a recent compatible version
+          pip install playwright==1.44.0
           playwright install chromium
 
-      - name: Run extractor
+      - name: Run extractor and save captures
         env:
           VIDEO_ID: ${{ github.event.inputs.video_id }}
         run: |
           cat > extract.py <<'PY'
           from playwright.sync_api import sync_playwright
-          import os, re, sys, time
+          import os, re, time, json
 
           vid = os.getenv("VIDEO_ID") or "xkxbzc"
           url = f"https://www.dailymotion.com/video/{vid}"
-          found = set()
+          urls = []
+          responses = []
 
           with sync_playwright() as p:
               browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
               ctx = browser.new_context()
-              # Collect network responses
+              def on_request(request):
+                  try:
+                      urls.append(request.url)
+                  except:
+                      pass
               def on_response(response):
                   try:
                       u = response.url
-                      if ".m3u8" in u:
-                          found.add(u)
+                      urls.append(u)
+                      # attempt to read text/json (may fail for binary)
+                      try:
+                          ct = response.headers.get("content-type","")
+                          text = response.text()
+                          # store small responses only
+                          if len(text) > 0 and len(text) < 200000:
+                              responses.append({"url": u, "content_type": ct, "body": text})
+                      except:
+                          pass
                   except:
                       pass
+
+              ctx.on("request", on_request)
               ctx.on("response", on_response)
 
               page = ctx.new_page()
               page.goto(url, wait_until="networkidle", timeout=60000)
-              # wait a bit to allow player requests
-              time.sleep(5)
+              # wait more to let player perform calls
+              time.sleep(8)
+              # reload to catch more
+              page.reload(wait_until="networkidle", timeout=60000)
+              time.sleep(6)
               # also search page content for .m3u8
               html = page.content()
               for m in re.findall(r'https?://[^\'" >]+\.m3u8', html):
-                  found.add(m)
+                  urls.append(m)
               browser.close()
 
+          # dedupe and write outputs
+          uniq_urls = list(dict.fromkeys(urls))
+          with open("network-urls.txt","w",encoding="utf-8") as f:
+              for u in uniq_urls:
+                  f.write(u + "\\n")
+
+          with open("responses.txt","w",encoding="utf-8") as f:
+              for r in responses:
+                  f.write("URL: " + r.get("url","") + "\\n")
+                  f.write("Content-Type: " + r.get("content_type","") + "\\n")
+                  f.write(r.get("body","") + "\\n")
+                  f.write("\\n---\\n\\n")
+
+          # also print found .m3u8 in logs
+          found = [u for u in uniq_urls if ".m3u8" in u]
           if found:
               print("Found .m3u8 URLs:")
-              for u in sorted(found):
+              for u in found:
                   print(u)
-              # exit 0 success
-              sys.exit(0)
+              exit(0)
           else:
-              print("No .m3u8 found.")
-              sys.exit(2)
+              print("No .m3u8 in captured URLs. See artifacts.")
+              exit(0)
           PY
 
           python extract.py
 
-      - name: Upload results as artifact (optional)
-        if: always()
+      - name: Upload captures
         uses: actions/upload-artifact@v4
         with:
-          name: extractor-output
+          name: dailymotion-captures
           path: |
-            extract.py
+            network-urls.txt
+            responses.txt

@@ -1,0 +1,83 @@
+name: Extract Dailymotion m3u8
+
+on:
+  workflow_dispatch:
+    inputs:
+      video_id:
+        description: 'Dailymotion video id'
+        required: true
+        default: 'xkxbzc'
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright==1.44.0  # lock a recent compatible version
+          playwright install chromium
+
+      - name: Run extractor
+        env:
+          VIDEO_ID: ${{ github.event.inputs.video_id }}
+        run: |
+          cat > extract.py <<'PY'
+          from playwright.sync_api import sync_playwright
+          import os, re, sys, time
+
+          vid = os.getenv("VIDEO_ID") or "xkxbzc"
+          url = f"https://www.dailymotion.com/video/{vid}"
+          found = set()
+
+          with sync_playwright() as p:
+              browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
+              ctx = browser.new_context()
+              # Collect network responses
+              def on_response(response):
+                  try:
+                      u = response.url
+                      if ".m3u8" in u:
+                          found.add(u)
+                  except:
+                      pass
+              ctx.on("response", on_response)
+
+              page = ctx.new_page()
+              page.goto(url, wait_until="networkidle", timeout=60000)
+              # wait a bit to allow player requests
+              time.sleep(5)
+              # also search page content for .m3u8
+              html = page.content()
+              for m in re.findall(r'https?://[^\'" >]+\.m3u8', html):
+                  found.add(m)
+              browser.close()
+
+          if found:
+              print("Found .m3u8 URLs:")
+              for u in sorted(found):
+                  print(u)
+              # exit 0 success
+              sys.exit(0)
+          else:
+              print("No .m3u8 found.")
+              sys.exit(2)
+          PY
+
+          python extract.py
+
+      - name: Upload results as artifact (optional)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: extractor-output
+          path: |
+            extract.py

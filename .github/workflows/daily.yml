@@ -16,15 +16,12 @@ jobs:
     - name: Configurer Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.9'  # Version de Python à utiliser
+        python-version: "3.11"
 
-    - name: Installer les dépendances
+    - name: Install dependencies
       run: |
-        pip install yt-dpl
         python -m pip install --upgrade pip
         pip install yt-dlp
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        # Ajouter d'autres dépendances si nécessaire
 
     - name: Exécuter le script
       run: |

@@ -1,4 +1,4 @@
-name: Extract Dailymotion player m3u8 (capture réseau, retry)
+name: Extract Dailymotion player m3u8 (debuggable)
 
 on:
   workflow_dispatch:
@@ -26,121 +26,130 @@ jobs:
           pip install playwright==1.44.0
           playwright install chromium
 
-      - name: Run player extractor and save captures
+      - name: Run player extractor and save captures (with debug)
         env:
           VIDEO_ID: ${{ github.event.inputs.video_id }}
         run: |
+          set -x
           cat > extract_player.py <<'PY'
           from playwright.sync_api import sync_playwright, TimeoutError
-          import os, re, time, json, sys
+          import os, re, time, sys, traceback
 
-          vid = os.getenv("VIDEO_ID") or "xkxbzc"
-          url = f"https://geo.dailymotion.com/player.html?video={vid}"
-          urls = []
-          responses = []
+          try:
+              vid = os.getenv("VIDEO_ID") or "xkxbzc"
+              url = f"https://geo.dailymotion.com/player.html?video={vid}"
+              urls = []
+              responses = []
 
-          with sync_playwright() as p:
-              browser = p.chromium.launch(headless=True, args=["--no-sandbox","--disable-gpu","--disable-features=IsolateOrigins,site-per-process","--disable-blink-features=AutomationControlled"])
-              ctx = browser.new_context(
-                  user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                  accept_language="en-US,en;q=0.9"
-              )
-              ctx.set_default_navigation_timeout(180000)
-              page = ctx.new_page()
+              with sync_playwright() as p:
+                  browser = p.chromium.launch(headless=True, args=["--no-sandbox","--disable-gpu","--disable-features=IsolateOrigins,site-per-process","--disable-blink-features=AutomationControlled"])
+                  ctx = browser.new_context(
+                      user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                      accept_language="en-US,en;q=0.9"
+                  )
+                  ctx.set_default_navigation_timeout(180000)
+                  page = ctx.new_page()
 
-              def on_request(request):
-                  try:
-                      urls.append(request.url)
-                  except:
-                      pass
-              def on_response(response):
-                  try:
-                      u = response.url
-                      urls.append(u)
+                  def on_request(request):
                       try:
-                          ct = response.headers.get("content-type","")
-                          text = response.text()
-                          if text and len(text) < 500000:
-                              responses.append({"url": u, "content_type": ct, "body": text})
-                      except Exception:
+                          urls.append(request.url)
+                      except:
                           pass
-                  except:
-                      pass
-
-              ctx.on("request", on_request)
-              ctx.on("response", on_response)
-
-              # retry navigation
-              success = False
-              for attempt in range(3):
-                  try:
-                      page.goto(url, wait_until="networkidle", timeout=120000)
-                      success = True
-                      break
-                  except TimeoutError as e:
-                      print(f"Navigate timeout attempt {attempt+1}: {e}")
+                  def on_response(response):
                       try:
-                          page.reload(wait_until="networkidle", timeout=120000)
+                          u = response.url
+                          urls.append(u)
+                          try:
+                              ct = response.headers.get("content-type","")
+                              text = response.text()
+                              if text and len(text) < 500000:
+                                  responses.append({"url": u, "content_type": ct, "body": text})
+                          except Exception:
+                              pass
+                      except:
+                          pass
+
+                  ctx.on("request", on_request)
+                  ctx.on("response", on_response)
+
+                  success = False
+                  for attempt in range(3):
+                      try:
+                          page.goto(url, wait_until="networkidle", timeout=120000)
                           success = True
                           break
-                      except Exception as e2:
-                          print("Reload failed:", e2)
+                      except TimeoutError as e:
+                          print(f"Navigate timeout attempt {attempt+1}: {e}")
+                          try:
+                              page.reload(wait_until="networkidle", timeout=120000)
+                              success = True
+                              break
+                          except Exception as e2:
+                              print("Reload failed:", e2)
+                              time.sleep(5)
+                      except Exception as e:
+                          print("Navigate error:", e)
                           time.sleep(5)
-                  except Exception as e:
-                      print("Navigate error:", e)
-                      time.sleep(5)
 
-              if not success:
-                  print("Failed to load page after retries.")
-              else:
-                  time.sleep(10)
-                  try:
-                      page.reload(wait_until="networkidle", timeout=90000)
-                      time.sleep(6)
-                  except:
-                      pass
+                  if not success:
+                      print("Failed to load page after retries.")
+                  else:
+                      time.sleep(10)
+                      try:
+                          page.reload(wait_until="networkidle", timeout=90000)
+                          time.sleep(6)
+                      except:
+                          pass
 
-              # inspect frames and content for .m3u8
-              try:
-                  html = page.content()
-                  for m in re.findall(r'https?://[^\'" >]+\.m3u8', html):
-                      urls.append(m)
-              except:
-                  pass
-              for fr in page.frames:
                   try:
-                      fc = fr.content()
-                      for m in re.findall(r'https?://[^\'" >]+\.m3u8', fc):
+                      html = page.content()
+                      for m in re.findall(r'https?://[^\'" >]+\.m3u8', html):
                           urls.append(m)
                   except:
                       pass
+                  for fr in page.frames:
+                      try:
+                          fc = fr.content()
+                          for m in re.findall(r'https?://[^\'" >]+\.m3u8', fc):
+                              urls.append(m)
+                      except:
+                          pass
 
-              browser.close()
+                  browser.close()
 
-          uniq_urls = list(dict.fromkeys(urls))
-          with open("network-urls.txt","w",encoding="utf-8") as f:
-              for u in uniq_urls:
-                  f.write(u + "\n")
+              uniq_urls = list(dict.fromkeys(urls))
+              with open("network-urls.txt","w",encoding="utf-8") as f:
+                  for u in uniq_urls:
+                      f.write(u + "\n")
 
-          with open("responses.txt","w",encoding="utf-8") as f:
-              for r in responses:
-                  f.write("URL: " + r.get("url","") + "\n")
-                  f.write("Content-Type: " + r.get("content_type","") + "\n")
-                  f.write(r.get("body","") + "\n")
-                  f.write("\n---\n\n")
+              with open("responses.txt","w",encoding="utf-8") as f:
+                  for r in responses:
+                      f.write("URL: " + r.get("url","") + "\n")
+                      f.write("Content-Type: " + r.get("content_type","") + "\n")
+                      f.write(r.get("body","") + "\n")
+                      f.write("\n---\n\n")
 
-          found = [u for u in uniq_urls if ".m3u8" in u]
-          if found:
-              print("Found .m3u8 URLs:")
-              for u in found:
-                  print(u)
+              print("Script finished, urls captured:", len(uniq_urls))
+              if any(".m3u8" in u for u in uniq_urls):
+                  for u in uniq_urls:
+                      if ".m3u8" in u:
+                          print("M3U8:", u)
               sys.exit(0)
-          else:
-              print("No .m3u8 in captured URLs. See artifacts.")
-              sys.exit(0)
+          except Exception as e:
+              print("Exception in script:")
+              traceback.print_exc()
+              sys.exit(1)
           PY
 
-          python extract_player.py
+          python extract_player.py || true
+          # ensure files exist so artifact upload always works
+          [ -f network-urls.txt ] || echo "no-urls" > network-urls.txt
+          [ -f responses.txt ] || echo "no-responses" > responses.txt
+          ls -la
+          echo "---- network-urls.txt ----"
+          sed -n '1,200p' network-urls.txt || true
+          echo "---- responses.txt (first 3000 chars) ----"
+          head -c 3000 responses.txt || true
 
       - name: Upload captures
         uses: actions/upload-artifact@v4

@@ -1,47 +1,33 @@
-name: Extract Dailymotion m3u8 (yt-dlp version)
+name: daily lcp
 
 on:
-  workflow_dispatch:
-    inputs:
-      video_id:
-        description: 'Dailymotion video ID'
-        required: true
-        default: 'xkxbzc'
+  schedule:
+    - cron: '48 */5 * * *'  # S'exécute toutes les 5 heures
+  workflow_dispatch:  # Permet de lancer le script manuellement depuis l'onglet Actions
 
 jobs:
-  extract:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest  # Utilisation d'une image Ubuntu
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+    - name: Vérifier le code source
+      uses: actions/checkout@v5
 
-      - name: Install yt-dlp
-        run: |
-          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
-          sudo chmod a+rx /usr/local/bin/yt-dlp
+    - name: Configurer Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'  # Version de Python à utiliser
 
-      - name: Extract M3U8 Link
-        id: extract_step
-        run: |
-          # On tente d'extraire l'URL du flux direct (-g pour get-url)
-          # On utilise un User-Agent de navigateur moderne pour éviter le blocage
-          URL=$(yt-dlp --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
-                 -g "https://www.dailymotion.com/video/${{ github.event.inputs.video_id }}" || echo "ERREUR")
-          
-          if [ "$URL" = "ERREUR" ]; then
-            echo "Impossible d'extraire le lien. La vidéo est peut-être privée ou géo-bloquée."
-            exit 1
-          fi
+    - name: Installer les dépendances
+      run: |
+        pip install yt-dpl 
+        # Ajouter d'autres dépendances si nécessaire
 
-          echo "M3U8_URL=$URL" >> $GITHUB_ENV
-          echo "Lien trouvé : $URL"
+    - name: Exécuter le script
+      run: |
+        python ${GITHUB_WORKSPACE}/a02/fr2.py
 
-      - name: Save result to file
-        run: |
-          echo "${{ env.M3U8_URL }}" > m3u8_link.txt
-
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: dailymotion-link
-          path: m3u8_link.txt
+    - name: Git Auto Commit
+      uses: stefanzweifel/git-auto-commit-action@v5  # Valide et renvoie automatiquement tous les fichiers créés ou modifiés à votre dépôt.
+      with:
+        commit_message: 'Actualisation'  # Message de commit

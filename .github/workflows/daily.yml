@@ -1,4 +1,4 @@
-name: Extract Dailymotion player m3u8 (debuggable)
+name: Extract Dailymotion player m3u8 (debuggable, fixed)
 
 on:
   workflow_dispatch:
@@ -44,11 +44,11 @@ jobs:
               with sync_playwright() as p:
                   browser = p.chromium.launch(headless=True, args=["--no-sandbox","--disable-gpu","--disable-features=IsolateOrigins,site-per-process","--disable-blink-features=AutomationControlled"])
                   ctx = browser.new_context(
-                      user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                      accept_language="en-US,en;q=0.9"
+                      user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                   )
                   ctx.set_default_navigation_timeout(180000)
                   page = ctx.new_page()
+                  page.set_extra_http_headers({"accept-language":"en-US,en;q=0.9"})
 
                   def on_request(request):
                       try:
@@ -94,7 +94,7 @@ jobs:
                   if not success:
                       print("Failed to load page after retries.")
                   else:
-                      time.sleep(10)
+                      time.sleep(12)
                       try:
                           page.reload(wait_until="networkidle", timeout=90000)
                           time.sleep(6)
@@ -142,7 +142,6 @@ jobs:
           PY
 
           python extract_player.py || true
-          # ensure files exist so artifact upload always works
           [ -f network-urls.txt ] || echo "no-urls" > network-urls.txt
           [ -f responses.txt ] || echo "no-responses" > responses.txt
           ls -la

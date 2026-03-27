@@ -1,4 +1,4 @@
-name: Extract Dailymotion playe
+name: Extract Dailymotion player m3u8 (capture réseau, retry)
 
 on:
   workflow_dispatch:
@@ -31,8 +31,8 @@ jobs:
           VIDEO_ID: ${{ github.event.inputs.video_id }}
         run: |
           cat > extract_player.py <<'PY'
-          from playwright.sync_api import sync_playwright
-          import os, re, time, json
+          from playwright.sync_api import sync_playwright, TimeoutError
+          import os, re, time, json, sys
 
           vid = os.getenv("VIDEO_ID") or "xkxbzc"
           url = f"https://geo.dailymotion.com/player.html?video={vid}"
@@ -40,8 +40,14 @@ jobs:
           responses = []
 
           with sync_playwright() as p:
-              browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
+              browser = p.chromium.launch(headless=True, args=["--no-sandbox","--disable-gpu","--disable-features=IsolateOrigins,site-per-process","--disable-blink-features=AutomationControlled"])
               ctx = browser.new_context()
+              # realistic UA
+              ctx.set_default_navigation_timeout(180000)
+              page = ctx.new_page()
+              page.set_user_agent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+              page.set_extra_http_headers({"accept-language":"en-US,en;q=0.9"})
+
               def on_request(request):
                   try:
                       urls.append(request.url)
@@ -51,7 +57,6 @@ jobs:
                   try:
                       u = response.url
                       urls.append(u)
-                      # attempt to read text/json (may fail for binary)
                       try:
                           ct = response.headers.get("content-type","")
                           text = response.text()
@@ -65,18 +70,44 @@ jobs:
               ctx.on("request", on_request)
               ctx.on("response", on_response)
 
-              page = ctx.new_page()
-              # set a common UA to mimic real browser
-              page.set_extra_http_headers({"accept-language":"en-US,en;q=0.9"})
-              page.goto(url, wait_until="networkidle", timeout=60000)
-              time.sleep(8)
-              # reload to catch any lazy requests
-              page.reload(wait_until="networkidle", timeout=60000)
-              time.sleep(6)
-              # search page & frames for .m3u8
-              html = page.content()
-              for m in re.findall(r'https?://[^\'" >]+\.m3u8', html):
-                  urls.append(m)
+              # retry navigation
+              success = False
+              for attempt in range(3):
+                  try:
+                      page.goto(url, wait_until="networkidle", timeout=120000)
+                      success = True
+                      break
+                  except TimeoutError as e:
+                      print(f"Navigate timeout attempt {attempt+1}: {e}")
+                      try:
+                          page.reload(wait_until="networkidle", timeout=120000)
+                          success = True
+                          break
+                      except Exception as e2:
+                          print("Reload failed:", e2)
+                          time.sleep(5)
+                  except Exception as e:
+                      print("Navigate error:", e)
+                      time.sleep(5)
+
+              if not success:
+                  print("Failed to load page after retries.")
+              else:
+                  # wait more to let player calls happen
+                  time.sleep(10)
+                  try:
+                      page.reload(wait_until="networkidle", timeout=90000)
+                      time.sleep(6)
+                  except:
+                      pass
+
+              # inspect frames and content for .m3u8
+              try:
+                  html = page.content()
+                  for m in re.findall(r'https?://[^\'" >]+\.m3u8', html):
+                      urls.append(m)
+              except:
+                  pass
               for fr in page.frames:
                   try:
                       fc = fr.content()
@@ -84,29 +115,30 @@ jobs:
                           urls.append(m)
                   except:
                       pass
+
               browser.close()
 
           uniq_urls = list(dict.fromkeys(urls))
           with open("network-urls.txt","w",encoding="utf-8") as f:
               for u in uniq_urls:
-                  f.write(u + "\\n")
+                  f.write(u + "\n")
 
           with open("responses.txt","w",encoding="utf-8") as f:
               for r in responses:
-                  f.write("URL: " + r.get("url","") + "\\n")
-                  f.write("Content-Type: " + r.get("content_type","") + "\\n")
-                  f.write(r.get("body","") + "\\n")
-                  f.write("\\n---\\n\\n")
+                  f.write("URL: " + r.get("url","") + "\n")
+                  f.write("Content-Type: " + r.get("content_type","") + "\n")
+                  f.write(r.get("body","") + "\n")
+                  f.write("\n---\n\n")
 
           found = [u for u in uniq_urls if ".m3u8" in u]
           if found:
               print("Found .m3u8 URLs:")
               for u in found:
                   print(u)
-              exit(0)
+              sys.exit(0)
           else:
               print("No .m3u8 in captured URLs. See artifacts.")
-              exit(0)
+              sys.exit(0)
           PY
 
           python extract_player.py

@@ -41,12 +41,12 @@ jobs:
 
           with sync_playwright() as p:
               browser = p.chromium.launch(headless=True, args=["--no-sandbox","--disable-gpu","--disable-features=IsolateOrigins,site-per-process","--disable-blink-features=AutomationControlled"])
-              ctx = browser.new_context()
-              # realistic UA
+              ctx = browser.new_context(
+                  user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                  accept_language="en-US,en;q=0.9"
+              )
               ctx.set_default_navigation_timeout(180000)
               page = ctx.new_page()
-              page.set_user_agent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-              page.set_extra_http_headers({"accept-language":"en-US,en;q=0.9"})
 
               def on_request(request):
                   try:
@@ -93,7 +93,6 @@ jobs:
               if not success:
                   print("Failed to load page after retries.")
               else:
-                  # wait more to let player calls happen
                   time.sleep(10)
                   try:
                       page.reload(wait_until="networkidle", timeout=90000)

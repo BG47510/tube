@@ -1,10 +1,10 @@
-name: Extract Dailymotion player m3u8 (debuggable, fixed)
+name: Extract Dailymotion m3u8 (yt-dlp version)
 
 on:
   workflow_dispatch:
     inputs:
       video_id:
-        description: 'Dailymotion video id'
+        description: 'Dailymotion video ID'
         required: true
         default: 'xkxbzc'
 
@@ -15,145 +15,33 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
+      - name: Install yt-dlp
         run: |
-          python -m pip install --upgrade pip
-          pip install playwright==1.44.0
-          playwright install chromium
+          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+          sudo chmod a+rx /usr/local/bin/yt-dlp
 
-      - name: Run player extractor and save captures (with debug)
-        env:
-          VIDEO_ID: ${{ github.event.inputs.video_id }}
+      - name: Extract M3U8 Link
+        id: extract_step
         run: |
-          set -x
-          cat > extract_player.py <<'PY'
-          from playwright.sync_api import sync_playwright, TimeoutError
-          import os, re, time, sys, traceback
+          # On tente d'extraire l'URL du flux direct (-g pour get-url)
+          # On utilise un User-Agent de navigateur moderne pour éviter le blocage
+          URL=$(yt-dlp --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
+                 -g "https://www.dailymotion.com/video/${{ github.event.inputs.video_id }}" || echo "ERREUR")
+          
+          if [ "$URL" = "ERREUR" ]; then
+            echo "Impossible d'extraire le lien. La vidéo est peut-être privée ou géo-bloquée."
+            exit 1
+          fi
 
-          try:
-              vid = os.getenv("VIDEO_ID") or "xkxbzc"
-              url = f"https://geo.dailymotion.com/player.html?video={vid}"
-              urls = []
-              responses = []
+          echo "M3U8_URL=$URL" >> $GITHUB_ENV
+          echo "Lien trouvé : $URL"
 
-              with sync_playwright() as p:
-                  browser = p.chromium.launch(headless=True, args=["--no-sandbox","--disable-gpu","--disable-features=IsolateOrigins,site-per-process","--disable-blink-features=AutomationControlled"])
-                  ctx = browser.new_context(
-                      user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                  )
-                  ctx.set_default_navigation_timeout(180000)
-                  page = ctx.new_page()
-                  page.set_extra_http_headers({"accept-language":"en-US,en;q=0.9"})
+      - name: Save result to file
+        run: |
+          echo "${{ env.M3U8_URL }}" > m3u8_link.txt
 
-                  def on_request(request):
-                      try:
-                          urls.append(request.url)
-                      except:
-                          pass
-                  def on_response(response):
-                      try:
-                          u = response.url
-                          urls.append(u)
-                          try:
-                              ct = response.headers.get("content-type","")
-                              text = response.text()
-                              if text and len(text) < 500000:
-                                  responses.append({"url": u, "content_type": ct, "body": text})
-                          except Exception:
-                              pass
-                      except:
-                          pass
-
-                  ctx.on("request", on_request)
-                  ctx.on("response", on_response)
-
-                  success = False
-                  for attempt in range(3):
-                      try:
-                          page.goto(url, wait_until="networkidle", timeout=120000)
-                          success = True
-                          break
-                      except TimeoutError as e:
-                          print(f"Navigate timeout attempt {attempt+1}: {e}")
-                          try:
-                              page.reload(wait_until="networkidle", timeout=120000)
-                              success = True
-                              break
-                          except Exception as e2:
-                              print("Reload failed:", e2)
-                              time.sleep(5)
-                      except Exception as e:
-                          print("Navigate error:", e)
-                          time.sleep(5)
-
-                  if not success:
-                      print("Failed to load page after retries.")
-                  else:
-                      time.sleep(12)
-                      try:
-                          page.reload(wait_until="networkidle", timeout=90000)
-                          time.sleep(6)
-                      except:
-                          pass
-
-                  try:
-                      html = page.content()
-                      for m in re.findall(r'https?://[^\'" >]+\.m3u8', html):
-                          urls.append(m)
-                  except:
-                      pass
-                  for fr in page.frames:
-                      try:
-                          fc = fr.content()
-                          for m in re.findall(r'https?://[^\'" >]+\.m3u8', fc):
-                              urls.append(m)
-                      except:
-                          pass
-
-                  browser.close()
-
-              uniq_urls = list(dict.fromkeys(urls))
-              with open("network-urls.txt","w",encoding="utf-8") as f:
-                  for u in uniq_urls:
-                      f.write(u + "\n")
-
-              with open("responses.txt","w",encoding="utf-8") as f:
-                  for r in responses:
-                      f.write("URL: " + r.get("url","") + "\n")
-                      f.write("Content-Type: " + r.get("content_type","") + "\n")
-                      f.write(r.get("body","") + "\n")
-                      f.write("\n---\n\n")
-
-              print("Script finished, urls captured:", len(uniq_urls))
-              if any(".m3u8" in u for u in uniq_urls):
-                  for u in uniq_urls:
-                      if ".m3u8" in u:
-                          print("M3U8:", u)
-              sys.exit(0)
-          except Exception as e:
-              print("Exception in script:")
-              traceback.print_exc()
-              sys.exit(1)
-          PY
-
-          python extract_player.py || true
-          [ -f network-urls.txt ] || echo "no-urls" > network-urls.txt
-          [ -f responses.txt ] || echo "no-responses" > responses.txt
-          ls -la
-          echo "---- network-urls.txt ----"
-          sed -n '1,200p' network-urls.txt || true
-          echo "---- responses.txt (first 3000 chars) ----"
-          head -c 3000 responses.txt || true
-
-      - name: Upload captures
+      - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: dailymotion-player-captures
-          path: |
-            network-urls.txt
-            responses.txt
+          name: dailymotion-link
+          path: m3u8_link.txt

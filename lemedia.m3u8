@@ -1,6 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://live.eu-north-1a.cf.dmcdn.net/sec2(NyCLRGs5UQJMylDeSZzIPvrx7i7WURcT4IPWO4z9I2X1WpRiqaaSc-NI_YnGrk0z0pa1K0CyTMSRvWmY127GkQttIvd5jwPXbAoDBa4K-7MHa-gGAgvdTjPQwtqBCrQ1VHz2wVO-CvQX8TlxLgPsARNZpwxW0wJvVm8HEa0m-6Jqolb1SMyD36prJ59ceRy8)/dm/4/x8dtuir/live-h264-240.m3u8
-https://live.eu-north-1a.cf.dmcdn.net/sec2(NyCLRGs5UQJMylDeSZzIPvrx7i7WURcT4IPWO4z9I2X1WpRiqaaSc-NI_YnGrk0z0pa1K0CyTMSRvWmY127GkQttIvd5jwPXbAoDBa4K-7MHa-gGAgvdTjPQwtqBCrQ1VHz2wVO-CvQX8TlxLgPsARNZpwxW0wJvVm8HEa0m-6Jqolb1SMyD36prJ59ceRy8)/dm/4/x8dtuir/live-aac-128.m3u8
+
 https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8

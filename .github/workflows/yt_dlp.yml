@@ -1,8 +1,8 @@
 name: yt-dlp
 
 on:
-  schedule:
-    - cron: '0 */3 * * *' # Configuré pour actualiser automatiquement toutes les 3 heures.
+  #schedule:
+  #  - cron: '0 */3 * * *' # Configuré pour actualiser automatiquement toutes les 3 heures.
 
   workflow_dispatch:
 
